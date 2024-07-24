@@ -3,6 +3,7 @@ Index(www.cursos.com/index.stxt):
 	title: Python - Nivel II
 		
 	part: Fundamentos de Programación en Python
+		tema: (index) Índice de contenidos
 		tema: (base_sintaxis) Sintaxis básica y comentarios
 		tema: (base_palabras_reservadas) Palabras reservadas
 		tema: (base_tipos_datos) Variables y tipos de datos

@@ -1,57 +1,55 @@
-Index(www.cursos.com/index.stxt):
-
-	title: Python - Nivel II
+Index(globalcampus.site/namespace.stxt): Python - Nivel II
 		
-	part: Python
-		tema: (index) Índice de contenidos
+	Section: Python
+		Link: (index) Índice de contenidos
 		
-	part: Fundamentos de Programación en Python
-		tema: (base_sintaxis) Sintaxis básica y comentarios
-		tema: (base_palabras_reservadas) Palabras reservadas
-		tema: (base_tipos_datos) Variables y tipos de datos
-		tema: (base_nomenclatura) Nomenclatura
+	Section: Fundamentos de Programación en Python
+		Link: (base_sintaxis) Sintaxis básica y comentarios
+		Link: (base_palabras_reservadas) Palabras reservadas
+		Link: (base_tipos_datos) Variables y tipos de datos
+		Link: (base_nomenclatura) Nomenclatura
 	
-	part: Operadores
-		tema: (op_arit) Operadores Aritméticos
-		tema: (op_asig) Operadores de Asignación
-		tema: (op_comp) Operadores de Comparación
-		tema: (op_logi) Operadores Lógicos
-		tema: (op_iden) Operadores de Identidad
-		tema: (op_pert) Operadores de Pertenencia
-		tema: (op_bitb) Operadores Bit a Bit
+	Section: Operadores
+		Link: (op_arit) Operadores Aritméticos
+		Link: (op_asig) Operadores de Asignación
+		Link: (op_comp) Operadores de Comparación
+		Link: (op_logi) Operadores Lógicos
+		Link: (op_iden) Operadores de Identidad
+		Link: (op_pert) Operadores de Pertenencia
+		Link: (op_bitb) Operadores Bit a Bit
 	
-	part: Estructuras de Control
-		tema: (control_cond) Condicionales
-		tema: (control_bucle) Bucles
-		tema: (control_list_comprenh) Comprensiones de listas
-		tema: (file_excep) Manejo de excepciones
+	Section: Estructuras de Control
+		Link: (control_cond) Condicionales
+		Link: (control_bucle) Bucles
+		Link: (control_list_comprenh) Comprensiones de listas
+		Link: (file_excep) Manejo de excepciones
 	
-	part: Funciones
-		tema: (func_def) Definición y uso de funciones
-		tema: (func_params) Parámetros y argumentos
-		tema: (func_scope) Alcance de las variables
-		tema: (func_lambda) Funciones lambda
+	Section: Funciones
+		Link: (func_def) Definición y uso de funciones
+		Link: (func_params) Parámetros y argumentos
+		Link: (func_scope) Alcance de las variables
+		Link: (func_lambda) Funciones lambda
 	
-	part: Tipos contenedores
-		tema: (cont_comunes) Operaciones comunes
-		tema: (cont_listas) Listas
-		tema: (cont_tuplas) Tuplas
-		tema: (cont_sets) Sets
-		tema: (cont_dic) Diccionarios
-		tema: (cont_strings) Strings
+	Section: Tipos contenedores
+		Link: (cont_comunes) Operaciones comunes
+		Link: (cont_listas) Listas
+		Link: (cont_tuplas) Tuplas
+		Link: (cont_sets) Sets
+		Link: (cont_dic) Diccionarios
+		Link: (cont_strings) Strings
 	
-	part: Programación Orientada a Objetos (POO)
-		tema: (oop_base) Clases y objetos
-		tema: (oop_multiple) Herencia múltiple
-		tema: (oop_polimorfismo) Polimorfismo
-		tema: (oop_encapsulacion) Encapsulación
-		tema: (oop_avanzados) Conceptos avanzados OOP
+	Section: Programación Orientada a Objetos (POO)
+		Link: (oop_base) Clases y objetos
+		Link: (oop_multiple) Herencia múltiple
+		Link: (oop_polimorfismo) Polimorfismo
+		Link: (oop_encapsulacion) Encapsulación
+		Link: (oop_avanzados) Conceptos avanzados OOP
 	
-	part: Manejo de Archivos
-		tema: (file_open) Apertura y cierre de archivos
-		tema: (file_write) Lectura y escritura de archivos
+	Section: Manejo de Archivos
+		Link: (file_open) Apertura y cierre de archivos
+		Link: (file_write) Lectura y escritura de archivos
 	
-	part: Módulos y Paquetes
-		tema: (mod_import) Importación de módulos
-		tema: (mod_create) Creación de módulos propios
-		tema: (mod_std) Uso de paquetes estándar de Python
+	Section: Módulos y Paquetes
+		Link: (mod_import) Importación de módulos
+		Link: (mod_create) Creación de módulos propios
+		Link: (mod_std) Uso de paquetes estándar de Python

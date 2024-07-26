@@ -1,37 +1,35 @@
-Index(www.cursos.com/index.stxt):
-
-	title: Aplicaciones Web
+Index(globalcampus.site/namespace.stxt): Aplicaciones Web
 		
-	part: Introducción al Funcionamiento de la Web
+	Section: Introducción al Funcionamiento de la Web
 	
-	    Tema: (introduccion_web) Visión general de cómo funciona la web.
+	    Link: (introduccion_web) Visión general de cómo funciona la web.
 	
-	part: URLs, Servidores y Clientes
+	Section: URLs, Servidores y Clientes
 	
-	    Tema: (urls_servidores_clientes) Qué son URLs, servidores y clientes.
-	    Tema: (urls) Estructura y uso de URLs.
-	    Tema: (servidores_web) Papel de los servidores web.
-	    Tema: (clientes_web) Papel de los clientes web.
-	    Tema: (peticiones_http) Métodos y uso de peticiones HTTP.
+	    Link: (urls_servidores_clientes) Qué son URLs, servidores y clientes.
+	    Link: (urls) Estructura y uso de URLs.
+	    Link: (servidores_web) Papel de los servidores web.
+	    Link: (clientes_web) Papel de los clientes web.
+	    Link: (peticiones_http) Métodos y uso de peticiones HTTP.
 	
-	part: Fundamentos del Frontend
+	Section: Fundamentos del Frontend
 	
-	    Tema: (frontend_fundamentos) Lenguajes básicos del frontend: HTML, CSS y JavaScript.
+	    Link: (frontend_fundamentos) Lenguajes básicos del frontend: HTML, CSS y JavaScript.
 	
-	    Tema: (html_fundamentos) Elementos y estructura del HTML.
-	    Tema: (css_fundamentos) Estilizado con CSS.
-	    Tema: (javascript_fundamentos) Sintaxis y uso de JavaScript.
-	    Tema: (dom) Manipulación del DOM con JavaScript.
+	    Link: (html_fundamentos) Elementos y estructura del HTML.
+	    Link: (css_fundamentos) Estilizado con CSS.
+	    Link: (javascript_fundamentos) Sintaxis y uso de JavaScript.
+	    Link: (dom) Manipulación del DOM con JavaScript.
 	
-	part: Visión General del Backend
+	Section: Visión General del Backend
 	
-	    Tema: (backend_vision_general) Conceptos y tecnologías del backend.
-	    Tema: (servidores_backend) Papel de los servidores backend.
-	    Tema: (lenguajes_backend) Lenguajes comunes en el backend.
-	    Tema: (bases_datos) Explicación de BBDD.
-	    Tema: (api_rest) APIs RESTful.
+	    Link: (backend_vision_general) Conceptos y tecnologías del backend.
+	    Link: (servidores_backend) Papel de los servidores backend.
+	    Link: (lenguajes_backend) Lenguajes comunes en el backend.
+	    Link: (bases_datos) Explicación de BBDD.
+	    Link: (api_rest) APIs RESTful.
 	
-	part: Conclusión
+	Section: Conclusión
 	
-	    Tema: (conclusion) Resumen y recomendaciones.
+	    Link: (conclusion) Resumen y recomendaciones.
 		

@@ -1,51 +1,49 @@
-Index(www.cursos.com/index.stxt):
-
-	title: Cobol
+Index(globalcampus.site/namespace.stxt): Cobol
 		
-	part: Sintaxis y Estructura Básica
+	Section: Sintaxis y Estructura Básica
 	
-	    Tema: (estructura_programa) Estructura básica de un programa COBOL.
-	    Tema: (division_identificacion) Descripción y uso de la División de Identificación.
-	    Tema: (division_ambiente) Descripción y uso de la División de Ambiente.
-	    Tema: (division_datos) Descripción y uso de la División de Datos.
-	    Tema: (division_procedimiento) Descripción y uso de la División de Procedimiento.
+	    Link: (estructura_programa) Estructura básica de un programa COBOL.
+	    Link: (division_identificacion) Descripción y uso de la División de Identificación.
+	    Link: (division_ambiente) Descripción y uso de la División de Ambiente.
+	    Link: (division_datos) Descripción y uso de la División de Datos.
+	    Link: (division_procedimiento) Descripción y uso de la División de Procedimiento.
 	
-	part: Tipos de Datos y Variables
+	Section: Tipos de Datos y Variables
 	
-	    Tema: (tipos_datos) Tipos de datos disponibles en COBOL.
-	    Tema: (declaracion_variables) Cómo declarar variables y constantes en COBOL.
-	    Tema: (literales) Uso de literales en COBOL.
-	    Tema: (tablas) Creación y uso de tablas (arrays) en COBOL.
+	    Link: (tipos_datos) Tipos de datos disponibles en COBOL.
+	    Link: (declaracion_variables) Cómo declarar variables y constantes en COBOL.
+	    Link: (literales) Uso de literales en COBOL.
+	    Link: (tablas) Creación y uso de tablas (arrays) en COBOL.
 	
-	part: Sentencias y Estructuras de Control
+	Section: Sentencias y Estructuras de Control
 	
-	    Tema: (sentencias_basicas) Sentencias básicas: MOVE, COMPUTE, etc.
-	    Tema: (estructuras_control) Estructuras de control de flujo: IF, PERFORM, etc.
-	    Tema: (bucles) Implementación de bucles y repetición de tareas en COBOL.
-	    Tema: (manejo_errores) Técnicas de manejo de errores y excepciones.
+	    Link: (sentencias_basicas) Sentencias básicas: MOVE, COMPUTE, etc.
+	    Link: (estructuras_control) Estructuras de control de flujo: IF, PERFORM, etc.
+	    Link: (bucles) Implementación de bucles y repetición de tareas en COBOL.
+	    Link: (manejo_errores) Técnicas de manejo de errores y excepciones.
 	
-	part: Programación Modular
+	Section: Programación Modular
 	
-	    Tema: (subprogramas) Creación y uso de subprogramas.
-	    Tema: (modulos) Modularización de código en COBOL.
-	    Tema: (llamada_procedimientos) Llamada a procedimientos y manejo de parámetros.
+	    Link: (subprogramas) Creación y uso de subprogramas.
+	    Link: (modulos) Modularización de código en COBOL.
+	    Link: (llamada_procedimientos) Llamada a procedimientos y manejo de parámetros.
 	
-	part: Manejo de Archivos
+	Section: Manejo de Archivos
 	
-	    Tema: (archivos_secuenciales) Trabajo con archivos secuenciales.
-	    Tema: (archivos_indexados) Trabajo con archivos indexados.
-	    Tema: (archivos_relacionales) Trabajo con archivos relacionales.
-	    Tema: (entrada_salida) Técnicas de entrada y salida de datos.
+	    Link: (archivos_secuenciales) Trabajo con archivos secuenciales.
+	    Link: (archivos_indexados) Trabajo con archivos indexados.
+	    Link: (archivos_relacionales) Trabajo con archivos relacionales.
+	    Link: (entrada_salida) Técnicas de entrada y salida de datos.
 	
-	part: Bases de Datos
+	Section: Bases de Datos
 	
-	    Tema: (acceso_bd) Conexión y acceso a bases de datos desde COBOL.
-	    Tema: (sql_cobol) Uso de SQL en programas COBOL.
-	    Tema: (integracion_bd) Integración de bases de datos en aplicaciones COBOL.
+	    Link: (acceso_bd) Conexión y acceso a bases de datos desde COBOL.
+	    Link: (sql_cobol) Uso de SQL en programas COBOL.
+	    Link: (integracion_bd) Integración de bases de datos en aplicaciones COBOL.
 	
-	part: Buenas Prácticas y Optimización
+	Section: Buenas Prácticas y Optimización
 	
-	    Tema: (mejores_practicas) Mejores prácticas de programación en COBOL.
-	    Tema: (optimizacion) Técnicas de optimización de código COBOL.
-	    Tema: (documentacion) Importancia de la documentación y comentarios en el código.
+	    Link: (mejores_practicas) Mejores prácticas de programación en COBOL.
+	    Link: (optimizacion) Técnicas de optimización de código COBOL.
+	    Link: (documentacion) Importancia de la documentación y comentarios en el código.
 		

@@ -1,17 +1,17 @@
-Module(globalcampus.site/module.stxt): Tech Wizard Academy
+Index(globalcampus.site/namespace.stxt): Tech Wizard Academy
 	
-	part: Aplicaciones Web
-		Tema: (apps-web/) Aplicaciones Web
+	Section: Aplicaciones Web
+		Link: (apps-web/) Aplicaciones Web
 		
-	part: Lenguajes Frontend
-		Tema: (html/) HTML
-		Tema: (css/) CSS
-		Tema: (javascript/) Javascript
+	Section: Lenguajes Frontend
+		Link: (html/) HTML
+		Link: (css/) CSS
+		Link: (javascript/) Javascript
 		
-	part: Lenguajes Backend
-		Tema: (cobol/) Cobol
-		Tema: (java/) Java
-		Tema: (python/) Python
+	Section: Lenguajes Backend
+		Link: (cobol/) Cobol
+		Link: (java/) Java
+		Link: (python/) Python
 		
 		
 

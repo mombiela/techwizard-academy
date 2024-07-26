@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Uso de SQL en programas COBOL
+Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	
 	Text: 
 	    El uso de SQL en programas COBOL permite integrar sentencias SQL directamente dentro del código COBOL, facilitando la interacción con bases de datos relacionales. Este enfoque, conocido como Embedded SQL (SQL embebido), es esencial para realizar operaciones como consultas, inserciones, actualizaciones y eliminaciones de datos en bases de datos. A continuación, se describen las técnicas y ejemplos para el uso de SQL en programas COBOL.

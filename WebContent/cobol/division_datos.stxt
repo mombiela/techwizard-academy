@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Descripción y uso de la División de Datos
+Unit(globalcampus.site/namespace.stxt): Descripción y uso de la División de Datos
 	
 	Text: 
 	    La División de Datos en un programa COBOL es fundamental, ya que declara todas las variables y estructuras de datos que el programa utilizará. Esta división permite organizar y definir de manera detallada cómo se almacenan y manejan los datos en el programa. Se divide en tres secciones principales:

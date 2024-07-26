@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Conexión y acceso a bases de datos desde COBOL
+Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desde COBOL
 	
 	Text: 
 	    En COBOL, la conexión y el acceso a bases de datos relacionales se realiza utilizando Embedded SQL (SQL embebido). Esta técnica permite integrar sentencias SQL directamente dentro del código COBOL, lo que facilita la interacción con bases de datos como DB2, Oracle, y otros sistemas de gestión de bases de datos (DBMS). A continuación, se describen los pasos y las técnicas necesarias para establecer una conexión y acceder a una base de datos desde un programa COBOL.

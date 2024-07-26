@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Técnicas de entrada y salida de datos
+Unit(globalcampus.site/namespace.stxt): Técnicas de entrada y salida de datos
 	
 	Text: 
 	    En COBOL, las técnicas de entrada y salida de datos (I/O) son fundamentales para interactuar con archivos, bases de datos y dispositivos externos. Estas técnicas incluyen operaciones básicas como leer, escribir, actualizar y eliminar datos. A continuación, se describen las técnicas de I/O más comunes en COBOL.

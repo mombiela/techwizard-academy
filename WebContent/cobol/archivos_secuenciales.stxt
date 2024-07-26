@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Trabajo con archivos secuenciales
+Unit(globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	
 	Text: 
 	    En COBOL, el manejo de archivos secuenciales es una tarea común que implica la lectura y escritura de datos en un orden específico. Los archivos secuenciales son uno de los tipos de archivos más utilizados y se gestionan mediante la División de Archivo (File Section) y la División de Procedimiento (Procedure Division).

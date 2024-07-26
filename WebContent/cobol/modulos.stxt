@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Modularización de código en COBOL
+Unit(globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	
 	Text: 
 	    La modularización del código en COBOL implica dividir un programa en componentes más pequeños y manejables, llamados módulos o subprogramas. Esta técnica mejora la claridad, la mantenibilidad y la reutilización del código. A continuación, se detallan las prácticas y técnicas para lograr una modularización efectiva en COBOL.

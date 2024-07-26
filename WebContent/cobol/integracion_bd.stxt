@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Integración de bases de datos en aplicaciones COBOL
+Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplicaciones COBOL
 	
 	Text: 
 	    La integración de bases de datos en aplicaciones COBOL es una práctica esencial para aprovechar las capacidades de almacenamiento y manipulación de datos de los sistemas de gestión de bases de datos relacionales (RDBMS). Esta integración se logra mediante el uso de Embedded SQL (SQL embebido) dentro del código COBOL. A continuación, se describen los pasos y las técnicas necesarias para integrar bases de datos en aplicaciones COBOL de manera efectiva.

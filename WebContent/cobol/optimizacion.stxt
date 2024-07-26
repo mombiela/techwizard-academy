@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Técnicas de optimización de código COBOL
+Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código COBOL
 	
 	Text: 
 	    Optimizar el código COBOL es crucial para mejorar la eficiencia y el rendimiento de las aplicaciones, especialmente en sistemas de misión crítica. A continuación, se presentan diversas técnicas y mejores prácticas para optimizar el código COBOL.

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Importancia de la documentación y comentarios en el código
+Unit(globalcampus.site/namespace.stxt): Importancia de la documentación y comentarios en el código
 	
 	Text: 
 	    La documentación y los comentarios en el código son esenciales para el mantenimiento, comprensión y colaboración en proyectos de desarrollo. A continuación, se detalla su importancia en el contexto de la programación COBOL.

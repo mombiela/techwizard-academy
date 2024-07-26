@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Estructuras de control de flujo: IF, PERFORM, etc.
+Unit(globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF, PERFORM, etc.
 	
 	Text: 
 	    COBOL proporciona varias estructuras de control de flujo que permiten dirigir la ejecución del programa basándose en condiciones y repeticiones. Entre las más comunes se encuentran ```IF```, ```PERFORM```, ```EVALUATE``` y ```GO TO```. A continuación, se explican estas estructuras y su uso.

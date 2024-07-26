@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Sentencias básicas: MOVE, COMPUTE, etc.
+Unit(globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE, etc.
 	
 	Text: 
 	    COBOL proporciona un conjunto de sentencias básicas que permiten realizar operaciones fundamentales en un programa. Entre las más utilizadas se encuentran ```MOVE```, ```COMPUTE```, ```ADD```, ```SUBTRACT```, ```MULTIPLY```, ```DIVIDE```, y ```DISPLAY```. A continuación, se describen estas sentencias y su uso.

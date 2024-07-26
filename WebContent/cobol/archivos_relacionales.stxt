@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Trabajo con archivos relacionales
+Unit(globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	
 	Text: 
 	    En COBOL, los archivos relacionales no son nativos, pero es posible interactuar con bases de datos relacionales mediante el uso de Embedded SQL (SQL embebido) o interfaces de programación específicas de la base de datos. A continuación, se detallan los conceptos y operaciones básicas para trabajar con bases de datos relacionales en COBOL utilizando Embedded SQL.

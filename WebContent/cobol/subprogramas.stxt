@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Creación y uso de subprogramas
+Unit(globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	
 	Text: 
 	    Los subprogramas en COBOL permiten modularizar el código, facilitando su mantenimiento y reutilización. Un subprograma es un programa independiente que puede ser llamado por otro programa, conocido como programa principal o llamador. A continuación, se explica cómo crear y usar subprogramas en COBOL.

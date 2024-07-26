@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Uso de literales en COBOL
+Unit(globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	
 	Text: 
 	    En COBOL, los literales son valores constantes que se utilizan directamente en el código. Estos valores pueden ser numéricos, alfanuméricos, o figurativos. A continuación, se describen los diferentes tipos de literales y su uso en COBOL.

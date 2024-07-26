@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Descripción y uso de la División de Ambiente
+Unit(globalcampus.site/namespace.stxt): Descripción y uso de la División de Ambiente
 	
 	Text: 
 	    La División de Ambiente en un programa COBOL especifica el entorno en el que se ejecuta el programa. Esta división define los archivos y dispositivos de entrada y salida que el programa utilizará. Se divide en dos secciones principales:

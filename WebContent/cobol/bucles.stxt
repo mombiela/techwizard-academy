@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Implementación de bucles y repetición de tareas en COBOL
+Unit(globalcampus.site/namespace.stxt): Implementación de bucles y repetición de tareas en COBOL
 	
 	Text: 
 	    En COBOL, los bucles y la repetición de tareas son esenciales para ejecutar bloques de código múltiples veces de manera controlada. Las sentencias más utilizadas para implementar bucles son ```PERFORM``` y ```PERFORM VARYING```. A continuación, se describen estas sentencias y su uso.

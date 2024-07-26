@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Trabajo con archivos indexados
+Unit(globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	
 	Text: 
 	    En COBOL, los archivos indexados permiten el acceso rápido a registros mediante el uso de claves. Este tipo de archivos es útil cuando se necesita acceder a datos de manera no secuencial o buscar registros específicos. A continuación, se detallan los conceptos y operaciones básicas para trabajar con archivos indexados en COBOL.

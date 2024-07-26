@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Llamada a procedimientos y manejo de parámetros
+Unit(globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo de parámetros
 	
 	Text: 
 	    En COBOL, la llamada a procedimientos y el manejo de parámetros son fundamentales para la modularización y reutilización del código. A través de subprogramas, se pueden pasar datos entre el programa principal y los subprogramas utilizando diferentes técnicas de manejo de parámetros.

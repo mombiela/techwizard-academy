@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Creación y uso de tablas (arrays) en COBOL
+Unit(globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) en COBOL
 	
 	Text: 
 	    En COBOL, las tablas (o arrays) se utilizan para almacenar y manipular conjuntos de datos relacionados de manera eficiente. Las tablas permiten acceder a elementos de datos mediante índices y son útiles para organizar grandes volúmenes de información de forma estructurada. A continuación, se explica cómo crear y usar tablas en COBOL.

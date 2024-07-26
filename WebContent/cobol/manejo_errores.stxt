@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Técnicas de manejo de errores y excepciones
+Unit(globalcampus.site/namespace.stxt): Técnicas de manejo de errores y excepciones
 	
 	Text: 
 	    En COBOL, el manejo de errores y excepciones es crucial para garantizar que los programas funcionen correctamente y puedan recuperarse de situaciones inesperadas. Aunque COBOL no tiene un sistema de excepciones tan robusto como otros lenguajes modernos, proporciona varias técnicas y sentencias para gestionar errores y situaciones excepcionales.

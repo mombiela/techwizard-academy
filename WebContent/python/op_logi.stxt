@@ -8,7 +8,7 @@ Unit(globalcampus.site/namespace.stxt): Operadores Lógicos
 	    | ```code:or```  | O lógico        | ```code:a or b```
 	    | ```code:not``` | Negación lógica | ```code:not a```
 	    
-	h2:  Ejemplo: 
+	H1:  Ejemplo: 
 	
 	Text:
 	    

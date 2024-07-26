@@ -3,13 +3,13 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	Text: 
 	    El uso de SQL en programas COBOL permite integrar sentencias SQL directamente dentro del código COBOL, facilitando la interacción con bases de datos relacionales. Este enfoque, conocido como Embedded SQL (SQL embebido), es esencial para realizar operaciones como consultas, inserciones, actualizaciones y eliminaciones de datos en bases de datos. A continuación, se describen las técnicas y ejemplos para el uso de SQL en programas COBOL.
 	    
-	h2: Configuración inicial
+	H1: Configuración inicial
 	
 	Text:
 	    
 	    Para utilizar SQL embebido en COBOL, es necesario incluir la estructura SQL Communication Area (SQLCA) que maneja el estado y los errores de SQL.
 	    
-	h3: Incluir SQLCA
+	H2: Incluir SQLCA
 	
 	Text:
 	    
@@ -23,13 +23,13 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	    *  ```EXEC SQL INCLUDE SQLCA END-EXEC``` incluye la estructura SQLCA, que es utilizada para manejar errores y condiciones SQL.
 	    
-	h2: Conexión a la base de datos
+	H1: Conexión a la base de datos
 	
 	Text:
 	    
 	    Para conectarse a una base de datos, se utiliza la sentencia ```CONNECT```.
 	    
-	h3: Ejemplo de conexión a la base de datos
+	H2: Ejemplo de conexión a la base de datos
 	
 	Text:
 	    
@@ -59,13 +59,13 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    *  ```EXEC SQL CONNECT :DB-USER IDENTIFIED BY :DB-PASSWORD USING :DB-NAME END-EXEC``` establece la conexión a la base de datos utilizando las credenciales proporcionadas.
 	    *  ```SQLCODE``` se verifica para asegurar que la conexión fue exitosa.
 	    
-	h2: Consultas a la base de datos
+	H1: Consultas a la base de datos
 	
 	Text:
 	    
 	    Para realizar consultas en la base de datos, se utiliza la sentencia ```SELECT``` embebida.
 	    
-	h3: Ejemplo de consulta a la base de datos
+	H2: Ejemplo de consulta a la base de datos
 	
 	Text:
 	    
@@ -100,13 +100,13 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    *  ```EXEC SQL SELECT CLIENTE_ID, CLIENTE_NOMBRE, CLIENTE_DIRECCION INTO :CLIENTE-ID, :CLIENTE-NOMBRE, :CLIENTE-DIRECCION FROM CLIENTES WHERE CLIENTE_ID = 12345 END-EXEC``` ejecuta una consulta SQL que selecciona los datos del cliente con ```CLIENTE_ID``` igual a 12345.
 	    *  Los resultados se almacenan en las variables definidas en la sección ```WORKING-STORAGE```.
 	    
-	h2: Inserción de datos en la base de datos
+	H1: Inserción de datos en la base de datos
 	
 	Text:
 	    
 	    Para insertar nuevos registros en la base de datos, se utiliza la sentencia ```INSERT```.
 	    
-	h3: Ejemplo de inserción de datos
+	H2: Ejemplo de inserción de datos
 	
 	Text:
 	    
@@ -132,13 +132,13 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    *  ```EXEC SQL INSERT INTO CLIENTES (CLIENTE_ID, CLIENTE_NOMBRE, CLIENTE_DIRECCION) VALUES (:CLIENTE-ID, :CLIENTE-NOMBRE, :CLIENTE-DIRECCION) END-EXEC``` inserta un nuevo registro en la tabla CLIENTES.
 	    *  ```SQLCODE``` se verifica para asegurar que la inserción fue exitosa.
 	    
-	h2: Actualización de datos en la base de datos
+	H1: Actualización de datos en la base de datos
 	
 	Text:
 	    
 	    Para actualizar registros existentes, se utiliza la sentencia ```UPDATE```.
 	    
-	h3: Ejemplo de actualización de datos
+	H2: Ejemplo de actualización de datos
 	
 	Text:
 	    
@@ -165,13 +165,13 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    *  ```EXEC SQL UPDATE CLIENTES SET CLIENTE_DIRECCION = :CLIENTE-DIRECCION WHERE CLIENTE_ID = :CLIENTE-ID END-EXEC``` actualiza la dirección del cliente con el ID especificado.
 	    *  ```SQLCODE``` se verifica para asegurar que la actualización fue exitosa.
 	    
-	h2: Eliminación de datos en la base de datos
+	H1: Eliminación de datos en la base de datos
 	
 	Text:
 	    
 	    Para eliminar registros, se utiliza la sentencia ```DELETE```.
 	    
-	h3: Ejemplo de eliminación de datos
+	H2: Ejemplo de eliminación de datos
 	
 	Text:
 	    
@@ -197,13 +197,13 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    *  ```EXEC SQL DELETE FROM CLIENTES WHERE CLIENTE_ID = :CLIENTE-ID END-EXEC``` elimina el registro del cliente con el ID especificado.
 	    *  ```SQLCODE``` se verifica para asegurar que la eliminación fue exitosa.
 	    
-	h2: Manejo de errores y excepciones
+	H1: Manejo de errores y excepciones
 	
 	Text:
 	    
 	    El manejo de errores en operaciones con bases de datos se realiza mediante la verificación del ```SQLCODE``` y el uso de la estructura ```SQLCA```.
 	    
-	h3: Ejemplo de manejo de errores
+	H2: Ejemplo de manejo de errores
 	
 	Text:
 	    
@@ -230,13 +230,13 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	    *  ```SQLCODE``` y ```SQLERRMC``` se utilizan para verificar y mostrar mensajes de error en operaciones de base de datos.
 	    
-	h2: Desconexión de la base de datos
+	H1: Desconexión de la base de datos
 	
 	Text:
 	    
 	    Para desconectar de la base de datos, se utiliza la sentencia ```DISCONNECT```.
 	    
-	h3: Ejemplo de desconexión de la base de datos
+	H2: Ejemplo de desconexión de la base de datos
 	
 	Text:
 	    
@@ -263,7 +263,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    sesión de la base de datos.
 	    *  ```SQLCODE``` se verifica para asegurar que la desconexión fue exitosa.
 	    
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

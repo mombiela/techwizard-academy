@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Visión general de cómo funciona la web
 	Text: 
 	    La web, también conocida como la World Wide Web (WWW), es un sistema de información distribuido que permite el acceso a recursos y servicios a través de Internet. Para entender cómo funciona la web, es importante conocer los componentes básicos y cómo interactúan entre sí.
 	    
-	h2: Componentes de la web
+	H1: Componentes de la web
 	
 	Text:
 	    
@@ -12,7 +12,7 @@ Unit(globalcampus.site/namespace.stxt): Visión general de cómo funciona la web
 	    * **URL**: Una URL (Uniform Resource Locator) es la dirección que especifica la ubicación de un recurso en la web.
 	    * **Protocolo HTTP/HTTPS**: HTTP (HyperText Transfer Protocol) y HTTPS (HTTP Secure) son los protocolos utilizados para la transmisión de datos en la web.
 	    
-	h2: Proceso básico de funcionamiento de la web
+	H1: Proceso básico de funcionamiento de la web
 	
 	Text:
 	    
@@ -21,7 +21,7 @@ Unit(globalcampus.site/namespace.stxt): Visión general de cómo funciona la web
 	    # El servidor procesa la petición y responde con el recurso solicitado (como una página HTML, un archivo de imagen, etc.).
 	    # El navegador recibe el recurso y lo muestra al usuario.
 	    
-	h2: Ejemplo de una petición HTTP
+	H1: Ejemplo de una petición HTTP
 	
 	Text:
 	    
@@ -55,13 +55,13 @@ Unit(globalcampus.site/namespace.stxt): Visión general de cómo funciona la web
 	
 	Text:
 	    
-	h2: Seguridad en la web
+	H1: Seguridad en la web
 	
 	Text:
 	    
 	    La seguridad en la web es crucial para proteger la información y la privacidad de los usuarios. HTTPS (HTTP Secure) es una versión segura de HTTP que utiliza SSL/TLS para cifrar la comunicación entre el cliente y el servidor.
 	    
-	h2: Resumen
+	H1: Resumen
 	
 	Text:
 	    

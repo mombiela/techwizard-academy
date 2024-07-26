@@ -1,13 +1,13 @@
 Unit(globalcampus.site/namespace.stxt): Tuplas
 	
 	Text: 
-	h2: Tuplas en Python
+	H1: Tuplas en Python
 	
 	Text:
 	    
 	    Las tuplas en Python son un tipo de dato contenedor ordenado e inmutable. Esto significa que una vez que se crea una tupla, sus elementos no pueden cambiar. Las tuplas son útiles para almacenar colecciones de elementos heterogéneos y para proteger los datos de modificaciones accidentales.
 	    
-	h2: Creación de Tuplas
+	H1: Creación de Tuplas
 	
 	Text:
 	    
@@ -34,7 +34,7 @@ Unit(globalcampus.site/namespace.stxt): Tuplas
 	
 	Text:
 	    
-	h2: Acceso a Elementos
+	H1: Acceso a Elementos
 	
 	Text:
 	    
@@ -58,7 +58,7 @@ Unit(globalcampus.site/namespace.stxt): Tuplas
 	
 	Text:
 	    
-	h2: Modificación de Elementos
+	H1: Modificación de Elementos
 	
 	Text:
 	    
@@ -80,7 +80,7 @@ Unit(globalcampus.site/namespace.stxt): Tuplas
 	
 	Text:
 	    
-	h2: Operaciones con Tuplas
+	H1: Operaciones con Tuplas
 	
 	Text:
 	    
@@ -106,7 +106,7 @@ Unit(globalcampus.site/namespace.stxt): Tuplas
 	
 	Text:
 	    
-	h2: Métodos de Tuplas
+	H1: Métodos de Tuplas
 	
 	Text:
 	    
@@ -127,7 +127,7 @@ Unit(globalcampus.site/namespace.stxt): Tuplas
 	
 	Text:
 	    
-	h2: Usos Comunes de las Tuplas
+	H1: Usos Comunes de las Tuplas
 	
 	Text:
 	    
@@ -152,7 +152,7 @@ Unit(globalcampus.site/namespace.stxt): Tuplas
 	
 	Text:
 	    
-	h2: Ventajas de las Tuplas
+	H1: Ventajas de las Tuplas
 	
 	Text:
 	    

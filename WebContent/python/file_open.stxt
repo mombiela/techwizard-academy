@@ -1,13 +1,13 @@
 Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text: 
-	h2: Apertura y cierre de archivos
+	H1: Apertura y cierre de archivos
 	
 	Text:
 	    
 	    Trabajar con archivos en Python implica principalmente abrirlos, leer o escribir datos en ellos y luego cerrarlos. Python proporciona funciones y métodos específicos para estas operaciones, permitiendo un manejo seguro y eficiente de los archivos.
 	    
-	h2: Apertura de Archivos
+	H1: Apertura de Archivos
 	
 	Text:
 	    
@@ -26,7 +26,7 @@ Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text:
 	    
-	h2: Lectura de Archivos
+	H1: Lectura de Archivos
 	
 	Text:
 	    
@@ -53,7 +53,7 @@ Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text:
 	    
-	h2: Escritura en Archivos
+	H1: Escritura en Archivos
 	
 	Text:
 	    
@@ -75,7 +75,7 @@ Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text:
 	    
-	h2: Cierre de Archivos
+	H1: Cierre de Archivos
 	
 	Text:
 	    
@@ -88,7 +88,7 @@ Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text:
 	    
-	h2: Gestión de Archivos con @@with@@
+	H1: Gestión de Archivos con @@with@@
 	
 	Text:
 	    
@@ -103,7 +103,7 @@ Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text:
 	    
-	h2: Modos Adicionales de Apertura
+	H1: Modos Adicionales de Apertura
 	
 	Text:
 	    
@@ -122,7 +122,7 @@ Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text:
 	    
-	h2: Lectura y Escritura de Archivos Binarios
+	H1: Lectura y Escritura de Archivos Binarios
 	
 	Text:
 	    
@@ -144,7 +144,7 @@ Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text:
 	    
-	h2: Ventajas de la Gestión de Archivos
+	H1: Ventajas de la Gestión de Archivos
 	
 	Text:
 	    

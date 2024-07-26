@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Cómo declarar variables y constantes en
 	Text: 
 	    Declarar variables y constantes en COBOL es una parte fundamental del desarrollo de programas. Estas declaraciones se realizan principalmente en la sección ```WORKING-STORAGE``` de la División de Datos. A continuación se describen los pasos y la sintaxis para declarar variables y constantes.
 	    
-	h2: Declaración de Variables
+	H1: Declaración de Variables
 	
 	Text:
 	    
@@ -30,7 +30,7 @@ Unit(globalcampus.site/namespace.stxt): Cómo declarar variables y constantes en
 	    *  ```WS-PackedNumber```: Una variable numérica empaquetada de 6 dígitos.
 	    *  ```WS-BinaryNumber```: Una variable numérica binaria de 4 dígitos.
 	    
-	h2: Declaración de Constantes
+	H1: Declaración de Constantes
 	
 	Text:
 	    
@@ -51,7 +51,7 @@ Unit(globalcampus.site/namespace.stxt): Cómo declarar variables y constantes en
 	    *  ```WS-TaxRate```: Una constante numérica con el valor 0.15.
 	    *  ```WS-MaxEmployees```: Una constante numérica con el valor 100.
 	    
-	h2: Subniveles en Declaraciones
+	H1: Subniveles en Declaraciones
 	
 	Text:
 	    

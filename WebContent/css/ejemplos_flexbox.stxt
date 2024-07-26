@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con Flexbox
 	Text: 
 	    Los ejemplos prácticos de Flexbox muestran cómo se pueden utilizar las propiedades de Flexbox para crear diseños flexibles y adaptables. A continuación, se presentan algunos ejemplos comunes:
 	    
-	h2: Ejemplo 1: Centro de un elemento en un contenedor
+	H1: Ejemplo 1: Centro de un elemento en un contenedor
 	
 	Text:
 	    
@@ -25,7 +25,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con Flexbox
 	    
 	    En este ejemplo, el ítem se centra horizontal y verticalmente dentro del contenedor usando ```justify-content: center;``` y ```align-items: center;```.
 	    
-	h2: Ejemplo 2: Diseño de barra de navegación
+	H1: Ejemplo 2: Diseño de barra de navegación
 	
 	Text:
 	    
@@ -47,7 +47,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con Flexbox
 	    
 	    En este ejemplo, una barra de navegación con enlaces se distribuye uniformemente utilizando ```justify-content: space-between;```.
 	    
-	h2: Ejemplo 3: Tarjetas con altura y ancho iguales
+	H1: Ejemplo 3: Tarjetas con altura y ancho iguales
 	
 	Text:
 	    
@@ -69,7 +69,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con Flexbox
 	    
 	    En este ejemplo, las tarjetas dentro del contenedor se envuelven en varias líneas si es necesario y cada tarjeta tiene un ancho mínimo de 200px utilizando ```flex: 1 1 200px;```.
 	    
-	h2: Ejemplo 4: Diseño de pie de página con distribución espacial
+	H1: Ejemplo 4: Diseño de pie de página con distribución espacial
 	
 	Text:
 	    
@@ -90,7 +90,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con Flexbox
 	    
 	    En este ejemplo, los elementos dentro del pie de página se distribuyen uniformemente utilizando ```justify-content: space-around;```.
 	    
-	h2: Ejemplo 5: Columna de igual altura en diseño de tres columnas
+	H1: Ejemplo 5: Columna de igual altura en diseño de tres columnas
 	
 	Text:
 	    
@@ -110,7 +110,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con Flexbox
 	    
 	    En este ejemplo, tres columnas se crean dentro de un contenedor flexible, todas con igual altura y ancho utilizando ```flex: 1;```.
 	    
-	h2: Diagramas de ejemplos prácticos con Flexbox
+	H1: Diagramas de ejemplos prácticos con Flexbox
 	
 	Text:
 	    

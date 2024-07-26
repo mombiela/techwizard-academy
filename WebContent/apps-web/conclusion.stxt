@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Resumen y recomendaciones
 	Text: 
 	    En este curso de "Aplicaciones web", hemos explorado diversos temas fundamentales para el desarrollo web, desde los lenguajes básicos del frontend hasta las tecnologías y conceptos del backend. Aquí presentamos un resumen y algunas recomendaciones para consolidar y aplicar el conocimiento adquirido.
 	    
-	h2: Resumen
+	H1: Resumen
 	
 	Text:
 	    
@@ -16,7 +16,7 @@ Unit(globalcampus.site/namespace.stxt): Resumen y recomendaciones
 	    *  Explicación de BBDD: Las bases de datos son fundamentales para almacenar y gestionar datos. Tanto las bases de datos relacionales (SQL) como las NoSQL tienen sus propias ventajas y aplicaciones específicas.
 	    *  APIs RESTful: Las APIs RESTful facilitan la comunicación entre sistemas a través de HTTP. Son esenciales para la interoperabilidad y escalabilidad de las aplicaciones web modernas.
 	    
-	h2: Recomendaciones
+	H1: Recomendaciones
 	
 	Text:
 	    
@@ -27,7 +27,7 @@ Unit(globalcampus.site/namespace.stxt): Resumen y recomendaciones
 	    *  Aprender sobre seguridad web: La seguridad debe ser una prioridad en el desarrollo web. Estar al tanto de las vulnerabilidades comunes y cómo protegerse contra ellas es fundamental.
 	    *  Experimentar con diferentes tecnologías: Probar diferentes lenguajes de programación, frameworks y herramientas puede proporcionar una perspectiva más amplia y habilidades versátiles.
 	    
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

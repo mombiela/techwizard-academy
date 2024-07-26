@@ -14,7 +14,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo del relleno en el modelo de caja
 	    *  **Propiedades de colapso de relleno**:
 	    *  El relleno no colapsa como los márgenes. Cada lado del relleno se aplica de manera independiente y no se combina con los rellenos de elementos adyacentes.
 	    
-	h2: Ejemplo de uso de propiedades de relleno
+	H1: Ejemplo de uso de propiedades de relleno
 	
 	Text:
 	    

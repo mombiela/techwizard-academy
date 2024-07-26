@@ -3,13 +3,13 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	Text: 
 	    La integración de bases de datos en aplicaciones COBOL es una práctica esencial para aprovechar las capacidades de almacenamiento y manipulación de datos de los sistemas de gestión de bases de datos relacionales (RDBMS). Esta integración se logra mediante el uso de Embedded SQL (SQL embebido) dentro del código COBOL. A continuación, se describen los pasos y las técnicas necesarias para integrar bases de datos en aplicaciones COBOL de manera efectiva.
 	    
-	h2: Configuración inicial
+	H1: Configuración inicial
 	
 	Text:
 	    
 	    Para comenzar a utilizar SQL embebido en COBOL, es necesario incluir la estructura SQL Communication Area (SQLCA) que maneja el estado y los errores de SQL.
 	    
-	h3: Incluir SQLCA
+	H2: Incluir SQLCA
 	
 	Text:
 	    
@@ -23,13 +23,13 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    
 	    *  ```EXEC SQL INCLUDE SQLCA END-EXEC``` incluye la estructura SQLCA, que es utilizada para manejar errores y condiciones SQL.
 	    
-	h2: Conexión a la base de datos
+	H1: Conexión a la base de datos
 	
 	Text:
 	    
 	    La conexión a una base de datos se establece mediante la sentencia ```CONNECT```. Es crucial manejar correctamente las credenciales y la información de conexión.
 	    
-	h3: Ejemplo de conexión a la base de datos
+	H2: Ejemplo de conexión a la base de datos
 	
 	Text:
 	    
@@ -59,13 +59,13 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    *  ```EXEC SQL CONNECT :DB-USER IDENTIFIED BY :DB-PASSWORD USING :DB-NAME END-EXEC``` establece la conexión a la base de datos utilizando las credenciales proporcionadas.
 	    *  ```SQLCODE``` se verifica para asegurar que la conexión fue exitosa.
 	    
-	h2: Operaciones básicas de SQL
+	H1: Operaciones básicas de SQL
 	
 	Text:
 	    
 	    Las operaciones básicas de SQL, como SELECT, INSERT, UPDATE y DELETE, se utilizan para interactuar con la base de datos.
 	    
-	h3: Ejemplo de consulta (SELECT)
+	H2: Ejemplo de consulta (SELECT)
 	
 	Text:
 	    
@@ -99,7 +99,7 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    
 	    *  ```EXEC SQL SELECT CLIENTE_ID, CLIENTE_NOMBRE, CLIENTE_DIRECCION INTO :CLIENTE-ID, :CLIENTE-NOMBRE, :CLIENTE-DIRECCION FROM CLIENTES WHERE CLIENTE_ID = 12345 END-EXEC``` ejecuta una consulta SQL para obtener los datos de un cliente específico.
 	    
-	h3: Ejemplo de inserción (INSERT)
+	H2: Ejemplo de inserción (INSERT)
 	
 	Text:
 	    
@@ -124,7 +124,7 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    
 	    *  ```EXEC SQL INSERT INTO CLIENTES (CLIENTE_ID, CLIENTE_NOMBRE, CLIENTE_DIRECCION) VALUES (:CLIENTE-ID, :CLIENTE-NOMBRE, :CLIENTE-DIRECCION) END-EXEC``` inserta un nuevo registro en la tabla CLIENTES.
 	    
-	h3: Ejemplo de actualización (UPDATE)
+	H2: Ejemplo de actualización (UPDATE)
 	
 	Text:
 	    
@@ -150,7 +150,7 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    
 	    *  ```EXEC SQL UPDATE CLIENTES SET CLIENTE_DIRECCION = :CLIENTE-DIRECCION WHERE CLIENTE_ID = :CLIENTE-ID END-EXEC``` actualiza la dirección del cliente con el ID especificado.
 	    
-	h3: Ejemplo de eliminación (DELETE)
+	H2: Ejemplo de eliminación (DELETE)
 	
 	Text:
 	    
@@ -175,13 +175,13 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    
 	    *  ```EXEC SQL DELETE FROM CLIENTES WHERE CLIENTE_ID = :CLIENTE-ID END-EXEC``` elimina el registro del cliente con el ID especificado.
 	    
-	h2: Manejo de transacciones
+	H1: Manejo de transacciones
 	
 	Text:
 	    
 	    El manejo de transacciones es crucial para asegurar la integridad de los datos. Las sentencias ```COMMIT``` y ```ROLLBACK``` se utilizan para manejar transacciones.
 	    
-	h3: Ejemplo de manejo de transacciones
+	H2: Ejemplo de manejo de transacciones
 	
 	Text:
 	    
@@ -210,13 +210,13 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    *  ```EXEC SQL COMMIT END-EXEC``` confirma la transacción si la operación de actualización es exitosa.
 	    *  ```EXEC SQL ROLLBACK END-EXEC``` revierte los cambios si ocurre un error.
 	    
-	h2: Manejo de errores y excepciones
+	H1: Manejo de errores y excepciones
 	
 	Text:
 	    
 	    Es crucial manejar los errores y excepciones durante las operaciones con bases de datos.
 	    
-	h3: Ejemplo de manejo de errores
+	H2: Ejemplo de manejo de errores
 	
 	Text:
 	    
@@ -248,13 +248,13 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    
 	    base de datos.
 	    
-	h2: Desconexión de la base de datos
+	H1: Desconexión de la base de datos
 	
 	Text:
 	    
 	    Para desconectar de la base de datos, se utiliza la sentencia ```DISCONNECT```.
 	    
-	h3: Ejemplo de desconexión de la base de datos
+	H2: Ejemplo de desconexión de la base de datos
 	
 	Text:
 	    
@@ -279,7 +279,7 @@ Unit(globalcampus.site/namespace.stxt): Integración de bases de datos en aplica
 	    *  ```EXEC SQL DISCONNECT END-EXEC``` desconecta la sesión de la base de datos.
 	    *  ```SQLCODE``` se verifica para asegurar que la desconexión fue exitosa.
 	    
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

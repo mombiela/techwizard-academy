@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Clases y objetos
 	Text: 
 	    Las clases son un concepto fundamental en la programación orientada a objetos (OOP) y permiten agrupar datos y funciones en una única entidad llamada "objeto".
 	    
-	h2:  Definición de una Clase 
+	H1:  Definición de una Clase 
 	
 	Text:
 	    
@@ -18,7 +18,7 @@ Unit(globalcampus.site/namespace.stxt): Clases y objetos
 	    
 	    En este ejemplo, ```Persona``` es una clase vacía. La palabra clave ```pass``` se usa como un marcador de posición que indica que no hay nada dentro de la clase por el momento.
 	    
-	h2:  Atributos y Métodos 
+	H1:  Atributos y Métodos 
 	
 	Text:
 	    
@@ -39,7 +39,7 @@ Unit(globalcampus.site/namespace.stxt): Clases y objetos
 	    * ```__init__```: Este es un método especial llamado constructor. Se llama automáticamente cuando se crea una nueva instancia de la clase. Se utiliza para inicializar los atributos del objeto.
 	    * ```self```: Es una referencia al objeto actual. Se usa para acceder a los atributos y métodos de la clase desde dentro de la clase.
 	    
-	h2:  Crear Instancias de una Clase 
+	H1:  Crear Instancias de una Clase 
 	
 	Text:
 	    
@@ -54,7 +54,7 @@ Unit(globalcampus.site/namespace.stxt): Clases y objetos
 	    
 	    Ahora ```persona1``` y ```persona2``` son dos objetos diferentes de la clase Persona.
 	    
-	h2:  Acceder a Atributos y Métodos 
+	H1:  Acceder a Atributos y Métodos 
 	
 	Text:
 	    
@@ -70,7 +70,7 @@ Unit(globalcampus.site/namespace.stxt): Clases y objetos
 	
 	Text:
 	    
-	h2:  Herencia 
+	H1:  Herencia 
 	
 	Text:
 	    
@@ -99,7 +99,7 @@ Unit(globalcampus.site/namespace.stxt): Clases y objetos
 	
 	Text:
 	    
-	h2:  Resumen 
+	H1:  Resumen 
 	
 	Text:
 	    

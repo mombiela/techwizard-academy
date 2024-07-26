@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores backend
 	Text: 
 	    Los servidores backend juegan un papel crucial en el desarrollo y funcionamiento de aplicaciones web y móviles. A continuación se detallan las responsabilidades y funciones principales de los servidores backend.
 	    
-	h2: Procesamiento y lógica de negocio
+	H1: Procesamiento y lógica de negocio
 	
 	Text:
 	    
@@ -29,7 +29,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores backend
 	
 	Text:
 	    
-	h2: Gestión de bases de datos
+	H1: Gestión de bases de datos
 	
 	Text:
 	    
@@ -67,7 +67,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores backend
 	
 	Text:
 	    
-	h2: Autenticación y autorización
+	H1: Autenticación y autorización
 	
 	Text:
 	    
@@ -124,7 +124,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores backend
 	
 	Text:
 	    
-	h2: Comunicación con el frontend
+	H1: Comunicación con el frontend
 	
 	Text:
 	    
@@ -152,7 +152,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores backend
 	
 	Text:
 	    
-	h2: Manejo de archivos y recursos
+	H1: Manejo de archivos y recursos
 	
 	Text:
 	    
@@ -189,7 +189,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores backend
 	
 	Text:
 	    
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

@@ -3,13 +3,13 @@ Unit(globalcampus.site/namespace.stxt): Polimorfismo
 	Text: 
 	    El polimorfismo es uno de los principios fundamentales de la programación orientada a objetos (OOP) y se refiere a la capacidad de diferentes clases para ser tratadas como instancias de una misma clase a través de una interfaz común. En otras palabras, permite que una función o un método trabaje con diferentes tipos de objetos de una manera uniforme.
 	    
-	h2:  Polimorfismo en Python
+	H1:  Polimorfismo en Python
 	
 	Text:
 	    
 	    En Python, el polimorfismo se puede lograr a través de la herencia y la implementación de métodos comunes en diferentes clases. Python es un lenguaje dinámico, lo que significa que no es necesario que las clases compartan una relación de herencia explícita para ser polimórficas; simplemente deben implementar los mismos métodos.
 	    
-	h2:  Polimorfismo con Herencia 
+	H1:  Polimorfismo con Herencia 
 	
 	Text:
 	    
@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): Polimorfismo
 	    
 	    En este ejemplo, tanto ```Perro``` como ```Gato``` son subclases de ```Animal``` y ambos implementan el método ```hacer_sonido```. La función ```hacer_sonido_animal``` puede aceptar cualquier objeto que sea una instancia de ```Animal``` o sus subclases.
 	    
-	h2:  Polimorfismo sin Herencia (Duck Typing) 
+	H1:  Polimorfismo sin Herencia (Duck Typing) 
 	
 	Text:
 	    
@@ -78,7 +78,7 @@ Unit(globalcampus.site/namespace.stxt): Polimorfismo
 	    
 	    Aquí, ```Perro```, ```Gato``` y ```Vaca``` no comparten una clase base común, pero todos tienen el método ```hacer_sonido```. La función ```hacer_sonido_animal``` puede trabajar con cualquier objeto que implemente este método.
 	    
-	h2:  Ejemplo de Polimorfismo en Funciones y Métodos 
+	H1:  Ejemplo de Polimorfismo en Funciones y Métodos 
 	
 	Text:
 	    
@@ -97,7 +97,7 @@ Unit(globalcampus.site/namespace.stxt): Polimorfismo
 	    
 	    En este caso, la función ```agregar``` se comporta de manera polimórfica porque puede sumar tanto números como concatenar cadenas de texto, dependiendo del tipo de los argumentos.
 	    
-	h2:  Resumen 
+	H1:  Resumen 
 	
 	Text:
 	    

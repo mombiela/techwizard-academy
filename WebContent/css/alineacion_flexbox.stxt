@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): Alineación y distribución en Flexbox
 	    *  ```space-around```: El espacio alrededor de las líneas se distribuye uniformemente.
 	    *  ```stretch```: Las líneas se estiran para llenar el contenedor (valor predeterminado).
 	    
-	h2: Ejemplo de código CSS para alineación y distribución en Flexbox
+	H1: Ejemplo de código CSS para alineación y distribución en Flexbox
 	
 	Text:
 	    
@@ -74,7 +74,7 @@ Unit(globalcampus.site/namespace.stxt): Alineación y distribución en Flexbox
 	    *  Un ítem individual:
 	    *  Se alinea al final del eje transversal con ```align-self: flex-end;```.
 	    
-	h2: Diagrama de alineación y distribución en Flexbox
+	H1: Diagrama de alineación y distribución en Flexbox
 	
 	Text:
 	    

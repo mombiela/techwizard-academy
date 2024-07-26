@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	Text: 
 	    Los ejemplos prácticos de CSS Grid muestran cómo se pueden utilizar las propiedades de Grid para crear diseños flexibles y adaptables. A continuación, se presentan algunos ejemplos comunes:
 	    
-	h2: Ejemplo 1: Diseño de una página básica
+	H1: Ejemplo 1: Diseño de una página básica
 	
 	Text:
 	    
@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    *  Se utiliza ```grid-template-areas``` para nombrar las áreas de la cuadrícula.
 	    *  Los ítems se posicionan utilizando ```grid-area```.
 	    
-	h2: Ejemplo 2: Galería de imágenes responsiva
+	H1: Ejemplo 2: Galería de imágenes responsiva
 	
 	Text:
 	    
@@ -65,7 +65,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    *  El contenedor de cuadrícula crea una galería de imágenes responsiva.
 	    *  Las columnas se ajustan automáticamente para llenar el espacio disponible, con un ancho mínimo de 200px.
 	    
-	h2: Ejemplo 3: Diseño de una tarjeta de perfil
+	H1: Ejemplo 3: Diseño de una tarjeta de perfil
 	
 	Text:
 	    
@@ -104,7 +104,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    *  El contenedor de cuadrícula define un diseño para una tarjeta de perfil.
 	    *  Las áreas de la cuadrícula se nombran para incluir un avatar, nombre, biografía y pie de página.
 	    
-	h2: Ejemplo 4: Diseño de una página de revista
+	H1: Ejemplo 4: Diseño de una página de revista
 	
 	Text:
 	    
@@ -148,7 +148,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    *  El contenedor de cuadrícula define un diseño para una página de revista.
 	    *  Las áreas de la cuadrícula incluyen un artículo destacado, barra lateral, dos artículos adicionales y un pie de página.
 	    
-	h2: Ejemplo 5: Diseño de un formulario complejo
+	H1: Ejemplo 5: Diseño de un formulario complejo
 	
 	Text:
 	    
@@ -200,7 +200,7 @@ Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    *  El contenedor de cuadrícula define un diseño para un formulario complejo.
 	    *  Las áreas de la cuadrícula incluyen etiquetas e inputs para cada campo del formulario y un botón de envío.
 	    
-	h2: Diagramas de ejemplos prácticos con CSS Grid
+	H1: Diagramas de ejemplos prácticos con CSS Grid
 	
 	Text:
 	    

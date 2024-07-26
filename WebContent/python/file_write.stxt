@@ -1,13 +1,13 @@
 Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
 	Text: 
-	h2: Lectura y escritura de archivos
+	H1: Lectura y escritura de archivos
 	
 	Text:
 	    
 	    Python proporciona funciones y métodos que facilitan la lectura y escritura de archivos. A continuación, se detallan las operaciones básicas para manejar archivos de texto y archivos binarios.
 	    
-	h2: Apertura de Archivos
+	H1: Apertura de Archivos
 	
 	Text:
 	    
@@ -26,7 +26,7 @@ Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
 	Text:
 	    
-	h2: Lectura de Archivos
+	H1: Lectura de Archivos
 	
 	Text:
 	    
@@ -62,7 +62,7 @@ Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
 	Text:
 	    
-	h2: Escritura en Archivos
+	H1: Escritura en Archivos
 	
 	Text:
 	    
@@ -85,7 +85,7 @@ Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
 	Text:
 	    
-	h2: Añadir Datos a un Archivo
+	H1: Añadir Datos a un Archivo
 	
 	Text:
 	    
@@ -97,7 +97,7 @@ Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
 	Text:
 	    
-	h2: Lectura y Escritura de Archivos Binarios
+	H1: Lectura y Escritura de Archivos Binarios
 	
 	Text:
 	    
@@ -119,7 +119,7 @@ Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
 	Text:
 	    
-	h2: Gestión de Archivos con @@with@@
+	H1: Gestión de Archivos con @@with@@
 	
 	Text:
 	    
@@ -134,7 +134,7 @@ Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
 	Text:
 	    
-	h2: Ventajas del Manejo de Archivos en Python
+	H1: Ventajas del Manejo de Archivos en Python
 	
 	Text:
 	    
@@ -142,7 +142,7 @@ Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    *  **Flexibilidad**: Diferentes modos de apertura permiten una gran variedad de operaciones de lectura y escritura.
 	    *  **Compatibilidad con Textos y Binarios**: Python permite trabajar con archivos de texto y binarios de manera sencilla.
 	    
-	h2: Ejemplo Completo
+	H1: Ejemplo Completo
 	
 	Text:
 	    

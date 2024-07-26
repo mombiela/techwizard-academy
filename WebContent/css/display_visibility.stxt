@@ -22,7 +22,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades display y visibility
 	    *  ```hidden```: Oculta el elemento pero deja el espacio que ocupa en el diseño. Ejemplo: ```visibility: hidden;```
 	    *  ```collapse```: Solo aplicable a elementos de fila de tabla. Oculta el elemento y quita su espacio en el diseño. Ejemplo: ```visibility: collapse;```
 	    
-	h2: Ejemplo de uso de propiedades display y visibility
+	H1: Ejemplo de uso de propiedades display y visibility
 	
 	Text:
 	    

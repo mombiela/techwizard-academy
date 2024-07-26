@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	Text: 
 	    En COBOL, los literales son valores constantes que se utilizan directamente en el código. Estos valores pueden ser numéricos, alfanuméricos, o figurativos. A continuación, se describen los diferentes tipos de literales y su uso en COBOL.
 	    
-	h2: Literales Numéricos
+	H1: Literales Numéricos
 	
 	Text:
 	    
@@ -23,7 +23,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    *  El literal numérico ```25.75``` se suma a ```WS-Amount```.
 	    *  El literal numérico ```-50``` se resta de ```WS-Balance```.
 	    
-	h2: Literales Alfanuméricos
+	H1: Literales Alfanuméricos
 	
 	Text:
 	    
@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    *  El literal alfanumérico ```'John Doe'``` se mueve a ```WS-Name```.
 	    *  El literal alfanumérico ```'Processing Complete'``` se muestra en la pantalla.
 	    
-	h2: Literales Figurativos
+	H1: Literales Figurativos
 	
 	Text:
 	    
@@ -63,7 +63,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    *  El literal figurativo ```ZEROS``` se mueve a ```WS-Count```, estableciéndolo en cero.
 	    *  El literal figurativo ```HIGH-VALUE``` se mueve a ```WS-Flag```, asignándole el valor más alto posible para el tipo de dato.
 	    
-	h2: Uso en Sentencias
+	H1: Uso en Sentencias
 	
 	Text:
 	    

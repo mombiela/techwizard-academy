@@ -1,13 +1,13 @@
 Unit(globalcampus.site/namespace.stxt): Creación de módulos propios
 	
 	Text: 
-	h2: Módulos y paquetes. Creación de módulos propios
+	H1: Módulos y paquetes. Creación de módulos propios
 	
 	Text:
 	    
 	    Crear módulos y paquetes propios en Python es una excelente manera de organizar el código, promover la reutilización y mantener la estructura de los proyectos. A continuación, se describe cómo crear módulos y paquetes en Python.
 	    
-	h2: Creación de Módulos
+	H1: Creación de Módulos
 	
 	Text:
 	    
@@ -55,7 +55,7 @@ Unit(globalcampus.site/namespace.stxt): Creación de módulos propios
 	
 	Text:
 	    
-	h2: Creación de Paquetes
+	H1: Creación de Paquetes
 	
 	Text:
 	    
@@ -105,7 +105,7 @@ Unit(globalcampus.site/namespace.stxt): Creación de módulos propios
 	
 	Text:
 	    
-	h2: Importación de Submódulos
+	H1: Importación de Submódulos
 	
 	Text:
 	    
@@ -120,7 +120,7 @@ Unit(globalcampus.site/namespace.stxt): Creación de módulos propios
 	
 	Text:
 	    
-	h2: Inicialización del Paquete
+	H1: Inicialización del Paquete
 	
 	Text:
 	    
@@ -145,7 +145,7 @@ Unit(globalcampus.site/namespace.stxt): Creación de módulos propios
 	
 	Text:
 	    
-	h2: Instalación y Uso de Paquetes Externos
+	H1: Instalación y Uso de Paquetes Externos
 	
 	Text:
 	    
@@ -165,7 +165,7 @@ Unit(globalcampus.site/namespace.stxt): Creación de módulos propios
 	
 	Text:
 	    
-	h2: Ventajas del Uso de Módulos y Paquetes
+	H1: Ventajas del Uso de Módulos y Paquetes
 	
 	Text:
 	    
@@ -174,7 +174,7 @@ Unit(globalcampus.site/namespace.stxt): Creación de módulos propios
 	    *  **Mantenimiento**: Hacen que el código sea más fácil de mantener y actualizar.
 	    *  **Colaboración**: Facilitan la colaboración entre varios desarrolladores.
 	    
-	h2: Ejemplo Completo
+	H1: Ejemplo Completo
 	
 	Text:
 	    

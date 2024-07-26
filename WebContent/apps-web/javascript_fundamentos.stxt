@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	Text: 
 	    JavaScript es un lenguaje de programación que se utiliza principalmente para crear contenido web dinámico. Aquí te explico algunos conceptos básicos sobre su sintaxis y su uso en el frontend.
 	    
-	h2: Variables
+	H1: Variables
 	
 	Text:
 	    
@@ -20,7 +20,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text:
 	    
-	h2: Tipos de Datos
+	H1: Tipos de Datos
 	
 	Text:
 	    
@@ -32,7 +32,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    *  Objetos: ```let persona = { nombre: 'Juan', edad: 30 };```
 	    *  Arrays: ```let colores = ['rojo', 'verde', 'azul'];```
 	    
-	h2: Operadores
+	H1: Operadores
 	
 	Text:
 	    
@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    *  Operadores de comparación: ```==```, ```!=```, ```===```, ```!==```
 	    *  Operadores lógicos: ```&&```, ```||```, ```!```
 	    
-	h2: Estructuras de Control
+	H1: Estructuras de Control
 	
 	Text:
 	    
@@ -67,7 +67,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text:
 	    
-	h2: Funciones
+	H1: Funciones
 	
 	Text:
 	    
@@ -93,7 +93,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text:
 	    
-	h2: Manipulación del DOM
+	H1: Manipulación del DOM
 	
 	Text:
 	    
@@ -114,7 +114,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text:
 	    
-	h2: Eventos
+	H1: Eventos
 	
 	Text:
 	    
@@ -133,7 +133,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    
 	    Estos son los conceptos básicos que necesitas para empezar a usar JavaScript en el frontend. ¡Practica estos ejemplos y pronto estarás creando páginas web dinámicas y atractivas!
 	    
-	h2:  Ejemplo completo 
+	H1:  Ejemplo completo 
 	
 	Text:
 	Code:

@@ -19,7 +19,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de bordes en el modelo de caja
 	    *  ```border-radius```: Redondea las esquinas del borde. Puede especificar valores individuales para cada esquina. Ejemplo: ```border-radius: 10px;```
 	    *  ```border-top-left-radius```, ```border-top-right-radius```, ```border-bottom-right-radius```, ```border-bottom-left-radius```: Permiten definir el radio de cada esquina individualmente. Ejemplo: ```border-top-left-radius: 5px;```
 	    
-	h2: Ejemplo de uso de propiedades de bordes
+	H1: Ejemplo de uso de propiedades de bordes
 	
 	Text:
 	    

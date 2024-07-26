@@ -4,7 +4,7 @@ Unit(globalcampus.site/namespace.stxt): Condicionales (if, elif, else)
 	    Las estructuras condicionales en Python permiten ejecutar bloques de código específicos basados en condiciones dadas.
 	    Estas estructuras son fundamentales para la toma de decisiones en programación.
 	    
-	h2:  Sentencia if 
+	H1:  Sentencia if 
 	
 	Text:
 	    La sentencia ```if``` evalúa una condición. Si la condición es verdadera (```True```), se ejecuta el bloque de código indentado bajo el ```if```.
@@ -20,7 +20,7 @@ Unit(globalcampus.site/namespace.stxt): Condicionales (if, elif, else)
 	    En este ejemplo, ```x``` es mayor que ```5```, por lo tanto,
 	    la condición es verdadera y se imprime "x es mayor que 5".
 	    
-	h2:  Sentencia elif 
+	H1:  Sentencia elif 
 	
 	Text:
 	    La sentencia ```elif``` (abreviatura de "else if") permite verificar múltiples condiciones.
@@ -40,7 +40,7 @@ Unit(globalcampus.site/namespace.stxt): Condicionales (if, elif, else)
 	    pero la segunda condición ```elif``` es verdadera (```x``` es mayor que ```5```),
 	    por lo que se imprime "x es mayor que 5 pero menor o igual a 15".
 	    
-	h2:  Sentencia else 
+	H1:  Sentencia else 
 	
 	Text:
 	    La sentencia ```else``` se usa para ejecutar un bloque de código
@@ -61,7 +61,7 @@ Unit(globalcampus.site/namespace.stxt): Condicionales (if, elif, else)
 	    Aquí, ambas condiciones (```if``` y ```elif```) son falsas,
 	    por lo que se ejecuta el bloque ```else``` y se imprime "x es 5 o menor".
 	    
-	h2:  Ejemplo Completo 
+	H1:  Ejemplo Completo 
 	
 	Text:
 	    Un ejemplo completo utilizando ```if```, ```elif```, y ```else```:
@@ -86,7 +86,7 @@ Unit(globalcampus.site/namespace.stxt): Condicionales (if, elif, else)
 	    # Si la edad es mayor o igual a 18 pero menor que 65, se imprime "Eres adulto".
 	    # Si la edad es 65 o mayor, se imprime "Eres mayor de 65 años".
 	    
-	h2:  Uso de operadores lógicos en condiciones 
+	H1:  Uso de operadores lógicos en condiciones 
 	
 	Text:
 	    Puedes combinar múltiples condiciones en una sola sentencia
@@ -103,7 +103,7 @@ Unit(globalcampus.site/namespace.stxt): Condicionales (if, elif, else)
 	    En este ejemplo, ambas condiciones (```x > 10``` y ```x < 30```) deben
 	    ser verdaderas para que el bloque de código se ejecute.
 	    
-	h2:  Importancia de la indentación 
+	H1:  Importancia de la indentación 
 	
 	Text:
 	    Es crucial recordar que Python usa la indentación para definir bloques de código.

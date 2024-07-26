@@ -30,7 +30,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades de los ítems Grid
 	    *  Propiedad abreviada para ```align-self``` y ```justify-self```.
 	    *  Ejemplo: ```place-self: center start;``` (centra el ítem verticalmente y lo alinea al inicio horizontalmente)
 	    
-	h2: Ejemplo de código CSS para ítems Grid
+	H1: Ejemplo de código CSS para ítems Grid
 	
 	Text:
 	    
@@ -69,7 +69,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades de los ítems Grid
 	    *  ```item2``` se extiende desde la columna 3 hasta la 5 y desde la fila 1 hasta la 3, y se centra tanto horizontal como verticalmente.
 	    *  ```item3``` se extiende desde la columna 1 hasta la 2 y desde la fila 2 hasta la 4, y se alinea al final verticalmente y al centro horizontalmente.
 	    
-	h2: Diagrama de ítems Grid con propiedades aplicadas
+	H1: Diagrama de ítems Grid con propiedades aplicadas
 	
 	Text:
 	    

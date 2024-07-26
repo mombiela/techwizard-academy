@@ -7,7 +7,7 @@ Unit(globalcampus.site/namespace.stxt): Operadores de Identidad
 	    | ```code:is```     | Es el mismo objeto    | ```code:a is b```
 	    | ```code:is not``` | No es el mismo objeto | ```code:a is not b```
 	    
-	h2:  Ejemplo: 
+	H1:  Ejemplo: 
 	
 	Text:
 	    

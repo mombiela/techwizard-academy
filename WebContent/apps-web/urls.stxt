@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	Text: 
 	    Una URL (Uniform Resource Locator) es la dirección que se utiliza para acceder a recursos en la web. Las URLs son fundamentales para la navegación y la localización de recursos en Internet. Veamos su estructura y cómo se utilizan.
 	    
-	h2: Componentes de una URL
+	H1: Componentes de una URL
 	
 	Text:
 	    
@@ -31,7 +31,7 @@ Unit(globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	    
 	    * **Fragmento** (opcional): Es una referencia interna dentro del recurso. Se inicia con una almohadilla (``````#). Ejemplo: ```#seccion2```.
 	    
-	h2: Ejemplo de una URL completa
+	H1: Ejemplo de una URL completa
 	
 	Text:
 	    
@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	
 	Text:
 	    
-	h2: Uso de URLs
+	H1: Uso de URLs
 	
 	Text:
 	    
@@ -68,7 +68,7 @@ Unit(globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	
 	
 	Text:
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

@@ -11,7 +11,7 @@ Unit(globalcampus.site/namespace.stxt): Operadores de Comparación
 	    | ```code:>=``` | Mayor o igual que | ```code:a >= b```
 	    | ```code:<=``` | Menor o igual que | ```code:a <= b```
 	    
-	h2:  Ejemplo: 
+	H1:  Ejemplo: 
 	
 	Text:
 	    

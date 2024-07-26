@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los clientes web
 	Text: 
 	    Los clientes web son los dispositivos y aplicaciones que permiten a los usuarios interactuar con la web. Los más comunes son los navegadores web, aunque también incluyen aplicaciones móviles y otros programas que acceden a recursos web. Entender el papel de los clientes web es crucial para comprender cómo los usuarios acceden y consumen contenido en Internet.
 	    
-	h2: Funciones principales de los clientes web
+	H1: Funciones principales de los clientes web
 	
 	Text:
 	    
@@ -15,7 +15,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los clientes web
 	    
 	    * **Gestión de sesiones y estado**: Los clientes web gestionan las sesiones y el estado del usuario, utilizando cookies y almacenamiento local para recordar información entre diferentes solicitudes y visitas.
 	    
-	h2: Proceso de interacción entre cliente y servidor
+	H1: Proceso de interacción entre cliente y servidor
 	
 	Text:
 	    
@@ -55,7 +55,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los clientes web
 	Text:
 	    # **Renderización y visualización**: El cliente web renderiza el contenido recibido y lo muestra al usuario.
 	    
-	h2: Componentes principales de los clientes web
+	H1: Componentes principales de los clientes web
 	
 	Text:
 	    
@@ -67,7 +67,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los clientes web
 	    
 	    * **Almacenamiento local y cookies**: Los clientes web utilizan estas tecnologías para almacenar datos de usuario y estado entre sesiones, lo que permite recordar preferencias y mantener sesiones de usuario.
 	    
-	h2: Diagrama de interacción cliente-servidor
+	H1: Diagrama de interacción cliente-servidor
 	
 	Text:
 	    
@@ -88,7 +88,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los clientes web
 	    end note
 	    @enduml
 	    
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

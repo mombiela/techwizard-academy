@@ -15,7 +15,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades de dimensión y posición
 	    *  ```z-index```: Controla el orden de apilamiento de elementos posicionados. Ejemplo: ```z-index: 10;```
 	    *  ```overflow```: Controla lo que sucede si el contenido desborda el área de un elemento. Valores comunes: ```visible```, ```hidden```, ```scroll```, ```auto```. Ejemplo: ```overflow: hidden;```
 	    
-	h2: Ejemplo de uso de propiedades de dimensión y posición
+	H1: Ejemplo de uso de propiedades de dimensión y posición
 	
 	Text:
 	    

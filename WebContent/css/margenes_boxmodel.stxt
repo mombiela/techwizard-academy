@@ -15,7 +15,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de márgenes en el modelo de caja
 	    *  **Propiedades de colapso de márgenes**:
 	    *  Los márgenes superiores e inferiores de los elementos adyacentes pueden colapsar, es decir, se combinan en un solo margen cuyo tamaño es igual al mayor de los márgenes colapsados.
 	    
-	h2: Ejemplo de uso de propiedades de márgenes
+	H1: Ejemplo de uso de propiedades de márgenes
 	
 	Text:
 	    

@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Herencia múltiple
 	Text: 
 	    La herencia múltiple es una característica de algunos lenguajes de programación orientada a objetos que permite que una clase herede de más de una clase base. En Python, la herencia múltiple está permitida y se puede utilizar para crear clases que combinan comportamientos de múltiples clases base.
 	    
-	h2:  Sintaxis de Herencia Múltiple 
+	H1:  Sintaxis de Herencia Múltiple 
 	
 	Text:
 	    Para definir una clase que hereda de múltiples clases, se listan todas las clases base entre paréntesis, separadas por comas.
@@ -21,7 +21,7 @@ Unit(globalcampus.site/namespace.stxt): Herencia múltiple
 	
 	Text:
 	    
-	h2:  Ejemplo de Herencia Múltiple 
+	H1:  Ejemplo de Herencia Múltiple 
 	
 	Text:
 	    
@@ -48,7 +48,7 @@ Unit(globalcampus.site/namespace.stxt): Herencia múltiple
 	    
 	    En este ejemplo, ```Pato``` hereda de ```Volador``` y ```Nadador```, y por lo tanto puede usar los métodos ```volar``` y ```nadar```.
 	    
-	h2:  Orden de Resolución de Métodos (MRO) 
+	H1:  Orden de Resolución de Métodos (MRO) 
 	
 	Text:
 	    Cuando una clase hereda de múltiples clases, puede haber conflictos en los métodos y atributos que se heredan. Python utiliza un algoritmo llamado C3 Linearization para determinar el orden en el que se deben buscar los métodos y atributos. Este orden se llama "Method Resolution Order" (MRO).
@@ -83,7 +83,7 @@ Unit(globalcampus.site/namespace.stxt): Herencia múltiple
 	    
 	    En este caso, ```D``` hereda de ```B``` y ```C```. Cuando llamamos al método ```metodo``` en una instancia de ```D```, Python sigue el MRO y encuentra ```metodo``` primero en ```B``` antes que en ```C```.
 	    
-	h2:  Super() en Herencia Múltiple 
+	H1:  Super() en Herencia Múltiple 
 	
 	Text:
 	    
@@ -124,7 +124,7 @@ Unit(globalcampus.site/namespace.stxt): Herencia múltiple
 	    
 	    En este ejemplo, cuando llamamos a ```d.metodo()```, se sigue el MRO: ```D```, ```B```, ```C```, ```A```.
 	    
-	h2:  Resumen 
+	H1:  Resumen 
 	
 	Text:
 	    

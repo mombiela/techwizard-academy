@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os,
 	Text: 
 	    Python viene con una extensa biblioteca estándar que proporciona módulos y paquetes útiles para realizar una amplia variedad de tareas. A continuación, se describen algunos de los módulos estándar más comúnmente utilizados: ```os```, ```sys```, ```math```, y otros.
 	    
-	h2: Módulo os
+	H1: Módulo os
 	
 	Text:
 	    
@@ -48,7 +48,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os,
 	
 	Text:
 	    
-	h2: Módulo sys
+	H1: Módulo sys
 	
 	Text:
 	    
@@ -81,7 +81,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os,
 	
 	Text:
 	    
-	h2: Módulo math
+	H1: Módulo math
 	
 	Text:
 	    
@@ -117,7 +117,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os,
 	
 	Text:
 	    
-	h2: Módulo datetime
+	H1: Módulo datetime
 	
 	Text:
 	    
@@ -155,7 +155,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os,
 	
 	Text:
 	    
-	h2: Módulo random
+	H1: Módulo random
 	
 	Text:
 	    
@@ -192,7 +192,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os,
 	
 	Text:
 	    
-	h2: Módulo json
+	H1: Módulo json
 	
 	Text:
 	    
@@ -220,7 +220,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os,
 	
 	Text:
 	    
-	h2: Módulo re
+	H1: Módulo re
 	
 	Text:
 	    
@@ -270,7 +270,7 @@ Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os,
 	
 	Text:
 	    
-	h2: Módulo collections
+	H1: Módulo collections
 	
 	Text:
 	    

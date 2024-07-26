@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF, PER
 	Text: 
 	    COBOL proporciona varias estructuras de control de flujo que permiten dirigir la ejecución del programa basándose en condiciones y repeticiones. Entre las más comunes se encuentran ```IF```, ```PERFORM```, ```EVALUATE``` y ```GO TO```. A continuación, se explican estas estructuras y su uso.
 	    
-	h2: IF
+	H1: IF
 	
 	Text:
 	    
@@ -25,7 +25,7 @@ Unit(globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF, PER
 	    *  Si la condición es verdadera, se muestra 'Total exceeds threshold'.
 	    *  Si la condición es falsa, se muestra 'Total is within limit'.
 	    
-	h2: PERFORM
+	H1: PERFORM
 	
 	Text:
 	    
@@ -65,7 +65,7 @@ Unit(globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF, PER
 	    
 	    *  ```PERFORM Process-Records``` llama al párrafo ```Process-Records```, que a su vez llama al párrafo ```READ-RECORD```.
 	    
-	h2: EVALUATE
+	H1: EVALUATE
 	
 	Text:
 	    
@@ -91,7 +91,7 @@ Unit(globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF, PER
 	    *  ```EVALUATE WS-Grade``` evalúa el valor de ```WS-Grade```.
 	    *  Dependiendo del valor, se muestra un mensaje correspondiente ('Excellent', 'Good', 'Average', o 'Other grade').
 	    
-	h2: GO TO
+	H1: GO TO
 	
 	Text:
 	    
@@ -108,7 +108,7 @@ Unit(globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF, PER
 	    
 	    *  Si ```WS-Error``` es igual a 'Y', el control se transfiere al párrafo ```Error-Handler```.
 	    
-	h2: EXIT
+	H1: EXIT
 	
 	Text:
 	    

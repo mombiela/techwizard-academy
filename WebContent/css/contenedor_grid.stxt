@@ -46,7 +46,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	    *  Valores: ```row``` (por defecto), ```column```, ```dense```
 	    *  Ejemplo: ```grid-auto-flow: row dense;```
 	    
-	h2: Ejemplo de código CSS para un contenedor Grid
+	H1: Ejemplo de código CSS para un contenedor Grid
 	
 	Text:
 	    
@@ -87,7 +87,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	    *  Se utiliza ```gap``` para definir el espacio entre filas y columnas.
 	    *  Los ítems se posicionan utilizando ```grid-area```.
 	    
-	h2: Diagrama de un contenedor Grid
+	H1: Diagrama de un contenedor Grid
 	
 	Text:
 	    

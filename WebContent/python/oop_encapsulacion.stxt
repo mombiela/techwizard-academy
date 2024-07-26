@@ -3,13 +3,13 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	Text: 
 	    La encapsulación es uno de los principios fundamentales de la programación orientada a objetos (OOP) y se refiere a la práctica de restringir el acceso directo a los datos de un objeto y permitir que estos sean manipulados solo a través de métodos definidos. En Python, la encapsulación se puede lograr utilizando convenciones de nomenclatura para los atributos y métodos de una clase.
 	    
-	h2:  Encapsulación en Python 
+	H1:  Encapsulación en Python 
 	
 	Text:
 	    
 	    En Python, no existe un verdadero modificador de acceso como ```private``` o ```protected``` en otros lenguajes (como Java o C++). En su lugar, se utilizan convenciones de nombres para indicar la intención de acceso.
 	    
-	h2:  Atributos y Métodos Públicos 
+	H1:  Atributos y Métodos Públicos 
 	
 	Text:
 	    
@@ -30,7 +30,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	
 	Text:
 	    
-	h2:  Atributos y Métodos Protegidos 
+	H1:  Atributos y Métodos Protegidos 
 	
 	Text:
 	    
@@ -54,7 +54,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	    
 	    Aunque es posible acceder a ```_valor``` y ```_mostrar_valor``` desde fuera de la clase, la convención del guion bajo indica que son "protegidos" y no deben ser accedidos directamente.
 	    
-	h2:  Atributos y Métodos Privados 
+	H1:  Atributos y Métodos Privados 
 	
 	Text:
 	    
@@ -90,7 +90,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	    
 	    Aunque esto es posible, no es recomendable, ya que rompe la encapsulación y puede llevar a errores en el código.
 	    
-	h2:  Uso de Métodos Accesores y Mutadores 
+	H1:  Uso de Métodos Accesores y Mutadores 
 	
 	Text:
 	    
@@ -115,7 +115,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	
 	Text:
 	    
-	h2:  Propiedades 
+	H1:  Propiedades 
 	
 	Text:
 	    
@@ -142,7 +142,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	
 	Text:
 	    
-	h2:  Resumen 
+	H1:  Resumen 
 	
 	Text:
 	    

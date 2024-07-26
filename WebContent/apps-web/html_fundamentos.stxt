@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	Text: 
 	    HTML (HyperText Markup Language) es el lenguaje básico para crear y estructurar contenido en la web. A continuación, se describen los elementos y la estructura básica de un documento HTML.
 	    
-	h2: Elementos de HTML
+	H1: Elementos de HTML
 	
 	Text:
 	    
@@ -19,7 +19,7 @@ Unit(globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	    *  //Atributos//: Las etiquetas pueden tener atributos que proporcionan información adicional sobre el elemento, como ```<a href="url">Enlace</a>```.
 	    *  //Contenido//: Es el texto o los elementos anidados dentro de una etiqueta HTML.
 	    
-	h2: Estructura básica de un documento HTML
+	H1: Estructura básica de un documento HTML
 	
 	Text:
 	    
@@ -48,7 +48,7 @@ Unit(globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	    *  ```<meta>```: Proporciona metadatos adicionales como el conjunto de caracteres y la configuración de la vista del dispositivo.
 	    *  ```<body>```: Contiene el contenido visible de la página web, como texto, imágenes, enlaces, y otros elementos multimedia.
 	    
-	h2: Elementos comunes en HTML
+	H1: Elementos comunes en HTML
 	
 	Text:
 	    
@@ -82,7 +82,7 @@ Unit(globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	
 	
 	Text:
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

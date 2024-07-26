@@ -21,7 +21,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades de texto y fuentes
 	    *  ```font-style```: Establece el estilo de la fuente, como //cursiva//. Ejemplo: ```font-style: italic;```
 	    *  ```font-weight```: Define el grosor del texto. Valores comunes: ```normal```, ```bold```, ```bolder```, ```lighter```. Ejemplo: ```font-weight: bold;```
 	    
-	h2: Ejemplo de uso de propiedades de texto y fuentes
+	H1: Ejemplo de uso de propiedades de texto y fuentes
 	
 	Text:
 	    

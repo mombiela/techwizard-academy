@@ -20,7 +20,7 @@ Unit(globalcampus.site/namespace.stxt): Definición de áreas en CSS Grid
 	    *  Asigna un ítem a una de las áreas nombradas definidas por ```grid-template-areas```.
 	    *  Ejemplo: ```grid-area: header;```
 	    
-	h2: Ejemplo de código CSS para la definición de áreas en CSS Grid
+	H1: Ejemplo de código CSS para la definición de áreas en CSS Grid
 	
 	Text:
 	    
@@ -60,7 +60,7 @@ Unit(globalcampus.site/namespace.stxt): Definición de áreas en CSS Grid
 	    *  Las áreas de cuadrícula se definen con ```grid-template-areas```, nombrando las áreas como "header", "sidebar", "content" y "footer".
 	    *  Los ítems se posicionan utilizando ```grid-area```, asignando cada ítem a una de las áreas nombradas.
 	    
-	h2: Diagrama de áreas en CSS Grid
+	H1: Diagrama de áreas en CSS Grid
 	
 	Text:
 	    

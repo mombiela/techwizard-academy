@@ -3,13 +3,13 @@ Unit(globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo de par
 	Text: 
 	    En COBOL, la llamada a procedimientos y el manejo de parámetros son fundamentales para la modularización y reutilización del código. A través de subprogramas, se pueden pasar datos entre el programa principal y los subprogramas utilizando diferentes técnicas de manejo de parámetros.
 	    
-	h2: Tipos de parámetros
+	H1: Tipos de parámetros
 	
 	Text:
 	    
 	    Los parámetros en COBOL se pasan por referencia, lo que significa que cualquier cambio en el parámetro dentro del subprograma se reflejará en el programa llamador. Los parámetros se definen en la ```LINKAGE SECTION``` del subprograma y se pasan usando la cláusula ```USING```.
 	    
-	h3: Tipos de parámetros comunes
+	H2: Tipos de parámetros comunes
 	
 	Text:
 	    
@@ -17,13 +17,13 @@ Unit(globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo de par
 	    *  **Parámetros de salida**: Son utilizados para devolver datos al programa llamador.
 	    *  **Parámetros de entrada/salida**: Son utilizados tanto para pasar datos al subprograma como para devolver datos al programa llamador.
 	    
-	h2: Definición y llamada a un subprograma
+	H1: Definición y llamada a un subprograma
 	
 	Text:
 	    
 	    A continuación, se muestra cómo definir un subprograma que acepta y devuelve parámetros, así como cómo llamarlo desde un programa principal.
 	    
-	h3: Ejemplo de subprograma
+	H2: Ejemplo de subprograma
 	
 	Text:
 	    
@@ -52,7 +52,7 @@ Unit(globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo de par
 	    *  El subprograma ```Subprograma-Ejemplo``` acepta dos parámetros: ```LS-Entrada``` y ```LS-Salida```.
 	    *  La lógica del subprograma suma 10 al valor de ```LS-Entrada``` y almacena el resultado en ```LS-Salida```.
 	    
-	h3: Ejemplo de llamada a un subprograma desde el programa principal
+	H2: Ejemplo de llamada a un subprograma desde el programa principal
 	
 	Text:
 	    
@@ -81,13 +81,13 @@ Unit(globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo de par
 	    *  Utiliza la sentencia ```CALL 'Subprograma-Ejemplo' USING WS-Entrada WS-Salida``` para llamar al subprograma.
 	    *  Después de la llamada, el resultado almacenado en ```WS-Salida``` se muestra utilizando ```DISPLAY```.
 	    
-	h2: Manejo de múltiples parámetros
+	H1: Manejo de múltiples parámetros
 	
 	Text:
 	    
 	    COBOL permite pasar múltiples parámetros en una llamada a subprograma. Los parámetros deben ser declarados en el orden correcto tanto en el programa llamador como en el subprograma.
 	    
-	h3: Ejemplo con múltiples parámetros
+	H2: Ejemplo con múltiples parámetros
 	
 	Text:
 	    
@@ -139,7 +139,7 @@ Unit(globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo de par
 	    *  El subprograma ```Subprograma-Multiples-Parametros``` acepta tres parámetros: ```LS-Param1```, ```LS-Param2``` y ```LS-Resultado```.
 	    *  El programa principal define y pasa los valores ```WS-Param1``` y ```WS-Param2```, y recibe el resultado en ```WS-Resultado```.
 	    
-	h2: Uso de la sentencia CANCEL
+	H1: Uso de la sentencia CANCEL
 	
 	Text:
 	    
@@ -157,7 +157,7 @@ Unit(globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo de par
 	    *  ```CALL 'Subprograma-Ejemplo' USING WS-Entrada WS-Salida``` llama al subprograma.
 	    *  ```CANCEL Subprograma-Ejemplo``` libera la memoria utilizada por el subprograma.
 	    
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

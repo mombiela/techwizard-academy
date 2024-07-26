@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	Text: 
 	    Hemos cubierto varios aspectos fundamentales de las clases en Python, como la definición de clases, atributos y métodos, herencia, polimorfismo, y encapsulación. Sin embargo, hay otros conceptos importantes y avanzados que vale la pena explorar para tener un conocimiento más completo de cómo trabajar con clases en Python.
 	    
-	h2:  Métodos de Clase (@@@classmethod@@) 
+	H1:  Métodos de Clase (@@@classmethod@@) 
 	
 	Text:
 	    
@@ -27,7 +27,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	
 	Text:
 	    
-	h2:  Métodos Estáticos (@@@staticmethod@@)
+	H1:  Métodos Estáticos (@@@staticmethod@@)
 	
 	Text:
 	    
@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	
 	Text:
 	    
-	h2:  Métodos Especiales (Dunder Methods) 
+	H1:  Métodos Especiales (Dunder Methods) 
 	
 	Text:
 	    
@@ -72,7 +72,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	
 	Text:
 	    
-	h2:  Métodos de Comparación 
+	H1:  Métodos de Comparación 
 	
 	Text:
 	    
@@ -97,7 +97,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	
 	Text:
 	    
-	h2:  Propiedades Avanzadas 
+	H1:  Propiedades Avanzadas 
 	
 	Text:
 	    
@@ -127,7 +127,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	
 	Text:
 	    
-	h2:  Herencia Múltiple y Resolución de Conflictos 
+	H1:  Herencia Múltiple y Resolución de Conflictos 
 	
 	Text:
 	    
@@ -158,7 +158,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	
 	Text:
 	    
-	h2:  Clases Abstractas 
+	H1:  Clases Abstractas 
 	
 	Text:
 	    
@@ -183,7 +183,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	
 	Text:
 	    
-	h2:  Resumen 
+	H1:  Resumen 
 	
 	Text:
 	    

@@ -1,13 +1,13 @@
 Unit(globalcampus.site/namespace.stxt): Funciones lambda
 	
 	Text: 
-	h2: Funciones Lambda en Python
+	H1: Funciones Lambda en Python
 	
 	Text:
 	    
 	    Las funciones lambda en Python son funciones anónimas, es decir, funciones que no tienen un nombre explícito. Se utilizan para crear pequeñas funciones desechables sobre la marcha, especialmente útiles en situaciones donde se requiere una función de corta duración.
 	    
-	h2: Sintaxis de las Funciones Lambda
+	H1: Sintaxis de las Funciones Lambda
 	
 	Text:
 	    
@@ -33,7 +33,7 @@ Unit(globalcampus.site/namespace.stxt): Funciones lambda
 	    
 	    En este ejemplo, ```mi_lambda``` es una función lambda que toma dos argumentos ```x``` y ```y```, y devuelve su suma.
 	    
-	h2: Usos Comunes de las Funciones Lambda
+	H1: Usos Comunes de las Funciones Lambda
 	
 	Text:
 	    
@@ -69,7 +69,7 @@ Unit(globalcampus.site/namespace.stxt): Funciones lambda
 	
 	Text:
 	    
-	h2: Limitaciones de las Funciones Lambda
+	H1: Limitaciones de las Funciones Lambda
 	
 	Text:
 	    
@@ -87,7 +87,7 @@ Unit(globalcampus.site/namespace.stxt): Funciones lambda
 	
 	Text:
 	    
-	h2: Comparación con las Funciones Definidas con "def"
+	H1: Comparación con las Funciones Definidas con "def"
 	
 	Text:
 	    

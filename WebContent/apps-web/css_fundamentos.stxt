@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Estilizado con CSS
 	Text: 
 	    CSS (Cascading Style Sheets) es el lenguaje utilizado para describir la presentación de un documento HTML. CSS permite controlar el aspecto visual de una página web, incluyendo colores, fuentes, disposición y otros aspectos de diseño.
 	    
-	h2: Selectores de CSS
+	H1: Selectores de CSS
 	
 	Text:
 	    
@@ -37,7 +37,7 @@ Unit(globalcampus.site/namespace.stxt): Estilizado con CSS
 	
 	Text:
 	    
-	h2: Propiedades de CSS
+	H1: Propiedades de CSS
 	
 	Text:
 	    
@@ -76,7 +76,7 @@ Unit(globalcampus.site/namespace.stxt): Estilizado con CSS
 	
 	Text:
 	    
-	h2: Modelo de Caja (Box Model)
+	H1: Modelo de Caja (Box Model)
 	
 	Text:
 	    
@@ -100,7 +100,7 @@ Unit(globalcampus.site/namespace.stxt): Estilizado con CSS
 	
 	Text:
 	    
-	h2: Layouts con CSS
+	H1: Layouts con CSS
 	
 	Text:
 	    
@@ -143,7 +143,7 @@ Unit(globalcampus.site/namespace.stxt): Estilizado con CSS
 	
 	Text:
 	    
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

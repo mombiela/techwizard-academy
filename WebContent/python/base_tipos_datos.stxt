@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Variables y tipos de datos (números, ca
 	Text: 
 	    En Python, las variables son contenedores utilizados para almacenar datos que pueden ser referenciados y manipulados en un programa. Python es un lenguaje de tipado dinámico, lo que significa que no es necesario declarar el tipo de una variable antes de usarla; el tipo se infiere automáticamente basado en el valor que se le asigna.
 	    
-	h2:  Declaración y Asignación de Variables 
+	H1:  Declaración y Asignación de Variables 
 	
 	Text:
 	    
@@ -20,7 +20,7 @@ Unit(globalcampus.site/namespace.stxt): Variables y tipos de datos (números, ca
 	    
 	    En estos ejemplos, ```x``` es un entero, ```y``` es un número de punto flotante, ```nombre``` es una cadena de texto y ```es_estudiante``` es un valor booleano.
 	    
-	h2:  Tipos de Datos Comunes 
+	H1:  Tipos de Datos Comunes 
 	
 	Text:
 	    
@@ -35,7 +35,7 @@ Unit(globalcampus.site/namespace.stxt): Variables y tipos de datos (números, ca
 	    | ```code:tuple```    | Tupla                | Secuencias ordenadas e inmutables de elementos            | ```code:(1, 2, 3)``` \\ ```code:("x", "y", "z")``` |
 	    | ```code:dict```     | Diccionario          | Colecciones de pares clave-valor                          | ```code:{"name": "Ana", "age": 25}```  |
 	    
-	h2:  Ejemplos de Uso 
+	H1:  Ejemplos de Uso 
 	
 	Text:
 	    
@@ -79,7 +79,7 @@ Unit(globalcampus.site/namespace.stxt): Variables y tipos de datos (números, ca
 	
 	Text:
 	    
-	h2:  Operaciones Comunes 
+	H1:  Operaciones Comunes 
 	
 	Text:
 	    

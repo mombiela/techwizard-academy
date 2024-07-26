@@ -1,7 +1,7 @@
 Unit(globalcampus.site/namespace.stxt): Propiedades de los ítems Flexbox
 	
 	Text: 
-	h2: Propiedades de los ítems Flexbox
+	H1: Propiedades de los ítems Flexbox
 	
 	Text:
 	    
@@ -42,7 +42,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades de los ítems Flexbox
 	    *  ```stretch```: Estira el ítem para llenar el contenedor (valor predeterminado).
 	    *  Ejemplo: ```align-self: center;```
 	    
-	h2: Ejemplo de código CSS para ítems Flexbox
+	H1: Ejemplo de código CSS para ítems Flexbox
 	
 	Text:
 	    
@@ -75,7 +75,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades de los ítems Flexbox
 	    *  ```.item2``` tiene un orden de 1, no puede crecer pero puede encogerse con una base de 150px, y se alinea al final del contenedor.
 	    *  ```.item3``` tiene un orden de 3, puede crecer y no encogerse, y tiene una base automática.
 	    
-	h2: Diagrama de ítems Flexbox con propiedades aplicadas
+	H1: Diagrama de ítems Flexbox con propiedades aplicadas
 	
 	Text:
 	    

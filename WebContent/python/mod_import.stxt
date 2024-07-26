@@ -1,13 +1,13 @@
 Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text: 
-	h2: Módulos y paquetes. Importación de módulos
+	H1: Módulos y paquetes. Importación de módulos
 	
 	Text:
 	    
 	    Python tiene un sistema muy potente para organizar y reutilizar el código: los módulos y los paquetes. Estos permiten dividir el código en componentes más pequeños y manejables, facilitando la organización y el mantenimiento de proyectos grandes.
 	    
-	h2: Módulos
+	H1: Módulos
 	
 	Text:
 	    
@@ -24,7 +24,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Importación de Módulos
+	H1: Importación de Módulos
 	
 	Text:
 	    
@@ -50,7 +50,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Paquetes
+	H1: Paquetes
 	
 	Text:
 	    
@@ -77,7 +77,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Importación de Submódulos
+	H1: Importación de Submódulos
 	
 	Text:
 	    
@@ -90,7 +90,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Importación Renombrada
+	H1: Importación Renombrada
 	
 	Text:
 	    
@@ -104,7 +104,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Importación de Todos los Nombres de un Módulo
+	H1: Importación de Todos los Nombres de un Módulo
 	
 	Text:
 	    
@@ -118,7 +118,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Funciones Importantes
+	H1: Funciones Importantes
 	
 	Text:
 	    
@@ -138,7 +138,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Creación y Uso de Paquetes
+	H1: Creación y Uso de Paquetes
 	
 	Text:
 	    
@@ -172,7 +172,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Instalación de Paquetes Externos
+	H1: Instalación de Paquetes Externos
 	
 	Text:
 	    
@@ -192,7 +192,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	h2: Ventajas del Uso de Módulos y Paquetes
+	H1: Ventajas del Uso de Módulos y Paquetes
 	
 	Text:
 	    

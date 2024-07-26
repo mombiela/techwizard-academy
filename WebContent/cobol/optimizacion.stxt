@@ -3,13 +3,13 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código CO
 	Text: 
 	    Optimizar el código COBOL es crucial para mejorar la eficiencia y el rendimiento de las aplicaciones, especialmente en sistemas de misión crítica. A continuación, se presentan diversas técnicas y mejores prácticas para optimizar el código COBOL.
 	    
-	h2: 1. Uso Eficiente de las Operaciones de Entrada/Salida (I/O)
+	H1: 1. Uso Eficiente de las Operaciones de Entrada/Salida (I/O)
 	
 	Text:
 	    
 	    Las operaciones de I/O pueden ser costosas en términos de tiempo de ejecución. Minimiza las operaciones de I/O innecesarias y agrupa las operaciones cuando sea posible.
 	    
-	h3: Ejemplo de lectura eficiente de archivos
+	H2: Ejemplo de lectura eficiente de archivos
 	
 	Text:
 	    
@@ -30,13 +30,13 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código CO
 	    
 	    *  Se utiliza un bucle para leer todos los registros en una sola operación de apertura y cierre de archivo, reduciendo las operaciones de I/O.
 	    
-	h2: 2. Optimización de la Memoria
+	H1: 2. Optimización de la Memoria
 	
 	Text:
 	    
 	    Usa la memoria de manera eficiente evitando declaraciones de variables innecesarias y utilizando las estructuras de datos adecuadas.
 	    
-	h3: Ejemplo de uso eficiente de la memoria
+	H2: Ejemplo de uso eficiente de la memoria
 	
 	Text:
 	    
@@ -52,13 +52,13 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código CO
 	    
 	    *  Se declaran solo las variables necesarias y se asignan longitudes adecuadas para evitar el uso excesivo de memoria.
 	    
-	h2: 3. Uso de Compilación Condicional
+	H1: 3. Uso de Compilación Condicional
 	
 	Text:
 	    
 	    La compilación condicional puede ayudar a incluir o excluir partes del código en tiempo de compilación, mejorando la eficiencia del programa.
 	    
-	h3: Ejemplo de compilación condicional
+	H2: Ejemplo de compilación condicional
 	
 	Text:
 	    
@@ -83,13 +83,13 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código CO
 	    
 	    *  El código para el modo de depuración se incluye condicionalmente solo si está habilitado, evitando la sobrecarga en producción.
 	    
-	h2: 4. Indexación y Acceso Eficiente a Archivos
+	H1: 4. Indexación y Acceso Eficiente a Archivos
 	
 	Text:
 	    
 	    Utiliza índices para acceder rápidamente a los registros en archivos indexados y evita la lectura secuencial innecesaria.
 	    
-	h3: Ejemplo de uso de archivos indexados
+	H2: Ejemplo de uso de archivos indexados
 	
 	Text:
 	    
@@ -121,13 +121,13 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código CO
 	    
 	    *  Se utiliza un acceso aleatorio para encontrar rápidamente un registro específico en un archivo indexado.
 	    
-	h2: 5. Optimización de Bucles
+	H1: 5. Optimización de Bucles
 	
 	Text:
 	    
 	    Los bucles son una fuente común de ineficiencias. Optimiza los bucles para minimizar las operaciones dentro de ellos y utiliza técnicas como la eliminación de la redundancia.
 	    
-	h3: Ejemplo de optimización de bucles
+	H2: Ejemplo de optimización de bucles
 	
 	Text:
 	    
@@ -147,13 +147,13 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código CO
 	    
 	    *  La condición del bucle y la operación dentro del bucle están optimizadas para minimizar la cantidad de operaciones.
 	    
-	h2: 6. Reducción de la Sobrecarga de Llamadas a Subprogramas
+	H1: 6. Reducción de la Sobrecarga de Llamadas a Subprogramas
 	
 	Text:
 	    
 	    Las llamadas a subprogramas pueden ser costosas. Usa subprogramas solo cuando sea necesario y considera la posibilidad de inlinear el código cuando sea apropiado.
 	    
-	h3: Ejemplo de inlineación de código
+	H2: Ejemplo de inlineación de código
 	
 	Text:
 	    
@@ -179,13 +179,13 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código CO
 	    
 	    *  El cálculo del interés se realiza inlineado en lugar de llamar a un subprograma, reduciendo la sobrecarga de llamadas.
 	    
-	h2: 7. Uso de Sentencias Eficientes
+	H1: 7. Uso de Sentencias Eficientes
 	
 	Text:
 	    
 	    Elige sentencias COBOL que sean más eficientes para la tarea específica. Por ejemplo, utiliza ```PERFORM``` en lugar de ```GO TO``` para bucles y control de flujo.
 	    
-	h3: Ejemplo de uso de @@PERFORM@@ en lugar de @@GO TO@@
+	H2: Ejemplo de uso de @@PERFORM@@ en lugar de @@GO TO@@
 	
 	Text:
 	    
@@ -234,7 +234,7 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de optimización de código CO
 	    
 	    *  ```PERFORM``` proporciona un control de flujo más claro y eficiente que ```GO TO```.
 	    
-	h2: Conclusión
+	H1: Conclusión
 	
 	Text:
 	    

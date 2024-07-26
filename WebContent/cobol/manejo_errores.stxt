@@ -3,7 +3,7 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de manejo de errores y excepci
 	Text: 
 	    En COBOL, el manejo de errores y excepciones es crucial para garantizar que los programas funcionen correctamente y puedan recuperarse de situaciones inesperadas. Aunque COBOL no tiene un sistema de excepciones tan robusto como otros lenguajes modernos, proporciona varias técnicas y sentencias para gestionar errores y situaciones excepcionales.
 	    
-	h2: USE FOR DEBUGGING
+	H1: USE FOR DEBUGGING
 	
 	Text:
 	    
@@ -22,7 +22,7 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de manejo de errores y excepci
 	    *  ```USE AFTER EXCEPTION ON FILE INFILE``` especifica que después de una excepción en el archivo ```INFILE```, se debe ejecutar el bloque de código.
 	    *  Dentro del bloque, se muestra un mensaje de error indicando un problema al leer el archivo ```INFILE```.
 	    
-	h2: FILE STATUS
+	H1: FILE STATUS
 	
 	Text:
 	    
@@ -59,7 +59,7 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de manejo de errores y excepci
 	    *  Después de abrir el archivo, se verifica ```WS-File-Status``` para determinar si hubo un error.
 	    *  Si el estado no es '00', se muestra un mensaje de error con el código de estado.
 	    
-	h2: ON SIZE ERROR
+	H1: ON SIZE ERROR
 	
 	Text:
 	    
@@ -79,7 +79,7 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de manejo de errores y excepci
 	    *  ```ON SIZE ERROR``` especifica un bloque de código que se ejecuta si ocurre un error de tamaño durante la operación ```COMPUTE```.
 	    *  Si hay un desbordamiento, se muestra un mensaje de error indicando que ocurrió un error de tamaño durante la multiplicación.
 	    
-	h2: Declaraciones DECLARATIVES
+	H1: Declaraciones DECLARATIVES
 	
 	Text:
 	    
@@ -107,7 +107,7 @@ Unit(globalcampus.site/namespace.stxt): Técnicas de manejo de errores y excepci
 	    *  La sección ```DECLARATIVES``` contiene un bloque ```USE AFTER EXCEPTION ON INFILE``` que maneja excepciones después de operaciones en ```INFILE```.
 	    *  Si ocurre un error, el procedimiento ```ERROR-PARA``` se ejecuta, mostrando un mensaje de error.
 	    
-	h2: Manejo de errores en transacciones CICS
+	H1: Manejo de errores en transacciones CICS
 	
 	Text:
 	    

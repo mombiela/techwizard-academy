@@ -13,7 +13,7 @@ Unit(globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    | ```code:**```  | Exponenciación  | ```code:a ** b``` |
 	    | ```code://```  | División entera | ```code:a // b``` |
 	    
-	h2:  Ejemplo: 
+	H1:  Ejemplo: 
 	
 	Text:
 	    

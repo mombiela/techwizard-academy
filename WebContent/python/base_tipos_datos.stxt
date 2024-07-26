@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Variables y tipos de datos (números, cadenas, listas, tuplas, diccionarios)
+Unit(globalcampus.site/namespace.stxt): Variables y tipos de datos (números, cadenas, listas, tuplas, diccionarios)
 	
 	Text: 
 	    En Python, las variables son contenedores utilizados para almacenar datos que pueden ser referenciados y manipulados en un programa. Python es un lenguaje de tipado dinámico, lo que significa que no es necesario declarar el tipo de una variable antes de usarla; el tipo se infiere automáticamente basado en el valor que se le asigna.

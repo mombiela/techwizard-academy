@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Parámetros y argumentos
+Unit(globalcampus.site/namespace.stxt): Parámetros y argumentos
 	
 	Text: 
 	    En Python, los términos "parámetros" y "argumentos" se usan frecuentemente en el contexto de funciones. Aunque a menudo se usan indistintamente, tienen significados ligeramente diferentes.

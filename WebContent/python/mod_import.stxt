@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Importación de módulos
+Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text: 
 	h2: Módulos y paquetes. Importación de módulos

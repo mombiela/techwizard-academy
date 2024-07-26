@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Encapsulación
+Unit(globalcampus.site/namespace.stxt): Encapsulación
 	
 	Text: 
 	    La encapsulación es uno de los principios fundamentales de la programación orientada a objetos (OOP) y se refiere a la práctica de restringir el acceso directo a los datos de un objeto y permitir que estos sean manipulados solo a través de métodos definidos. En Python, la encapsulación se puede lograr utilizando convenciones de nomenclatura para los atributos y métodos de una clase.

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Definición de áreas en CSS Grid
+Unit(globalcampus.site/namespace.stxt): Definición de áreas en CSS Grid
 	
 	Text: 
 	    La definición de áreas en CSS Grid permite nombrar y organizar las secciones de la cuadrícula, lo que facilita la colocación de los ítems en posiciones específicas dentro del contenedor de cuadrícula. Esto se logra utilizando la propiedad ```grid-template-areas``` junto con la propiedad ```grid-area``` en los ítems individuales.

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Operadores de Asignación
+Unit(globalcampus.site/namespace.stxt): Operadores de Asignación
 	
 	Text: 
 	    Estos operadores se utilizan para asignar valores a las variables.

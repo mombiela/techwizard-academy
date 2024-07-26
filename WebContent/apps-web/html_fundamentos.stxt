@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Elementos y estructura del HTML
+Unit(globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	
 	Text: 
 	    HTML (HyperText Markup Language) es el lenguaje básico para crear y estructurar contenido en la web. A continuación, se describen los elementos y la estructura básica de un documento HTML.

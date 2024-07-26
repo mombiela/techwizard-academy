@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Condicionales (if, elif, else)
+Unit(globalcampus.site/namespace.stxt): Condicionales (if, elif, else)
 	
 	Text: 
 	    Las estructuras condicionales en Python permiten ejecutar bloques de código específicos basados en condiciones dadas.

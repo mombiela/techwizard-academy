@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: APIs RESTful
+Unit(globalcampus.site/namespace.stxt): APIs RESTful
 	
 	Text: 
 	    Las APIs RESTful (Representational State Transfer) son un estilo de arquitectura para diseñar servicios web que permiten la comunicación entre diferentes sistemas a través de HTTP. Son ampliamente utilizadas debido a su simplicidad y escalabilidad.

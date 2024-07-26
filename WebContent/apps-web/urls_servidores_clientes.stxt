@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Qué son URLs, servidores y clientes
+Unit(globalcampus.site/namespace.stxt): Qué son URLs, servidores y clientes
 	
 	Text: 
 	h2: URLs

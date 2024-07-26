@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Propiedades display y visibility
+Unit(globalcampus.site/namespace.stxt): Propiedades display y visibility
 	
 	Text: 
 	    *  **Propiedad display**:

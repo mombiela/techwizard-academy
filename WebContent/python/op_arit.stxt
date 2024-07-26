@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Operadores Aritméticos
+Unit(globalcampus.site/namespace.stxt): Operadores Aritméticos
 	
 	Text: 
 	    Estos operadores se utilizan para realizar operaciones matemáticas comunes.

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Apertura y cierre de archivos
+Unit(globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
 	Text: 
 	h2: Apertura y cierre de archivos

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Operadores Lógicos
+Unit(globalcampus.site/namespace.stxt): Operadores Lógicos
 	
 	Text: 
 	    Estos operadores se utilizan para combinar sentencias condicionales.

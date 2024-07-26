@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Lectura y escritura de archivos
+Unit(globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
 	Text: 
 	h2: Lectura y escritura de archivos

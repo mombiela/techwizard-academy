@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Conceptos y tecnologías del backend
+Unit(globalcampus.site/namespace.stxt): Conceptos y tecnologías del backend
 	
 	Text: 
 	    El desarrollo backend se refiere a la parte del desarrollo web que se enfoca en lo que sucede en el servidor. Incluye la gestión de bases de datos, autenticación de usuarios, lógica de negocio, y la comunicación con el frontend. A continuación, se presentan algunos conceptos y tecnologías clave del backend, incluyendo Java y COBOL.

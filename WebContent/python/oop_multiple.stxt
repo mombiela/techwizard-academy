@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Herencia múltiple
+Unit(globalcampus.site/namespace.stxt): Herencia múltiple
 	
 	Text: 
 	    La herencia múltiple es una característica de algunos lenguajes de programación orientada a objetos que permite que una clase herede de más de una clase base. En Python, la herencia múltiple está permitida y se puede utilizar para crear clases que combinan comportamientos de múltiples clases base.

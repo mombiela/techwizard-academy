@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Ejemplos prácticos con CSS Grid
+Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	
 	Text: 
 	    Los ejemplos prácticos de CSS Grid muestran cómo se pueden utilizar las propiedades de Grid para crear diseños flexibles y adaptables. A continuación, se presentan algunos ejemplos comunes:

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Papel de los servidores web
+Unit(globalcampus.site/namespace.stxt): Papel de los servidores web
 	
 	Text: 
 	    Los servidores web son componentes fundamentales en la infraestructura de la web. Su papel principal es almacenar, procesar y entregar páginas web a los usuarios. Cuando un usuario solicita un recurso a través de su navegador, el servidor web se encarga de proporcionar ese recurso.

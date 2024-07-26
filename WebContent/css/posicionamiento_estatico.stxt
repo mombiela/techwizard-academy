@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Posicionamiento estático
+Unit(globalcampus.site/namespace.stxt): Posicionamiento estático
 	
 	Text: 
 	    El posicionamiento estático es el valor predeterminado para los elementos HTML. Con el posicionamiento estático, los elementos se posicionan de acuerdo con el flujo normal del documento, lo que significa que se colocan uno después del otro, siguiendo el orden en el que aparecen en el código HTML.

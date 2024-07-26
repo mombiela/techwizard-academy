@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Papel de los clientes web
+Unit(globalcampus.site/namespace.stxt): Papel de los clientes web
 	
 	Text: 
 	    Los clientes web son los dispositivos y aplicaciones que permiten a los usuarios interactuar con la web. Los más comunes son los navegadores web, aunque también incluyen aplicaciones móviles y otros programas que acceden a recursos web. Entender el papel de los clientes web es crucial para comprender cómo los usuarios acceden y consumen contenido en Internet.

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Bucles (for, while)
+Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	
 	Text: 
 	    Los bucles en Python se utilizan para repetir un bloque de código varias veces.

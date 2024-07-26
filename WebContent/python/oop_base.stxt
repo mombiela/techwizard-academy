@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Clases y objetos
+Unit(globalcampus.site/namespace.stxt): Clases y objetos
 	
 	Text: 
 	    Las clases son un concepto fundamental en la programación orientada a objetos (OOP) y permiten agrupar datos y funciones en una única entidad llamada "objeto".

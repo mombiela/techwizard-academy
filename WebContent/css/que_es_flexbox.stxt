@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Introducción a Flexbox
+Unit(globalcampus.site/namespace.stxt): Introducción a Flexbox
 	
 	Text: 
 	h2: Introducción a Flexbox

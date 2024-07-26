@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Propiedades del contenedor Flexbox
+Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Flexbox
 	
 	Text: 
 	    El contenedor Flexbox es el elemento padre al que se le aplica la propiedad ```display: flex``` o ```display: inline-flex```. Estas propiedades permiten utilizar un conjunto de propiedades adicionales que controlan el comportamiento y la distribución de los elementos flexibles (flex items) dentro del contenedor.

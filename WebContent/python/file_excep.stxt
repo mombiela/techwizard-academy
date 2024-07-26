@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Manejo de excepciones (try, except, finally)
+Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, finally)
 	
 	Text: 
 	h2: Manejo de excepciones (try, except, finally) en Python

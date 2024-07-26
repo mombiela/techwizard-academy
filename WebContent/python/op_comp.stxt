@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Operadores de Comparación
+Unit(globalcampus.site/namespace.stxt): Operadores de Comparación
 	
 	Text: 
 	    Estos operadores se utilizan para comparar dos valores.

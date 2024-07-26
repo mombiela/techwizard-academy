@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Diccionarios
+Unit(globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text: 
 	h2: Diccionarios en Python

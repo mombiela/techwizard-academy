@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Propiedades de bordes y contornos
+Unit(globalcampus.site/namespace.stxt): Propiedades de bordes y contornos
 	
 	Text: 
 	    *  **Propiedades de bordes**

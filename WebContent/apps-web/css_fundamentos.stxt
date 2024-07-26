@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Estilizado con CSS
+Unit(globalcampus.site/namespace.stxt): Estilizado con CSS
 	
 	Text: 
 	    CSS (Cascading Style Sheets) es el lenguaje utilizado para describir la presentación de un documento HTML. CSS permite controlar el aspecto visual de una página web, incluyendo colores, fuentes, disposición y otros aspectos de diseño.

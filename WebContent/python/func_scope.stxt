@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Alcance de las variables
+Unit(globalcampus.site/namespace.stxt): Alcance de las variables
 	
 	Text: 
 	h2: Alcance de las Variables en Python

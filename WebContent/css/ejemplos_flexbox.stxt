@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Ejemplos prácticos con Flexbox
+Unit(globalcampus.site/namespace.stxt): Ejemplos prácticos con Flexbox
 	
 	Text: 
 	    Los ejemplos prácticos de Flexbox muestran cómo se pueden utilizar las propiedades de Flexbox para crear diseños flexibles y adaptables. A continuación, se presentan algunos ejemplos comunes:

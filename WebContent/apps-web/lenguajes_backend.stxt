@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Lenguajes comunes en el backend
+Unit(globalcampus.site/namespace.stxt): Lenguajes comunes en el backend
 	
 	Text: 
 	    En el desarrollo de aplicaciones web, el backend es una parte fundamental que se encarga de la lógica del servidor, la base de datos, la autenticación de usuarios, y más. Vamos a explorar algunos de los lenguajes más comunes utilizados en el backend: **Python**, **PHP**, **Node.js** y **Java**, y cómo se utilizan en la práctica.

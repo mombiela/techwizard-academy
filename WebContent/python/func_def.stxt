@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Definición y uso de funciones
+Unit(globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
 	Text: 
 	h2: Definición y uso de funciones en Python

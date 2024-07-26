@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Operadores de Pertenencia
+Unit(globalcampus.site/namespace.stxt): Operadores de Pertenencia
 	
 	Text: 
 	    Estos operadores se utilizan para verificar si un valor o variable está presente en una secuencia (como una lista, tupla, diccionario, etc.).

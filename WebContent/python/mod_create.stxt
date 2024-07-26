@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Creación de módulos propios
+Unit(globalcampus.site/namespace.stxt): Creación de módulos propios
 	
 	Text: 
 	h2: Módulos y paquetes. Creación de módulos propios

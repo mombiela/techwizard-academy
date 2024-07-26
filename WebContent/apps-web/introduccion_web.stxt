@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Visión general de cómo funciona la web.
+Unit(globalcampus.site/namespace.stxt): Visión general de cómo funciona la web.
 	
 	Text: 
 	    La web, también conocida como la World Wide Web (WWW), es un sistema de información distribuido que permite el acceso a recursos y servicios a través de Internet. Para entender cómo funciona la web, es importante conocer los componentes básicos y cómo interactúan entre sí.

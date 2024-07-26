@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Posicionamiento relativo
+Unit(globalcampus.site/namespace.stxt): Posicionamiento relativo
 	
 	Text: 
 	    El posicionamiento relativo permite mover un elemento desde su posición original en el flujo del documento sin alterar el espacio que ocupa originalmente. Esto significa que el elemento sigue ocupando el mismo espacio en el flujo normal del documento, pero se puede desplazar utilizando las propiedades ```top```, ```right```, ```bottom``` y ```left```.

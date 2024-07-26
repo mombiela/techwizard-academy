@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Conceptos avanzados OOP
+Unit(globalcampus.site/namespace.stxt): Conceptos avanzados OOP
 	
 	Text: 
 	    Hemos cubierto varios aspectos fundamentales de las clases en Python, como la definición de clases, atributos y métodos, herencia, polimorfismo, y encapsulación. Sin embargo, hay otros conceptos importantes y avanzados que vale la pena explorar para tener un conocimiento más completo de cómo trabajar con clases en Python.

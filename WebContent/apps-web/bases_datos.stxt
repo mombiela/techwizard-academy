@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Explicación de BBDD
+Unit(globalcampus.site/namespace.stxt): Explicación de BBDD
 	
 	Text: 
 	    Las Bases de Datos (BBDD) son sistemas que permiten almacenar, organizar y gestionar grandes cantidades de información de manera estructurada. Son esenciales en el desarrollo de aplicaciones web y de software, ya que facilitan el acceso, manipulación y almacenamiento eficiente de datos.

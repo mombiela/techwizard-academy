@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Manipulación del DOM con JavaScript
+Unit(globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScript
 	
 	Text: 
 	    JavaScript permite interactuar y manipular el Document Object Model (DOM) de una página web. El DOM es una representación estructurada del documento HTML, donde cada elemento es un objeto que puede ser accedido y modificado con JavaScript.

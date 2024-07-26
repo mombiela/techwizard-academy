@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Sintaxis y uso de JavaScript
+Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text: 
 	    JavaScript es un lenguaje de programación que se utiliza principalmente para crear contenido web dinámico. Aquí te explico algunos conceptos básicos sobre su sintaxis y su uso en el frontend.

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Manejo del relleno en el modelo de caja
+Unit(globalcampus.site/namespace.stxt): Manejo del relleno en el modelo de caja
 	
 	Text: 
 	    El relleno (padding) en el modelo de caja es el espacio entre el contenido de un elemento y su borde. El relleno es transparente y afecta el tamaño total del elemento, ya que se suma a las dimensiones del contenido.

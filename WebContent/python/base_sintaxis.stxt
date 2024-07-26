@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Sintaxis básica y comentarios
+Unit(globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	
 	h2:  Python como un Lenguaje Indentado 
 	

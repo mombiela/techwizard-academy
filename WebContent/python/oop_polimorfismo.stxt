@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Polimorfismo
+Unit(globalcampus.site/namespace.stxt): Polimorfismo
 	
 	Text: 
 	    El polimorfismo es uno de los principios fundamentales de la programación orientada a objetos (OOP) y se refiere a la capacidad de diferentes clases para ser tratadas como instancias de una misma clase a través de una interfaz común. En otras palabras, permite que una función o un método trabaje con diferentes tipos de objetos de una manera uniforme.

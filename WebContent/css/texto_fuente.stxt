@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Propiedades de texto y fuentes
+Unit(globalcampus.site/namespace.stxt): Propiedades de texto y fuentes
 	
 	Text: 
 	    *  **Propiedades de color del texto**

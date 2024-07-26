@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Propiedades del contenedor Grid
+Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	
 	Text: 
 	    El contenedor Grid es el elemento padre al que se le aplica la propiedad ```display: grid;``` o ```display: inline-grid;```. Estas propiedades permiten utilizar un conjunto de propiedades adicionales que controlan la estructura y el comportamiento de la cuadrícula.

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Palabras reservadas
+Unit(globalcampus.site/namespace.stxt): Palabras reservadas
 	
 	Text: 
 	    | Palabra | Uso |

@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Alineación y distribución en Flexbox
+Unit(globalcampus.site/namespace.stxt): Alineación y distribución en Flexbox
 	
 	Text: 
 	    Flexbox proporciona un control detallado sobre la alineación y distribución de los ítems dentro de un contenedor flexible. Aquí se detallan las propiedades utilizadas para la alineación y distribución de los ítems Flexbox.

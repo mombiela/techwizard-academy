@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Funciones lambda
+Unit(globalcampus.site/namespace.stxt): Funciones lambda
 	
 	Text: 
 	h2: Funciones Lambda en Python

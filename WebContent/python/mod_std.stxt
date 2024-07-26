@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Uso de paquetes estándar de Python (os, sys, math, etc.)
+Unit(globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os, sys, math, etc.)
 	
 	Text: 
 	    Python viene con una extensa biblioteca estándar que proporciona módulos y paquetes útiles para realizar una amplia variedad de tareas. A continuación, se describen algunos de los módulos estándar más comúnmente utilizados: ```os```, ```sys```, ```math```, y otros.

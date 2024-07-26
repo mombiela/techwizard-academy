@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Comprensiones de listas
+Unit(globalcampus.site/namespace.stxt): Comprensiones de listas
 	
 	Text: 
 	    Las comprensiones de listas en Python son una forma concisa y

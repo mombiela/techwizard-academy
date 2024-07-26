@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Propiedades de márgenes y relleno
+Unit(globalcampus.site/namespace.stxt): Propiedades de márgenes y relleno
 	
 	Text: 
 	    *  **Propiedades de márgenes**

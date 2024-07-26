@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Introducción a CSS Grid
+Unit(globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	
 	Text: 
 	    CSS Grid es un sistema de diseño bidimensional que permite a los desarrolladores web crear diseños complejos y responsivos con facilidad. A diferencia de Flexbox, que es un modelo de diseño unidimensional (fila o columna), CSS Grid permite trabajar en ambas dimensiones (filas y columnas) simultáneamente.

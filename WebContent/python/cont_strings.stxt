@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Strings
+Unit(globalcampus.site/namespace.stxt): Strings
 	
 	Text: 
 	h2: Strings en Python

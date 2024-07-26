@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Tuplas
+Unit(globalcampus.site/namespace.stxt): Tuplas
 	
 	Text: 
 	h2: Tuplas en Python

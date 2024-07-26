@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Papel de los servidores backend
+Unit(globalcampus.site/namespace.stxt): Papel de los servidores backend
 	
 	Text: 
 	    Los servidores backend juegan un papel crucial en el desarrollo y funcionamiento de aplicaciones web y móviles. A continuación se detallan las responsabilidades y funciones principales de los servidores backend.

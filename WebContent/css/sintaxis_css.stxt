@@ -1,6 +1,4 @@
-Unit(globalcampus.site/namespace.stxt):
-
-	h1: Estructura básica de una regla CSS
+Unit(globalcampus.site/namespace.stxt): Estructura básica de una regla CSS
 	
 	Text: 
 	h2: Estructura básica de una regla CSS

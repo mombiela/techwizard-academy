@@ -1,7 +1,7 @@
 Index(globalcampus.site/namespace.stxt): Python - Nivel II
 		
-#	Section: Python
-#		Link: (index) Índice de contenidos
+	Section: Sobre este libro
+		Link: (index) Índice de contenidos
 		
 	Section: Fundamentos de Programación en Python
 		Link: (base_sintaxis) Sintaxis básica y comentarios

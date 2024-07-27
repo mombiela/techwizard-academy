@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Modularización de código en COBOL
+Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	
 	Text: 
 	    La modularización del código en COBOL implica dividir un programa en componentes más pequeños y manejables, llamados módulos o subprogramas. Esta técnica mejora la claridad, la mantenibilidad y la reutilización del código. A continuación, se detallan las prácticas y técnicas para lograr una modularización efectiva en COBOL.
 	    
-	H1: Ventajas de la modularización
+	Header: Ventajas de la modularización
 	
 	Text:
 	    
@@ -12,13 +12,13 @@ Unit(globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    *  **Claridad**: Los programas modulares son más fáciles de entender y seguir, ya que cada módulo tiene una función específica.
 	    *  **Colaboración**: Facilita la colaboración en equipo, permitiendo que diferentes desarrolladores trabajen en módulos distintos simultáneamente.
 	    
-	H1: Creación de subprogramas
+	Header: Creación de subprogramas
 	
 	Text:
 	    
 	    Los subprogramas son módulos que contienen lógica específica y pueden ser llamados desde otros programas o subprogramas. Un subprograma en COBOL incluye una ```IDENTIFICATION DIVISION```, una ```ENVIRONMENT DIVISION```, una ```DATA DIVISION``` y una ```PROCEDURE DIVISION```.
 	    
-	H2: Ejemplo de un subprograma
+	Subheader: Ejemplo de un subprograma
 	
 	Text:
 	    
@@ -54,13 +54,13 @@ Unit(globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    *  El subprograma ```Calculo-Interes``` calcula el interés sobre un capital dado una tasa de interés.
 	    *  Los parámetros se pasan a través de la ```LINKAGE SECTION``` y se utilizan en la ```PROCEDURE DIVISION```.
 	    
-	H1: Llamada a subprogramas desde el programa principal
+	Header: Llamada a subprogramas desde el programa principal
 	
 	Text:
 	    
 	    El programa principal llama a los subprogramas utilizando la sentencia ```CALL```, pasando los parámetros necesarios.
 	    
-	H2: Ejemplo de llamada a un subprograma
+	Subheader: Ejemplo de llamada a un subprograma
 	
 	Text:
 	    
@@ -89,13 +89,13 @@ Unit(globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    *  El programa principal define y pasa los parámetros ```WS-Tasa-Interes```, ```WS-Capital``` y ```WS-Interes``` al subprograma ```Calculo-Interes```.
 	    *  Después de la llamada, se muestra el interés calculado utilizando ```DISPLAY```.
 	    
-	H1: Uso de secciones y párrafos
+	Header: Uso de secciones y párrafos
 	
 	Text:
 	    
 	    Además de los subprogramas, COBOL permite modularizar el código dentro del mismo programa utilizando secciones y párrafos. Las secciones y párrafos ayudan a organizar el código en bloques lógicos y reutilizables.
 	    
-	H2: Ejemplo de secciones y párrafos
+	Subheader: Ejemplo de secciones y párrafos
 	
 	Text:
 	    
@@ -127,7 +127,7 @@ Unit(globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    *  El procedimiento principal llama a diferentes secciones utilizando ```PERFORM```.
 	    *  Cada sección contiene lógica específica, mejorando la organización del código.
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

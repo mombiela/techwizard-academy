@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Operadores Lógicos
+Document (globalcampus.site/namespace.stxt): Operadores Lógicos
 	
 	Text: 
 	    Estos operadores se utilizan para combinar sentencias condicionales.
@@ -8,7 +8,7 @@ Unit(globalcampus.site/namespace.stxt): Operadores Lógicos
 	    | ```code:or```  | O lógico        | ```code:a or b```
 	    | ```code:not``` | Negación lógica | ```code:not a```
 	    
-	H1:  Ejemplo: 
+	Header:  Ejemplo: 
 	
 	Text:
 	    

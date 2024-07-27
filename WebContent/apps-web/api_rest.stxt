@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): APIs RESTful
+Document (globalcampus.site/namespace.stxt): APIs RESTful
 	
 	Text: 
 	    Las APIs RESTful (Representational State Transfer) son un estilo de arquitectura para diseñar servicios web que permiten la comunicación entre diferentes sistemas a través de HTTP. Son ampliamente utilizadas debido a su simplicidad y escalabilidad.
 	    
-	H1: Principios de las APIs RESTful
+	Header: Principios de las APIs RESTful
 	
 	Text:
 	    
@@ -16,7 +16,7 @@ Unit(globalcampus.site/namespace.stxt): APIs RESTful
 	    *  Sistema en Capas: La arquitectura debe estar organizada en capas, donde cada una tiene una función específica y puede interactuar solo con la capa adyacente.
 	    *  Código Bajo Demanda (Opcional): Permite enviar código ejecutable al cliente bajo demanda para extender la funcionalidad (por ejemplo, JavaScript).
 	    
-	H1: Componentes de las APIs RESTful
+	Header: Componentes de las APIs RESTful
 	
 	Text:
 	    
@@ -31,7 +31,7 @@ Unit(globalcampus.site/namespace.stxt): APIs RESTful
 	    #  DELETE: Eliminar un recurso.
 	    #  PATCH: Actualizar parcialmente un recurso.
 	    
-	H1: Ejemplo de Diseño de API RESTful
+	Header: Ejemplo de Diseño de API RESTful
 	
 	Text:
 	    
@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): APIs RESTful
 	    *  PUT /usuarios/{id}: Actualizar un usuario existente por ID.
 	    *  DELETE /usuarios/{id}: Eliminar un usuario por ID.
 	    
-	H1: Ejemplo Práctico en Node.js con Express
+	Header: Ejemplo Práctico en Node.js con Express
 	
 	Text:
 	    
@@ -106,7 +106,7 @@ Unit(globalcampus.site/namespace.stxt): APIs RESTful
 	
 	Text:
 	    
-	H1: Ventajas de las APIs RESTful
+	Header: Ventajas de las APIs RESTful
 	
 	Text:
 	    
@@ -117,7 +117,7 @@ Unit(globalcampus.site/namespace.stxt): APIs RESTful
 	    *  Flexibilidad: Pueden ser consumidas por cualquier cliente que entienda HTTP.
 	    *  Interoperabilidad: Facilitan la comunicación entre diferentes sistemas y plataformas.
 	    
-	H1: Desafíos de las APIs RESTful
+	Header: Desafíos de las APIs RESTful
 	
 	Text:
 	    
@@ -127,7 +127,7 @@ Unit(globalcampus.site/namespace.stxt): APIs RESTful
 	    *  Paginación y filtrado: Implementar paginación y filtrado eficiente puede ser complejo.
 	    *  Seguridad: Asegurar las APIs RESTful contra ataques como la inyección SQL, CSRF, y XSS es crucial.
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Propiedades de bordes y contornos
+Document (globalcampus.site/namespace.stxt): Propiedades de bordes y contornos
 	
 	Text: 
 	    *  **Propiedades de bordes**
@@ -16,7 +16,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades de bordes y contornos
 	    *  ```outline-color```: Establece el color del contorno. Ejemplo: ```outline-color: green;```
 	    *  ```outline-offset```: Define el espacio entre el contorno y el borde del elemento. Ejemplo: ```outline-offset: 5px;```
 	    
-	H1: Ejemplo de uso de propiedades de bordes y contornos
+	Header: Ejemplo de uso de propiedades de bordes y contornos
 	
 	Text:
 	    

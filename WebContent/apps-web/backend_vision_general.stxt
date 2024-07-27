@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Conceptos y tecnologías del backend
+Document (globalcampus.site/namespace.stxt): Conceptos y tecnologías del backend
 	
 	Text: 
 	    El desarrollo backend se refiere a la parte del desarrollo web que se enfoca en lo que sucede en el servidor. Incluye la gestión de bases de datos, autenticación de usuarios, lógica de negocio, y la comunicación con el frontend. A continuación, se presentan algunos conceptos y tecnologías clave del backend, incluyendo Java y COBOL.
 	    
-	H1: Conceptos Clave
+	Header: Conceptos Clave
 	
 	Text:
 	    
@@ -14,7 +14,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos y tecnologías del backend
 	    *  Frameworks y Librerías: Herramientas que facilitan el desarrollo backend. Ejemplo: Spring Boot para Java, Express.js para Node.js.
 	    *  DevOps: Un enfoque que combina desarrollo de software y operaciones de TI para mejorar la colaboración y productividad mediante la automatización de procesos de infraestructura y despliegue.
 	    
-	H1: Java
+	Header: Java
 	
 	Text:
 	    
@@ -47,7 +47,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos y tecnologías del backend
 	
 	Text:
 	    
-	H1: COBOL
+	Header: COBOL
 	
 	Text:
 	    
@@ -70,7 +70,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos y tecnologías del backend
 	
 	Text:
 	    
-	H1: Otras Tecnologías del Backend
+	Header: Otras Tecnologías del Backend
 	
 	Text:
 	    
@@ -97,7 +97,7 @@ Unit(globalcampus.site/namespace.stxt): Conceptos y tecnologías del backend
 	
 	Text:
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

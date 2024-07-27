@@ -1,6 +1,6 @@
-Unit(globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
+Document (globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	
-	H1:  Python como un Lenguaje Indentado 
+	Header:  Python como un Lenguaje Indentado 
 	
 	Text: Python utiliza la indentación para definir la estructura del código. A diferencia de otros lenguajes que utilizan llaves ```{}``` para delimitar bloques de código, Python utiliza la indentación (espacios o tabuladores) para agrupar sentencias. La correcta indentación es crucial porque determina el alcance y la estructura del código. Por ejemplo:
 	    
@@ -8,7 +8,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	    if True:
 	        print("Este es un bloque de código correctamente indentado")
 	
-	H1:  Declaración de Variables 
+	Header:  Declaración de Variables 
 	
 	Text: En Python, no es necesario declarar explícitamente el tipo de una variable antes de usarla. Simplemente se asigna un valor a una variable, y Python determinará automáticamente su tipo. Aquí hay algunos ejemplos:
 	    
@@ -17,7 +17,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	    y = 3.14      # Flotante
 	    mensaje = "Hola, mundo"  # Cadena de texto
 
-	H1:  Comentarios 
+	Header:  Comentarios 
 	
 	Text: Los comentarios en Python se utilizan para documentar el código y hacerlo más legible. Comienzan con el símbolo # y se extienden hasta el final de la línea. Los comentarios no afectan la ejecución del programa. Aquí tienes algunos ejemplos de comentarios:
 	    
@@ -32,7 +32,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	    
 	    ***# Asignar un valor a la variable x***
 	    x = 10
-	H1:  Ejemplo de Código Completo 
+	Header:  Ejemplo de Código Completo 
 	
 	Text: A continuación, se muestra un ejemplo de un programa simple en Python que calcula el área de un círculo. Este ejemplo utiliza comentarios para explicar cada paso del proceso:
 	    

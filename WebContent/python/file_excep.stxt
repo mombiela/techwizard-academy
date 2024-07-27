@@ -1,13 +1,13 @@
-Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, finally)
+Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, finally)
 	
 	Text: 
-	H1: Manejo de excepciones (try, except, finally) en Python
+	Header: Manejo de excepciones (try, except, finally) en Python
 	
 	Text:
 	    
 	    El manejo de excepciones en Python permite controlar los errores que pueden ocurrir durante la ejecución de un programa. Usando las estructuras ```try```, ```except```, y ```finally```, se puede gestionar de manera adecuada estos errores, asegurando que el programa pueda manejar situaciones inesperadas sin detenerse abruptamente.
 	    
-	H1: Estructura Básica
+	Header: Estructura Básica
 	
 	Text:
 	    
@@ -24,7 +24,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, fina
 	
 	Text:
 	    
-	H1: Bloque try
+	Header: Bloque try
 	
 	Text:
 	    
@@ -41,7 +41,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, fina
 	
 	Text:
 	    
-	H1: Bloque except
+	Header: Bloque except
 	
 	Text:
 	    
@@ -77,7 +77,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, fina
 	
 	Text:
 	    
-	H1: Bloque else
+	Header: Bloque else
 	
 	Text:
 	    
@@ -93,7 +93,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, fina
 	
 	Text:
 	    
-	H1: Bloque finally
+	Header: Bloque finally
 	
 	Text:
 	    
@@ -112,7 +112,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, fina
 	
 	Text:
 	    
-	H1: Lanzar Excepciones
+	Header: Lanzar Excepciones
 	
 	Text:
 	    
@@ -123,7 +123,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, fina
 	
 	Text:
 	    
-	H1: Definir Excepciones Personalizadas
+	Header: Definir Excepciones Personalizadas
 	
 	Text:
 	    
@@ -141,7 +141,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, fina
 	
 	Text:
 	    
-	H1: Ventajas del Manejo de Excepciones
+	Header: Ventajas del Manejo de Excepciones
 	
 	Text:
 	    

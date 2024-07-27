@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Introducción a CSS Grid
+Document (globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	
 	Text: 
 	    CSS Grid es un sistema de diseño bidimensional que permite a los desarrolladores web crear diseños complejos y responsivos con facilidad. A diferencia de Flexbox, que es un modelo de diseño unidimensional (fila o columna), CSS Grid permite trabajar en ambas dimensiones (filas y columnas) simultáneamente.
@@ -9,7 +9,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    *  Facilita la creación de diseños complejos y responsivos.
 	    *  Ofrece control preciso sobre el tamaño, la alineación y el espacio entre elementos.
 	    
-	H1: Componentes de CSS Grid
+	Header: Componentes de CSS Grid
 	
 	Text:
 	    
@@ -21,7 +21,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    *  Los elementos hijos directos del contenedor de cuadrícula.
 	    *  Se posicionan en filas y columnas dentro del contenedor de cuadrícula.
 	    
-	H1: Propiedades del Grid Container
+	Header: Propiedades del Grid Container
 	
 	Text:
 	    
@@ -55,7 +55,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	
 	Text:
 	    
-	H1: Propiedades de los Grid Items
+	Header: Propiedades de los Grid Items
 	
 	Text:
 	    
@@ -71,7 +71,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    *  Asigna un ítem a un área nombrada definida por ```grid-template-areas```.
 	    *  Ejemplo: ```grid-area: header;```
 	    
-	H1: Ejemplo básico de CSS Grid
+	Header: Ejemplo básico de CSS Grid
 	
 	Text:
 	    
@@ -107,7 +107,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    *  Se utiliza ```grid-gap``` para definir el espacio entre filas y columnas.
 	    *  Los ítems se posicionan utilizando ```grid-area```.
 	    
-	H1: Diagrama de CSS Grid
+	Header: Diagrama de CSS Grid
 	
 	Text:
 	    

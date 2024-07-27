@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Manejo de márgenes en el modelo de caja
+Document (globalcampus.site/namespace.stxt): Manejo de márgenes en el modelo de caja
 	
 	Text: 
 	    Los márgenes en el modelo de caja son el espacio exterior que separa el borde de un elemento de otros elementos en la página. Los márgenes son transparentes y no afectan el contenido del elemento ni su borde, pero sí influyen en la distribución del espacio en la página.
@@ -15,7 +15,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de márgenes en el modelo de caja
 	    *  **Propiedades de colapso de márgenes**:
 	    *  Los márgenes superiores e inferiores de los elementos adyacentes pueden colapsar, es decir, se combinan en un solo margen cuyo tamaño es igual al mayor de los márgenes colapsados.
 	    
-	H1: Ejemplo de uso de propiedades de márgenes
+	Header: Ejemplo de uso de propiedades de márgenes
 	
 	Text:
 	    

@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Parámetros y argumentos
+Document (globalcampus.site/namespace.stxt): Parámetros y argumentos
 	
 	Text: 
 	    En Python, los términos "parámetros" y "argumentos" se usan frecuentemente en el contexto de funciones. Aunque a menudo se usan indistintamente, tienen significados ligeramente diferentes.
 	    
-	H1: Parámetros
+	Header: Parámetros
 	
 	Text:
 	    
@@ -19,7 +19,7 @@ Unit(globalcampus.site/namespace.stxt): Parámetros y argumentos
 	    
 	    En este ejemplo, ```parametro1``` y ```parametro2``` son parámetros.
 	    
-	H1: Argumentos
+	Header: Argumentos
 	
 	Text:
 	    
@@ -34,7 +34,7 @@ Unit(globalcampus.site/namespace.stxt): Parámetros y argumentos
 	    
 	    Aquí, ```10``` y ```20``` son argumentos que se pasan a la función ```mi_funcion```.
 	    
-	H1: Tipos de Argumentos
+	Header: Tipos de Argumentos
 	
 	Text:
 	    
@@ -83,7 +83,7 @@ Unit(globalcampus.site/namespace.stxt): Parámetros y argumentos
 	    
 	    En el último ejemplo, ```*numeros``` permite que la función ```imprimir_numeros``` acepte cualquier número de argumentos.
 	    
-	H1: Parámetros Especiales en Python
+	Header: Parámetros Especiales en Python
 	
 	Text:
 	    

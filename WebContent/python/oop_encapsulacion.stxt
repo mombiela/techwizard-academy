@@ -1,15 +1,15 @@
-Unit(globalcampus.site/namespace.stxt): Encapsulación
+Document (globalcampus.site/namespace.stxt): Encapsulación
 	
 	Text: 
 	    La encapsulación es uno de los principios fundamentales de la programación orientada a objetos (OOP) y se refiere a la práctica de restringir el acceso directo a los datos de un objeto y permitir que estos sean manipulados solo a través de métodos definidos. En Python, la encapsulación se puede lograr utilizando convenciones de nomenclatura para los atributos y métodos de una clase.
 	    
-	H1:  Encapsulación en Python 
+	Header:  Encapsulación en Python 
 	
 	Text:
 	    
 	    En Python, no existe un verdadero modificador de acceso como ```private``` o ```protected``` en otros lenguajes (como Java o C++). En su lugar, se utilizan convenciones de nombres para indicar la intención de acceso.
 	    
-	H1:  Atributos y Métodos Públicos 
+	Header:  Atributos y Métodos Públicos 
 	
 	Text:
 	    
@@ -30,7 +30,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	
 	Text:
 	    
-	H1:  Atributos y Métodos Protegidos 
+	Header:  Atributos y Métodos Protegidos 
 	
 	Text:
 	    
@@ -54,7 +54,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	    
 	    Aunque es posible acceder a ```_valor``` y ```_mostrar_valor``` desde fuera de la clase, la convención del guion bajo indica que son "protegidos" y no deben ser accedidos directamente.
 	    
-	H1:  Atributos y Métodos Privados 
+	Header:  Atributos y Métodos Privados 
 	
 	Text:
 	    
@@ -90,7 +90,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	    
 	    Aunque esto es posible, no es recomendable, ya que rompe la encapsulación y puede llevar a errores en el código.
 	    
-	H1:  Uso de Métodos Accesores y Mutadores 
+	Header:  Uso de Métodos Accesores y Mutadores 
 	
 	Text:
 	    
@@ -115,7 +115,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	
 	Text:
 	    
-	H1:  Propiedades 
+	Header:  Propiedades 
 	
 	Text:
 	    
@@ -142,7 +142,7 @@ Unit(globalcampus.site/namespace.stxt): Encapsulación
 	
 	Text:
 	    
-	H1:  Resumen 
+	Header:  Resumen 
 	
 	Text:
 	    

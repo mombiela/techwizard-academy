@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Manejo de bordes en el modelo de caja
+Document (globalcampus.site/namespace.stxt): Manejo de bordes en el modelo de caja
 	
 	Text: 
 	    El borde en el modelo de caja es el contorno que rodea el relleno (padding) y el contenido. Los bordes se pueden personalizar en términos de grosor, estilo y color. A continuación, se describen las propiedades utilizadas para manejar los bordes en CSS.
@@ -19,7 +19,7 @@ Unit(globalcampus.site/namespace.stxt): Manejo de bordes en el modelo de caja
 	    *  ```border-radius```: Redondea las esquinas del borde. Puede especificar valores individuales para cada esquina. Ejemplo: ```border-radius: 10px;```
 	    *  ```border-top-left-radius```, ```border-top-right-radius```, ```border-bottom-right-radius```, ```border-bottom-left-radius```: Permiten definir el radio de cada esquina individualmente. Ejemplo: ```border-top-left-radius: 5px;```
 	    
-	H1: Ejemplo de uso de propiedades de bordes
+	Header: Ejemplo de uso de propiedades de bordes
 	
 	Text:
 	    

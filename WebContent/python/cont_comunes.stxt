@@ -1,13 +1,13 @@
-Unit(globalcampus.site/namespace.stxt): Operaciones comunes
+Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	
 	Text: 
-	H1: Tipos Contenedores en Python: Operaciones Comunes
+	Header: Tipos Contenedores en Python: Operaciones Comunes
 	
 	Text:
 	    
 	    En Python, los tipos contenedores son estructuras de datos que pueden almacenar otros objetos. Los contenedores más comunes son las listas, tuplas, conjuntos y diccionarios. Cada tipo de contenedor tiene sus propias características y usos, pero hay algunas operaciones comunes que se pueden realizar en todos ellos.
 	    
-	H1: Listas
+	Header: Listas
 	
 	Text:
 	    
@@ -20,7 +20,7 @@ Unit(globalcampus.site/namespace.stxt): Operaciones comunes
 	
 	Text:
 	    
-	H1: Tuplas
+	Header: Tuplas
 	
 	Text:
 	    
@@ -33,7 +33,7 @@ Unit(globalcampus.site/namespace.stxt): Operaciones comunes
 	
 	Text:
 	    
-	H1: Conjuntos
+	Header: Conjuntos
 	
 	Text:
 	    
@@ -46,7 +46,7 @@ Unit(globalcampus.site/namespace.stxt): Operaciones comunes
 	
 	Text:
 	    
-	H1: Diccionarios
+	Header: Diccionarios
 	
 	Text:
 	    
@@ -59,7 +59,7 @@ Unit(globalcampus.site/namespace.stxt): Operaciones comunes
 	
 	Text:
 	    
-	H1: Operaciones Comunes
+	Header: Operaciones Comunes
 	
 	Text:
 	    

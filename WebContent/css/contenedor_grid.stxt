@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
+Document (globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	
 	Text: 
 	    El contenedor Grid es el elemento padre al que se le aplica la propiedad ```display: grid;``` o ```display: inline-grid;```. Estas propiedades permiten utilizar un conjunto de propiedades adicionales que controlan la estructura y el comportamiento de la cuadrícula.
@@ -46,7 +46,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	    *  Valores: ```row``` (por defecto), ```column```, ```dense```
 	    *  Ejemplo: ```grid-auto-flow: row dense;```
 	    
-	H1: Ejemplo de código CSS para un contenedor Grid
+	Header: Ejemplo de código CSS para un contenedor Grid
 	
 	Text:
 	    
@@ -87,7 +87,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	    *  Se utiliza ```gap``` para definir el espacio entre filas y columnas.
 	    *  Los ítems se posicionan utilizando ```grid-area```.
 	    
-	H1: Diagrama de un contenedor Grid
+	Header: Diagrama de un contenedor Grid
 	
 	Text:
 	    

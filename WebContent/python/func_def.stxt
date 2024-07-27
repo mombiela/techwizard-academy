@@ -1,13 +1,13 @@
-Unit(globalcampus.site/namespace.stxt): Definición y uso de funciones
+Document (globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
 	Text: 
-	H1: Definición y uso de funciones en Python
+	Header: Definición y uso de funciones en Python
 	
 	Text:
 	    
 	    En Python, una función es un bloque de código reutilizable que realiza una tarea específica. Las funciones permiten organizar el código en partes más pequeñas y manejables, lo que facilita su lectura y mantenimiento. A continuación, exploraremos cómo definir y utilizar funciones en Python.
 	    
-	H1: Definición de funciones
+	Header: Definición de funciones
 	
 	Text:
 	    
@@ -21,7 +21,7 @@ Unit(globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
 	Text:
 	    
-	H1: Uso de funciones
+	Header: Uso de funciones
 	
 	Text:
 	    
@@ -33,7 +33,7 @@ Unit(globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
 	Text:
 	    
-	H1: Ejemplo práctico
+	Header: Ejemplo práctico
 	
 	Text:
 	    
@@ -50,14 +50,14 @@ Unit(globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
 	Text:
 	    
-	H1: Parámetros y argumentos
+	Header: Parámetros y argumentos
 	
 	Text:
 	    
 	    * Parámetros: Son las variables listadas dentro de los paréntesis en la definición de la función.
 	    * Argumentos: Son los valores que se pasan a la función cuando se llama.
 	    
-	H1: Funciones con valores predeterminados
+	Header: Funciones con valores predeterminados
 	
 	Text:
 	    
@@ -74,7 +74,7 @@ Unit(globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
 	Text:
 	    
-	H1: Funciones anónimas (lambdas)
+	Header: Funciones anónimas (lambdas)
 	
 	Text:
 	    
@@ -87,7 +87,7 @@ Unit(globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
 	Text:
 	    
-	H1: Documentación de funciones
+	Header: Documentación de funciones
 	
 	Text:
 	    
@@ -103,7 +103,7 @@ Unit(globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
 	Text:
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

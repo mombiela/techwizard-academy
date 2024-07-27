@@ -1,13 +1,13 @@
-Unit(globalcampus.site/namespace.stxt): Diccionarios
+Document (globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text: 
-	H1: Diccionarios en Python
+	Header: Diccionarios en Python
 	
 	Text:
 	    
 	    Los diccionarios en Python son estructuras de datos que almacenan pares de clave-valor. Son muy útiles para asociar un conjunto de valores a claves únicas, permitiendo el acceso rápido a los valores mediante sus claves.
 	    
-	H1: Creación de Diccionarios
+	Header: Creación de Diccionarios
 	
 	Text:
 	    
@@ -31,7 +31,7 @@ Unit(globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text:
 	    
-	H1: Acceso a Elementos
+	Header: Acceso a Elementos
 	
 	Text:
 	    
@@ -52,7 +52,7 @@ Unit(globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text:
 	    
-	H1: Modificación de Elementos
+	Header: Modificación de Elementos
 	
 	Text:
 	    
@@ -70,7 +70,7 @@ Unit(globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text:
 	    
-	H1: Eliminar Elementos
+	Header: Eliminar Elementos
 	
 	Text:
 	    
@@ -95,7 +95,7 @@ Unit(globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text:
 	    
-	H1: Operaciones con Diccionarios
+	Header: Operaciones con Diccionarios
 	
 	Text:
 	    
@@ -120,7 +120,7 @@ Unit(globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text:
 	    
-	H1: Iteración sobre Diccionarios
+	Header: Iteración sobre Diccionarios
 	
 	Text:
 	    
@@ -150,7 +150,7 @@ Unit(globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text:
 	    
-	H1: Comprensión de Diccionarios
+	Header: Comprensión de Diccionarios
 	
 	Text:
 	    
@@ -165,7 +165,7 @@ Unit(globalcampus.site/namespace.stxt): Diccionarios
 	    
 	    Esto crea un diccionario donde las claves son números del 0 al 9 y los valores son sus cuadrados.
 	    
-	H1: Métodos de Diccionarios
+	Header: Métodos de Diccionarios
 	
 	Text:
 	    
@@ -183,7 +183,7 @@ Unit(globalcampus.site/namespace.stxt): Diccionarios
 	
 	Text:
 	    
-	H1: Ventajas de los Diccionarios
+	Header: Ventajas de los Diccionarios
 	
 	Text:
 	    

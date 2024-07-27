@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE, etc.
+Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE, etc.
 	
 	Text: 
 	    COBOL proporciona un conjunto de sentencias básicas que permiten realizar operaciones fundamentales en un programa. Entre las más utilizadas se encuentran ```MOVE```, ```COMPUTE```, ```ADD```, ```SUBTRACT```, ```MULTIPLY```, ```DIVIDE```, y ```DISPLAY```. A continuación, se describen estas sentencias y su uso.
 	    
-	H1: MOVE
+	Header: MOVE
 	
 	Text:
 	    
@@ -23,7 +23,7 @@ Unit(globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE, etc.
 	    *  ```MOVE 'John Doe' TO WS-Name``` asigna el texto 'John Doe' a la variable ```WS-Name```.
 	    *  ```MOVE WS-Source TO WS-Destination``` copia el valor de ```WS-Source``` a ```WS-Destination```.
 	    
-	H1: COMPUTE
+	Header: COMPUTE
 	
 	Text:
 	    
@@ -41,7 +41,7 @@ Unit(globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE, etc.
 	    *  ```COMPUTE WS-Total = WS-Price * WS-Quantity``` calcula el total multiplicando ```WS-Price``` por ```WS-Quantity```.
 	    *  ```COMPUTE WS-Average = WS-Sum / WS-Count``` calcula el promedio dividiendo ```WS-Sum``` entre ```WS-Count```.
 	    
-	H1: ADD, SUBTRACT, MULTIPLY, DIVIDE
+	Header: ADD, SUBTRACT, MULTIPLY, DIVIDE
 	
 	Text:
 	    
@@ -74,7 +74,7 @@ Unit(globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE, etc.
 	    *  ```DIVIDE WS-Sum BY WS-Count``` divide ```WS-Sum``` entre ```WS-Count```.
 	    *  ```DIVIDE WS-Dividend BY WS-Divisor GIVING WS-Quotient``` divide ```WS-Dividend``` entre ```WS-Divisor```, y asigna el resultado a ```WS-Quotient```.
 	    
-	H1: DISPLAY
+	Header: DISPLAY
 	
 	Text:
 	    

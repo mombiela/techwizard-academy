@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
+Document (globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	
 	Text: 
 	    HTTP (Hypertext Transfer Protocol) es el protocolo fundamental utilizado en la web para la comunicación entre clientes y servidores. Los métodos HTTP especifican la acción que se desea realizar sobre un recurso. Cada método tiene un propósito específico y se utiliza en diferentes contextos.
 	    
-	H1: Métodos HTTP principales
+	Header: Métodos HTTP principales
 	
 	Text:
 	    
@@ -71,7 +71,7 @@ Unit(globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	
 	Text:
 	    
-	H1: Códigos de respuesta HTTP más habituales
+	Header: Códigos de respuesta HTTP más habituales
 	
 	Text:
 	    

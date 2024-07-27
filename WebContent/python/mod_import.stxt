@@ -1,13 +1,13 @@
-Unit(globalcampus.site/namespace.stxt): Importación de módulos
+Document (globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text: 
-	H1: Módulos y paquetes. Importación de módulos
+	Header: Módulos y paquetes. Importación de módulos
 	
 	Text:
 	    
 	    Python tiene un sistema muy potente para organizar y reutilizar el código: los módulos y los paquetes. Estos permiten dividir el código en componentes más pequeños y manejables, facilitando la organización y el mantenimiento de proyectos grandes.
 	    
-	H1: Módulos
+	Header: Módulos
 	
 	Text:
 	    
@@ -24,7 +24,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Importación de Módulos
+	Header: Importación de Módulos
 	
 	Text:
 	    
@@ -50,7 +50,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Paquetes
+	Header: Paquetes
 	
 	Text:
 	    
@@ -77,7 +77,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Importación de Submódulos
+	Header: Importación de Submódulos
 	
 	Text:
 	    
@@ -90,7 +90,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Importación Renombrada
+	Header: Importación Renombrada
 	
 	Text:
 	    
@@ -104,7 +104,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Importación de Todos los Nombres de un Módulo
+	Header: Importación de Todos los Nombres de un Módulo
 	
 	Text:
 	    
@@ -118,7 +118,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Funciones Importantes
+	Header: Funciones Importantes
 	
 	Text:
 	    
@@ -138,7 +138,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Creación y Uso de Paquetes
+	Header: Creación y Uso de Paquetes
 	
 	Text:
 	    
@@ -172,7 +172,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Instalación de Paquetes Externos
+	Header: Instalación de Paquetes Externos
 	
 	Text:
 	    
@@ -192,7 +192,7 @@ Unit(globalcampus.site/namespace.stxt): Importación de módulos
 	
 	Text:
 	    
-	H1: Ventajas del Uso de Módulos y Paquetes
+	Header: Ventajas del Uso de Módulos y Paquetes
 	
 	Text:
 	    

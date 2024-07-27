@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Propiedades de márgenes y relleno
+Document (globalcampus.site/namespace.stxt): Propiedades de márgenes y relleno
 	
 	Text: 
 	    *  **Propiedades de márgenes**
@@ -10,7 +10,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades de márgenes y relleno
 	    *  ```padding```: Define el relleno completo en una sola declaración. Ejemplo: ```padding: 15px;```
 	    *  ```padding-top```, ```padding-right```, ```padding-bottom```, ```padding-left```: Permiten definir rellenos individuales para cada lado. Ejemplo: ```padding-left: 10px;```
 	    
-	H1: Ejemplo de uso de propiedades de márgenes y relleno
+	Header: Ejemplo de uso de propiedades de márgenes y relleno
 	
 	Text:
 	    

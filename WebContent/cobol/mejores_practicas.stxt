@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Mejores prácticas de programación en COBOL
+Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación en COBOL
 	
 	Text: 
 	    La programación en COBOL, un lenguaje robusto y ampliamente utilizado en sistemas financieros y de negocios, se beneficia enormemente de seguir ciertas mejores prácticas. Estas prácticas aseguran que el código sea eficiente, mantenible y libre de errores. A continuación, se describen algunas de las mejores prácticas esenciales para la programación en COBOL.
 	    
-	H1: Estructura y Organización del Código
+	Header: Estructura y Organización del Código
 	
 	Text:
 	    
@@ -44,7 +44,7 @@ Unit(globalcampus.site/namespace.stxt): Mejores prácticas de programación en C
 	    *  Las divisiones están claramente definidas.
 	    *  Se utilizan comentarios para describir la inicialización del contador.
 	    
-	H1: Nombres Significativos y Consistentes
+	Header: Nombres Significativos y Consistentes
 	
 	Text:
 	    
@@ -67,7 +67,7 @@ Unit(globalcampus.site/namespace.stxt): Mejores prácticas de programación en C
 	    
 	    *  Los nombres de las variables son descriptivos y siguen una convención consistente.
 	    
-	H1: Modularización del Código
+	Header: Modularización del Código
 	
 	Text:
 	    
@@ -108,7 +108,7 @@ Unit(globalcampus.site/namespace.stxt): Mejores prácticas de programación en C
 	    
 	    *  El código está dividido en secciones lógicas para inicialización, procesamiento y finalización.
 	    
-	H1: Manejo Eficiente de Errores
+	Header: Manejo Eficiente de Errores
 	
 	Text:
 	    
@@ -145,7 +145,7 @@ Unit(globalcampus.site/namespace.stxt): Mejores prácticas de programación en C
 	    *  ```FILE STATUS IS WS-File-Status``` se utiliza para verificar el estado del archivo.
 	    *  Se muestra un mensaje de error si hay un problema al abrir el archivo.
 	    
-	H1: Optimización del Rendimiento
+	Header: Optimización del Rendimiento
 	
 	Text:
 	    
@@ -174,7 +174,7 @@ Unit(globalcampus.site/namespace.stxt): Mejores prácticas de programación en C
 	    
 	    *  Se utiliza un bucle eficiente para leer todos los registros de un archivo indexado.
 	    
-	H1: Mantenimiento de la Seguridad
+	Header: Mantenimiento de la Seguridad
 	
 	Text:
 	    
@@ -202,7 +202,7 @@ Unit(globalcampus.site/namespace.stxt): Mejores prácticas de programación en C
 	    
 	    *  La contraseña se encripta antes de ser utilizada o almacenada.
 	    
-	H1: Documentación y Comentarios
+	Header: Documentación y Comentarios
 	
 	Text:
 	    
@@ -227,7 +227,7 @@ Unit(globalcampus.site/namespace.stxt): Mejores prácticas de programación en C
 	    
 	    *  Se incluye un comentario explicativo sobre el propósito del procedimiento de inicialización.
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

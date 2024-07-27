@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Concepto del modelo de caja
+Document (globalcampus.site/namespace.stxt): Concepto del modelo de caja
 	
 	Text: 
 	    El modelo de caja en CSS es un concepto fundamental que describe cómo se representan visualmente los elementos en la página web. Cada elemento se considera una caja rectangular que consiste en varios componentes:
@@ -9,7 +9,7 @@ Unit(globalcampus.site/namespace.stxt): Concepto del modelo de caja
 	    *  **Borde (Border)**: El contorno que rodea el relleno (y el contenido).
 	    *  **Margen (Margin)**: El espacio exterior que separa el borde de otros elementos.
 	    
-	H1: Diagrama del modelo de caja
+	Header: Diagrama del modelo de caja
 	
 	Text:
 	    
@@ -29,7 +29,7 @@ Unit(globalcampus.site/namespace.stxt): Concepto del modelo de caja
 	    *  **Borde**: La línea alrededor del relleno y el contenido. El borde se puede personalizar con diferentes anchos, colores y estilos.
 	    *  **Margen**: El espacio exterior alrededor del borde que separa el elemento de otros elementos. El margen no afecta el tamaño del contenido, pero sí la posición del elemento.
 	    
-	H1: Propiedades del modelo de caja
+	Header: Propiedades del modelo de caja
 	
 	Text:
 	    
@@ -45,7 +45,7 @@ Unit(globalcampus.site/namespace.stxt): Concepto del modelo de caja
 	    *  **Margen**:
 	    *  Controlado por ```margin```.
 	    
-	H1: Ejemplo de CSS del modelo de caja
+	Header: Ejemplo de CSS del modelo de caja
 	
 	Text:
 	    

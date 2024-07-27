@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Estructura básica de un programa COBOL
+Document (globalcampus.site/namespace.stxt): Estructura básica de un programa COBOL
 	
 	Text: 
 	    Un programa COBOL se divide en cuatro divisiones principales, cada una con un propósito específico. A continuación, se describe la estructura básica de un programa COBOL:

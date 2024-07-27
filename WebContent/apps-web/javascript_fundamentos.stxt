@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
+Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text: 
 	    JavaScript es un lenguaje de programación que se utiliza principalmente para crear contenido web dinámico. Aquí te explico algunos conceptos básicos sobre su sintaxis y su uso en el frontend.
 	    
-	H1: Variables
+	Header: Variables
 	
 	Text:
 	    
@@ -20,7 +20,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text:
 	    
-	H1: Tipos de Datos
+	Header: Tipos de Datos
 	
 	Text:
 	    
@@ -32,7 +32,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    *  Objetos: ```let persona = { nombre: 'Juan', edad: 30 };```
 	    *  Arrays: ```let colores = ['rojo', 'verde', 'azul'];```
 	    
-	H1: Operadores
+	Header: Operadores
 	
 	Text:
 	    
@@ -43,7 +43,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    *  Operadores de comparación: ```==```, ```!=```, ```===```, ```!==```
 	    *  Operadores lógicos: ```&&```, ```||```, ```!```
 	    
-	H1: Estructuras de Control
+	Header: Estructuras de Control
 	
 	Text:
 	    
@@ -67,7 +67,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text:
 	    
-	H1: Funciones
+	Header: Funciones
 	
 	Text:
 	    
@@ -93,7 +93,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text:
 	    
-	H1: Manipulación del DOM
+	Header: Manipulación del DOM
 	
 	Text:
 	    
@@ -114,7 +114,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
 	Text:
 	    
-	H1: Eventos
+	Header: Eventos
 	
 	Text:
 	    
@@ -133,7 +133,7 @@ Unit(globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    
 	    Estos son los conceptos básicos que necesitas para empezar a usar JavaScript en el frontend. ¡Practica estos ejemplos y pronto estarás creando páginas web dinámicas y atractivas!
 	    
-	H1:  Ejemplo completo 
+	Header:  Ejemplo completo 
 	
 	Text:
 	Code:

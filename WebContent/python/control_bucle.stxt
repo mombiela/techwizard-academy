@@ -1,10 +1,10 @@
-Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
+Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	
 	Text: 
 	    Los bucles en Python se utilizan para repetir un bloque de código varias veces.
 	    Python soporta principalmente dos tipos de bucles: **for** y **while**.
 	    
-	H1:  Bucle for 
+	Header:  Bucle for 
 	
 	Text:
 	    
@@ -13,7 +13,7 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    un conjunto o una cadena de caracteres). A medida que itera,
 	    el bucle ejecuta el bloque de código para cada elemento en la secuencia.
 	    
-	H1:  Sintaxis: 
+	Header:  Sintaxis: 
 	
 	Text:
 	    
@@ -24,7 +24,7 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	
 	Text:
 	    
-	H1:  Ejemplo: 
+	Header:  Ejemplo: 
 	
 	Text:
 	    
@@ -39,14 +39,14 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    En este ejemplo, el bucle ```for``` iterará sobre
 	    cada elemento de la lista ```frutas``` y imprimirá cada fruta.
 	    
-	H1:  Uso de range() en for:
+	Header:  Uso de range() en for:
 	
 	Text:
 	    
 	    El método ```range()``` se usa a menudo
 	    con ```for``` para generar una secuencia de números.
 	    
-	H1:  Ejemplo:
+	Header:  Ejemplo:
 	
 	Text:
 	    
@@ -59,14 +59,14 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    
 	    Este bucle imprimirá los números del 0 al 4.
 	    
-	H1:  Bucle while 
+	Header:  Bucle while 
 	
 	Text:
 	    
 	    El bucle ```while``` ejecuta el bloque de código
 	    mientras la condición especificada sea verdadera (```True```).
 	    
-	H1:  Sintaxis:
+	Header:  Sintaxis:
 	
 	Text:
 	    
@@ -77,7 +77,7 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	
 	Text:
 	    
-	H1:  Ejemplo:
+	Header:  Ejemplo:
 	
 	Text:
 	    
@@ -94,7 +94,7 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    ejecutándose mientras ```i``` sea menor que ```5```.
 	    Después de cada iteración, ```i``` se incrementa en 1.
 	    
-	H1:  Control de bucles 
+	Header:  Control de bucles 
 	
 	Text:
 	    
@@ -106,7 +106,7 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    * **else**: Ejecuta un bloque de código
 	    al final del bucle, a menos que se haya terminado con ```break```.
 	    
-	H1:  Ejemplo de break:
+	Header:  Ejemplo de break:
 	
 	Text:
 	    
@@ -122,7 +122,7 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    Este bucle imprimirá los números del 0 al 4
 	    y luego se detendrá cuando ```i``` sea igual a 5.
 	    
-	H1:  Ejemplo de continue:
+	Header:  Ejemplo de continue:
 	
 	Text:
 	    
@@ -139,7 +139,7 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    ya que ```continue``` hace que el bucle salte a la
 	    siguiente iteración cuando ```i``` es par.
 	    
-	H1:  Ejemplo de else en bucles:
+	Header:  Ejemplo de else en bucles:
 	
 	Text:
 	    
@@ -155,14 +155,14 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    Este bucle imprimirá los números del 0 al 4 y
 	    luego imprimirá "El bucle ha terminado".
 	    
-	H1:  Combinando bucles for y while:
+	Header:  Combinando bucles for y while:
 	
 	Text:
 	    
 	    A veces, puedes necesitar combinar bucles ```for```
 	    y ```while``` para resolver problemas más complejos.
 	    
-	H1:  Ejemplo:
+	Header:  Ejemplo:
 	
 	Text:
 	    
@@ -182,7 +182,7 @@ Unit(globalcampus.site/namespace.stxt): Bucles (for, while)
 	    Para cada entrada del usuario, el bucle ```for```
 	    imprimirá cada letra de la entrada.
 	    
-	H1:  Importancia de la indentación 
+	Header:  Importancia de la indentación 
 	
 	Text:
 	    

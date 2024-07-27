@@ -1,13 +1,13 @@
-Unit(globalcampus.site/namespace.stxt): Sets
+Document (globalcampus.site/namespace.stxt): Sets
 	
 	Text: 
-	H1: Sets en Python
+	Header: Sets en Python
 	
 	Text:
 	    
 	    Los sets (conjuntos) en Python son colecciones desordenadas de elementos únicos. Son útiles para almacenar elementos sin duplicados y para realizar operaciones matemáticas de conjuntos como unión, intersección, diferencia y diferencia simétrica.
 	    
-	H1: Creación de Sets
+	Header: Creación de Sets
 	
 	Text:
 	    
@@ -27,7 +27,7 @@ Unit(globalcampus.site/namespace.stxt): Sets
 	
 	Text:
 	    
-	H1: Añadir Elementos
+	Header: Añadir Elementos
 	
 	Text:
 	    
@@ -45,7 +45,7 @@ Unit(globalcampus.site/namespace.stxt): Sets
 	
 	Text:
 	    
-	H1: Eliminar Elementos
+	Header: Eliminar Elementos
 	
 	Text:
 	    
@@ -77,7 +77,7 @@ Unit(globalcampus.site/namespace.stxt): Sets
 	
 	Text:
 	    
-	H1: Operaciones de Conjuntos
+	Header: Operaciones de Conjuntos
 	
 	Text:
 	    
@@ -113,7 +113,7 @@ Unit(globalcampus.site/namespace.stxt): Sets
 	
 	Text:
 	    
-	H1: Métodos de Sets
+	Header: Métodos de Sets
 	
 	Text:
 	    
@@ -141,7 +141,7 @@ Unit(globalcampus.site/namespace.stxt): Sets
 	
 	Text:
 	    
-	H1: Iteración sobre Sets
+	Header: Iteración sobre Sets
 	
 	Text:
 	    
@@ -153,7 +153,7 @@ Unit(globalcampus.site/namespace.stxt): Sets
 	
 	Text:
 	    
-	H1: Comprensión de Sets
+	Header: Comprensión de Sets
 	
 	Text:
 	    
@@ -168,7 +168,7 @@ Unit(globalcampus.site/namespace.stxt): Sets
 	    
 	    Esto crea un set de los cuadrados de los números del 0 al 9.
 	    
-	H1: Ventajas de los Sets
+	Header: Ventajas de los Sets
 	
 	Text:
 	    

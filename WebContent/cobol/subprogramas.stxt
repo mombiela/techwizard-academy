@@ -1,15 +1,15 @@
-Unit(globalcampus.site/namespace.stxt): Creación y uso de subprogramas
+Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	
 	Text: 
 	    Los subprogramas en COBOL permiten modularizar el código, facilitando su mantenimiento y reutilización. Un subprograma es un programa independiente que puede ser llamado por otro programa, conocido como programa principal o llamador. A continuación, se explica cómo crear y usar subprogramas en COBOL.
 	    
-	H1: Definición de un subprograma
+	Header: Definición de un subprograma
 	
 	Text:
 	    
 	    Un subprograma se define en un archivo separado y contiene una división de identificación, una división de ambiente, una división de datos y una división de procedimiento, similar a un programa principal.
 	    
-	H2: Ejemplo de un subprograma
+	Subheader: Ejemplo de un subprograma
 	
 	Text:
 	    
@@ -47,13 +47,13 @@ Unit(globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    *  La ```PROCEDURE DIVISION USING``` especifica los parámetros que serán usados por el subprograma.
 	    *  El subprograma suma 3 a ```LS-Param1``` y almacena el resultado en ```LS-Result```.
 	    
-	H1: Llamando a un subprograma desde el programa principal
+	Header: Llamando a un subprograma desde el programa principal
 	
 	Text:
 	    
 	    Para llamar a un subprograma, el programa principal debe declarar los parámetros en la ```WORKING-STORAGE SECTION``` y utilizar la sentencia ```CALL```.
 	    
-	H2: Ejemplo de un programa principal llamando a un subprograma
+	Subheader: Ejemplo de un programa principal llamando a un subprograma
 	
 	Text:
 	    
@@ -83,13 +83,13 @@ Unit(globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    *  Utiliza la sentencia ```CALL 'Subprograma-Ejemplo' USING WS-Param1 WS-Param2 WS-Result``` para llamar al subprograma.
 	    *  Después de la llamada, el resultado almacenado en ```WS-Result``` se muestra utilizando ```DISPLAY```.
 	    
-	H1: Pasando parámetros entre el programa principal y el subprograma
+	Header: Pasando parámetros entre el programa principal y el subprograma
 	
 	Text:
 	    
 	    Los parámetros se pasan por referencia, lo que significa que cualquier cambio en los parámetros dentro del subprograma se refleja en el programa principal.
 	    
-	H2: Ejemplo de paso de parámetros por referencia
+	Subheader: Ejemplo de paso de parámetros por referencia
 	
 	Text:
 	    
@@ -108,7 +108,7 @@ Unit(globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    *  Antes de llamar al subprograma, el valor de ```WS-Param1``` se cambia a 10.
 	    *  El subprograma se llama con los nuevos valores de los parámetros, y el resultado actualizado se muestra.
 	    
-	H1: Uso de la sentencia CANCEL
+	Header: Uso de la sentencia CANCEL
 	
 	Text:
 	    

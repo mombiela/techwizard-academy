@@ -1,7 +1,7 @@
-Unit(globalcampus.site/namespace.stxt): Introducción a Flexbox
+Document (globalcampus.site/namespace.stxt): Introducción a Flexbox
 	
 	Text: 
-	H1: Introducción a Flexbox
+	Header: Introducción a Flexbox
 	
 	Text:
 	    
@@ -12,7 +12,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a Flexbox
 	    *  Facilita la alineación de elementos y la distribución de espacio entre ellos.
 	    *  Ofrece mayor control sobre el tamaño y el espacio de los elementos dentro de un contenedor flexible (flex container).
 	    
-	H1: Componentes de Flexbox
+	Header: Componentes de Flexbox
 	
 	Text:
 	    
@@ -22,7 +22,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a Flexbox
 	    *  **Flex Items**:
 	    *  Los elementos hijos directos del contenedor flexible, que se disponen y alinean utilizando Flexbox.
 	    
-	H1: Propiedades del contenedor Flexbox
+	Header: Propiedades del contenedor Flexbox
 	
 	Text:
 	    
@@ -50,7 +50,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a Flexbox
 	    *  Define cómo se distribuye el espacio entre las líneas cuando hay múltiples líneas de elementos flexibles.
 	    *  Valores: ```flex-start```, ```flex-end```, ```center```, ```space-between```, ```space-around```, ```stretch```
 	    
-	H1: Ejemplo básico de Flexbox
+	Header: Ejemplo básico de Flexbox
 	
 	Text:
 	    
@@ -72,7 +72,7 @@ Unit(globalcampus.site/namespace.stxt): Introducción a Flexbox
 	    
 	    En este ejemplo, un contenedor flexible tiene elementos distribuidos en una fila con espacio entre ellos, y los elementos se alinean al centro del eje transversal.
 	    
-	H1: Diagrama de Flexbox
+	Header: Diagrama de Flexbox
 	
 	Text:
 	    

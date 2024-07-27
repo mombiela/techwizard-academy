@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Flexbox
+Document (globalcampus.site/namespace.stxt): Propiedades del contenedor Flexbox
 	
 	Text: 
 	    El contenedor Flexbox es el elemento padre al que se le aplica la propiedad ```display: flex``` o ```display: inline-flex```. Estas propiedades permiten utilizar un conjunto de propiedades adicionales que controlan el comportamiento y la distribución de los elementos flexibles (flex items) dentro del contenedor.
@@ -59,7 +59,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Flexbox
 	    *  ```space-around```: El espacio alrededor de las líneas se distribuye uniformemente.
 	    *  ```stretch```: Las líneas se estiran para llenar el contenedor (valor predeterminado).
 	    
-	H1: Ejemplo de código CSS para un contenedor Flexbox
+	Header: Ejemplo de código CSS para un contenedor Flexbox
 	
 	Text:
 	    
@@ -84,7 +84,7 @@ Unit(globalcampus.site/namespace.stxt): Propiedades del contenedor Flexbox
 	    *  Los elementos se alinean al centro del eje transversal con ```align-items: center;```.
 	    *  El espacio entre las líneas se distribuye uniformemente con ```align-content: space-around;```.
 	    
-	H1: Diagrama de un contenedor Flexbox con propiedades aplicadas
+	Header: Diagrama de un contenedor Flexbox con propiedades aplicadas
 	
 	Text:
 	    

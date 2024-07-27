@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Comprensiones de listas
+Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	
 	Text: 
 	    Las comprensiones de listas en Python son una forma concisa y
@@ -7,7 +7,7 @@ Unit(globalcampus.site/namespace.stxt): Comprensiones de listas
 	    (como una lista, tupla o cualquier otro iterable) y,
 	    opcionalmente, filtrando elementos con una condición.
 	    
-	H1:  Sintaxis Básica
+	Header:  Sintaxis Básica
 	
 	Text:
 	    
@@ -24,7 +24,7 @@ Unit(globalcampus.site/namespace.stxt): Comprensiones de listas
 	    * **iterable**: La secuencia de datos que se recorre.
 	    * **condición (opcional)**: Filtro que determina si un elemento se incluye en la nueva lista.
 	    
-	H1:  Ejemplos de Comprensiones de Listas 
+	Header:  Ejemplos de Comprensiones de Listas 
 	
 	Text:
 	    
@@ -80,13 +80,13 @@ Unit(globalcampus.site/namespace.stxt): Comprensiones de listas
 	    
 	    La expresión ```fruta.upper()``` convierte cada cadena de la lista ```frutas``` a mayúsculas.
 	    
-	H1:  Comprensiones Anidadas 
+	Header:  Comprensiones Anidadas 
 	
 	Text:
 	    
 	    Las comprensiones de listas también pueden ser anidadas, permitiendo crear listas multidimensionales.
 	    
-	H1:  Ejemplo: Matriz de números:
+	Header:  Ejemplo: Matriz de números:
 	
 	Text:
 	    
@@ -100,13 +100,13 @@ Unit(globalcampus.site/namespace.stxt): Comprensiones de listas
 	    
 	    En este ejemplo, la lista ```transpuesta``` se genera tomando los elementos por columna en lugar de por fila.
 	    
-	H1:  Uso de Comprensiones de Listas con Diccionarios y Conjuntos 
+	Header:  Uso de Comprensiones de Listas con Diccionarios y Conjuntos 
 	
 	Text:
 	    
 	    Las comprensiones de listas no se limitan solo a listas. También pueden usarse para crear diccionarios y conjuntos.
 	    
-	H1:  Ejemplo con diccionarios:
+	Header:  Ejemplo con diccionarios:
 	
 	Text:
 	    
@@ -121,7 +121,7 @@ Unit(globalcampus.site/namespace.stxt): Comprensiones de listas
 	    
 	    En este ejemplo, se crea un diccionario ```frutas_precios``` a partir de dos listas usando ```zip```.
 	    
-	H1:  Ejemplo con conjuntos:
+	Header:  Ejemplo con conjuntos:
 	
 	Text:
 	    

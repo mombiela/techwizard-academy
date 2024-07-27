@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) en COBOL
+Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) en COBOL
 	
 	Text: 
 	    En COBOL, las tablas (o arrays) se utilizan para almacenar y manipular conjuntos de datos relacionados de manera eficiente. Las tablas permiten acceder a elementos de datos mediante índices y son útiles para organizar grandes volúmenes de información de forma estructurada. A continuación, se explica cómo crear y usar tablas en COBOL.
 	    
-	H1: Declaración de Tablas
+	Header: Declaración de Tablas
 	
 	Text:
 	    
@@ -26,7 +26,7 @@ Unit(globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) en CO
 	    *  ```EmployeeRecord``` se repite 10 veces, creando un array de registros de empleados.
 	    *  Cada ```EmployeeRecord``` contiene los campos ```EmployeeID```, ```EmployeeName``` y ```EmployeeSalary```.
 	    
-	H1: Acceso a Elementos de la Tabla
+	Header: Acceso a Elementos de la Tabla
 	
 	Text:
 	    
@@ -52,7 +52,7 @@ Unit(globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) en CO
 	    *  Los valores se mueven al primer registro de ```EmployeeRecord``` usando ```WS-Index```.
 	    *  Los valores del primer registro se muestran en la pantalla.
 	    
-	H1: Iteración sobre Tablas
+	Header: Iteración sobre Tablas
 	
 	Text:
 	    
@@ -73,7 +73,7 @@ Unit(globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) en CO
 	    *  El bucle ```PERFORM VARYING``` recorre todos los elementos de la tabla desde 1 hasta 10.
 	    *  Los valores de cada registro se muestran en la pantalla durante cada iteración.
 	    
-	H1: Tablas Multidimensionales
+	Header: Tablas Multidimensionales
 	
 	Text:
 	    

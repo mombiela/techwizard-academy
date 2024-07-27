@@ -1,15 +1,15 @@
-Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desde COBOL
+Document (globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desde COBOL
 	
 	Text: 
 	    En COBOL, la conexión y el acceso a bases de datos relacionales se realiza utilizando Embedded SQL (SQL embebido). Esta técnica permite integrar sentencias SQL directamente dentro del código COBOL, lo que facilita la interacción con bases de datos como DB2, Oracle, y otros sistemas de gestión de bases de datos (DBMS). A continuación, se describen los pasos y las técnicas necesarias para establecer una conexión y acceder a una base de datos desde un programa COBOL.
 	    
-	H1: Configuración de Embedded SQL
+	Header: Configuración de Embedded SQL
 	
 	Text:
 	    
 	    Antes de usar SQL embebido en COBOL, se debe incluir el preprocesador de SQL específico del sistema de bases de datos que se esté utilizando. Este preprocesador convierte las sentencias SQL embebidas en llamadas apropiadas a la base de datos.
 	    
-	H2: Ejemplo de inclusión de SQLCA
+	Subheader: Ejemplo de inclusión de SQLCA
 	
 	Text:
 	    
@@ -22,13 +22,13 @@ Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desd
 	    
 	    *  ```EXEC SQL INCLUDE SQLCA END-EXEC``` incluye la estructura SQLCA (SQL Communication Area), que es utilizada para manejar errores y condiciones SQL.
 	    
-	H1: Conexión a la base de datos
+	Header: Conexión a la base de datos
 	
 	Text:
 	    
 	    Para establecer una conexión con la base de datos, se utilizan las sentencias ```CONNECT``` y ```DISCONNECT```.
 	    
-	H2: Ejemplo de conexión a la base de datos
+	Subheader: Ejemplo de conexión a la base de datos
 	
 	Text:
 	    
@@ -58,13 +58,13 @@ Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desd
 	    *  ```EXEC SQL CONNECT :DB-USER IDENTIFIED BY :DB-PASSWORD USING :DB-NAME END-EXEC``` establece la conexión a la base de datos utilizando las credenciales proporcionadas.
 	    *  ```SQLCODE``` se verifica para asegurar que la conexión fue exitosa.
 	    
-	H1: Consultas a la base de datos
+	Header: Consultas a la base de datos
 	
 	Text:
 	    
 	    Para realizar consultas en la base de datos, se utilizan las sentencias ```SELECT``` embebidas.
 	    
-	H2: Ejemplo de consulta a la base de datos
+	Subheader: Ejemplo de consulta a la base de datos
 	
 	Text:
 	    
@@ -99,13 +99,13 @@ Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desd
 	    *  ```EXEC SQL SELECT CLIENTE_ID, CLIENTE_NOMBRE, CLIENTE_DIRECCION INTO :CLIENTE-ID, :CLIENTE-NOMBRE, :CLIENTE-DIRECCION FROM CLIENTES WHERE CLIENTE_ID = 12345 END-EXEC``` ejecuta una consulta SQL que selecciona los datos del cliente con ```CLIENTE_ID``` igual a 12345.
 	    *  Los resultados se almacenan en las variables definidas en la sección ```WORKING-STORAGE```.
 	    
-	H1: Inserción de datos en la base de datos
+	Header: Inserción de datos en la base de datos
 	
 	Text:
 	    
 	    Para insertar nuevos registros en la base de datos, se utiliza la sentencia ```INSERT```.
 	    
-	H2: Ejemplo de inserción de datos
+	Subheader: Ejemplo de inserción de datos
 	
 	Text:
 	    
@@ -131,13 +131,13 @@ Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desd
 	    *  ```EXEC SQL INSERT INTO CLIENTES (CLIENTE_ID, CLIENTE_NOMBRE, CLIENTE_DIRECCION) VALUES (:CLIENTE-ID, :CLIENTE-NOMBRE, :CLIENTE-DIRECCION) END-EXEC``` inserta un nuevo registro en la tabla CLIENTES.
 	    *  ```SQLCODE``` se verifica para asegurar que la inserción fue exitosa.
 	    
-	H1: Actualización de datos en la base de datos
+	Header: Actualización de datos en la base de datos
 	
 	Text:
 	    
 	    Para actualizar registros existentes, se utiliza la sentencia ```UPDATE```.
 	    
-	H2: Ejemplo de actualización de datos
+	Subheader: Ejemplo de actualización de datos
 	
 	Text:
 	    
@@ -164,13 +164,13 @@ Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desd
 	    *  ```EXEC SQL UPDATE CLIENTES SET CLIENTE_DIRECCION = :CLIENTE-DIRECCION WHERE CLIENTE_ID = :CLIENTE-ID END-EXEC``` actualiza la dirección del cliente con el ID especificado.
 	    *  ```SQLCODE``` se verifica para asegurar que la actualización fue exitosa.
 	    
-	H1: Eliminación de datos en la base de datos
+	Header: Eliminación de datos en la base de datos
 	
 	Text:
 	    
 	    Para eliminar registros, se utiliza la sentencia ```DELETE```.
 	    
-	H2: Ejemplo de eliminación de datos
+	Subheader: Ejemplo de eliminación de datos
 	
 	Text:
 	    
@@ -196,13 +196,13 @@ Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desd
 	    *  ```EXEC SQL DELETE FROM CLIENTES WHERE CLIENTE_ID = :CLIENTE-ID END-EXEC``` elimina el registro del cliente con el ID especificado.
 	    *  ```SQLCODE``` se verifica para asegurar que la eliminación fue exitosa.
 	    
-	H1: Manejo de errores y excepciones
+	Header: Manejo de errores y excepciones
 	
 	Text:
 	    
 	    El manejo de errores en operaciones con bases de datos se realiza mediante la verificación del ```SQLCODE``` y el uso de la estructura ```SQLCA```.
 	    
-	H2: Ejemplo de manejo de errores
+	Subheader: Ejemplo de manejo de errores
 	
 	Text:
 	    
@@ -229,13 +229,13 @@ Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desd
 	    
 	    *  ```SQLCODE``` y ```SQLERRMC``` se utilizan para verificar y mostrar mensajes de error en operaciones de base de datos.
 	    
-	H1: Desconexión de la base de datos
+	Header: Desconexión de la base de datos
 	
 	Text:
 	    
 	    Para desconectar de la base de datos, se utiliza la sentencia ```DISCONNECT```.
 	    
-	H2: Ejemplo de desconexión de la base de datos
+	Subheader: Ejemplo de desconexión de la base de datos
 	
 	Text:
 	    
@@ -262,7 +262,7 @@ Unit(globalcampus.site/namespace.stxt): Conexión y acceso a bases de datos desd
 	    *  ```EXEC SQL DISCONNECT END-EXEC``` desconecta la sesión de la base de datos.
 	    *  ```SQLCODE``` se verifica para asegurar que la desconexión fue exitosa.
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

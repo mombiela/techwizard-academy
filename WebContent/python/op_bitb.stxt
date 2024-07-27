@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Operadores Bit a Bit
+Document (globalcampus.site/namespace.stxt): Operadores Bit a Bit
 	
 	Text: 
 	    Estos operadores se utilizan para comparar (operar) los números a nivel de bits.
@@ -11,7 +11,7 @@ Unit(globalcampus.site/namespace.stxt): Operadores Bit a Bit
 	    | ```code:<<```  | Desplazamiento izq | ```code:a << b```
 	    | ```code:>>```  | Desplazamiento der | ```code:a >> b```
 	    
-	H1:  Ejemplo: 
+	Header:  Ejemplo: 
 	
 	Text:
 	    

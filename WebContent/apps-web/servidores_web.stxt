@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Papel de los servidores web
+Document (globalcampus.site/namespace.stxt): Papel de los servidores web
 	
 	Text: 
 	    Los servidores web son componentes fundamentales en la infraestructura de la web. Su papel principal es almacenar, procesar y entregar páginas web a los usuarios. Cuando un usuario solicita un recurso a través de su navegador, el servidor web se encarga de proporcionar ese recurso.
 	    
-	H1: Funciones principales de un servidor web
+	Header: Funciones principales de un servidor web
 	
 	Text:
 	    
@@ -17,7 +17,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores web
 	    
 	    * **Registro y monitoreo**: Los servidores web registran todas las solicitudes y respuestas, lo que permite a los administradores monitorear el tráfico, detectar problemas y analizar el uso del sitio web. Estos registros son esenciales para la administración y optimización del rendimiento.
 	    
-	H1: Diagrama de interacción entre el cliente y el servidor web
+	Header: Diagrama de interacción entre el cliente y el servidor web
 	
 	Text:
 	    
@@ -37,7 +37,7 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores web
 	    end note
 	    ```enduml```
 	    
-	H1: Tipos de servidores web
+	Header: Tipos de servidores web
 	
 	Text:
 	    
@@ -47,13 +47,13 @@ Unit(globalcampus.site/namespace.stxt): Papel de los servidores web
 	    
 	    * **Servidores proxy**: Actúan como intermediarios entre el cliente y otros servidores, proporcionando funciones adicionales como almacenamiento en caché, balanceo de carga y filtrado de contenido.
 	    
-	H1: Ejemplo de uso de un servidor web
+	Header: Ejemplo de uso de un servidor web
 	
 	Text:
 	    
 	    Un usuario abre su navegador y escribe una URL, como [[http://www.ejemplo.com]]. El navegador envía una solicitud HTTP al servidor web que aloja el sitio web de "ejemplo.com". El servidor web recibe la solicitud, procesa cualquier lógica necesaria (como consultas a bases de datos), y responde con el contenido solicitado, que puede ser una página HTML. El navegador del usuario renderiza la página y la muestra al usuario.
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

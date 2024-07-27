@@ -1,13 +1,13 @@
-Unit(globalcampus.site/namespace.stxt): Listas
+Document (globalcampus.site/namespace.stxt): Listas
 	
 	Text: 
-	H1: Listas en Python
+	Header: Listas en Python
 	
 	Text:
 	    
 	    Las listas en Python son uno de los tipos de datos más versátiles y utilizados. Son contenedores ordenados y mutables que pueden almacenar elementos de diferentes tipos. A continuación, se detallan las características, métodos y usos comunes de las listas en Python.
 	    
-	H1: Creación de Listas
+	Header: Creación de Listas
 	
 	Text:
 	    
@@ -27,7 +27,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	
 	Text:
 	    
-	H1: Acceso a Elementos
+	Header: Acceso a Elementos
 	
 	Text:
 	    
@@ -51,7 +51,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	
 	Text:
 	    
-	H1: Modificación de Elementos
+	Header: Modificación de Elementos
 	
 	Text:
 	    
@@ -64,7 +64,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	
 	Text:
 	    
-	H1: Añadir Elementos
+	Header: Añadir Elementos
 	
 	Text:
 	    
@@ -89,7 +89,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	
 	Text:
 	    
-	H1: Eliminar Elementos
+	Header: Eliminar Elementos
 	
 	Text:
 	    
@@ -114,7 +114,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	
 	Text:
 	    
-	H1: Operaciones con Listas
+	Header: Operaciones con Listas
 	
 	Text:
 	    
@@ -141,7 +141,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	
 	Text:
 	    
-	H1: Métodos de Listas
+	Header: Métodos de Listas
 	
 	Text:
 	    
@@ -173,7 +173,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	
 	Text:
 	    
-	H1: Comprensión de Listas
+	Header: Comprensión de Listas
 	
 	Text:
 	    
@@ -188,7 +188,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	    
 	    Esto crea una lista de los cuadrados de los números del 0 al 9.
 	    
-	H1: Iteración sobre Listas
+	Header: Iteración sobre Listas
 	
 	Text:
 	    
@@ -200,7 +200,7 @@ Unit(globalcampus.site/namespace.stxt): Listas
 	
 	Text:
 	    
-	H1: Copiar Listas
+	Header: Copiar Listas
 	
 	Text:
 	    

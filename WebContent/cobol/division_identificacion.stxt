@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Descripción y uso de la División de Identificación
+Document (globalcampus.site/namespace.stxt): Descripción y uso de la División de Identificación
 	
 	Text: 
 	    La División de Identificación es la primera sección de un programa COBOL y tiene como objetivo proporcionar información básica sobre el programa. Esta división es obligatoria y suele incluir los siguientes elementos:

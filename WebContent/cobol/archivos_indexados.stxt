@@ -1,15 +1,15 @@
-Unit(globalcampus.site/namespace.stxt): Trabajo con archivos indexados
+Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	
 	Text: 
 	    En COBOL, los archivos indexados permiten el acceso rápido a registros mediante el uso de claves. Este tipo de archivos es útil cuando se necesita acceder a datos de manera no secuencial o buscar registros específicos. A continuación, se detallan los conceptos y operaciones básicas para trabajar con archivos indexados en COBOL.
 	    
-	H1: Definición de la División de Archivo para archivos indexados
+	Header: Definición de la División de Archivo para archivos indexados
 	
 	Text:
 	    
 	    La División de Archivo en COBOL se utiliza para definir los archivos indexados, especificando la clave primaria y cualquier clave secundaria.
 	    
-	H2: Ejemplo de definición de archivo indexado
+	Subheader: Ejemplo de definición de archivo indexado
 	
 	Text:
 	    
@@ -40,13 +40,13 @@ Unit(globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    *  ```RECORD KEY IS Cliente-ID``` define la clave primaria.
 	    *  ```ALTERNATE RECORD KEY IS Cliente-Nombre WITH DUPLICATES``` define una clave secundaria permitiendo duplicados.
 	    
-	H1: Apertura y cierre de archivos indexados
+	Header: Apertura y cierre de archivos indexados
 	
 	Text:
 	    
 	    Los archivos indexados deben ser abiertos y cerrados adecuadamente utilizando las sentencias ```OPEN``` y ```CLOSE```.
 	    
-	H2: Ejemplo de apertura y cierre de archivos indexados
+	Subheader: Ejemplo de apertura y cierre de archivos indexados
 	
 	Text:
 	    
@@ -69,13 +69,13 @@ Unit(globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    *  Se verifica ```WS-File-Status``` para manejar errores al abrir el archivo.
 	    *  ```CLOSE Clientes``` cierra el archivo al finalizar.
 	    
-	H1: Lectura de registros en archivos indexados
+	Header: Lectura de registros en archivos indexados
 	
 	Text:
 	    
 	    La lectura de registros en archivos indexados se puede hacer de manera secuencial o aleatoria. Para acceso aleatorio, se utiliza la sentencia ```READ``` con la clave de registro.
 	    
-	H2: Ejemplo de lectura secuencial y aleatoria
+	Subheader: Ejemplo de lectura secuencial y aleatoria
 	
 	Text:
 	    
@@ -113,13 +113,13 @@ Unit(globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    *  ```READ Clientes INTO Registro-Cliente KEY IS Cliente-ID``` lee un registro específico usando la clave primaria.
 	    *  ```INVALID KEY``` maneja la situación en la que un registro no se encuentra.
 	    
-	H1: Escritura y actualización de registros en archivos indexados
+	Header: Escritura y actualización de registros en archivos indexados
 	
 	Text:
 	    
 	    Para escribir y actualizar registros en archivos indexados, se utilizan las sentencias ```WRITE``` y ```REWRITE```.
 	    
-	H2: Ejemplo de escritura y actualización de registros
+	Subheader: Ejemplo de escritura y actualización de registros
 	
 	Text:
 	    
@@ -150,13 +150,13 @@ Unit(globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    *  ```REWRITE Registro-Cliente``` actualiza el registro actual en el archivo.
 	    *  Se verifica ```WS-File-Status``` para manejar errores durante las operaciones.
 	    
-	H1: Eliminación de registros en archivos indexados
+	Header: Eliminación de registros en archivos indexados
 	
 	Text:
 	    
 	    La eliminación de registros se realiza utilizando la sentencia ```DELETE```.
 	    
-	H2: Ejemplo de eliminación de registros
+	Subheader: Ejemplo de eliminación de registros
 	
 	Text:
 	    
@@ -177,13 +177,13 @@ Unit(globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    *  ```DELETE Clientes RECORD KEY IS Cliente-ID``` elimina el registro con la clave especificada.
 	    *  Se verifica ```WS-File-Status``` para manejar errores durante la eliminación.
 	    
-	H1: Manejo de errores en operaciones con archivos indexados
+	Header: Manejo de errores en operaciones con archivos indexados
 	
 	Text:
 	    
 	    Es importante capturar y manejar los posibles errores durante las operaciones con archivos indexados utilizando ```FILE STATUS```.
 	    
-	H2: Ejemplo de manejo de errores con FILE STATUS
+	Subheader: Ejemplo de manejo de errores con FILE STATUS
 	
 	Text:
 	    
@@ -214,7 +214,7 @@ Unit(globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    *  ```FILE STATUS IS WS-File-Status``` define una variable para capturar el estado del archivo.
 	    *  Se verifica ```WS-File-Status``` para manejar errores en las operaciones de archivo.
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

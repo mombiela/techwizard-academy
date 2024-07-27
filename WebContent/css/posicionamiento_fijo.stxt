@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Posicionamiento fijo
+Document (globalcampus.site/namespace.stxt): Posicionamiento fijo
 	
 	Text: 
 	    El posicionamiento fijo permite colocar un elemento en una ubicación específica dentro de la ventana del navegador, independientemente del desplazamiento de la página. Un elemento con posicionamiento fijo se retira del flujo normal del documento y se posiciona en relación con la ventana del navegador, manteniéndose fijo en esa posición incluso cuando se desplaza la página.
@@ -13,7 +13,7 @@ Unit(globalcampus.site/namespace.stxt): Posicionamiento fijo
 	    *  Se especifica ```position: fixed;``` en el CSS del elemento.
 	    *  Las propiedades ```top```, ```right```, ```bottom``` y ```left``` se utilizan para ajustar la posición del elemento respecto a la ventana del navegador.
 	    
-	H1: Ejemplo de código CSS con posicionamiento fijo
+	Header: Ejemplo de código CSS con posicionamiento fijo
 	
 	Text:
 	    

@@ -1,9 +1,9 @@
-Unit(globalcampus.site/namespace.stxt): Explicación de BBDD
+Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	
 	Text: 
 	    Las Bases de Datos (BBDD) son sistemas que permiten almacenar, organizar y gestionar grandes cantidades de información de manera estructurada. Son esenciales en el desarrollo de aplicaciones web y de software, ya que facilitan el acceso, manipulación y almacenamiento eficiente de datos.
 	    
-	H1: Tipos de Bases de Datos
+	Header: Tipos de Bases de Datos
 	
 	Text:
 	    
@@ -16,7 +16,7 @@ Unit(globalcampus.site/namespace.stxt): Explicación de BBDD
 	    #  Columnar: Optimizadas para consultas a gran escala sobre grandes cantidades de datos. Ejemplo: Apache Cassandra.
 	    #  Grafos: Almacenan datos en nodos y relaciones, ideales para datos interconectados. Ejemplo: Neo4j.
 	    
-	H1: Bases de Datos Relacionales (SQL)
+	Header: Bases de Datos Relacionales (SQL)
 	
 	Text:
 	    
@@ -48,7 +48,7 @@ Unit(globalcampus.site/namespace.stxt): Explicación de BBDD
 	
 	Text:
 	    
-	H1: Bases de Datos NoSQL
+	Header: Bases de Datos NoSQL
 	
 	Text:
 	    
@@ -116,7 +116,7 @@ Unit(globalcampus.site/namespace.stxt): Explicación de BBDD
 	
 	Text:
 	    
-	H1: Lenguaje de Consulta
+	Header: Lenguaje de Consulta
 	
 	Text:
 	    
@@ -129,13 +129,13 @@ Unit(globalcampus.site/namespace.stxt): Explicación de BBDD
 	    #  Actualizar datos: ```UPDATE Usuarios SET Correo = 'nuevo_correo@example.com' WHERE Nombre = 'Juan'```
 	    #  Eliminar datos: ```DELETE FROM Usuarios WHERE Nombre = 'Juan'```
 	    
-	H1: Normalización
+	Header: Normalización
 	
 	Text:
 	    
 	    La normalización es el proceso de estructurar una base de datos para reducir la redundancia y mejorar la integridad de los datos. Consiste en dividir una base de datos en tablas más pequeñas y vincularlas mediante llaves foráneas.
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

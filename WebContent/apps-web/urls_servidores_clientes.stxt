@@ -1,7 +1,7 @@
-Unit(globalcampus.site/namespace.stxt): Qué son URLs, servidores y clientes
+Document (globalcampus.site/namespace.stxt): Qué son URLs, servidores y clientes
 	
 	Text: 
-	H1: URLs
+	Header: URLs
 	
 	Text:
 	    
@@ -20,7 +20,7 @@ Unit(globalcampus.site/namespace.stxt): Qué son URLs, servidores y clientes
 	
 	Text:
 	    
-	H1: Servidores
+	Header: Servidores
 	
 	Text:
 	    
@@ -40,7 +40,7 @@ Unit(globalcampus.site/namespace.stxt): Qué son URLs, servidores y clientes
 	
 	Text:
 	    
-	H1: Clientes
+	Header: Clientes
 	
 	Text:
 	    
@@ -61,7 +61,7 @@ Unit(globalcampus.site/namespace.stxt): Qué son URLs, servidores y clientes
 	
 	Text:
 	    
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

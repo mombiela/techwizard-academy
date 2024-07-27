@@ -1,11 +1,11 @@
-Unit(globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HTML, CSS y JavaScript.
+Document (globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HTML, CSS y JavaScript.
 	
 	Text: 
-	H1: Lenguajes básicos del frontend: HTML, CSS y JavaScript
+	Header: Lenguajes básicos del frontend: HTML, CSS y JavaScript
 	
 	Text:
 	    
-	H1: HTML (HyperText Markup Language)
+	Header: HTML (HyperText Markup Language)
 	
 	Text:
 	    
@@ -32,7 +32,7 @@ Unit(globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HTML, C
 	
 	
 	Text:
-	H1: CSS (Cascading Style Sheets)
+	Header: CSS (Cascading Style Sheets)
 	
 	Text:
 	    
@@ -63,7 +63,7 @@ Unit(globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HTML, C
 	
 	Text:
 	    
-	H1: JavaScript
+	Header: JavaScript
 	
 	Text:
 	    
@@ -96,7 +96,7 @@ Unit(globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HTML, C
 	
 	
 	Text:
-	H1: Conclusión
+	Header: Conclusión
 	
 	Text:
 	    

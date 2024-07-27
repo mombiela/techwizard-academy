@@ -1,7 +1,7 @@
-Unit(globalcampus.site/namespace.stxt): Propiedades de color y fondo
+Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	
 	Text: 
-	H1: Propiedades de color y fondo
+	Header: Propiedades de color y fondo
 	
 	Text:
 	    

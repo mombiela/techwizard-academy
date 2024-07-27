@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Operadores de Asignación
+Document (globalcampus.site/namespace.stxt): Operadores de Asignación
 	
 	Text: 
 	    Estos operadores se utilizan para asignar valores a las variables.
@@ -13,7 +13,7 @@ Unit(globalcampus.site/namespace.stxt): Operadores de Asignación
 	    | ```code://=``` | División entera y asignación | ```code:a //= 3```
 	    | ```code:**=``` | Exponenciación y asignación  | ```code:a **= 3```
 	    
-	H1:  Ejemplo: 
+	Header:  Ejemplo: 
 	
 	Text:
 	    

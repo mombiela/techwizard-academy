@@ -1,4 +1,4 @@
-Unit(globalcampus.site/namespace.stxt): Operadores Aritméticos
+Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	
 	Text: 
 	    Estos operadores se utilizan para realizar operaciones matemáticas comunes.
@@ -13,7 +13,7 @@ Unit(globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    | ```code:**```  | Exponenciación  | ```code:a ** b``` |
 	    | ```code://```  | División entera | ```code:a // b``` |
 	    
-	H1:  Ejemplo: 
+	Header:  Ejemplo: 
 	
 	Text:
 	    

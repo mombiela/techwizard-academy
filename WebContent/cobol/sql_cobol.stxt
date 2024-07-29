@@ -1,23 +1,23 @@
 Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	
-	Text: 
+	Content: 
 	    El uso de SQL en programas COBOL permite integrar sentencias SQL directamente dentro del código COBOL, facilitando la interacción con bases de datos relacionales. Este enfoque, conocido como Embedded SQL (SQL embebido), es esencial para realizar operaciones como consultas, inserciones, actualizaciones y eliminaciones de datos en bases de datos. A continuación, se describen las técnicas y ejemplos para el uso de SQL en programas COBOL.
 	    
 	Header: Configuración inicial
 	
-	Text:
+	Content:
 	    
 	    Para utilizar SQL embebido en COBOL, es necesario incluir la estructura SQL Communication Area (SQLCA) que maneja el estado y los errores de SQL.
 	    
 	Subheader: Incluir SQLCA
 	
-	Text:
+	Content:
 	    
 	Code:
 	    EXEC SQL INCLUDE SQLCA END-EXEC.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -25,13 +25,13 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	Header: Conexión a la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para conectarse a una base de datos, se utiliza la sentencia ```CONNECT```.
 	    
 	Subheader: Ejemplo de conexión a la base de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -52,7 +52,7 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -61,13 +61,13 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	Header: Consultas a la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para realizar consultas en la base de datos, se utiliza la sentencia ```SELECT``` embebida.
 	    
 	Subheader: Ejemplo de consulta a la base de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -93,7 +93,7 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -102,13 +102,13 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	Header: Inserción de datos en la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para insertar nuevos registros en la base de datos, se utiliza la sentencia ```INSERT```.
 	    
 	Subheader: Ejemplo de inserción de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -125,7 +125,7 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -134,13 +134,13 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	Header: Actualización de datos en la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para actualizar registros existentes, se utiliza la sentencia ```UPDATE```.
 	    
 	Subheader: Ejemplo de actualización de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -158,7 +158,7 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -167,13 +167,13 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	Header: Eliminación de datos en la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para eliminar registros, se utiliza la sentencia ```DELETE```.
 	    
 	Subheader: Ejemplo de eliminación de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -190,7 +190,7 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -199,13 +199,13 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	Header: Manejo de errores y excepciones
 	
-	Text:
+	Content:
 	    
 	    El manejo de errores en operaciones con bases de datos se realiza mediante la verificación del ```SQLCODE``` y el uso de la estructura ```SQLCA```.
 	    
 	Subheader: Ejemplo de manejo de errores
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -224,7 +224,7 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -232,13 +232,13 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	Header: Desconexión de la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para desconectar de la base de datos, se utiliza la sentencia ```DISCONNECT```.
 	    
 	Subheader: Ejemplo de desconexión de la base de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -254,7 +254,7 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -265,6 +265,6 @@ Document (globalcampus.site/namespace.stxt): Uso de SQL en programas COBOL
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    El uso de SQL en programas COBOL mediante Embedded SQL permite la integración eficiente con bases de datos relacionales. Comprender cómo realizar conexiones, consultas, inserciones, actualizaciones, eliminaciones y manejar errores es esencial para desarrollar aplicaciones COBOL robustas y eficientes que interactúen con bases de datos modernas.

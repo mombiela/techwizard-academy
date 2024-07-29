@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): APIs RESTful
 	
-	Text: 
+	Content: 
 	    Las APIs RESTful (Representational State Transfer) son un estilo de arquitectura para diseñar servicios web que permiten la comunicación entre diferentes sistemas a través de HTTP. Son ampliamente utilizadas debido a su simplicidad y escalabilidad.
 	    
 	Header: Principios de las APIs RESTful
 	
-	Text:
+	Content:
 	    
 	    Las APIs RESTful se basan en varios principios clave:
 	    
@@ -18,7 +18,7 @@ Document (globalcampus.site/namespace.stxt): APIs RESTful
 	    
 	Header: Componentes de las APIs RESTful
 	
-	Text:
+	Content:
 	    
 	    Las APIs RESTful operan sobre recursos que se identifican mediante URIs (Uniform Resource Identifiers). Los componentes básicos incluyen:
 	    
@@ -33,7 +33,7 @@ Document (globalcampus.site/namespace.stxt): APIs RESTful
 	    
 	Header: Ejemplo de Diseño de API RESTful
 	
-	Text:
+	Content:
 	    
 	    Supongamos que estamos diseñando una API para gestionar usuarios.
 	    
@@ -45,7 +45,7 @@ Document (globalcampus.site/namespace.stxt): APIs RESTful
 	    
 	Header: Ejemplo Práctico en Node.js con Express
 	
-	Text:
+	Content:
 	    
 	    A continuación, un ejemplo práctico de cómo implementar una API RESTful en Node.js utilizando Express.
 	    
@@ -104,11 +104,11 @@ Document (globalcampus.site/namespace.stxt): APIs RESTful
 	    app.listen(port, () => console.log(Servidor escuchando en el puerto ${port}...));
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ventajas de las APIs RESTful
 	
-	Text:
+	Content:
 	    
 	    Las APIs RESTful ofrecen varias ventajas:
 	    
@@ -119,7 +119,7 @@ Document (globalcampus.site/namespace.stxt): APIs RESTful
 	    
 	Header: Desafíos de las APIs RESTful
 	
-	Text:
+	Content:
 	    
 	    A pesar de sus ventajas, las APIs RESTful también presentan algunos desafíos:
 	    
@@ -129,6 +129,6 @@ Document (globalcampus.site/namespace.stxt): APIs RESTful
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    Las APIs RESTful son una herramienta poderosa para construir servicios web escalables y eficientes. Con una buena comprensión de sus principios y componentes, los desarrolladores pueden crear interfaces de programación de aplicaciones que sean robustas, flexibles y fáciles de mantener.

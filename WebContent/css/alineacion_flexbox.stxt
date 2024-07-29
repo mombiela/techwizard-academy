@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Alineación y distribución en Flexbox
 	
-	Text: 
+	Content: 
 	    Flexbox proporciona un control detallado sobre la alineación y distribución de los ítems dentro de un contenedor flexible. Aquí se detallan las propiedades utilizadas para la alineación y distribución de los ítems Flexbox.
 	    
 	    *  **justify-content**:
@@ -45,7 +45,7 @@ Document (globalcampus.site/namespace.stxt): Alineación y distribución en Flex
 	    
 	Header: Ejemplo de código CSS para alineación y distribución en Flexbox
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -60,7 +60,7 @@ Document (globalcampus.site/namespace.stxt): Alineación y distribución en Flex
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -76,7 +76,7 @@ Document (globalcampus.site/namespace.stxt): Alineación y distribución en Flex
 	    
 	Header: Diagrama de alineación y distribución en Flexbox
 	
-	Text:
+	Content:
 	    
 	    ```startuml```
 	    +------------------------------------------------+

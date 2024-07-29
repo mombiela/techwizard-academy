@@ -1,9 +1,9 @@
 Document (globalcampus.site/namespace.stxt): Formas de aplicar CSS a un documento HTML
 	
-	Text: 
+	Content: 
 	Header: Formas de aplicar CSS a un documento HTML
 	
-	Text:
+	Content:
 	    
 	    *  **Introducción**
 	    CSS se puede aplicar a documentos HTML de varias formas, permitiendo flexibilidad en cómo se gestionan y organizan los estilos. Las tres formas principales de aplicar CSS son: en línea, en el encabezado del documento y a través de hojas de estilo externas.
@@ -14,7 +14,7 @@ Document (globalcampus.site/namespace.stxt): Formas de aplicar CSS a un document
 	    <p style="color: red; font-size: 16px;">Este es un párrafo estilizado en línea.</p>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **CSS en el encabezado del documento**
 	    El CSS se puede definir dentro del elemento ```<style>``` en la sección ```<head>``` del documento HTML. Este método permite centralizar los estilos en un solo lugar dentro del documento.
@@ -35,7 +35,7 @@ Document (globalcampus.site/namespace.stxt): Formas de aplicar CSS a un document
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **CSS externo**
 	    El CSS externo se coloca en un archivo separado con extensión ```.css``` y se enlaza al documento HTML mediante el elemento ```<link>``` en la sección ```<head>```. Este es el método más eficiente y organizado, especialmente para sitios web con múltiples páginas.
@@ -52,7 +52,7 @@ Document (globalcampus.site/namespace.stxt): Formas de aplicar CSS a un document
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	Code:
 	    /* Archivo styles.css */
@@ -62,7 +62,7 @@ Document (globalcampus.site/namespace.stxt): Formas de aplicar CSS a un document
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Conclusión**
 	    Cada método tiene sus usos y ventajas. El CSS en línea es útil para estilos rápidos y únicos, el CSS en el encabezado es bueno para pequeños proyectos o páginas únicas, y las hojas de estilo externas son ideales para proyectos más grandes y para mantener un código limpio y reutilizable.

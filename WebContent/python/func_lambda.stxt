@@ -1,22 +1,22 @@
 Document (globalcampus.site/namespace.stxt): Funciones lambda
 	
-	Text: 
+	Content: 
 	Header: Funciones Lambda en Python
 	
-	Text:
+	Content:
 	    
 	    Las funciones lambda en Python son funciones anónimas, es decir, funciones que no tienen un nombre explícito. Se utilizan para crear pequeñas funciones desechables sobre la marcha, especialmente útiles en situaciones donde se requiere una función de corta duración.
 	    
 	Header: Sintaxis de las Funciones Lambda
 	
-	Text:
+	Content:
 	    
 	    La sintaxis básica de una función lambda es:
 	Code:
 	    lambda argumentos : expresión
 	
 	
-	Text:
+	Content:
 	    
 	    Donde:
 	    *  ```lambda``` es la palabra clave para definir una función lambda.
@@ -29,13 +29,13 @@ Document (globalcampus.site/namespace.stxt): Funciones lambda
 	    print(mi_lambda(5, 3)) # Imprime 8
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, ```mi_lambda``` es una función lambda que toma dos argumentos ```x``` y ```y```, y devuelve su suma.
 	    
 	Header: Usos Comunes de las Funciones Lambda
 	
-	Text:
+	Content:
 	    
 	    *  **En funciones de orden superior**: Las funciones lambda se usan frecuentemente como argumentos para funciones de orden superior como ```map```, ```filter``` y ```sorted```.
 	    *  **En funciones de callback**: Las funciones lambda son útiles cuando se necesita definir una función rápida para ser usada como callback.
@@ -49,7 +49,7 @@ Document (globalcampus.site/namespace.stxt): Funciones lambda
 	    print(cuadrados) # Imprime [1, 4, 9, 16]
 	
 	
-	Text:
+	Content:
 	    
 	    Usando ```filter``` con una función lambda:
 	Code:
@@ -58,7 +58,7 @@ Document (globalcampus.site/namespace.stxt): Funciones lambda
 	    print(pares) # Imprime [2, 4]
 	
 	
-	Text:
+	Content:
 	    
 	    Usando ```sorted``` con una función lambda para ordenar por una clave específica:
 	Code:
@@ -67,11 +67,11 @@ Document (globalcampus.site/namespace.stxt): Funciones lambda
 	    print(ordenados) # Imprime [(5, 0), (3, 1), (1, 2)]
 	
 	
-	Text:
+	Content:
 	    
 	Header: Limitaciones de las Funciones Lambda
 	
-	Text:
+	Content:
 	    
 	    *  **Solo una expresión**: Las funciones lambda solo pueden contener una única expresión. No se pueden usar declaraciones ni múltiples expresiones.
 	    *  **Legibilidad**: Las funciones lambda pueden hacer que el código sea menos legible si se abusa de ellas o si se utilizan en situaciones complejas.
@@ -85,11 +85,11 @@ Document (globalcampus.site/namespace.stxt): Funciones lambda
 	    # lambda x, y : x += y; print(x)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Comparación con las Funciones Definidas con "def"
 	
-	Text:
+	Content:
 	    
 	    Las funciones lambda y las funciones definidas con ```def``` tienen propósitos diferentes:
 	    
@@ -109,4 +109,4 @@ Document (globalcampus.site/namespace.stxt): Funciones lambda
 	    print(suma_def(5, 3)) # Imprime 8
 	
 	
-	Text:
+	Content:

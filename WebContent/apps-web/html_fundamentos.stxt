@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	
-	Text: 
+	Content: 
 	    HTML (HyperText Markup Language) es el lenguaje básico para crear y estructurar contenido en la web. A continuación, se describen los elementos y la estructura básica de un documento HTML.
 	    
 	Header: Elementos de HTML
 	
-	Text:
+	Content:
 	    
 	    Los elementos HTML son los componentes básicos de un documento HTML. Están formados por etiquetas (tags) que indican el inicio y el final del elemento. Un elemento HTML típico tiene la siguiente estructura:
 	    
@@ -13,7 +13,7 @@ Document (globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	    <tagname>Contenido del elemento</tagname>
 	
 	
-	Text:
+	Content:
 	    
 	    *  //Etiquetas//: Las etiquetas HTML están encerradas entre corchetes angulares, como ```<div>``` y ```</div>```.
 	    *  //Atributos//: Las etiquetas pueden tener atributos que proporcionan información adicional sobre el elemento, como ```<a href="url">Enlace</a>```.
@@ -21,7 +21,7 @@ Document (globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	    
 	Header: Estructura básica de un documento HTML
 	
-	Text:
+	Content:
 	    
 	    Un documento HTML se compone de varias partes esenciales. A continuación se muestra la estructura básica:
 	    
@@ -40,7 +40,7 @@ Document (globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	    </html>
 	
 	
-	Text:
+	Content:
 	    *  ```<!DOCTYPE html>```: Declara el tipo de documento y la versión de HTML que se está utilizando. HTML5 es la versión más reciente y comúnmente utilizada.
 	    *  ```<html>```: El elemento raíz que encierra todo el contenido de la página web.
 	    *  ```<head>```: Contiene metadatos sobre el documento, como el título, enlaces a hojas de estilo, y metaetiquetas.
@@ -50,7 +50,7 @@ Document (globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	    
 	Header: Elementos comunes en HTML
 	
-	Text:
+	Content:
 	    
 	    #  Encabezados: Los encabezados se utilizan para definir títulos y subtítulos en un documento. Los niveles van de ```<h1>``` a ```<h6>```, siendo ```<h1>``` el más importante.
 	    #  Párrafos: Los párrafos se definen con ```<p>``` y se utilizan para contener bloques de texto.
@@ -81,9 +81,9 @@ Document (globalcampus.site/namespace.stxt): Elementos y estructura del HTML
 	    </html>
 	
 	
-	Text:
+	Content:
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    Comprender los elementos y la estructura del HTML es fundamental para el desarrollo web. HTML proporciona la base sobre la cual se construyen las páginas web, permitiendo organizar y presentar contenido de manera estructurada y accesible.

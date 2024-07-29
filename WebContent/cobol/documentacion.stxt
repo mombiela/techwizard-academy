@@ -1,17 +1,17 @@
 Document (globalcampus.site/namespace.stxt): Importancia de la documentación y comentarios en el código
 	
-	Text: 
+	Content: 
 	    La documentación y los comentarios en el código son esenciales para el mantenimiento, comprensión y colaboración en proyectos de desarrollo. A continuación, se detalla su importancia en el contexto de la programación COBOL.
 	    
 	Header: 1. Facilita el Mantenimiento del Código
 	
-	Text:
+	Content:
 	    
 	    La documentación y los comentarios claros permiten a otros desarrolladores (o a uno mismo en el futuro) entender rápidamente la lógica y estructura del código, facilitando su mantenimiento y actualización.
 	    
 	Subheader: Ejemplo de comentario descriptivo
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -25,7 +25,7 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -33,13 +33,13 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    
 	Header: 2. Mejora la Colaboración en Equipo
 	
-	Text:
+	Content:
 	    
 	    En proyectos colaborativos, la documentación ayuda a los miembros del equipo a comprender las diferentes partes del código, facilitando la integración y coordinación de las tareas.
 	    
 	Subheader: Ejemplo de comentario para colaboración en equipo
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -50,7 +50,7 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    SUBTRACT Cantidad-Vendida FROM Inventario-Actual.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -58,13 +58,13 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    
 	Header: 3. Facilita la Depuración y Pruebas
 	
-	Text:
+	Content:
 	    
 	    Los comentarios pueden ayudar a identificar rápidamente secciones del código relevantes para la depuración y pruebas, ahorrando tiempo y esfuerzo.
 	    
 	Subheader: Ejemplo de comentario para depuración
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -75,7 +75,7 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    PERFORM Calcular-Ventas-Mensuales.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -83,13 +83,13 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    
 	Header: 4. Mejora la Comprensión del Código Complejo
 	
-	Text:
+	Content:
 	    
 	    El código complejo puede ser difícil de entender sin documentación adecuada. Los comentarios y la documentación ayudan a desglosar y explicar la lógica compleja.
 	    
 	Subheader: Ejemplo de comentario en código complejo
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -102,7 +102,7 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -110,13 +110,13 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    
 	Header: 5. Ayuda en la Transferencia de Conocimiento
 	
-	Text:
+	Content:
 	    
 	    La documentación y los comentarios son vitales para la transferencia de conocimiento en caso de cambios en el equipo de desarrollo o cuando un nuevo desarrollador se une al proyecto.
 	    
 	Subheader: Ejemplo de documentación para transferencia de conocimiento
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -128,7 +128,7 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    CLOSE Config-Archivo.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -136,6 +136,6 @@ Document (globalcampus.site/namespace.stxt): Importancia de la documentación y 
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    La documentación y los comentarios en el código COBOL son fundamentales para garantizar la mantenibilidad, colaboración, depuración, comprensión y transferencia de conocimiento en los proyectos de desarrollo. Implementar una buena práctica de documentación mejora significativamente la calidad y sostenibilidad del código a lo largo del tiempo.

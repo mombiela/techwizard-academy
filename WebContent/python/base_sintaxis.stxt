@@ -2,7 +2,7 @@ Document (globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	
 	Header:  Python como un Lenguaje Indentado 
 	
-	Text: Python utiliza la indentación para definir la estructura del código. A diferencia de otros lenguajes que utilizan llaves ```{}``` para delimitar bloques de código, Python utiliza la indentación (espacios o tabuladores) para agrupar sentencias. La correcta indentación es crucial porque determina el alcance y la estructura del código. Por ejemplo:
+	Content: Python utiliza la indentación para definir la estructura del código. A diferencia de otros lenguajes que utilizan llaves ```{}``` para delimitar bloques de código, Python utiliza la indentación (espacios o tabuladores) para agrupar sentencias. La correcta indentación es crucial porque determina el alcance y la estructura del código. Por ejemplo:
 	    
 	Code:
 	    if True:
@@ -10,7 +10,7 @@ Document (globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	
 	Header:  Declaración de Variables 
 	
-	Text: En Python, no es necesario declarar explícitamente el tipo de una variable antes de usarla. Simplemente se asigna un valor a una variable, y Python determinará automáticamente su tipo. Aquí hay algunos ejemplos:
+	Content: En Python, no es necesario declarar explícitamente el tipo de una variable antes de usarla. Simplemente se asigna un valor a una variable, y Python determinará automáticamente su tipo. Aquí hay algunos ejemplos:
 	    
 	Code:
 	    x = 10        # Entero
@@ -19,7 +19,7 @@ Document (globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 
 	Header:  Comentarios 
 	
-	Text: Los comentarios en Python se utilizan para documentar el código y hacerlo más legible. Comienzan con el símbolo # y se extienden hasta el final de la línea. Los comentarios no afectan la ejecución del programa. Aquí tienes algunos ejemplos de comentarios:
+	Content: Los comentarios en Python se utilizan para documentar el código y hacerlo más legible. Comienzan con el símbolo # y se extienden hasta el final de la línea. Los comentarios no afectan la ejecución del programa. Aquí tienes algunos ejemplos de comentarios:
 	    
 	Code:
 	    ***# Esto es un comentario de una sola línea***
@@ -34,7 +34,7 @@ Document (globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	    x = 10
 	Header:  Ejemplo de Código Completo 
 	
-	Text: A continuación, se muestra un ejemplo de un programa simple en Python que calcula el área de un círculo. Este ejemplo utiliza comentarios para explicar cada paso del proceso:
+	Content: A continuación, se muestra un ejemplo de un programa simple en Python que calcula el área de un círculo. Este ejemplo utiliza comentarios para explicar cada paso del proceso:
 	    
 	Code:
 	    # Programa para calcular el área de un círculo
@@ -51,7 +51,7 @@ Document (globalcampus.site/namespace.stxt): Sintaxis básica y comentarios
 	    # Mostrar el resultado
 	    print("El área del círculo es:", area)
 	
-	Text:
+	Content:
 	    En este ejemplo:
 	    
 	    * Se define una constante ```PI``` para el valor de pi.

@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	
-	Text: 
+	Content: 
 	    En COBOL, los literales son valores constantes que se utilizan directamente en el código. Estos valores pueden ser numéricos, alfanuméricos, o figurativos. A continuación, se describen los diferentes tipos de literales y su uso en COBOL.
 	    
 	Header: Literales Numéricos
 	
-	Text:
+	Content:
 	    
 	    Los literales numéricos representan valores numéricos constantes. Pueden incluir dígitos, un signo opcional (+ o -), y un punto decimal opcional. Ejemplos:
 	    
@@ -15,7 +15,7 @@ Document (globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    SUBTRACT -50 FROM WS-Balance.
 	
 	
-	Text:
+	Content:
 	    
 	    En estos ejemplos:
 	    
@@ -25,7 +25,7 @@ Document (globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    
 	Header: Literales Alfanuméricos
 	
-	Text:
+	Content:
 	    
 	    Los literales alfanuméricos son secuencias de caracteres encerradas entre comillas simples o dobles. Se utilizan para representar texto. Ejemplos:
 	    
@@ -35,7 +35,7 @@ Document (globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    DISPLAY 'Processing Complete'.
 	
 	
-	Text:
+	Content:
 	    
 	    En estos ejemplos:
 	    
@@ -45,7 +45,7 @@ Document (globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    
 	Header: Literales Figurativos
 	
-	Text:
+	Content:
 	    
 	    Los literales figurativos son palabras reservadas que representan valores comunes. Los más utilizados son ```SPACE``` (o ```SPACES```), ```ZERO``` (o ```ZEROS``` o ```ZEROES```), y ```HIGH-VALUE``` (o ```HIGH-VALUES```). Ejemplos:
 	    
@@ -55,7 +55,7 @@ Document (globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    MOVE HIGH-VALUE TO WS-Flag.
 	
 	
-	Text:
+	Content:
 	    
 	    En estos ejemplos:
 	    
@@ -65,7 +65,7 @@ Document (globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    
 	Header: Uso en Sentencias
 	
-	Text:
+	Content:
 	    
 	    Los literales se utilizan frecuentemente en diversas sentencias COBOL. Aquí hay ejemplos adicionales de su uso:
 	    
@@ -79,7 +79,7 @@ Document (globalcampus.site/namespace.stxt): Uso de literales en COBOL
 	    MOVE 'EOF' TO WS-Status.
 	
 	
-	Text:
+	Content:
 	    
 	    En estos ejemplos:
 	    

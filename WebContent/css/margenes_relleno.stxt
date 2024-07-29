@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Propiedades de márgenes y relleno
 	
-	Text: 
+	Content: 
 	    *  **Propiedades de márgenes**
 	    *  ```margin```: Define el margen completo en una sola declaración. Ejemplo: ```margin: 10px;```
 	    *  ```margin-top```, ```margin-right```, ```margin-bottom```, ```margin-left```: Permiten definir márgenes individuales para cada lado. Ejemplo: ```margin-top: 20px;```
@@ -12,7 +12,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de márgenes y relleno
 	    
 	Header: Ejemplo de uso de propiedades de márgenes y relleno
 	
-	Text:
+	Content:
 	    
 	Code:
 	    div {
@@ -26,7 +26,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de márgenes y relleno
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    Este ejemplo define un div con un margen de 20px alrededor y un relleno de 15px en todos los lados. Para un párrafo (```p```), establece un margen superior e inferior de 10px y un relleno izquierdo de 5px.
 	    

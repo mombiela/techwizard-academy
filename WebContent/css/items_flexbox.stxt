@@ -1,9 +1,9 @@
 Document (globalcampus.site/namespace.stxt): Propiedades de los ítems Flexbox
 	
-	Text: 
+	Content: 
 	Header: Propiedades de los ítems Flexbox
 	
-	Text:
+	Content:
 	    
 	    Las propiedades de los ítems Flexbox controlan cómo se comportan y se distribuyen los elementos hijos dentro de un contenedor flexible (flex container). Estas propiedades permiten ajustar el crecimiento, la contracción, la alineación y el orden de los elementos flexibles.
 	    
@@ -44,7 +44,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de los ítems Flexbox
 	    
 	Header: Ejemplo de código CSS para ítems Flexbox
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -67,7 +67,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de los ítems Flexbox
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, tres ítems flexibles dentro de un contenedor Flexbox tienen diferentes propiedades aplicadas:
 	    
@@ -77,7 +77,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de los ítems Flexbox
 	    
 	Header: Diagrama de ítems Flexbox con propiedades aplicadas
 	
-	Text:
+	Content:
 	    
 	    ```startuml```
 	    +-------------------------------------+

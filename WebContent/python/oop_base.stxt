@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Clases y objetos
 	
-	Text: 
+	Content: 
 	    Las clases son un concepto fundamental en la programación orientada a objetos (OOP) y permiten agrupar datos y funciones en una única entidad llamada "objeto".
 	    
 	Header:  Definición de una Clase 
 	
-	Text:
+	Content:
 	    
 	    Para definir una clase en Python, utilizamos la palabra clave ```class``` seguida del nombre de la clase. Por convención, el nombre de las clases empieza con mayúscula.
 	    
@@ -14,13 +14,13 @@ Document (globalcampus.site/namespace.stxt): Clases y objetos
 	    pass
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, ```Persona``` es una clase vacía. La palabra clave ```pass``` se usa como un marcador de posición que indica que no hay nada dentro de la clase por el momento.
 	    
 	Header:  Atributos y Métodos 
 	
-	Text:
+	Content:
 	    
 	    Una clase puede tener atributos (variables) y métodos (funciones). Los atributos representan las características de un objeto, mientras que los métodos representan su comportamiento.
 	    
@@ -34,14 +34,14 @@ Document (globalcampus.site/namespace.stxt): Clases y objetos
 	    print(f"Hola, me llamo {self.nombre} y tengo {self.edad} años.")
 	
 	
-	Text:
+	Content:
 	    
 	    * ```__init__```: Este es un método especial llamado constructor. Se llama automáticamente cuando se crea una nueva instancia de la clase. Se utiliza para inicializar los atributos del objeto.
 	    * ```self```: Es una referencia al objeto actual. Se usa para acceder a los atributos y métodos de la clase desde dentro de la clase.
 	    
 	Header:  Crear Instancias de una Clase 
 	
-	Text:
+	Content:
 	    
 	    Para crear un objeto (instancia) de una clase, simplemente llamamos a la clase como si fuera una función.
 	    
@@ -50,13 +50,13 @@ Document (globalcampus.site/namespace.stxt): Clases y objetos
 	    persona2 = Persona("Luis", 25)
 	
 	
-	Text:
+	Content:
 	    
 	    Ahora ```persona1``` y ```persona2``` son dos objetos diferentes de la clase Persona.
 	    
 	Header:  Acceder a Atributos y Métodos 
 	
-	Text:
+	Content:
 	    
 	    Podemos acceder a los atributos y métodos de un objeto usando la sintaxis de punto.
 	    
@@ -68,11 +68,11 @@ Document (globalcampus.site/namespace.stxt): Clases y objetos
 	    persona2.***saludar()***      # Output: Hola, me llamo Luis y tengo 25 años.
 	
 	
-	Text:
+	Content:
 	    
 	Header:  Herencia 
 	
-	Text:
+	Content:
 	    
 	    La herencia permite crear una nueva clase basada en una clase existente. La nueva clase (subclase) hereda los atributos y métodos de la clase original (superclase).
 	    
@@ -86,7 +86,7 @@ Document (globalcampus.site/namespace.stxt): Clases y objetos
 	    print(f"{self.nombre} gana {self.salario} dólares al año.")
 	
 	
-	Text:
+	Content:
 	    
 	    * ```super()```: Se usa para llamar al constructor de la superclase y asegurarse de que los atributos heredados se inicialicen correctamente.
 	    * En vez de ```super().__init__(nombre, edad)``` es equivalente: ```Persona.__init__(self, nombre, edad)```, aunque quizá no sea tan claro.
@@ -97,11 +97,11 @@ Document (globalcampus.site/namespace.stxt): Clases y objetos
 	    empleado1.mostrar_salario()  # Output: Carlos gana 50000 dólares al año.
 	
 	
-	Text:
+	Content:
 	    
 	Header:  Resumen 
 	
-	Text:
+	Content:
 	    
 	    * **Clase**: Define una nueva estructura de datos con atributos y métodos.
 	    * **Objeto**: Una instancia de una clase.

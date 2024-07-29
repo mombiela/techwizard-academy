@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Operadores de Comparación
 	
-	Text: 
+	Content: 
 	    Estos operadores se utilizan para comparar dos valores.
 	    
 	    |= Operador    |= Descripción     |= Ejemplo
@@ -13,7 +13,7 @@ Document (globalcampus.site/namespace.stxt): Operadores de Comparación
 	    
 	Header:  Ejemplo: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    a = 5
@@ -24,7 +24,7 @@ Document (globalcampus.site/namespace.stxt): Operadores de Comparación
 	    print(a < b)   # False
 	
 	
-	Text:
+	Content:
 	    
 	    
 	    

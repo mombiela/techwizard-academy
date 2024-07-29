@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	
-	Text: 
+	Content: 
 	Header: Lectura y escritura de archivos
 	
-	Text:
+	Content:
 	    
 	    Python proporciona funciones y métodos que facilitan la lectura y escritura de archivos. A continuación, se detallan las operaciones básicas para manejar archivos de texto y archivos binarios.
 	    
 	Header: Apertura de Archivos
 	
-	Text:
+	Content:
 	    
 	    Para abrir un archivo en Python, se utiliza la función ```open()```. Esta función acepta dos parámetros principales: el nombre del archivo y el modo de apertura.
 	    
@@ -24,11 +24,11 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    archivo = open("ejemplo.txt", "r")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Lectura de Archivos
 	
-	Text:
+	Content:
 	    
 	    Para leer datos de un archivo, se pueden usar varios métodos dependiendo de las necesidades:
 	    
@@ -37,21 +37,21 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    contenido = archivo.read()
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```readline()```: Lee una sola línea del archivo.
 	Code:
 	    linea = archivo.readline()
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```readlines()```: Lee todas las líneas del archivo y las devuelve como una lista.
 	Code:
 	    lineas = archivo.readlines()
 	
 	
-	Text:
+	Content:
 	    
 	    Ejemplo completo:
 	Code:
@@ -60,11 +60,11 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    print(contenido)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Escritura en Archivos
 	
-	Text:
+	Content:
 	    
 	    Para escribir datos en un archivo, se pueden usar varios métodos:
 	    
@@ -74,7 +74,7 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    archivo.write("Hola, mundo!")
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```writelines()```: Escribe una lista de cadenas en el archivo.
 	Code:
@@ -83,11 +83,11 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    archivo.writelines(lineas)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Añadir Datos a un Archivo
 	
-	Text:
+	Content:
 	    
 	    Para añadir datos al final de un archivo sin sobrescribir el contenido existente, se utiliza el modo ```'a'```.
 	Code:
@@ -95,11 +95,11 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    archivo.write("Añadiendo nueva línea.")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Lectura y Escritura de Archivos Binarios
 	
-	Text:
+	Content:
 	    
 	    Para trabajar con archivos binarios, se utilizan los modos ```'rb'``` y ```'wb'```.
 	    
@@ -109,7 +109,7 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    contenido = archivo.read()
 	
 	
-	Text:
+	Content:
 	    
 	    Ejemplo de escritura binaria:
 	Code:
@@ -117,11 +117,11 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    archivo.write(contenido)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Gestión de Archivos con @@with@@
 	
-	Text:
+	Content:
 	    
 	    El uso de ```with``` para abrir archivos es una práctica recomendada, ya que asegura que los archivos se cierren correctamente después de su uso, incluso si ocurre una excepción.
 	    
@@ -132,11 +132,11 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    # No es necesario cerrar el archivo
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ventajas del Manejo de Archivos en Python
 	
-	Text:
+	Content:
 	    
 	    *  **Eficiencia y Seguridad**: El uso de ```with``` asegura que los archivos se cierren adecuadamente, evitando pérdidas de datos y liberando recursos.
 	    *  **Flexibilidad**: Diferentes modos de apertura permiten una gran variedad de operaciones de lectura y escritura.
@@ -144,7 +144,7 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    
 	Header: Ejemplo Completo
 	
-	Text:
+	Content:
 	    
 	    Aquí tienes un ejemplo completo que muestra la apertura, lectura, escritura y cierre de archivos:
 	    
@@ -170,4 +170,4 @@ Document (globalcampus.site/namespace.stxt): Lectura y escritura de archivos
 	    print(linea.strip())
 	
 	
-	Text:
+	Content:

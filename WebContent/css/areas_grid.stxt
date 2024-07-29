@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Definición de áreas en CSS Grid
 	
-	Text: 
+	Content: 
 	    La definición de áreas en CSS Grid permite nombrar y organizar las secciones de la cuadrícula, lo que facilita la colocación de los ítems en posiciones específicas dentro del contenedor de cuadrícula. Esto se logra utilizando la propiedad ```grid-template-areas``` junto con la propiedad ```grid-area``` en los ítems individuales.
 	    
 	    *  **grid-template-areas**:
@@ -14,7 +14,7 @@ Document (globalcampus.site/namespace.stxt): Definición de áreas en CSS Grid
 	    "footer footer footer";
 	
 	
-	Text:
+	Content:
 	    
 	    *  **grid-area**:
 	    *  Asigna un ítem a una de las áreas nombradas definidas por ```grid-template-areas```.
@@ -22,7 +22,7 @@ Document (globalcampus.site/namespace.stxt): Definición de áreas en CSS Grid
 	    
 	Header: Ejemplo de código CSS para la definición de áreas en CSS Grid
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -53,7 +53,7 @@ Document (globalcampus.site/namespace.stxt): Definición de áreas en CSS Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula tiene tres columnas y tres filas definidas con ```grid-template-columns``` y ```grid-template-rows```.
@@ -62,7 +62,7 @@ Document (globalcampus.site/namespace.stxt): Definición de áreas en CSS Grid
 	    
 	Header: Diagrama de áreas en CSS Grid
 	
-	Text:
+	Content:
 	    
 	    ```startuml```
 	    +--------------------------------------------------+

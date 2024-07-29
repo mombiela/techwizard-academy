@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) en COBOL
 	
-	Text: 
+	Content: 
 	    En COBOL, las tablas (o arrays) se utilizan para almacenar y manipular conjuntos de datos relacionados de manera eficiente. Las tablas permiten acceder a elementos de datos mediante índices y son útiles para organizar grandes volúmenes de información de forma estructurada. A continuación, se explica cómo crear y usar tablas en COBOL.
 	    
 	Header: Declaración de Tablas
 	
-	Text:
+	Content:
 	    
 	    Para declarar una tabla en COBOL, se utiliza la cláusula ```OCCURS```. Esta cláusula define cuántas veces se repite un grupo de datos. Aquí hay un ejemplo básico de cómo declarar una tabla:
 	    
@@ -18,7 +18,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) 
 	    10 EmployeeSalary PIC 9(7)V99.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -28,7 +28,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) 
 	    
 	Header: Acceso a Elementos de la Tabla
 	
-	Text:
+	Content:
 	    
 	    Para acceder a los elementos individuales de una tabla, se utilizan índices. COBOL permite usar índices explícitos o números literales para referenciar elementos específicos. Aquí hay ejemplos de acceso a elementos de la tabla:
 	    
@@ -44,7 +44,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) 
 	    DISPLAY EmployeeSalary(1).
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -54,7 +54,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) 
 	    
 	Header: Iteración sobre Tablas
 	
-	Text:
+	Content:
 	    
 	    Es común recorrer todas las entradas de una tabla utilizando bucles. El siguiente ejemplo muestra cómo iterar sobre una tabla:
 	    
@@ -66,7 +66,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) 
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -75,7 +75,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) 
 	    
 	Header: Tablas Multidimensionales
 	
-	Text:
+	Content:
 	    
 	    COBOL también permite declarar tablas multidimensionales utilizando múltiples cláusulas ```OCCURS```. Aquí hay un ejemplo de una tabla bidimensional:
 	    
@@ -89,7 +89,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) 
 	    15 EmployeeSalary PIC 9(7)V99.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -112,7 +112,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de tablas (arrays) 
 	    DISPLAY EmployeeSalary(1, 1).
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, se accede al primer registro del primer departamento utilizando índices para ambas dimensiones.
 	    

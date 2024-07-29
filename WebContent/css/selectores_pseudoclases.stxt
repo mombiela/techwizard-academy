@@ -1,9 +1,9 @@
 Document (globalcampus.site/namespace.stxt): Introducción a las pseudoclases
 	
-	Text: 
+	Content: 
 	Header: Introducción a las pseudoclases
 	
-	Text:
+	Content:
 	    
 	    *  **Definición y propósito**
 	    Las pseudoclases en CSS son palabras clave que se añaden a los selectores para especificar un estado especial del elemento seleccionado. Permiten aplicar estilos en función de la interacción del usuario o del estado del documento.
@@ -16,7 +16,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a las pseudoclases
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Tipos comunes de pseudoclases**
 	    ```startalert```
@@ -27,7 +27,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a las pseudoclases
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **:active**: Aplica estilos cuando un elemento está siendo activamente pulsado por el usuario.
 	Code:
@@ -36,7 +36,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a las pseudoclases
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **:focus**: Aplica estilos cuando un elemento ha recibido el foco, como cuando se selecciona un campo de formulario.
 	Code:
@@ -45,7 +45,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a las pseudoclases
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **:nth-child()**: Aplica estilos a elementos que son el n-ésimo hijo de su padre, donde n puede ser un número, una palabra clave o una fórmula.
 	Code:
@@ -54,7 +54,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a las pseudoclases
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **:not()**: Aplica estilos a todos los elementos que no coinciden con el selector dado.
 	Code:
@@ -63,7 +63,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a las pseudoclases
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Ventajas del uso de pseudoclases**
@@ -107,7 +107,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a las pseudoclases
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Conclusión**
 	    Las pseudoclases en CSS son esenciales para mejorar la interactividad y la usabilidad de las páginas web. Proporcionan una forma eficiente de aplicar estilos en función del estado del elemento y las interacciones del usuario, permitiendo diseños más dinámicos y receptivos.

@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Papel de los servidores backend
 	
-	Text: 
+	Content: 
 	    Los servidores backend juegan un papel crucial en el desarrollo y funcionamiento de aplicaciones web y móviles. A continuación se detallan las responsabilidades y funciones principales de los servidores backend.
 	    
 	Header: Procesamiento y lógica de negocio
 	
-	Text:
+	Content:
 	    
 	    Los servidores backend son responsables de la lógica de negocio de una aplicación. Esto incluye:
 	    
@@ -27,11 +27,11 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores backend
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	Header: Gestión de bases de datos
 	
-	Text:
+	Content:
 	    
 	    Una de las funciones más importantes del backend es la interacción con las bases de datos:
 	    
@@ -65,11 +65,11 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores backend
 	    ?>
 	
 	
-	Text:
+	Content:
 	    
 	Header: Autenticación y autorización
 	
-	Text:
+	Content:
 	    
 	    Los servidores backend gestionan la seguridad de la aplicación mediante la autenticación y autorización de usuarios:
 	    
@@ -98,7 +98,7 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores backend
 	    res.sendStatus(403);
 	    } else {
 	    res.json({
-	    text: 'This is protected',
+	    Content: 'This is protected',
 	    data
 	    });
 	    }
@@ -122,11 +122,11 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores backend
 	    });
 	
 	
-	Text:
+	Content:
 	    
 	Header: Comunicación con el frontend
 	
-	Text:
+	Content:
 	    
 	    El backend se comunica con el frontend principalmente a través de APIs:
 	    
@@ -150,11 +150,11 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores backend
 	    });
 	
 	
-	Text:
+	Content:
 	    
 	Header: Manejo de archivos y recursos
 	
-	Text:
+	Content:
 	    
 	    El backend también gestiona la subida, descarga y almacenamiento de archivos:
 	    
@@ -187,10 +187,10 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores backend
 	    app.run(debug=True)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    El papel de los servidores backend es esencial para el correcto funcionamiento de una aplicación web o móvil. Desde el procesamiento de datos y lógica de negocio hasta la gestión de bases de datos y la autenticación, el backend soporta y habilita las funcionalidades críticas de una aplicación. Con tecnologías como Java, COBOL, Node.js, Python, entre otras, los desarrolladores pueden construir soluciones robustas y escalables para satisfacer diversas necesidades empresariales y de usuario.

@@ -1,23 +1,23 @@
 Document (globalcampus.site/namespace.stxt): Integración de bases de datos en aplicaciones COBOL
 	
-	Text: 
+	Content: 
 	    La integración de bases de datos en aplicaciones COBOL es una práctica esencial para aprovechar las capacidades de almacenamiento y manipulación de datos de los sistemas de gestión de bases de datos relacionales (RDBMS). Esta integración se logra mediante el uso de Embedded SQL (SQL embebido) dentro del código COBOL. A continuación, se describen los pasos y las técnicas necesarias para integrar bases de datos en aplicaciones COBOL de manera efectiva.
 	    
 	Header: Configuración inicial
 	
-	Text:
+	Content:
 	    
 	    Para comenzar a utilizar SQL embebido en COBOL, es necesario incluir la estructura SQL Communication Area (SQLCA) que maneja el estado y los errores de SQL.
 	    
 	Subheader: Incluir SQLCA
 	
-	Text:
+	Content:
 	    
 	Code:
 	    EXEC SQL INCLUDE SQLCA END-EXEC.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -25,13 +25,13 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Header: Conexión a la base de datos
 	
-	Text:
+	Content:
 	    
 	    La conexión a una base de datos se establece mediante la sentencia ```CONNECT```. Es crucial manejar correctamente las credenciales y la información de conexión.
 	    
 	Subheader: Ejemplo de conexión a la base de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -52,7 +52,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -61,13 +61,13 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Header: Operaciones básicas de SQL
 	
-	Text:
+	Content:
 	    
 	    Las operaciones básicas de SQL, como SELECT, INSERT, UPDATE y DELETE, se utilizan para interactuar con la base de datos.
 	    
 	Subheader: Ejemplo de consulta (SELECT)
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -93,7 +93,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -101,7 +101,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Subheader: Ejemplo de inserción (INSERT)
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -118,7 +118,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -126,7 +126,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Subheader: Ejemplo de actualización (UPDATE)
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -144,7 +144,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -152,7 +152,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Subheader: Ejemplo de eliminación (DELETE)
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -169,7 +169,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -177,13 +177,13 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Header: Manejo de transacciones
 	
-	Text:
+	Content:
 	    
 	    El manejo de transacciones es crucial para asegurar la integridad de los datos. Las sentencias ```COMMIT``` y ```ROLLBACK``` se utilizan para manejar transacciones.
 	    
 	Subheader: Ejemplo de manejo de transacciones
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -203,7 +203,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -212,13 +212,13 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Header: Manejo de errores y excepciones
 	
-	Text:
+	Content:
 	    
 	    Es crucial manejar los errores y excepciones durante las operaciones con bases de datos.
 	    
 	Subheader: Ejemplo de manejo de errores
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -240,7 +240,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -250,13 +250,13 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Header: Desconexión de la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para desconectar de la base de datos, se utiliza la sentencia ```DISCONNECT```.
 	    
 	Subheader: Ejemplo de desconexión de la base de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -272,7 +272,7 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -281,6 +281,6 @@ Document (globalcampus.site/namespace.stxt): Integración de bases de datos en a
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    La integración de bases de datos en aplicaciones COBOL mediante Embedded SQL permite una interacción eficiente con sistemas de gestión de bases de datos relacionales. Comprender cómo establecer conexiones, realizar operaciones básicas de SQL, manejar transacciones y errores es esencial para desarrollar aplicaciones COBOL robustas y eficientes.

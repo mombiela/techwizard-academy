@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Operadores Bit a Bit
 	
-	Text: 
+	Content: 
 	    Estos operadores se utilizan para comparar (operar) los números a nivel de bits.
 	    
 	    |= Operador    |= Descripción       |= Ejemplo
@@ -13,7 +13,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Bit a Bit
 	    
 	Header:  Ejemplo: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    a = 60    # 60 = 0011 1100
@@ -26,4 +26,4 @@ Document (globalcampus.site/namespace.stxt): Operadores Bit a Bit
 	    print(a >> 2) # 15 = 0000 1111
 	
 	
-	Text:
+	Content:

@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	
-	Text: 
+	Content: 
 	    El contenedor Grid es el elemento padre al que se le aplica la propiedad ```display: grid;``` o ```display: inline-grid;```. Estas propiedades permiten utilizar un conjunto de propiedades adicionales que controlan la estructura y el comportamiento de la cuadrícula.
 	    
 	    *  **display**:
@@ -27,7 +27,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	    "footer footer footer";
 	
 	
-	Text:
+	Content:
 	    
 	    *  **grid-column-gap** y **grid-row-gap**:
 	    *  Define el espacio entre columnas y entre filas respectivamente.
@@ -48,7 +48,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	    
 	Header: Ejemplo de código CSS para un contenedor Grid
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -79,7 +79,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula tiene tres columnas y tres filas definidas con ```grid-template-columns``` y ```grid-template-rows```.
@@ -89,7 +89,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades del contenedor Grid
 	    
 	Header: Diagrama de un contenedor Grid
 	
-	Text:
+	Content:
 	    
 	    ```startuml```
 	    +--------------------------------------------------+

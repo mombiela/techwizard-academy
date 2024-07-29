@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Propiedades de bordes y contornos
 	
-	Text: 
+	Content: 
 	    *  **Propiedades de bordes**
 	    *  ```border```: Define el borde completo en una sola declaración. Ejemplo: ```border: 1px solid black;```
 	    *  ```border-width```: Especifica el grosor del borde. Ejemplo: ```border-width: 2px;```
@@ -18,7 +18,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de bordes y contornos
 	    
 	Header: Ejemplo de uso de propiedades de bordes y contornos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    div {
@@ -29,7 +29,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de bordes y contornos
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    Este ejemplo define un div con un borde azul sólido de 2px, esquinas redondeadas de 15px, un contorno rojo punteado de 3px y un espacio de 10px entre el borde y el contorno.
 	    

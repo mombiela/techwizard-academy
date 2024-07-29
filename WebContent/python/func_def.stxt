@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Definición y uso de funciones
 	
-	Text: 
+	Content: 
 	Header: Definición y uso de funciones en Python
 	
-	Text:
+	Content:
 	    
 	    En Python, una función es un bloque de código reutilizable que realiza una tarea específica. Las funciones permiten organizar el código en partes más pequeñas y manejables, lo que facilita su lectura y mantenimiento. A continuación, exploraremos cómo definir y utilizar funciones en Python.
 	    
 	Header: Definición de funciones
 	
-	Text:
+	Content:
 	    
 	    Para definir una función en Python, utilizamos la palabra clave ```def``` seguida del nombre de la función y un paréntesis que puede contener parámetros. El bloque de código que pertenece a la función debe estar indentado.
 	    
@@ -19,11 +19,11 @@ Document (globalcampus.site/namespace.stxt): Definición y uso de funciones
 	    instrucciones
 	
 	
-	Text:
+	Content:
 	    
 	Header: Uso de funciones
 	
-	Text:
+	Content:
 	    
 	    Para utilizar una función, es decir, para "llamarla", escribimos su nombre seguido de un paréntesis que contiene los argumentos que deseamos pasarle.
 	    
@@ -31,11 +31,11 @@ Document (globalcampus.site/namespace.stxt): Definición y uso de funciones
 	    nombre_funcion(argumento1, argumento2)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ejemplo práctico
 	
-	Text:
+	Content:
 	    
 	    Consideremos un ejemplo donde definimos una función que suma dos números y devuelve el resultado.
 	    
@@ -48,18 +48,18 @@ Document (globalcampus.site/namespace.stxt): Definición y uso de funciones
 	    print(suma(3, 5)) # Esto imprimirá 8
 	
 	
-	Text:
+	Content:
 	    
 	Header: Parámetros y argumentos
 	
-	Text:
+	Content:
 	    
 	    * Parámetros: Son las variables listadas dentro de los paréntesis en la definición de la función.
 	    * Argumentos: Son los valores que se pasan a la función cuando se llama.
 	    
 	Header: Funciones con valores predeterminados
 	
-	Text:
+	Content:
 	    
 	    Es posible definir funciones con parámetros que tienen valores predeterminados. Esto significa que si no se proporciona un argumento para ese parámetro, se utilizará el valor predeterminado.
 	    
@@ -72,11 +72,11 @@ Document (globalcampus.site/namespace.stxt): Definición y uso de funciones
 	    saludo("Carlos", "Buenos días") # Imprime: Buenos días Carlos
 	
 	
-	Text:
+	Content:
 	    
 	Header: Funciones anónimas (lambdas)
 	
-	Text:
+	Content:
 	    
 	    Python también permite definir funciones pequeñas y anónimas con la palabra clave ```lambda```. Las funciones lambda pueden tener cualquier número de argumentos pero solo una expresión.
 	    
@@ -85,11 +85,11 @@ Document (globalcampus.site/namespace.stxt): Definición y uso de funciones
 	    print(suma(3, 5)) # Imprime: 8
 	
 	
-	Text:
+	Content:
 	    
 	Header: Documentación de funciones
 	
-	Text:
+	Content:
 	    
 	    Para hacer que el código sea más comprensible, es una buena práctica incluir cadenas de documentación (docstrings) al definir funciones. Estas cadenas se colocan justo después de la línea ```def``` y deben estar encerradas entre comillas triples.
 	    
@@ -101,11 +101,11 @@ Document (globalcampus.site/namespace.stxt): Definición y uso de funciones
 	    return a + b
 	
 	
-	Text:
+	Content:
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    Las funciones son herramientas esenciales en Python que permiten la modularidad y la reutilización del código. Al comprender cómo definir y utilizar funciones, así como las características avanzadas como valores predeterminados y funciones lambda, se puede escribir código más eficiente y organizado.
 	    

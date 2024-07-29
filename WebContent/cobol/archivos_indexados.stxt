@@ -1,17 +1,17 @@
 Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	
-	Text: 
+	Content: 
 	    En COBOL, los archivos indexados permiten el acceso rápido a registros mediante el uso de claves. Este tipo de archivos es útil cuando se necesita acceder a datos de manera no secuencial o buscar registros específicos. A continuación, se detallan los conceptos y operaciones básicas para trabajar con archivos indexados en COBOL.
 	    
 	Header: Definición de la División de Archivo para archivos indexados
 	
-	Text:
+	Content:
 	    
 	    La División de Archivo en COBOL se utiliza para definir los archivos indexados, especificando la clave primaria y cualquier clave secundaria.
 	    
 	Subheader: Ejemplo de definición de archivo indexado
 	
-	Text:
+	Content:
 	    
 	Code:
 	    FILE CONTROL.
@@ -30,7 +30,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    05 Cliente-Direccion PIC X(50).
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -42,13 +42,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    
 	Header: Apertura y cierre de archivos indexados
 	
-	Text:
+	Content:
 	    
 	    Los archivos indexados deben ser abiertos y cerrados adecuadamente utilizando las sentencias ```OPEN``` y ```CLOSE```.
 	    
 	Subheader: Ejemplo de apertura y cierre de archivos indexados
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -61,7 +61,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -71,13 +71,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    
 	Header: Lectura de registros en archivos indexados
 	
-	Text:
+	Content:
 	    
 	    La lectura de registros en archivos indexados se puede hacer de manera secuencial o aleatoria. Para acceso aleatorio, se utiliza la sentencia ```READ``` con la clave de registro.
 	    
 	Subheader: Ejemplo de lectura secuencial y aleatoria
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -105,7 +105,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    END-READ.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -115,13 +115,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    
 	Header: Escritura y actualización de registros en archivos indexados
 	
-	Text:
+	Content:
 	    
 	    Para escribir y actualizar registros en archivos indexados, se utilizan las sentencias ```WRITE``` y ```REWRITE```.
 	    
 	Subheader: Ejemplo de escritura y actualización de registros
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -142,7 +142,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -152,13 +152,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    
 	Header: Eliminación de registros en archivos indexados
 	
-	Text:
+	Content:
 	    
 	    La eliminación de registros se realiza utilizando la sentencia ```DELETE```.
 	    
 	Subheader: Ejemplo de eliminación de registros
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -170,7 +170,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -179,13 +179,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    
 	Header: Manejo de errores en operaciones con archivos indexados
 	
-	Text:
+	Content:
 	    
 	    Es importante capturar y manejar los posibles errores durante las operaciones con archivos indexados utilizando ```FILE STATUS```.
 	    
 	Subheader: Ejemplo de manejo de errores con FILE STATUS
 	
-	Text:
+	Content:
 	    
 	Code:
 	    FILE CONTROL.
@@ -207,7 +207,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -216,6 +216,6 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos indexados
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    El trabajo con archivos indexados en COBOL permite una gestión eficiente y rápida de datos mediante el uso de claves. Comprender cómo definir, abrir, cerrar, leer, escribir, actualizar y eliminar registros, así como manejar errores, es esencial para desarrollar aplicaciones COBOL robustas y eficientes.

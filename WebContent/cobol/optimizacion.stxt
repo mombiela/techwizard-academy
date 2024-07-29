@@ -1,17 +1,17 @@
 Document (globalcampus.site/namespace.stxt): Técnicas de optimización de código COBOL
 	
-	Text: 
+	Content: 
 	    Optimizar el código COBOL es crucial para mejorar la eficiencia y el rendimiento de las aplicaciones, especialmente en sistemas de misión crítica. A continuación, se presentan diversas técnicas y mejores prácticas para optimizar el código COBOL.
 	    
 	Header: 1. Uso Eficiente de las Operaciones de Entrada/Salida (I/O)
 	
-	Text:
+	Content:
 	    
 	    Las operaciones de I/O pueden ser costosas en términos de tiempo de ejecución. Minimiza las operaciones de I/O innecesarias y agrupa las operaciones cuando sea posible.
 	    
 	Subheader: Ejemplo de lectura eficiente de archivos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -24,7 +24,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    CLOSE Archivo-Datos.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -32,13 +32,13 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    
 	Header: 2. Optimización de la Memoria
 	
-	Text:
+	Content:
 	    
 	    Usa la memoria de manera eficiente evitando declaraciones de variables innecesarias y utilizando las estructuras de datos adecuadas.
 	    
 	Subheader: Ejemplo de uso eficiente de la memoria
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -46,7 +46,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    01 WS-Total-Ventas PIC 9(9)V99.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -54,13 +54,13 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    
 	Header: 3. Uso de Compilación Condicional
 	
-	Text:
+	Content:
 	    
 	    La compilación condicional puede ayudar a incluir o excluir partes del código en tiempo de compilación, mejorando la eficiencia del programa.
 	    
 	Subheader: Ejemplo de compilación condicional
 	
-	Text:
+	Content:
 	    
 	Code:
 	    CONFIGURATION SECTION.
@@ -77,7 +77,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -85,13 +85,13 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    
 	Header: 4. Indexación y Acceso Eficiente a Archivos
 	
-	Text:
+	Content:
 	    
 	    Utiliza índices para acceder rápidamente a los registros en archivos indexados y evita la lectura secuencial innecesaria.
 	    
 	Subheader: Ejemplo de uso de archivos indexados
 	
-	Text:
+	Content:
 	    
 	Code:
 	    FILE CONTROL.
@@ -115,7 +115,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    INVALID KEY DISPLAY 'Cliente no encontrado'.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -123,13 +123,13 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    
 	Header: 5. Optimización de Bucles
 	
-	Text:
+	Content:
 	    
 	    Los bucles son una fuente común de ineficiencias. Optimiza los bucles para minimizar las operaciones dentro de ellos y utiliza técnicas como la eliminación de la redundancia.
 	    
 	Subheader: Ejemplo de optimización de bucles
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -141,7 +141,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -149,13 +149,13 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    
 	Header: 6. Reducción de la Sobrecarga de Llamadas a Subprogramas
 	
-	Text:
+	Content:
 	    
 	    Las llamadas a subprogramas pueden ser costosas. Usa subprogramas solo cuando sea necesario y considera la posibilidad de inlinear el código cuando sea apropiado.
 	    
 	Subheader: Ejemplo de inlineación de código
 	
-	Text:
+	Content:
 	    
 	    Antes (con subprograma):
 	    
@@ -163,7 +163,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    CALL 'Calculo-Interes' USING WS-Capital WS-Tasa WS-Interes.
 	
 	
-	Text:
+	Content:
 	    
 	    Después (inlineado):
 	    
@@ -173,7 +173,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    COMPUTE WS-Interes = WS-Capital * WS-Tasa.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -181,13 +181,13 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    
 	Header: 7. Uso de Sentencias Eficientes
 	
-	Text:
+	Content:
 	    
 	    Elige sentencias COBOL que sean más eficientes para la tarea específica. Por ejemplo, utiliza ```PERFORM``` en lugar de ```GO TO``` para bucles y control de flujo.
 	    
 	Subheader: Ejemplo de uso de @@PERFORM@@ en lugar de @@GO TO@@
 	
-	Text:
+	Content:
 	    
 	    Antes (con ```GO TO```):
 	    
@@ -206,7 +206,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    Después (con ```PERFORM```):
 	    
@@ -228,7 +228,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    DISPLAY 'Fin del Programa'.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -236,6 +236,6 @@ Document (globalcampus.site/namespace.stxt): Técnicas de optimización de códi
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    Implementar técnicas de optimización en el código COBOL es esencial para mejorar el rendimiento y la eficiencia de las aplicaciones. Al seguir prácticas como el uso eficiente de operaciones de I/O, optimización de la memoria, uso de compilación condicional, acceso eficiente a archivos, optimización de bucles, reducción de la sobrecarga de llamadas a subprogramas y uso de sentencias eficientes, los desarrolladores pueden crear aplicaciones COBOL robustas y de alto rendimiento.

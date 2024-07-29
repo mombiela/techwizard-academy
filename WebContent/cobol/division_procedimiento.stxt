@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Descripción y uso de la División de Procedimiento
 	
-	Text: 
+	Content: 
 	    La División de Procedimiento en un programa COBOL es donde se escribe el código ejecutable. Esta división contiene las instrucciones que controlan la lógica del programa y determinan cómo se manipulan los datos definidos en la División de Datos. La estructura de esta división permite organizar el flujo del programa de manera clara y lógica.
 	    
 	    Aquí hay algunos componentes clave de la División de Procedimiento:
@@ -43,7 +43,7 @@ Document (globalcampus.site/namespace.stxt): Descripción y uso de la División 
 	    ADD EmployeeSalary TO WS-TotalSalary.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, la División de Procedimiento se organiza en varias secciones y parágrafos:
 	    

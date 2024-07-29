@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación en COBOL
 	
-	Text: 
+	Content: 
 	    La programación en COBOL, un lenguaje robusto y ampliamente utilizado en sistemas financieros y de negocios, se beneficia enormemente de seguir ciertas mejores prácticas. Estas prácticas aseguran que el código sea eficiente, mantenible y libre de errores. A continuación, se describen algunas de las mejores prácticas esenciales para la programación en COBOL.
 	    
 	Header: Estructura y Organización del Código
 	
-	Text:
+	Content:
 	    
 	    Una estructura clara y bien organizada del código facilita la comprensión y el mantenimiento.
 	    
@@ -37,7 +37,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -46,7 +46,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    
 	Header: Nombres Significativos y Consistentes
 	
-	Text:
+	Content:
 	    
 	    Utiliza nombres significativos y consistentes para variables, secciones y parágrafos.
 	    
@@ -61,7 +61,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    01 WS-Nombre-Cliente PIC X(50).
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -69,7 +69,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    
 	Header: Modularización del Código
 	
-	Text:
+	Content:
 	    
 	    Dividir el código en módulos más pequeños y manejables mejora la claridad y la reutilización.
 	    
@@ -102,7 +102,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    DISPLAY 'Finalizando programa...'.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -110,7 +110,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    
 	Header: Manejo Eficiente de Errores
 	
-	Text:
+	Content:
 	    
 	    Implementar un manejo adecuado de errores es crucial para la robustez del programa.
 	    
@@ -138,7 +138,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -147,7 +147,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    
 	Header: Optimización del Rendimiento
 	
-	Text:
+	Content:
 	    
 	    Optimiza el rendimiento del programa mediante técnicas eficientes de manejo de datos y algoritmos.
 	    
@@ -168,7 +168,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -176,7 +176,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    
 	Header: Mantenimiento de la Seguridad
 	
-	Text:
+	Content:
 	    
 	    Asegura que el programa maneje adecuadamente la seguridad y privacidad de los datos.
 	    
@@ -196,7 +196,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    DISPLAY 'Contraseña encriptada: ' WS-Encrypted-Password.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -204,7 +204,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    
 	Header: Documentación y Comentarios
 	
-	Text:
+	Content:
 	    
 	    Documenta adecuadamente el código para facilitar su mantenimiento y comprensión futura.
 	    
@@ -221,7 +221,7 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    MOVE 'N/A' TO WS-Estado.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -229,6 +229,6 @@ Document (globalcampus.site/namespace.stxt): Mejores prácticas de programación
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    Seguir estas mejores prácticas en la programación en COBOL no solo mejora la calidad del código, sino que también facilita su mantenimiento, escalabilidad y seguridad. La claridad en la estructura, la modularización adecuada, el manejo eficiente de errores y el rendimiento optimizado son esenciales para desarrollar aplicaciones COBOL robustas y eficientes.

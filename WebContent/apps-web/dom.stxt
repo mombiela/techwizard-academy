@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScript
 	
-	Text: 
+	Content: 
 	    JavaScript permite interactuar y manipular el Document Object Model (DOM) de una página web. El DOM es una representación estructurada del documento HTML, donde cada elemento es un objeto que puede ser accedido y modificado con JavaScript.
 	    
 	Header: Seleccionar Elementos del DOM
 	
-	Text:
+	Content:
 	    
 	    Para manipular los elementos del DOM, primero necesitas seleccionarlos. JavaScript ofrece varios métodos para hacerlo:
 	    
@@ -25,11 +25,11 @@ Document (globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScrip
 	    var todosLosParrafos = document.querySelectorAll("p");
 	
 	
-	Text:
+	Content:
 	    
 	Header: Modificar Contenido y Atributos
 	
-	Text:
+	Content:
 	    
 	    Una vez seleccionados los elementos, puedes modificar su contenido y atributos. Aquí tienes algunos ejemplos:
 	    
@@ -47,11 +47,11 @@ Document (globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScrip
 	    miEnlace.setAttribute("href", "https://www.nuevo-enlace.com");
 	
 	
-	Text:
+	Content:
 	    
 	Header: Manipulación de Estilos
 	
-	Text:
+	Content:
 	    
 	    Puedes cambiar los estilos de un elemento directamente mediante la propiedad ```style```. Ejemplo:
 	    
@@ -60,7 +60,7 @@ Document (globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScrip
 	    miElemento.style.backgroundColor = "lightgray";
 	
 	
-	Text:
+	Content:
 	    
 	    Para agregar o quitar clases CSS, puedes usar:
 	    
@@ -76,11 +76,11 @@ Document (globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScrip
 	    miElemento.classList.toggle("otraClase");
 	
 	
-	Text:
+	Content:
 	    
 	Header: Eventos
 	
-	Text:
+	Content:
 	    
 	    Los eventos permiten que JavaScript responda a las interacciones del usuario, como clics, movimientos del ratón, y pulsaciones de teclas. Puedes agregar manejadores de eventos usando ```addEventListener```.
 	    
@@ -97,11 +97,11 @@ Document (globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScrip
 	    });
 	
 	
-	Text:
+	Content:
 	    
 	Header: Crear y Eliminar Elementos
 	
-	Text:
+	Content:
 	    
 	    Puedes crear nuevos elementos y agregarlos al DOM usando métodos como ```createElement``` y ```appendChild```.
 	    
@@ -115,7 +115,7 @@ Document (globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScrip
 	    contenedor.appendChild(nuevoParrafo);
 	
 	
-	Text:
+	Content:
 	    
 	    Para eliminar elementos, puedes usar ```removeChild```.
 	    
@@ -126,10 +126,10 @@ Document (globalcampus.site/namespace.stxt): Manipulación del DOM con JavaScrip
 	    elementoAEliminar.parentNode.removeChild(elementoAEliminar);
 	
 	
-	Text:
+	Content:
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    La manipulación del DOM con JavaScript es una habilidad esencial para los desarrolladores web, ya que permite crear interacciones dinámicas y mejorar la experiencia del usuario. Con una comprensión sólida de cómo seleccionar, modificar y manejar eventos en el DOM, puedes construir aplicaciones web interactivas y atractivas.

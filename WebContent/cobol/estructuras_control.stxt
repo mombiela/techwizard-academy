@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF, PERFORM, etc.
 	
-	Text: 
+	Content: 
 	    COBOL proporciona varias estructuras de control de flujo que permiten dirigir la ejecución del programa basándose en condiciones y repeticiones. Entre las más comunes se encuentran ```IF```, ```PERFORM```, ```EVALUATE``` y ```GO TO```. A continuación, se explican estas estructuras y su uso.
 	    
 	Header: IF
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```IF``` se utiliza para tomar decisiones basadas en condiciones. Si la condición es verdadera, se ejecutan las sentencias especificadas; de lo contrario, se pueden ejecutar sentencias alternativas usando ```ELSE```.
 	    
@@ -17,7 +17,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -27,7 +27,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    
 	Header: PERFORM
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```PERFORM``` se utiliza para ejecutar bloques de código repetidamente o para llamar a párrafos o secciones de código.
 	    
@@ -39,7 +39,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -59,7 +59,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    DISPLAY 'Reading record...'.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -67,7 +67,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    
 	Header: EVALUATE
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```EVALUATE``` es similar a un ```CASE``` o ```SWITCH``` en otros lenguajes de programación. Permite evaluar una expresión y ejecutar diferentes bloques de código basados en el valor de la expresión.
 	    
@@ -84,7 +84,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    END-EVALUATE.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -93,7 +93,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    
 	Header: GO TO
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```GO TO``` transfiere el control del programa a un párrafo o sección específica. Su uso se desaconseja en programación estructurada, ya que puede dificultar la comprensión y el mantenimiento del código.
 	    
@@ -102,7 +102,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    GO TO Error-Handler.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -110,7 +110,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    
 	Header: EXIT
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```EXIT``` se utiliza para finalizar un bloque de código o un bucle. Es especialmente útil en programas anidados o complejos.
 	    
@@ -123,7 +123,7 @@ Document (globalcampus.site/namespace.stxt): Estructuras de control de flujo: IF
 	    EXIT.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    

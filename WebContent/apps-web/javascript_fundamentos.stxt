@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	
-	Text: 
+	Content: 
 	    JavaScript es un lenguaje de programación que se utiliza principalmente para crear contenido web dinámico. Aquí te explico algunos conceptos básicos sobre su sintaxis y su uso en el frontend.
 	    
 	Header: Variables
 	
-	Text:
+	Content:
 	    
 	    En JavaScript, puedes declarar variables usando ```var```, ```let```, o ```const```.
 	    
@@ -18,11 +18,11 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    var pais = 'España';
 	
 	
-	Text:
+	Content:
 	    
 	Header: Tipos de Datos
 	
-	Text:
+	Content:
 	    
 	    JavaScript tiene varios tipos de datos, incluyendo:
 	    
@@ -34,7 +34,7 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    
 	Header: Operadores
 	
-	Text:
+	Content:
 	    
 	    JavaScript utiliza varios operadores, tales como:
 	    
@@ -45,7 +45,7 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    
 	Header: Estructuras de Control
 	
-	Text:
+	Content:
 	    
 	    JavaScript incluye estructuras de control como:
 	    
@@ -65,11 +65,11 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	Header: Funciones
 	
-	Text:
+	Content:
 	    
 	    Las funciones en JavaScript se pueden declarar de varias maneras. Aquí hay dos ejemplos:
 	    
@@ -81,7 +81,7 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    console.log(saludar('Ana'));
 	
 	
-	Text:
+	Content:
 	    
 	    *  Expresión de función:
 	Code:
@@ -91,11 +91,11 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    console.log(saludar('Luis'));
 	
 	
-	Text:
+	Content:
 	    
 	Header: Manipulación del DOM
 	
-	Text:
+	Content:
 	    
 	    JavaScript se utiliza para interactuar y manipular el Document Object Model (DOM) de una página web. Algunos métodos comunes incluyen:
 	    
@@ -112,11 +112,11 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    document.body.appendChild(nuevoDiv);
 	
 	
-	Text:
+	Content:
 	    
 	Header: Eventos
 	
-	Text:
+	Content:
 	    
 	    Los eventos permiten que JavaScript responda a interacciones del usuario, como clics, movimientos del ratón o envío de formularios.
 	    
@@ -129,13 +129,13 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    });
 	
 	
-	Text:
+	Content:
 	    
 	    Estos son los conceptos básicos que necesitas para empezar a usar JavaScript en el frontend. ¡Practica estos ejemplos y pronto estarás creando páginas web dinámicas y atractivas!
 	    
 	Header:  Ejemplo completo 
 	
-	Text:
+	Content:
 	Code:
 	    
 	    <!DOCTYPE html>
@@ -198,4 +198,4 @@ Document (globalcampus.site/namespace.stxt): Sintaxis y uso de JavaScript
 	    </html>
 	
 	
-	Text:
+	Content:

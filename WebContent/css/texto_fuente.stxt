@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Propiedades de texto y fuentes
 	
-	Text: 
+	Content: 
 	    *  **Propiedades de color del texto**
 	    *  ```color```: Establece el color del texto. Ejemplo: ```color: red;```
 	    *  ```text-decoration```: Define decoraciones adicionales como subrayado, línea a través, etc. Ejemplo: ```text-decoration: underline;```
@@ -23,7 +23,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de texto y fuentes
 	    
 	Header: Ejemplo de uso de propiedades de texto y fuentes
 	
-	Text:
+	Content:
 	    
 	Code:
 	    p {
@@ -38,7 +38,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de texto y fuentes
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    Este ejemplo define un párrafo (```p```) con texto azul, centrado, en mayúsculas, con espacio entre letras de 1px, utilizando la fuente "Times New Roman" con un tamaño de 18px, estilo //cursiva// y grosor **negrita**.
 	    

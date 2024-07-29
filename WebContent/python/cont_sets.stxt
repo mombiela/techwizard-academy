@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Sets
 	
-	Text: 
+	Content: 
 	Header: Sets en Python
 	
-	Text:
+	Content:
 	    
 	    Los sets (conjuntos) en Python son colecciones desordenadas de elementos únicos. Son útiles para almacenar elementos sin duplicados y para realizar operaciones matemáticas de conjuntos como unión, intersección, diferencia y diferencia simétrica.
 	    
 	Header: Creación de Sets
 	
-	Text:
+	Content:
 	    
 	    Los sets se crean usando llaves ```{}``` o la función ```set()```.
 	    
@@ -18,68 +18,68 @@ Document (globalcampus.site/namespace.stxt): Sets
 	    mi_set = {1, 2, 3, 4}
 	
 	
-	Text:
+	Content:
 	    
 	    Para crear un set vacío, se debe usar la función ```set()```, ya que ```{}``` crea un diccionario vacío.
 	Code:
 	    set_vacio = set()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Añadir Elementos
 	
-	Text:
+	Content:
 	    
 	    Se pueden añadir elementos a un set usando el método ```add()```.
 	Code:
 	    mi_set.add(5)
 	
 	
-	Text:
+	Content:
 	    
 	    Para añadir múltiples elementos, se puede usar el método ```update()```.
 	Code:
 	    mi_set.update([6, 7])
 	
 	
-	Text:
+	Content:
 	    
 	Header: Eliminar Elementos
 	
-	Text:
+	Content:
 	    
 	    *  **```remove```**: Elimina un elemento específico. Si el elemento no está en el set, lanza un error ```KeyError```.
 	Code:
 	    mi_set.remove(3)
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```discard```**: Elimina un elemento específico. Si el elemento no está en el set, no hace nada.
 	Code:
 	    mi_set.discard(4)
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```pop```**: Elimina y devuelve un elemento aleatorio del set.
 	Code:
 	    elemento = mi_set.pop()
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```clear```**: Elimina todos los elementos del set.
 	Code:
 	    mi_set.clear()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Operaciones de Conjuntos
 	
-	Text:
+	Content:
 	    
 	    Los sets soportan varias operaciones matemáticas de conjuntos.
 	    
@@ -90,32 +90,32 @@ Document (globalcampus.site/namespace.stxt): Sets
 	    union = set1.union(set2) # {1, 2, 3, 4, 5}
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Intersección**: Devuelve un nuevo set con los elementos que están en ambos sets.
 	Code:
 	    interseccion = set1.intersection(set2) # {3}
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Diferencia**: Devuelve un nuevo set con los elementos que están en el primer set pero no en el segundo.
 	Code:
 	    diferencia = set1.difference(set2) # {1, 2}
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Diferencia Simétrica**: Devuelve un nuevo set con los elementos que están en cualquiera de los dos sets, pero no en ambos.
 	Code:
 	    dif_simetrica = set1.symmetric_difference(set2) # {1, 2, 4, 5}
 	
 	
-	Text:
+	Content:
 	    
 	Header: Métodos de Sets
 	
-	Text:
+	Content:
 	    
 	    *  **```issubset```**: Devuelve ```True``` si todos los elementos del set están en otro set.
 	Code:
@@ -124,14 +124,14 @@ Document (globalcampus.site/namespace.stxt): Sets
 	    es_subconjunto = set1.issubset(set2) # True
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```issuperset```**: Devuelve ```True``` si todos los elementos de otro set están en el set.
 	Code:
 	    es_superconjunto = set2.issuperset(set1) # True
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```isdisjoint```**: Devuelve ```True``` si los sets no tienen elementos en común.
 	Code:
@@ -139,11 +139,11 @@ Document (globalcampus.site/namespace.stxt): Sets
 	    son_disjuntos = set1.isdisjoint(set3) # True
 	
 	
-	Text:
+	Content:
 	    
 	Header: Iteración sobre Sets
 	
-	Text:
+	Content:
 	    
 	    Se puede iterar sobre los elementos de un set usando un bucle ```for```.
 	Code:
@@ -151,11 +151,11 @@ Document (globalcampus.site/namespace.stxt): Sets
 	    print(elemento)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Comprensión de Sets
 	
-	Text:
+	Content:
 	    
 	    La comprensión de sets es una forma concisa de crear sets.
 	    
@@ -164,13 +164,13 @@ Document (globalcampus.site/namespace.stxt): Sets
 	    cuadrados = {x**2 for x in range(10)}
 	
 	
-	Text:
+	Content:
 	    
 	    Esto crea un set de los cuadrados de los números del 0 al 9.
 	    
 	Header: Ventajas de los Sets
 	
-	Text:
+	Content:
 	    
 	    *  **No permiten duplicados**: Ideal para almacenar elementos únicos.
 	    *  **Operaciones rápidas**: Las operaciones de pertenencia y eliminación son muy rápidas.

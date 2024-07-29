@@ -1,9 +1,9 @@
 Document (globalcampus.site/namespace.stxt): Introducción a Flexbox
 	
-	Text: 
+	Content: 
 	Header: Introducción a Flexbox
 	
-	Text:
+	Content:
 	    
 	    Flexbox, o "Flexible Box Layout", es un modelo de diseño en CSS que facilita la creación de estructuras de diseño complejas y adaptables. Flexbox permite alinear y distribuir espacio entre los elementos de un contenedor de manera eficiente, incluso cuando su tamaño es desconocido o dinámico.
 	    
@@ -14,7 +14,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a Flexbox
 	    
 	Header: Componentes de Flexbox
 	
-	Text:
+	Content:
 	    
 	    *  **Flex Container**:
 	    *  El elemento contenedor que utiliza Flexbox. Se define con la propiedad ```display: flex;``` o ```display: inline-flex;```.
@@ -24,7 +24,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a Flexbox
 	    
 	Header: Propiedades del contenedor Flexbox
 	
-	Text:
+	Content:
 	    
 	    *  **display**:
 	    *  Define el elemento como un contenedor flexible.
@@ -52,7 +52,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a Flexbox
 	    
 	Header: Ejemplo básico de Flexbox
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -68,13 +68,13 @@ Document (globalcampus.site/namespace.stxt): Introducción a Flexbox
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, un contenedor flexible tiene elementos distribuidos en una fila con espacio entre ellos, y los elementos se alinean al centro del eje transversal.
 	    
 	Header: Diagrama de Flexbox
 	
-	Text:
+	Content:
 	    
 	    ```startuml```
 	    +--------------------------------------+

@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Uso de selectores de clase
 	
-	Text: 
+	Content: 
 	    *  **Introducción**
 	    Los selectores de clase en CSS permiten aplicar estilos a uno o más elementos que comparten una misma clase. Esto proporciona una manera flexible y reutilizable de definir estilos para elementos específicos dentro de un documento HTML.
 	    
@@ -24,7 +24,7 @@ Document (globalcampus.site/namespace.stxt): Uso de selectores de clase
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Ventajas de usar selectores de clase**
 	    ```startalert```
@@ -54,7 +54,7 @@ Document (globalcampus.site/namespace.stxt): Uso de selectores de clase
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Selectores de clase combinados**
 	    Puedes combinar selectores de clase con otros selectores para aplicar estilos de manera más específica. Por ejemplo, combinar una clase con un selector de tipo.
@@ -76,7 +76,7 @@ Document (globalcampus.site/namespace.stxt): Uso de selectores de clase
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Conclusión**
 	    El uso de selectores de clase en CSS es una práctica esencial para aplicar estilos de manera eficiente y organizada. Las clases ofrecen una gran flexibilidad y permiten un control preciso sobre la presentación de los elementos en un documento HTML, facilitando la creación de diseños complejos y coherentes.

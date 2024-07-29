@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Manejo del relleno en el modelo de caja
 	
-	Text: 
+	Content: 
 	    El relleno (padding) en el modelo de caja es el espacio entre el contenido de un elemento y su borde. El relleno es transparente y afecta el tamaño total del elemento, ya que se suma a las dimensiones del contenido.
 	    
 	    *  **Propiedades de relleno**:
@@ -16,7 +16,7 @@ Document (globalcampus.site/namespace.stxt): Manejo del relleno en el modelo de 
 	    
 	Header: Ejemplo de uso de propiedades de relleno
 	
-	Text:
+	Content:
 	    
 	Code:
 	    div {
@@ -31,7 +31,7 @@ Document (globalcampus.site/namespace.stxt): Manejo del relleno en el modelo de 
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  Un div tiene un relleno de 15px en todos los lados.

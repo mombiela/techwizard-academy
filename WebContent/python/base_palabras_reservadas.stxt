@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Palabras reservadas
 	
-	Text: 
+	Content: 
 	    | Palabra | Uso |
 	    | --------| ----|
 		| ```True```              | Representa el valor booleano verdadero.                            |

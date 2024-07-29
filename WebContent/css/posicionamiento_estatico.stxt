@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Posicionamiento estático
 	
-	Text: 
+	Content: 
 	    El posicionamiento estático es el valor predeterminado para los elementos HTML. Con el posicionamiento estático, los elementos se posicionan de acuerdo con el flujo normal del documento, lo que significa que se colocan uno después del otro, siguiendo el orden en el que aparecen en el código HTML.
 	    
 	    *  **Características del posicionamiento estático**:
@@ -13,7 +13,7 @@ Document (globalcampus.site/namespace.stxt): Posicionamiento estático
 	    
 	Header: Ejemplo de código CSS con posicionamiento estático
 	
-	Text:
+	Content:
 	    
 	Code:
 	    div {
@@ -24,7 +24,7 @@ Document (globalcampus.site/namespace.stxt): Posicionamiento estático
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, el div tiene un posicionamiento estático, un color de fondo azul claro, un relleno de 20px y un margen de 10px. El div se colocará en el flujo normal del documento, siguiendo el orden en que aparece en el código HTML.
 	    

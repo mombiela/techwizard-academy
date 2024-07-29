@@ -1,12 +1,12 @@
 Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	
-	Text: 
+	Content: 
 	    Los bucles en Python se utilizan para repetir un bloque de código varias veces.
 	    Python soporta principalmente dos tipos de bucles: **for** y **while**.
 	    
 	Header:  Bucle for 
 	
-	Text:
+	Content:
 	    
 	    El bucle ```for``` en Python se utiliza para iterar sobre
 	    una secuencia (como una lista, una tupla, un diccionario,
@@ -15,18 +15,18 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    
 	Header:  Sintaxis: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    for variable in secuencia:
 	    # bloque de código
 	
 	
-	Text:
+	Content:
 	    
 	Header:  Ejemplo: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    frutas = ["manzana", "banana", "cereza"]
@@ -34,52 +34,52 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    print(fruta)
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, el bucle ```for``` iterará sobre
 	    cada elemento de la lista ```frutas``` y imprimirá cada fruta.
 	    
 	Header:  Uso de range() en for:
 	
-	Text:
+	Content:
 	    
 	    El método ```range()``` se usa a menudo
 	    con ```for``` para generar una secuencia de números.
 	    
 	Header:  Ejemplo:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    for i in range(5):
 	    print(i)
 	
 	
-	Text:
+	Content:
 	    
 	    Este bucle imprimirá los números del 0 al 4.
 	    
 	Header:  Bucle while 
 	
-	Text:
+	Content:
 	    
 	    El bucle ```while``` ejecuta el bloque de código
 	    mientras la condición especificada sea verdadera (```True```).
 	    
 	Header:  Sintaxis:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    while condición:
 	    # bloque de código
 	
 	
-	Text:
+	Content:
 	    
 	Header:  Ejemplo:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    i = 0
@@ -88,7 +88,7 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    i += 1
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, el bucle ```while``` continuará
 	    ejecutándose mientras ```i``` sea menor que ```5```.
@@ -96,7 +96,7 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    
 	Header:  Control de bucles 
 	
-	Text:
+	Content:
 	    
 	    Python proporciona varias sentencias
 	    para controlar el flujo de los bucles:
@@ -108,7 +108,7 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    
 	Header:  Ejemplo de break:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    for i in range(10):
@@ -117,14 +117,14 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    print(i)
 	
 	
-	Text:
+	Content:
 	    
 	    Este bucle imprimirá los números del 0 al 4
 	    y luego se detendrá cuando ```i``` sea igual a 5.
 	    
 	Header:  Ejemplo de continue:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    for i in range(10):
@@ -133,7 +133,7 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    print(i)
 	
 	
-	Text:
+	Content:
 	    
 	    Este bucle imprimirá los números impares del 0 al 9,
 	    ya que ```continue``` hace que el bucle salte a la
@@ -141,7 +141,7 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    
 	Header:  Ejemplo de else en bucles:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    for i in range(5):
@@ -150,21 +150,21 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    print("El bucle ha terminado")
 	
 	
-	Text:
+	Content:
 	    
 	    Este bucle imprimirá los números del 0 al 4 y
 	    luego imprimirá "El bucle ha terminado".
 	    
 	Header:  Combinando bucles for y while:
 	
-	Text:
+	Content:
 	    
 	    A veces, puedes necesitar combinar bucles ```for```
 	    y ```while``` para resolver problemas más complejos.
 	    
 	Header:  Ejemplo:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    while True:
@@ -175,7 +175,7 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    print(letra)
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, el bucle ```while``` continuará
 	    ejecutándose hasta que el usuario escriba "salir".
@@ -184,7 +184,7 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    
 	Header:  Importancia de la indentación 
 	
-	Text:
+	Content:
 	    
 	    Es crucial recordar que Python usa la indentación para
 	    definir bloques de código. Asegúrate de que todas las
@@ -198,7 +198,7 @@ Document (globalcampus.site/namespace.stxt): Bucles (for, while)
 	    print("Fin del bucle")
 	
 	
-	Text:
+	Content:
 	    
 	    En resumen, los bucles ```for``` y ```while``` en Python son
 	    herramientas poderosas para repetir la ejecución de bloques de código.

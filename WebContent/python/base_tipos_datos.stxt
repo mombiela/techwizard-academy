@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Variables y tipos de datos (números, cadenas, listas, tuplas, diccionarios)
 	
-	Text: 
+	Content: 
 	    En Python, las variables son contenedores utilizados para almacenar datos que pueden ser referenciados y manipulados en un programa. Python es un lenguaje de tipado dinámico, lo que significa que no es necesario declarar el tipo de una variable antes de usarla; el tipo se infiere automáticamente basado en el valor que se le asigna.
 	    
 	Header:  Declaración y Asignación de Variables 
 	
-	Text:
+	Content:
 	    
 	    En Python, puedes declarar y asignar valores a las variables de manera simple:
 	    
@@ -16,13 +16,13 @@ Document (globalcampus.site/namespace.stxt): Variables y tipos de datos (número
 	    es_estudiante = True  # Booleano
 	
 	
-	Text:
+	Content:
 	    
 	    En estos ejemplos, ```x``` es un entero, ```y``` es un número de punto flotante, ```nombre``` es una cadena de texto y ```es_estudiante``` es un valor booleano.
 	    
 	Header:  Tipos de Datos Comunes 
 	
-	Text:
+	Content:
 	    
 	    Python maneja varios tipos de datos básicos:
 	    
@@ -37,7 +37,7 @@ Document (globalcampus.site/namespace.stxt): Variables y tipos de datos (número
 	    
 	Header:  Ejemplos de Uso 
 	
-	Text:
+	Content:
 	    
 	    A continuación se muestran ejemplos de cómo trabajar con estos tipos de datos:
 	    
@@ -77,11 +77,11 @@ Document (globalcampus.site/namespace.stxt): Variables y tipos de datos (número
 	    
 	
 	
-	Text:
+	Content:
 	    
 	Header:  Operaciones Comunes 
 	
-	Text:
+	Content:
 	    
 	    Cada tipo de dato tiene sus propias operaciones y métodos. Por ejemplo:
 	    
@@ -93,7 +93,7 @@ Document (globalcampus.site/namespace.stxt): Variables y tipos de datos (número
 	    print(texto.upper())  # "PYTHON"
 	
 	
-	Text:
+	Content:
 	    
 	    * **Listas**: Puedes agregar (```append```), eliminar (```remove```), y acceder a elementos por índice.
 	    
@@ -105,7 +105,7 @@ Document (globalcampus.site/namespace.stxt): Variables y tipos de datos (número
 	    print(numeros)  # [1, 3, 4, 5]
 	
 	
-	Text:
+	Content:
 	    
 	    * **Diccionarios**: Puedes agregar pares clave-valor, eliminar entradas, y acceder a valores por clave.
 	    
@@ -117,6 +117,6 @@ Document (globalcampus.site/namespace.stxt): Variables y tipos de datos (número
 	    print(datos)  # {"edad": 31}
 	
 	
-	Text:
+	Content:
 	    
 	    Entender cómo manejar variables y tipos de datos en Python es fundamental para escribir programas efectivos y eficientes. Cada tipo de dato tiene sus propias características y métodos, lo que te permite manipular y trabajar con datos de manera flexible y potente.

@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Visión general de cómo funciona la web.
 	
-	Text: 
+	Content: 
 	    La web, también conocida como la World Wide Web (WWW), es un sistema de información distribuido que permite el acceso a recursos y servicios a través de Internet. Para entender cómo funciona la web, es importante conocer los componentes básicos y cómo interactúan entre sí.
 	    
 	Header: Componentes de la web
 	
-	Text:
+	Content:
 	    
 	    * **Cliente**: Es el dispositivo que solicita información a la web, generalmente un navegador web como Chrome, Firefox o Safari.
 	    * **Servidor**: Es el dispositivo que almacena y envía información a los clientes cuando se le solicita.
@@ -14,7 +14,7 @@ Document (globalcampus.site/namespace.stxt): Visión general de cómo funciona l
 	    
 	Header: Proceso básico de funcionamiento de la web
 	
-	Text:
+	Content:
 	    
 	    # El usuario ingresa una ```URL``` en el navegador.
 	    # El navegador envía una ```petición HTTP``` al servidor correspondiente a la URL.
@@ -23,7 +23,7 @@ Document (globalcampus.site/namespace.stxt): Visión general de cómo funciona l
 	    
 	Header: Ejemplo de una petición HTTP
 	
-	Text:
+	Content:
 	    
 	    Cuando se ingresa una URL en el navegador, como [[http://example.com]], el navegador realiza una ```petición HTTP``` al servidor. A continuación se muestra un ejemplo de una petición HTTP y una respuesta del servidor:
 	    
@@ -34,7 +34,7 @@ Document (globalcampus.site/namespace.stxt): Visión general de cómo funciona l
 	    Accept: text/html
 	
 	
-	Text:
+	Content:
 	    
 	    La respuesta del servidor podría ser:
 	    
@@ -53,17 +53,17 @@ Document (globalcampus.site/namespace.stxt): Visión general de cómo funciona l
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	Header: Seguridad en la web
 	
-	Text:
+	Content:
 	    
 	    La seguridad en la web es crucial para proteger la información y la privacidad de los usuarios. HTTPS (HTTP Secure) es una versión segura de HTTP que utiliza SSL/TLS para cifrar la comunicación entre el cliente y el servidor.
 	    
 	Header: Resumen
 	
-	Text:
+	Content:
 	    
 	    La web funciona mediante la interacción entre clientes y servidores, utilizando URLs para localizar recursos y el protocolo HTTP/HTTPS para la transmisión de datos. El cliente realiza peticiones y el servidor responde con los recursos solicitados, permitiendo la visualización de contenido en el navegador del usuario.
 	    

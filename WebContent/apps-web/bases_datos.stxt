@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	
-	Text: 
+	Content: 
 	    Las Bases de Datos (BBDD) son sistemas que permiten almacenar, organizar y gestionar grandes cantidades de información de manera estructurada. Son esenciales en el desarrollo de aplicaciones web y de software, ya que facilitan el acceso, manipulación y almacenamiento eficiente de datos.
 	    
 	Header: Tipos de Bases de Datos
 	
-	Text:
+	Content:
 	    
 	    Las bases de datos pueden clasificarse en diferentes tipos según su estructura y forma de gestionar los datos:
 	    
@@ -18,7 +18,7 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    
 	Header: Bases de Datos Relacionales (SQL)
 	
-	Text:
+	Content:
 	    
 	    Las bases de datos relacionales son las más comunes y se basan en el modelo de tablas. Los componentes clave incluyen:
 	    
@@ -38,7 +38,7 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    );
 	
 	
-	Text:
+	Content:
 	    
 	    Ejemplo de consulta SQL:
 	    
@@ -46,11 +46,11 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    SELECT * FROM Usuarios WHERE Nombre = 'Juan';
 	
 	
-	Text:
+	Content:
 	    
 	Header: Bases de Datos NoSQL
 	
-	Text:
+	Content:
 	    
 	    Las bases de datos NoSQL ofrecen flexibilidad y escalabilidad para manejar datos no estructurados o semi-estructurados. A continuación, se presentan algunos ejemplos de subtipos:
 	    
@@ -66,7 +66,7 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    Consulta en MongoDB:
 	    
@@ -74,7 +74,7 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    db.usuarios.find({ nombre: "Juan" });
 	
 	
-	Text:
+	Content:
 	    
 	    *  Clave-Valor (Redis): Almacenan datos como pares clave-valor.
 	    
@@ -85,7 +85,7 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    GET nombre
 	
 	
-	Text:
+	Content:
 	    
 	    *  Columnar (Apache Cassandra): Optimizadas para consultas a gran escala sobre grandes cantidades de datos.
 	    
@@ -99,7 +99,7 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    );
 	
 	
-	Text:
+	Content:
 	    
 	    *  Grafos (Neo4j): Almacenan datos en nodos y relaciones.
 	    
@@ -114,11 +114,11 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    ]->(maria)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Lenguaje de Consulta
 	
-	Text:
+	Content:
 	    
 	    Para interactuar con bases de datos, se utilizan lenguajes de consulta específicos. El más común para bases de datos relacionales es SQL. Las bases de datos NoSQL, por otro lado, utilizan diversos lenguajes y APIs para gestionar los datos.
 	    
@@ -131,12 +131,12 @@ Document (globalcampus.site/namespace.stxt): Explicación de BBDD
 	    
 	Header: Normalización
 	
-	Text:
+	Content:
 	    
 	    La normalización es el proceso de estructurar una base de datos para reducir la redundancia y mejorar la integridad de los datos. Consiste en dividir una base de datos en tablas más pequeñas y vincularlas mediante llaves foráneas.
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    Las bases de datos son una parte fundamental del desarrollo de aplicaciones, permitiendo almacenar y gestionar grandes volúmenes de datos de manera eficiente. Tanto las bases de datos relacionales como las NoSQL tienen sus propias ventajas y son adecuadas para diferentes tipos de aplicaciones. Con una comprensión sólida de los conceptos y tecnologías de bases de datos, los desarrolladores pueden elegir y utilizar las herramientas más adecuadas para sus necesidades específicas.

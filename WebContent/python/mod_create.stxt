@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	
-	Text: 
+	Content: 
 	Header: Módulos y paquetes. Creación de módulos propios
 	
-	Text:
+	Content:
 	    
 	    Crear módulos y paquetes propios en Python es una excelente manera de organizar el código, promover la reutilización y mantener la estructura de los proyectos. A continuación, se describe cómo crear módulos y paquetes en Python.
 	    
 	Header: Creación de Módulos
 	
-	Text:
+	Content:
 	    
 	    Un módulo en Python es simplemente un archivo con extensión ```.py``` que contiene definiciones y declaraciones de Python. Puedes crear tus propios módulos para organizar funciones, clases y variables relacionadas.
 	    
@@ -29,7 +29,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    pi = 3.14159
 	
 	
-	Text:
+	Content:
 	    
 	    Para utilizar este módulo en otro script, simplemente impórtalo usando ```import```.
 	    
@@ -43,7 +43,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    mimodulo.despedirse()
 	
 	
-	Text:
+	Content:
 	    
 	    También puedes importar partes específicas del módulo:
 	Code:
@@ -53,11 +53,11 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    print(pi)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Creación de Paquetes
 	
-	Text:
+	Content:
 	    
 	    Un paquete es una colección de módulos organizados en directorios que incluyen un archivo especial ```init.py```. Este archivo puede estar vacío o puede ejecutar algún código de inicialización para el paquete.
 	    
@@ -82,7 +82,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    print("Función 1 de modulo1")
 	
 	
-	Text:
+	Content:
 	    
 	    Contenido de ```modulo2.py```:
 	Code:
@@ -91,7 +91,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    print("Función 2 de modulo2")
 	
 	
-	Text:
+	Content:
 	    
 	    Para utilizar este paquete en otro script, puedes importarlo usando la sintaxis de punto.
 	    
@@ -103,11 +103,11 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    modulo2.funcion2()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Importación de Submódulos
 	
-	Text:
+	Content:
 	    
 	    Puedes importar submódulos específicos de un paquete.
 	    
@@ -118,11 +118,11 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    funcion1()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Inicialización del Paquete
 	
-	Text:
+	Content:
 	    
 	    El archivo ```init.py``` puede contener código de inicialización para el paquete, lo que permite ejecutar algún código cuando se importa el paquete.
 	    
@@ -133,7 +133,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    from .modulo2 import funcion2
 	
 	
-	Text:
+	Content:
 	    
 	    Ahora puedes importar y usar el paquete completo:
 	Code:
@@ -143,11 +143,11 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    mipaquete.funcion2()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Instalación y Uso de Paquetes Externos
 	
-	Text:
+	Content:
 	    
 	    Python tiene un sistema de gestión de paquetes llamado ```pip```, que permite instalar paquetes externos desde el Python Package Index (PyPI).
 	    
@@ -156,18 +156,18 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    pip install nombre_paquete
 	
 	
-	Text:
+	Content:
 	    
 	    Para usar un paquete instalado:
 	Code:
 	    import nombre_paquete
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ventajas del Uso de Módulos y Paquetes
 	
-	Text:
+	Content:
 	    
 	    *  **Organización**: Permiten estructurar el código en componentes más pequeños y manejables.
 	    *  **Reutilización**: Facilitan la reutilización del código en diferentes proyectos.
@@ -176,7 +176,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    
 	Header: Ejemplo Completo
 	
-	Text:
+	Content:
 	    
 	    Aquí tienes un ejemplo completo que muestra cómo crear y usar un módulo y un paquete en Python.
 	    
@@ -200,7 +200,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    pi = 3.14159
 	
 	
-	Text:
+	Content:
 	    
 	    Contenido de ```mipaquete/modulo1.py```:
 	Code:
@@ -209,7 +209,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    print("Función 1 de modulo1")
 	
 	
-	Text:
+	Content:
 	    
 	    Contenido de ```mipaquete/modulo2.py```:
 	Code:
@@ -218,7 +218,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    print("Función 2 de modulo2")
 	
 	
-	Text:
+	Content:
 	    
 	    Contenido de ```mipaquete/init.py```:
 	Code:
@@ -227,7 +227,7 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    from .modulo2 import funcion2
 	
 	
-	Text:
+	Content:
 	    
 	    Contenido de ```main.py```:
 	Code:
@@ -241,4 +241,4 @@ Document (globalcampus.site/namespace.stxt): Creación de módulos propios
 	    mipaquete.funcion2()
 	
 	
-	Text:
+	Content:

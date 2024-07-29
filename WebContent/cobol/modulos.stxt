@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	
-	Text: 
+	Content: 
 	    La modularización del código en COBOL implica dividir un programa en componentes más pequeños y manejables, llamados módulos o subprogramas. Esta técnica mejora la claridad, la mantenibilidad y la reutilización del código. A continuación, se detallan las prácticas y técnicas para lograr una modularización efectiva en COBOL.
 	    
 	Header: Ventajas de la modularización
 	
-	Text:
+	Content:
 	    
 	    *  **Reutilización**: Los módulos pueden ser reutilizados en diferentes programas, reduciendo la duplicación de código.
 	    *  **Mantenibilidad**: Es más fácil actualizar y mantener módulos más pequeños y específicos.
@@ -14,13 +14,13 @@ Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    
 	Header: Creación de subprogramas
 	
-	Text:
+	Content:
 	    
 	    Los subprogramas son módulos que contienen lógica específica y pueden ser llamados desde otros programas o subprogramas. Un subprograma en COBOL incluye una ```IDENTIFICATION DIVISION```, una ```ENVIRONMENT DIVISION```, una ```DATA DIVISION``` y una ```PROCEDURE DIVISION```.
 	    
 	Subheader: Ejemplo de un subprograma
 	
-	Text:
+	Content:
 	    
 	Code:
 	    IDENTIFICATION DIVISION.
@@ -47,7 +47,7 @@ Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    EXIT PROGRAM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -56,13 +56,13 @@ Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    
 	Header: Llamada a subprogramas desde el programa principal
 	
-	Text:
+	Content:
 	    
 	    El programa principal llama a los subprogramas utilizando la sentencia ```CALL```, pasando los parámetros necesarios.
 	    
 	Subheader: Ejemplo de llamada a un subprograma
 	
-	Text:
+	Content:
 	    
 	Code:
 	    IDENTIFICATION DIVISION.
@@ -82,7 +82,7 @@ Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -91,13 +91,13 @@ Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    
 	Header: Uso de secciones y párrafos
 	
-	Text:
+	Content:
 	    
 	    Además de los subprogramas, COBOL permite modularizar el código dentro del mismo programa utilizando secciones y párrafos. Las secciones y párrafos ayudan a organizar el código en bloques lógicos y reutilizables.
 	    
 	Subheader: Ejemplo de secciones y párrafos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -120,7 +120,7 @@ Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    DISPLAY 'Finalizando programa...'.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -129,6 +129,6 @@ Document (globalcampus.site/namespace.stxt): Modularización de código en COBOL
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    La modularización del código en COBOL mediante el uso de subprogramas, secciones y párrafos es esencial para crear programas claros, mantenibles y reutilizables. Aplicar estas técnicas no solo mejora la calidad del código, sino que también facilita su desarrollo y mantenimiento a largo plazo.

@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Manejo de márgenes en el modelo de caja
 	
-	Text: 
+	Content: 
 	    Los márgenes en el modelo de caja son el espacio exterior que separa el borde de un elemento de otros elementos en la página. Los márgenes son transparentes y no afectan el contenido del elemento ni su borde, pero sí influyen en la distribución del espacio en la página.
 	    
 	    *  **Propiedades de márgenes**:
@@ -17,7 +17,7 @@ Document (globalcampus.site/namespace.stxt): Manejo de márgenes en el modelo de
 	    
 	Header: Ejemplo de uso de propiedades de márgenes
 	
-	Text:
+	Content:
 	    
 	Code:
 	    div {
@@ -33,7 +33,7 @@ Document (globalcampus.site/namespace.stxt): Manejo de márgenes en el modelo de
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  Un div tiene un margen de 20px en todos los lados.

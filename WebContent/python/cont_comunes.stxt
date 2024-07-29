@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	
-	Text: 
+	Content: 
 	Header: Tipos Contenedores en Python: Operaciones Comunes
 	
-	Text:
+	Content:
 	    
 	    En Python, los tipos contenedores son estructuras de datos que pueden almacenar otros objetos. Los contenedores más comunes son las listas, tuplas, conjuntos y diccionarios. Cada tipo de contenedor tiene sus propias características y usos, pero hay algunas operaciones comunes que se pueden realizar en todos ellos.
 	    
 	Header: Listas
 	
-	Text:
+	Content:
 	    
 	    Las listas son contenedores ordenados y mutables que pueden almacenar elementos de diferentes tipos.
 	    
@@ -18,11 +18,11 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    mi_lista = [1, 2, 3, 4]
 	
 	
-	Text:
+	Content:
 	    
 	Header: Tuplas
 	
-	Text:
+	Content:
 	    
 	    Las tuplas son contenedores ordenados e inmutables. Una vez que se crean, sus elementos no pueden cambiar.
 	    
@@ -31,11 +31,11 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    mi_tupla = (1, 2, 3, 4)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Conjuntos
 	
-	Text:
+	Content:
 	    
 	    Los conjuntos son contenedores desordenados de elementos únicos. No permiten duplicados.
 	    
@@ -44,11 +44,11 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    mi_conjunto = {1, 2, 3, 4}
 	
 	
-	Text:
+	Content:
 	    
 	Header: Diccionarios
 	
-	Text:
+	Content:
 	    
 	    Los diccionarios son contenedores desordenados que almacenan pares clave-valor. Las claves deben ser únicas.
 	    
@@ -57,11 +57,11 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    mi_diccionario = {"a": 1, "b": 2, "c": 3}
 	
 	
-	Text:
+	Content:
 	    
 	Header: Operaciones Comunes
 	
-	Text:
+	Content:
 	    
 	    *  **Acceso a Elementos**:
 	    *  Listas y Tuplas:
@@ -70,14 +70,14 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    elemento = mi_tupla[1] # Accede al segundo elemento
 	
 	
-	Text:
+	Content:
 	    
 	    *  Diccionarios:
 	Code:
 	    valor = mi_diccionario["a"] # Accede al valor con clave "a"
 	
 	
-	Text:
+	Content:
 	    
 	    *  Conjuntos: No se puede acceder a elementos individuales por índice ya que no tienen orden.
 	    
@@ -87,14 +87,14 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    mi_lista[1] = 20 # Modifica el segundo elemento
 	
 	
-	Text:
+	Content:
 	    
 	    *  Diccionarios:
 	Code:
 	    mi_diccionario["a"] = 10 # Modifica el valor con clave "a"
 	
 	
-	Text:
+	Content:
 	    
 	    *  Tuplas y Conjuntos: No se pueden modificar directamente (las tuplas son inmutables y los conjuntos no tienen índices).
 	    
@@ -104,21 +104,21 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    mi_lista.append(5) # Añade un elemento al final
 	
 	
-	Text:
+	Content:
 	    
 	    *  Conjuntos:
 	Code:
 	    mi_conjunto.add(5) # Añade un nuevo elemento
 	
 	
-	Text:
+	Content:
 	    
 	    *  Diccionarios:
 	Code:
 	    mi_diccionario["d"] = 4 # Añade un nuevo par clave-valor
 	
 	
-	Text:
+	Content:
 	    
 	    *  Tuplas: No se pueden modificar después de su creación.
 	    
@@ -128,21 +128,21 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    mi_lista.remove(2) # Elimina la primera ocurrencia del valor 2
 	
 	
-	Text:
+	Content:
 	    
 	    *  Conjuntos:
 	Code:
 	    mi_conjunto.remove(2) # Elimina el valor 2
 	
 	
-	Text:
+	Content:
 	    
 	    *  Diccionarios:
 	Code:
 	    del mi_diccionario["a"] # Elimina el par clave-valor con clave "a"
 	
 	
-	Text:
+	Content:
 	    
 	    *  Tuplas: No se pueden modificar después de su creación.
 	    
@@ -153,7 +153,7 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    print(elemento)
 	
 	
-	Text:
+	Content:
 	    
 	    *  Conjuntos:
 	Code:
@@ -161,7 +161,7 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    print(elemento)
 	
 	
-	Text:
+	Content:
 	    
 	    *  Diccionarios:
 	Code:
@@ -169,7 +169,7 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    print(clave, valor)
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Comprensión de Listas, Conjuntos y Diccionarios**:
 	    *  Listas:
@@ -177,18 +177,18 @@ Document (globalcampus.site/namespace.stxt): Operaciones comunes
 	    cuadrados = [x**2 for x in mi_lista]
 	
 	
-	Text:
+	Content:
 	    
 	    *  Conjuntos:
 	Code:
 	    cuadrados = {x**2 for x in mi_conjunto}
 	
 	
-	Text:
+	Content:
 	    
 	    *  Diccionarios:
 	Code:
 	    cuadrados = {x: x**2 for x in mi_lista}
 	
 	
-	Text:
+	Content:

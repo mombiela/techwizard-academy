@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	
-	Text: 
+	Content: 
 	    Las comprensiones de listas en Python son una forma concisa y
 	    elegante de crear listas. Permiten generar una nueva lista
 	    aplicando una expresión a cada elemento de una secuencia
@@ -9,7 +9,7 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    
 	Header:  Sintaxis Básica
 	
-	Text:
+	Content:
 	    
 	    La sintaxis básica de una comprensión de lista es la siguiente:
 	    
@@ -17,7 +17,7 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    [nueva_lista] = [expresión for elemento in iterable if condición]
 	
 	
-	Text:
+	Content:
 	    
 	    * **expresión**: Operación que se realiza sobre cada elemento de la secuencia.
 	    * **elemento**: Variable que toma el valor de cada uno de los elementos del iterable.
@@ -26,7 +26,7 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    
 	Header:  Ejemplos de Comprensiones de Listas 
 	
-	Text:
+	Content:
 	    
 	    **1. Crear una lista de números:**
 	    
@@ -36,7 +36,7 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    print(cuadrados)  # Salida: [1, 4, 9, 16, 25]
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, ```n ** 2``` es la expresión que se aplica
 	    a cada elemento ```n``` de la lista ```numeros```.
@@ -49,7 +49,7 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    print(pares)  # Salida: [2, 4]
 	
 	
-	Text:
+	Content:
 	    
 	    Aquí, ```n % 2 == 0``` es la condición que filtra los números pares de la lista ```numeros```.
 	    
@@ -64,7 +64,7 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    print(cuadrados)  # Salida: [1, 4, 9, 16, 25]
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, la función cuadrado se aplica a cada elemento de la lista ```numeros```.
 	    
@@ -76,19 +76,19 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    print(mayusculas)  # Salida: ['MANZANA', 'BANANA', 'CEREZA']
 	
 	
-	Text:
+	Content:
 	    
 	    La expresión ```fruta.upper()``` convierte cada cadena de la lista ```frutas``` a mayúsculas.
 	    
 	Header:  Comprensiones Anidadas 
 	
-	Text:
+	Content:
 	    
 	    Las comprensiones de listas también pueden ser anidadas, permitiendo crear listas multidimensionales.
 	    
 	Header:  Ejemplo: Matriz de números:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -96,19 +96,19 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    print(transpuesta)  # Salida: [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, la lista ```transpuesta``` se genera tomando los elementos por columna en lugar de por fila.
 	    
 	Header:  Uso de Comprensiones de Listas con Diccionarios y Conjuntos 
 	
-	Text:
+	Content:
 	    
 	    Las comprensiones de listas no se limitan solo a listas. También pueden usarse para crear diccionarios y conjuntos.
 	    
 	Header:  Ejemplo con diccionarios:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    frutas = ["manzana", "banana", "cereza"]
@@ -117,13 +117,13 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    print(frutas_precios)  # Salida: {'manzana': 1.2, 'banana': 0.5, 'cereza': 2.0}
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, se crea un diccionario ```frutas_precios``` a partir de dos listas usando ```zip```.
 	    
 	Header:  Ejemplo con conjuntos:
 	
-	Text:
+	Content:
 	    
 	Code:
 	    numeros = [1, 2, 2, 3, 4, 4, 5]
@@ -131,7 +131,7 @@ Document (globalcampus.site/namespace.stxt): Comprensiones de listas
 	    print(cuadrados_unicos)  # Salida: {1, 4, 9, 16, 25}
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, se crea un conjunto ```cuadrados_unicos``` con los cuadrados únicos de los números en la lista ```numeros```.
 	    

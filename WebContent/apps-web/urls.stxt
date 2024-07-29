@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	
-	Text: 
+	Content: 
 	    Una URL (Uniform Resource Locator) es la dirección que se utiliza para acceder a recursos en la web. Las URLs son fundamentales para la navegación y la localización de recursos en Internet. Veamos su estructura y cómo se utilizan.
 	    
 	Header: Componentes de una URL
 	
-	Text:
+	Content:
 	    
 	    Las URLs están compuestas por varias partes, cada una de las cuales tiene un propósito específico. Aquí se muestra la estructura general de una URL:
 	    
@@ -13,7 +13,7 @@ Document (globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	    protocolo://usuario:contraseña@host:puerto/ruta?consulta#fragmento
 	
 	
-	Text:
+	Content:
 	    
 	    Veamos cada componente en detalle:
 	    
@@ -33,7 +33,7 @@ Document (globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	    
 	Header: Ejemplo de una URL completa
 	
-	Text:
+	Content:
 	    
 	    A continuación se presenta un ejemplo de una URL completa con todos sus componentes:
 	    
@@ -41,11 +41,11 @@ Document (globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	    https://usuario:contraseña@www.ejemplo.com:8080/directorio/recurso.html?id=123&nombre=juan#seccion2
 	
 	
-	Text:
+	Content:
 	    
 	Header: Uso de URLs
 	
-	Text:
+	Content:
 	    
 	    # **Navegación**: Las URLs permiten a los usuarios navegar a diferentes páginas y recursos en la web. Al introducir una URL en la barra de direcciones del navegador, este realiza una solicitud al servidor correspondiente y muestra el recurso solicitado.
 	    
@@ -55,7 +55,7 @@ Document (globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	    <a href="https://www.ejemplo.com">Visitar Ejemplo</a>
 	
 	
-	Text:
+	Content:
 	    
 	    # **Formularios**: En los formularios web, las URLs se utilizan para enviar datos al servidor. Los datos del formulario se agregan a la URL como parte de la consulta cuando se utiliza el método ```GET```.
 	    
@@ -67,9 +67,9 @@ Document (globalcampus.site/namespace.stxt): Estructura y uso de URLs.
 	    </form>
 	
 	
-	Text:
+	Content:
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    Las URLs son esenciales para la estructura y funcionamiento de la web. Comprender sus componentes y cómo se utilizan permite una mejor navegación, desarrollo y manipulación de recursos en Internet. Para más detalles sobre la especificación de URLs, puedes consultar la RFC 3986 [[https://tools.ietf.org/html/rfc3986|RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax]].

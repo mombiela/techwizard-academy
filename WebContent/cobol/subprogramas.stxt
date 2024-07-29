@@ -1,17 +1,17 @@
 Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	
-	Text: 
+	Content: 
 	    Los subprogramas en COBOL permiten modularizar el código, facilitando su mantenimiento y reutilización. Un subprograma es un programa independiente que puede ser llamado por otro programa, conocido como programa principal o llamador. A continuación, se explica cómo crear y usar subprogramas en COBOL.
 	    
 	Header: Definición de un subprograma
 	
-	Text:
+	Content:
 	    
 	    Un subprograma se define en un archivo separado y contiene una división de identificación, una división de ambiente, una división de datos y una división de procedimiento, similar a un programa principal.
 	    
 	Subheader: Ejemplo de un subprograma
 	
-	Text:
+	Content:
 	    
 	Code:
 	    IDENTIFICATION DIVISION.
@@ -38,7 +38,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    EXIT PROGRAM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -49,13 +49,13 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    
 	Header: Llamando a un subprograma desde el programa principal
 	
-	Text:
+	Content:
 	    
 	    Para llamar a un subprograma, el programa principal debe declarar los parámetros en la ```WORKING-STORAGE SECTION``` y utilizar la sentencia ```CALL```.
 	    
 	Subheader: Ejemplo de un programa principal llamando a un subprograma
 	
-	Text:
+	Content:
 	    
 	Code:
 	    IDENTIFICATION DIVISION.
@@ -75,7 +75,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -85,13 +85,13 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    
 	Header: Pasando parámetros entre el programa principal y el subprograma
 	
-	Text:
+	Content:
 	    
 	    Los parámetros se pasan por referencia, lo que significa que cualquier cambio en los parámetros dentro del subprograma se refleja en el programa principal.
 	    
 	Subheader: Ejemplo de paso de parámetros por referencia
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -101,7 +101,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -110,7 +110,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    
 	Header: Uso de la sentencia CANCEL
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```CANCEL``` se utiliza para liberar la memoria utilizada por un subprograma después de que haya sido llamado, permitiendo que se cargue de nuevo si es necesario.
 	    
@@ -119,7 +119,7 @@ Document (globalcampus.site/namespace.stxt): Creación y uso de subprogramas
 	    CANCEL Subprograma-Ejemplo.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    

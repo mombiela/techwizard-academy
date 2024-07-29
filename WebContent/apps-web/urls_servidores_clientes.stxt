@@ -1,9 +1,9 @@
 Document (globalcampus.site/namespace.stxt): Qué son URLs, servidores y clientes
 	
-	Text: 
+	Content: 
 	Header: URLs
 	
-	Text:
+	Content:
 	    
 	    Una URL (Uniform Resource Locator) es una dirección que se utiliza para acceder a recursos en la web. Es la forma en que identificamos y localizamos un recurso específico en Internet, como una página web, una imagen o un video. Las URLs están compuestas de varias partes, cada una con un propósito específico.
 	    
@@ -18,11 +18,11 @@ Document (globalcampus.site/namespace.stxt): Qué son URLs, servidores y cliente
 	    https://www.ejemplo.com/articulos/tecnologia?id=1234#seccion2
 	
 	
-	Text:
+	Content:
 	    
 	Header: Servidores
 	
-	Text:
+	Content:
 	    
 	    Un servidor es una computadora o sistema que proporciona recursos, datos, servicios o programas a otros dispositivos, conocidos como clientes, a través de una red. Los servidores web, en particular, manejan solicitudes HTTP o HTTPS y entregan recursos, como páginas web, a los clientes.
 	    
@@ -38,11 +38,11 @@ Document (globalcampus.site/namespace.stxt): Qué son URLs, servidores y cliente
 	    3. El servidor devuelve una respuesta HTTP con el recurso solicitado, como una página HTML.
 	
 	
-	Text:
+	Content:
 	    
 	Header: Clientes
 	
-	Text:
+	Content:
 	    
 	    Un cliente es cualquier dispositivo o aplicación que solicita recursos o servicios de un servidor. Los clientes pueden ser navegadores web, aplicaciones móviles, u otros dispositivos que necesitan acceder a recursos en la red.
 	    
@@ -59,10 +59,10 @@ Document (globalcampus.site/namespace.stxt): Qué son URLs, servidores y cliente
 	    4. El cliente recibe la respuesta y la procesa/en muestra al usuario.
 	
 	
-	Text:
+	Content:
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    En resumen, las URLs son las direcciones que usamos para acceder a recursos en la web, los servidores son los sistemas que proporcionan estos recursos, y los clientes son los dispositivos o aplicaciones que los solicitan. Esta interacción es fundamental para el funcionamiento de la web tal como la conocemos.

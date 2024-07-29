@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Operadores de Identidad
 	
-	Text: 
+	Content: 
 	    Estos operadores se utilizan para comparar objetos.
 	    
 	    |= Operador    |= Descripción                 |= Ejemplo
@@ -9,7 +9,7 @@ Document (globalcampus.site/namespace.stxt): Operadores de Identidad
 	    
 	Header:  Ejemplo: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    a = [1, 2, 3]
@@ -20,7 +20,7 @@ Document (globalcampus.site/namespace.stxt): Operadores de Identidad
 	    print(a is not c) # True
 	
 	
-	Text:
+	Content:
 	    
 	    
 	    

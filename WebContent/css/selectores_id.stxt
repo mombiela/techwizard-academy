@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Uso de selectores por ID
 	
-	Text: 
+	Content: 
 	    *  **Introducción**
 	    Los selectores por ID en CSS permiten aplicar estilos a un único elemento que tiene un identificador específico. Este método es útil para estilizar elementos únicos en una página, como un encabezado o una sección específica.
 	    
@@ -23,7 +23,7 @@ Document (globalcampus.site/namespace.stxt): Uso de selectores por ID
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Ventajas de usar selectores por ID**
 	    ```startalert```
@@ -61,7 +61,7 @@ Document (globalcampus.site/namespace.stxt): Uso de selectores por ID
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Conclusión**
 	    El uso de selectores por ID en CSS es ideal para aplicar estilos a elementos únicos en un documento HTML. Aunque los IDs ofrecen alta especificidad y control, es importante usarlos con moderación y combinarlos adecuadamente con otros selectores para mantener un código CSS limpio y manejable.

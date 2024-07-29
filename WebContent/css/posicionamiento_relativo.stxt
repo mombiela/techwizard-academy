@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Posicionamiento relativo
 	
-	Text: 
+	Content: 
 	    El posicionamiento relativo permite mover un elemento desde su posición original en el flujo del documento sin alterar el espacio que ocupa originalmente. Esto significa que el elemento sigue ocupando el mismo espacio en el flujo normal del documento, pero se puede desplazar utilizando las propiedades ```top```, ```right```, ```bottom``` y ```left```.
 	    
 	    *  **Características del posicionamiento relativo**:
@@ -14,7 +14,7 @@ Document (globalcampus.site/namespace.stxt): Posicionamiento relativo
 	    
 	Header: Ejemplo de código CSS con posicionamiento relativo
 	
-	Text:
+	Content:
 	    
 	Code:
 	    div {
@@ -26,7 +26,7 @@ Document (globalcampus.site/namespace.stxt): Posicionamiento relativo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, un div tiene un posicionamiento relativo, lo que significa que se desplaza 10px hacia abajo y 20px hacia la derecha desde su posición original en el flujo del documento. El espacio original que ocupaba el div se mantiene, lo que puede provocar superposición con otros elementos.
 	    

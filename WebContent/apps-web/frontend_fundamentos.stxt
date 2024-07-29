@@ -1,13 +1,13 @@
 Document (globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HTML, CSS y JavaScript.
 	
-	Text: 
+	Content: 
 	Header: Lenguajes básicos del frontend: HTML, CSS y JavaScript
 	
-	Text:
+	Content:
 	    
 	Header: HTML (HyperText Markup Language)
 	
-	Text:
+	Content:
 	    
 	    **HTML** es el lenguaje estándar para crear y estructurar páginas web. Se utiliza para definir la estructura básica de un sitio web y su contenido. Aquí tienes algunos conceptos clave sobre HTML:
 	    
@@ -31,10 +31,10 @@ Document (globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HT
 	    </html>
 	
 	
-	Text:
+	Content:
 	Header: CSS (Cascading Style Sheets)
 	
-	Text:
+	Content:
 	    
 	    **CSS** es el lenguaje utilizado para describir la presentación de un documento escrito en HTML o XML. CSS controla el aspecto visual del sitio web, incluyendo colores, fuentes, y la disposición de los elementos en la página.
 	    
@@ -61,11 +61,11 @@ Document (globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HT
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	Header: JavaScript
 	
-	Text:
+	Content:
 	    
 	    **JavaScript** es un lenguaje de programación que permite agregar interactividad a las páginas web. Se ejecuta en el navegador del usuario y puede manipular elementos HTML y CSS, responder a eventos del usuario, validar datos de formularios, y mucho más.
 	    
@@ -95,9 +95,9 @@ Document (globalcampus.site/namespace.stxt): Lenguajes básicos del frontend: HT
 	    </html>
 	
 	
-	Text:
+	Content:
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    HTML, CSS y JavaScript son los tres pilares fundamentales del desarrollo frontend. **HTML** proporciona la estructura básica, **CSS** define la apariencia visual, y **JavaScript** añade interactividad y comportamiento dinámico a las páginas web. Con un buen dominio de estos lenguajes, se puede crear sitios web atractivos, funcionales y dinámicos.

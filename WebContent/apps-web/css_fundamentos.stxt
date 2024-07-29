@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Estilizado con CSS
 	
-	Text: 
+	Content: 
 	    CSS (Cascading Style Sheets) es el lenguaje utilizado para describir la presentación de un documento HTML. CSS permite controlar el aspecto visual de una página web, incluyendo colores, fuentes, disposición y otros aspectos de diseño.
 	    
 	Header: Selectores de CSS
 	
-	Text:
+	Content:
 	    
 	    Los selectores se utilizan para apuntar a los elementos HTML que queremos estilizar. Aquí están algunos de los selectores más comunes:
 	    
@@ -35,11 +35,11 @@ Document (globalcampus.site/namespace.stxt): Estilizado con CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	Header: Propiedades de CSS
 	
-	Text:
+	Content:
 	    
 	    Las propiedades CSS se utilizan para definir estilos específicos para los elementos seleccionados. Algunas de las propiedades más comunes incluyen:
 	    
@@ -74,11 +74,11 @@ Document (globalcampus.site/namespace.stxt): Estilizado con CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	Header: Modelo de Caja (Box Model)
 	
-	Text:
+	Content:
 	    
 	    El modelo de caja en CSS es esencial para entender cómo se disponen los elementos en una página web. Cada elemento se representa como una caja rectangular, que consta de los siguientes componentes:
 	    
@@ -98,11 +98,11 @@ Document (globalcampus.site/namespace.stxt): Estilizado con CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	Header: Layouts con CSS
 	
-	Text:
+	Content:
 	    
 	    CSS permite crear diseños de página complejos mediante diversas técnicas. Aquí hay algunas de las más utilizadas:
 	    
@@ -124,7 +124,7 @@ Document (globalcampus.site/namespace.stxt): Estilizado con CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    Ejemplo de Grid:
 	    
@@ -141,10 +141,10 @@ Document (globalcampus.site/namespace.stxt): Estilizado con CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    CSS es una herramienta poderosa para el estilizado de páginas web. Con una comprensión sólida de los selectores, propiedades, el modelo de caja y técnicas de layout, puedes crear diseños atractivos y funcionales. CSS trabaja junto con HTML y JavaScript para proporcionar una experiencia de usuario completa y enriquecida en la web.

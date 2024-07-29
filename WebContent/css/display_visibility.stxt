@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Propiedades display y visibility
 	
-	Text: 
+	Content: 
 	    *  **Propiedad display**:
 	    
 	    La propiedad ```display``` controla cómo se muestra un elemento en la página. Puede cambiar el comportamiento del elemento desde ser un contenedor de nivel de bloque hasta un elemento de línea, o incluso ocultarlo.
@@ -24,7 +24,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades display y visibility
 	    
 	Header: Ejemplo de uso de propiedades display y visibility
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .block-element {
@@ -44,7 +44,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades display y visibility
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  Un elemento con la clase ```block-element``` se muestra como un contenedor de bloque que ocupa todo el ancho disponible.

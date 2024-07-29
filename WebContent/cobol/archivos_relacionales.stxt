@@ -1,23 +1,23 @@
 Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	
-	Text: 
+	Content: 
 	    En COBOL, los archivos relacionales no son nativos, pero es posible interactuar con bases de datos relacionales mediante el uso de Embedded SQL (SQL embebido) o interfaces de programación específicas de la base de datos. A continuación, se detallan los conceptos y operaciones básicas para trabajar con bases de datos relacionales en COBOL utilizando Embedded SQL.
 	    
 	Header: Configuración de Embedded SQL
 	
-	Text:
+	Content:
 	    
 	    Antes de usar SQL embebido en COBOL, se debe incluir el preprocesador de SQL específico del sistema de bases de datos que se esté utilizando (por ejemplo, DB2, Oracle). Este preprocesador convierte las sentencias SQL embebidas en llamadas apropiadas a la base de datos.
 	    
 	Subheader: Ejemplo de configuración básica
 	
-	Text:
+	Content:
 	    
 	Code:
 	    EXEC SQL INCLUDE SQLCA END-EXEC.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -25,13 +25,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    
 	Header: Conexión a la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para trabajar con una base de datos relacional, primero es necesario establecer una conexión.
 	    
 	Subheader: Ejemplo de conexión a la base de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -52,7 +52,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -61,13 +61,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    
 	Header: Consultas a la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para realizar consultas en la base de datos, se utilizan sentencias ```SELECT``` embebidas.
 	    
 	Subheader: Ejemplo de consulta a la base de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -93,7 +93,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -102,13 +102,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    
 	Header: Inserción de datos en la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para insertar nuevos registros en la base de datos, se utiliza la sentencia ```INSERT```.
 	    
 	Subheader: Ejemplo de inserción de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -125,7 +125,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -134,13 +134,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    
 	Header: Actualización de datos en la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para actualizar registros existentes, se utiliza la sentencia ```UPDATE```.
 	    
 	Subheader: Ejemplo de actualización de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -158,7 +158,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -167,13 +167,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    
 	Header: Eliminación de datos en la base de datos
 	
-	Text:
+	Content:
 	    
 	    Para eliminar registros, se utiliza la sentencia ```DELETE```.
 	    
 	Subheader: Ejemplo de eliminación de datos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -190,7 +190,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -199,13 +199,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    
 	Header: Manejo de errores y excepciones
 	
-	Text:
+	Content:
 	    
 	    El manejo de errores en operaciones con bases de datos se realiza mediante la verificación del ```SQLCODE``` y el uso de la estructura ```SQLCA```.
 	    
 	Subheader: Ejemplo de manejo de errores
 	
-	Text:
+	Content:
 	    
 	Code:
 	    WORKING-STORAGE SECTION.
@@ -224,7 +224,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    END-IF.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -232,6 +232,6 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos relacionales
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    El trabajo con archivos relacionales en COBOL mediante Embedded SQL permite la interacción con bases de datos modernas, facilitando la gestión de datos de manera eficiente. Comprender cómo conectarse a la base de datos, realizar consultas, insertar, actualizar y eliminar datos, así como manejar errores, es esencial para desarrollar aplicaciones COBOL robustas y eficientes.

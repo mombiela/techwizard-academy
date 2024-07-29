@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE, etc.
 	
-	Text: 
+	Content: 
 	    COBOL proporciona un conjunto de sentencias básicas que permiten realizar operaciones fundamentales en un programa. Entre las más utilizadas se encuentran ```MOVE```, ```COMPUTE```, ```ADD```, ```SUBTRACT```, ```MULTIPLY```, ```DIVIDE```, y ```DISPLAY```. A continuación, se describen estas sentencias y su uso.
 	    
 	Header: MOVE
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```MOVE``` se utiliza para asignar valores a variables. Permite copiar datos de una variable o literal a otra variable.
 	    
@@ -15,7 +15,7 @@ Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE,
 	    MOVE WS-Source TO WS-Destination.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -25,7 +25,7 @@ Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE,
 	    
 	Header: COMPUTE
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```COMPUTE``` se utiliza para realizar cálculos aritméticos y asignar el resultado a una variable. Soporta operaciones como suma, resta, multiplicación y división.
 	    
@@ -34,7 +34,7 @@ Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE,
 	    COMPUTE WS-Average = WS-Sum / WS-Count.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -43,7 +43,7 @@ Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE,
 	    
 	Header: ADD, SUBTRACT, MULTIPLY, DIVIDE
 	
-	Text:
+	Content:
 	    
 	    Estas sentencias se utilizan para realizar operaciones aritméticas básicas.
 	    
@@ -61,7 +61,7 @@ Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE,
 	    DIVIDE WS-Dividend BY WS-Divisor GIVING WS-Quotient.
 	
 	
-	Text:
+	Content:
 	    
 	    En estos ejemplos:
 	    
@@ -76,7 +76,7 @@ Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE,
 	    
 	Header: DISPLAY
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```DISPLAY``` se utiliza para mostrar información en la pantalla. Es útil para depuración y para proporcionar información al usuario.
 	    
@@ -86,7 +86,7 @@ Document (globalcampus.site/namespace.stxt): Sentencias básicas: MOVE, COMPUTE,
 	    DISPLAY 'The result is: ' WS-Result.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    

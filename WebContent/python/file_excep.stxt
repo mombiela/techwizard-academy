@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except, finally)
 	
-	Text: 
+	Content: 
 	Header: Manejo de excepciones (try, except, finally) en Python
 	
-	Text:
+	Content:
 	    
 	    El manejo de excepciones en Python permite controlar los errores que pueden ocurrir durante la ejecución de un programa. Usando las estructuras ```try```, ```except```, y ```finally```, se puede gestionar de manera adecuada estos errores, asegurando que el programa pueda manejar situaciones inesperadas sin detenerse abruptamente.
 	    
 	Header: Estructura Básica
 	
-	Text:
+	Content:
 	    
 	    La estructura básica para el manejo de excepciones es la siguiente:
 	    
@@ -22,11 +22,11 @@ Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except,
 	    # Código que se ejecuta siempre, ocurra o no una excepción
 	
 	
-	Text:
+	Content:
 	    
 	Header: Bloque try
 	
-	Text:
+	Content:
 	    
 	    El bloque ```try``` contiene el código que puede producir una excepción. Si no ocurre ninguna excepción, el bloque ```except``` es ignorado y el programa continúa con la siguiente instrucción después del bloque ```try```.
 	    
@@ -39,11 +39,11 @@ Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except,
 	    print("Error: División por cero.")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Bloque except
 	
-	Text:
+	Content:
 	    
 	    El bloque ```except``` se ejecuta si ocurre una excepción en el bloque ```try```. Se puede especificar el tipo de excepción a capturar.
 	    
@@ -55,7 +55,7 @@ Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except,
 	    print("Error: División por cero.")
 	
 	
-	Text:
+	Content:
 	    
 	    También se pueden capturar múltiples excepciones especificándolas en una tupla.
 	Code:
@@ -65,7 +65,7 @@ Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except,
 	    print("Error: Ocurrió una excepción.")
 	
 	
-	Text:
+	Content:
 	    
 	    Se puede capturar cualquier excepción usando un bloque ```except``` sin especificar el tipo de excepción.
 	Code:
@@ -75,11 +75,11 @@ Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except,
 	    print("Error: Ocurrió una excepción.")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Bloque else
 	
-	Text:
+	Content:
 	    
 	    El bloque ```else``` se ejecuta si no ocurre ninguna excepción en el bloque ```try```.
 	Code:
@@ -91,11 +91,11 @@ Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except,
 	    print("El resultado es:", resultado)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Bloque finally
 	
-	Text:
+	Content:
 	    
 	    El bloque ```finally``` contiene el código que se ejecuta siempre, ocurra o no una excepción. Es útil para liberar recursos o realizar tareas de limpieza.
 	    
@@ -110,22 +110,22 @@ Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except,
 	    archivo.close()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Lanzar Excepciones
 	
-	Text:
+	Content:
 	    
 	    Se pueden lanzar excepciones manualmente usando la palabra clave ```raise```.
 	Code:
 	    raise ValueError("Este es un error personalizado.")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Definir Excepciones Personalizadas
 	
-	Text:
+	Content:
 	    
 	    Se pueden definir excepciones personalizadas creando una nueva clase que herede de la clase base ```Exception```.
 	Code:
@@ -139,11 +139,11 @@ Document (globalcampus.site/namespace.stxt): Manejo de excepciones (try, except,
 	    print(e.mensaje)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ventajas del Manejo de Excepciones
 	
-	Text:
+	Content:
 	    
 	    *  **Robustez**: Permite que el programa continúe ejecutándose o se cierre de manera controlada en caso de errores.
 	    *  **Claridad**: Mejora la legibilidad del código al separar la lógica de manejo de errores del flujo principal del programa.

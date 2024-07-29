@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Definición y propósito de CSS
 	
-	Text: 
+	Content: 
 	    *  **Definición**
 	    CSS, //Cascading Style Sheets//, es un lenguaje de hojas de estilo utilizado para describir la presentación de un documento escrito en HTML o XML. Define cómo los elementos deben ser renderizados en la pantalla, en papel, en voz u otros medios.
 	    
@@ -30,6 +30,6 @@ Document (globalcampus.site/namespace.stxt): Definición y propósito de CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    CSS es fundamental para el desarrollo web moderno, proporcionando las herramientas necesarias para crear sitios web atractivos y funcionales.

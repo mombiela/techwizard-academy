@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	
-	Text: 
+	Content: 
 	    Los ejemplos prácticos de CSS Grid muestran cómo se pueden utilizar las propiedades de Grid para crear diseños flexibles y adaptables. A continuación, se presentan algunos ejemplos comunes:
 	    
 	Header: Ejemplo 1: Diseño de una página básica
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -36,7 +36,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula define tres columnas y tres filas.
@@ -45,7 +45,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    
 	Header: Ejemplo 2: Galería de imágenes responsiva
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .gallery {
@@ -59,7 +59,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula crea una galería de imágenes responsiva.
@@ -67,7 +67,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    
 	Header: Ejemplo 3: Diseño de una tarjeta de perfil
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .profile-card {
@@ -98,7 +98,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula define un diseño para una tarjeta de perfil.
@@ -106,7 +106,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    
 	Header: Ejemplo 4: Diseño de una página de revista
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .magazine {
@@ -142,7 +142,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula define un diseño para una página de revista.
@@ -150,7 +150,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    
 	Header: Ejemplo 5: Diseño de un formulario complejo
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .form {
@@ -194,7 +194,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula define un diseño para un formulario complejo.
@@ -202,7 +202,7 @@ Document (globalcampus.site/namespace.stxt): Ejemplos prácticos con CSS Grid
 	    
 	Header: Diagramas de ejemplos prácticos con CSS Grid
 	
-	Text:
+	Content:
 	    
 	    **Ejemplo 1: Diseño de una página básica**
 	    

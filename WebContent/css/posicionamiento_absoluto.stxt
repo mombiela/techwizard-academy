@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Posicionamiento absoluto
 	
-	Text: 
+	Content: 
 	    El posicionamiento absoluto permite colocar un elemento en una ubicación específica dentro de su contenedor. Un elemento con posicionamiento absoluto se retira del flujo normal del documento, lo que significa que no afecta la posición de otros elementos y no se ve afectado por ellos. Se posiciona en relación con su contenedor más cercano que tenga un posicionamiento distinto de estático.
 	    
 	    *  **Características del posicionamiento absoluto**:
@@ -14,7 +14,7 @@ Document (globalcampus.site/namespace.stxt): Posicionamiento absoluto
 	    
 	Header: Ejemplo de código CSS con posicionamiento absoluto
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -33,7 +33,7 @@ Document (globalcampus.site/namespace.stxt): Posicionamiento absoluto
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, un elemento con la clase ```element``` tiene un posicionamiento absoluto. Se posiciona 50px desde la parte superior y 100px desde la parte izquierda de su contenedor más cercano con posicionamiento relativo (el div con la clase ```container```). El contenedor tiene un ancho de 400px y una altura de 200px.
 	    

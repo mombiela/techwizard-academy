@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Diccionarios
 	
-	Text: 
+	Content: 
 	Header: Diccionarios en Python
 	
-	Text:
+	Content:
 	    
 	    Los diccionarios en Python son estructuras de datos que almacenan pares de clave-valor. Son muy útiles para asociar un conjunto de valores a claves únicas, permitiendo el acceso rápido a los valores mediante sus claves.
 	    
 	Header: Creación de Diccionarios
 	
-	Text:
+	Content:
 	    
 	    Los diccionarios se crean usando llaves ```{}``` y especificando los pares clave-valor separados por comas.
 	    
@@ -22,18 +22,18 @@ Document (globalcampus.site/namespace.stxt): Diccionarios
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    También se pueden crear diccionarios usando la función ```dict()```.
 	Code:
 	    mi_diccionario = dict(nombre="Juan", edad=30, ciudad="Madrid")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Acceso a Elementos
 	
-	Text:
+	Content:
 	    
 	    Se puede acceder a los valores del diccionario mediante sus claves.
 	    
@@ -43,86 +43,86 @@ Document (globalcampus.site/namespace.stxt): Diccionarios
 	    edad = mi_diccionario["edad"]
 	
 	
-	Text:
+	Content:
 	    
 	    Para evitar errores si la clave no existe, se puede usar el método ```get()```.
 	Code:
 	    pais = mi_diccionario.get("pais", "Desconocido")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Modificación de Elementos
 	
-	Text:
+	Content:
 	    
 	    Los valores en un diccionario se pueden modificar asignando un nuevo valor a una clave existente.
 	Code:
 	    mi_diccionario["edad"] = 31
 	
 	
-	Text:
+	Content:
 	    
 	    Para añadir un nuevo par clave-valor, simplemente se asigna un valor a una nueva clave.
 	Code:
 	    mi_diccionario["pais"] = "España"
 	
 	
-	Text:
+	Content:
 	    
 	Header: Eliminar Elementos
 	
-	Text:
+	Content:
 	    
 	    *  **```del```**: Elimina un par clave-valor usando la clave.
 	Code:
 	    del mi_diccionario["ciudad"]
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```pop```**: Elimina y devuelve el valor asociado a una clave.
 	Code:
 	    edad = mi_diccionario.pop("edad")
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```clear```**: Elimina todos los pares clave-valor del diccionario.
 	Code:
 	    mi_diccionario.clear()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Operaciones con Diccionarios
 	
-	Text:
+	Content:
 	    
 	    *  **```keys```**: Devuelve una vista de las claves del diccionario.
 	Code:
 	    claves = mi_diccionario.keys()
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```values```**: Devuelve una vista de los valores del diccionario.
 	Code:
 	    valores = mi_diccionario.values()
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```items```**: Devuelve una vista de los pares clave-valor del diccionario.
 	Code:
 	    pares = mi_diccionario.items()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Iteración sobre Diccionarios
 	
-	Text:
+	Content:
 	    
 	    Se puede iterar sobre las claves, valores o pares clave-valor de un diccionario usando un bucle ```for```.
 	    
@@ -132,7 +132,7 @@ Document (globalcampus.site/namespace.stxt): Diccionarios
 	    print(clave)
 	
 	
-	Text:
+	Content:
 	    
 	    Ejemplo iterando sobre valores:
 	Code:
@@ -140,7 +140,7 @@ Document (globalcampus.site/namespace.stxt): Diccionarios
 	    print(valor)
 	
 	
-	Text:
+	Content:
 	    
 	    Ejemplo iterando sobre pares clave-valor:
 	Code:
@@ -148,11 +148,11 @@ Document (globalcampus.site/namespace.stxt): Diccionarios
 	    print(clave, ":", valor)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Comprensión de Diccionarios
 	
-	Text:
+	Content:
 	    
 	    La comprensión de diccionarios es una forma concisa de crear diccionarios.
 	    
@@ -161,31 +161,31 @@ Document (globalcampus.site/namespace.stxt): Diccionarios
 	    cuadrados = {x: x**2 for x in range(10)}
 	
 	
-	Text:
+	Content:
 	    
 	    Esto crea un diccionario donde las claves son números del 0 al 9 y los valores son sus cuadrados.
 	    
 	Header: Métodos de Diccionarios
 	
-	Text:
+	Content:
 	    
 	    *  **```update```**: Actualiza el diccionario con pares clave-valor de otro diccionario o de un iterable de pares clave-valor.
 	Code:
 	    mi_diccionario.update({"nombre": "Pedro", "edad": 40})
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```setdefault```**: Devuelve el valor de una clave. Si la clave no existe, inserta la clave con el valor proporcionado.
 	Code:
 	    ciudad = mi_diccionario.setdefault("ciudad", "Barcelona")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ventajas de los Diccionarios
 	
-	Text:
+	Content:
 	    
 	    *  **Acceso rápido a los valores**: Permiten un acceso rápido a los valores mediante claves únicas.
 	    *  **Flexibilidad en los tipos de datos**: Las claves y los valores pueden ser de cualquier tipo de dato inmutable.

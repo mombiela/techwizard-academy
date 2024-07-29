@@ -1,9 +1,9 @@
 Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	
-	Text: 
+	Content: 
 	Header: Propiedades de color y fondo
 	
-	Text:
+	Content:
 	    
 	    *  **Introducción**
 	    Las propiedades de color y fondo en CSS permiten definir los colores de texto, fondos y otros elementos gráficos en una página web. Estas propiedades son fundamentales para la creación de diseños visualmente atractivos y consistentes.
@@ -17,7 +17,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **opacity**: Define la opacidad de un elemento, donde 1 es completamente opaco y 0 es completamente transparente.
 	Code:
@@ -26,7 +26,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **rgba()**: Define el color usando valores rojo, verde, azul y alfa (opacidad).
 	Code:
@@ -35,7 +35,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Propiedades de fondo**
@@ -47,7 +47,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **background-image**: Define una imagen de fondo para un elemento.
 	Code:
@@ -56,7 +56,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **background-repeat**: Define si y cómo se repite una imagen de fondo.
 	Code:
@@ -66,7 +66,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **background-position**: Define la posición inicial de una imagen de fondo.
 	Code:
@@ -76,7 +76,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **background-size**: Define el tamaño de la imagen de fondo.
 	Code:
@@ -86,7 +86,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **background-attachment**: Define si la imagen de fondo se desplaza con el contenido o se fija en su posición.
 	Code:
@@ -96,7 +96,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Colores en CSS**
@@ -108,7 +108,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Valores hexadecimales**: Los colores se pueden definir utilizando valores hexadecimales.
 	Code:
@@ -117,7 +117,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Valores RGB y RGBA**: Los colores se pueden definir utilizando valores RGB y RGBA.
 	Code:
@@ -127,7 +127,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Valores HSL y HSLA**: Los colores se pueden definir utilizando valores HSL y HSLA.
 	Code:
@@ -137,7 +137,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Ejemplos prácticos**
@@ -170,7 +170,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de color y fondo
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Conclusión**
 	    Las propiedades de color y fondo en CSS son esenciales para crear diseños visualmente atractivos y funcionales. Permiten a los desarrolladores controlar cómo se presentan los elementos en una página, mejorando la experiencia del usuario y la estética general del sitio web.

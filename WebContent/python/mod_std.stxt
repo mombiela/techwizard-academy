@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python (os, sys, math, etc.)
 	
-	Text: 
+	Content: 
 	    Python viene con una extensa biblioteca estándar que proporciona módulos y paquetes útiles para realizar una amplia variedad de tareas. A continuación, se describen algunos de los módulos estándar más comúnmente utilizados: ```os```, ```sys```, ```math```, y otros.
 	    
 	Header: Módulo os
 	
-	Text:
+	Content:
 	    
 	    El módulo ```os``` proporciona una forma de usar funcionalidades dependientes del sistema operativo como leer o escribir en el sistema de archivos.
 	    
@@ -17,7 +17,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Directorio de trabajo actual:", cwd)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```os.listdir()```: Lista los archivos y directorios en un directorio específico.
 	Code:
@@ -27,7 +27,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Archivos y directorios en el directorio actual:", archivos)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```os.mkdir()```: Crea un nuevo directorio.
 	Code:
@@ -36,7 +36,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    os.mkdir('nuevo_directorio')
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```os.remove()``` y ```os.rmdir()```: Elimina un archivo o un directorio, respectivamente.
 	Code:
@@ -46,11 +46,11 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    os.rmdir('directorio_a_eliminar')
 	
 	
-	Text:
+	Content:
 	    
 	Header: Módulo sys
 	
-	Text:
+	Content:
 	    
 	    El módulo ```sys``` proporciona acceso a algunas variables y funciones que interactúan fuertemente con el intérprete de Python.
 	    
@@ -61,7 +61,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Argumentos pasados al script:", sys.argv)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```sys.exit()```: Termina el programa con un estado de salida opcional.
 	Code:
@@ -70,7 +70,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    sys.exit("Terminando el programa")
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```sys.path```: Lista de rutas donde Python busca módulos.
 	Code:
@@ -79,11 +79,11 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Rutas de búsqueda de módulos:", sys.path)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Módulo math
 	
-	Text:
+	Content:
 	    
 	    El módulo ```math``` proporciona acceso a las funciones matemáticas más comunes.
 	    
@@ -95,7 +95,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Raíz cuadrada de 16:", raiz)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```math.factorial()```: Devuelve el factorial de un número.
 	Code:
@@ -105,7 +105,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Factorial de 5:", factorial)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```math.pow()```: Devuelve el resultado de elevar un número a una potencia.
 	Code:
@@ -115,11 +115,11 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("2 elevado a la potencia de 3:", potencia)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Módulo datetime
 	
-	Text:
+	Content:
 	    
 	    El módulo ```datetime``` proporciona clases para manipular fechas y horas.
 	    
@@ -131,7 +131,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Fecha y hora actual:", ahora)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```datetime.datetime.strptime()```: Convierte una cadena de texto en un objeto datetime.
 	Code:
@@ -142,7 +142,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Fecha como objeto datetime:", fecha_obj)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```datetime.datetime.strftime()```: Convierte un objeto datetime en una cadena de texto.
 	Code:
@@ -153,11 +153,11 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Fecha como cadena de texto:", fecha_str)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Módulo random
 	
-	Text:
+	Content:
 	    
 	    El módulo ```random``` proporciona funciones para generar números aleatorios y realizar operaciones aleatorias.
 	    
@@ -169,7 +169,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Número aleatorio entre 1 y 10:", numero_aleatorio)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```random.choice()```: Devuelve un elemento aleatorio de una secuencia.
 	Code:
@@ -179,7 +179,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Elemento aleatorio de la lista:", elemento_aleatorio)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```random.shuffle()```: Mezcla los elementos de una lista.
 	Code:
@@ -190,11 +190,11 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Lista mezclada:", lista)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Módulo json
 	
-	Text:
+	Content:
 	    
 	    El módulo ```json``` permite trabajar con datos en formato JSON.
 	    
@@ -207,7 +207,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Datos como diccionario:", datos)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```json.dumps()```: Convierte un objeto Python en una cadena JSON.
 	Code:
@@ -218,11 +218,11 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Datos como cadena JSON:", json_str)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Módulo re
 	
-	Text:
+	Content:
 	    
 	    El módulo ```re``` proporciona herramientas para trabajar con expresiones regulares.
 	    
@@ -235,7 +235,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Coincidencia:", coincidencia)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```re.search()```: Busca una coincidencia de una expresión regular en toda la cadena.
 	Code:
@@ -246,7 +246,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Coincidencia:", coincidencia)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```re.findall()```: Encuentra todas las coincidencias de una expresión regular en una cadena.
 	Code:
@@ -257,7 +257,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Todas las coincidencias:", coincidencias)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```re.sub()```: Reemplaza las coincidencias de una expresión regular en una cadena con otra cadena.
 	Code:
@@ -268,11 +268,11 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Texto modificado:", nuevo_texto)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Módulo collections
 	
-	Text:
+	Content:
 	    
 	    El módulo ```collections``` proporciona tipos de datos especializados como ```namedtuple```, ```deque```, ```Counter```, y otros.
 	    
@@ -287,7 +287,7 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Coordenada y:", p.y)
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```collections.Counter()```: Un contador que cuenta la cantidad de elementos en una colección.
 	Code:
@@ -297,4 +297,4 @@ Document (globalcampus.site/namespace.stxt): Uso de paquetes estándar de Python
 	    print("Contador:", contador)
 	
 	
-	Text:
+	Content:

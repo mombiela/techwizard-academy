@@ -1,17 +1,17 @@
 Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	
-	Text: 
+	Content: 
 	    En COBOL, el manejo de archivos secuenciales es una tarea común que implica la lectura y escritura de datos en un orden específico. Los archivos secuenciales son uno de los tipos de archivos más utilizados y se gestionan mediante la División de Archivo (File Section) y la División de Procedimiento (Procedure Division).
 	    
 	Header: Definición de la División de Archivo
 	
-	Text:
+	Content:
 	    
 	    La División de Archivo en COBOL se utiliza para definir los archivos que se van a utilizar en el programa. Aquí se especifican los nombres lógicos de los archivos, el tipo de organización (secuencial, en este caso) y las descripciones de los registros.
 	    
 	Subheader: Ejemplo de definición de archivo
 	
-	Text:
+	Content:
 	    
 	Code:
 	    FILE CONTROL.
@@ -26,7 +26,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    05 Campo2 PIC 9(5).
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -37,13 +37,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    
 	Header: Apertura y cierre de archivos
 	
-	Text:
+	Content:
 	    
 	    Antes de realizar cualquier operación de lectura o escritura, los archivos deben ser abiertos con la sentencia ```OPEN``` y cerrados al finalizar con la sentencia ```CLOSE```.
 	    
 	Subheader: Ejemplo de apertura y cierre de archivos
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -53,7 +53,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -63,13 +63,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    
 	Header: Lectura de archivos secuenciales
 	
-	Text:
+	Content:
 	    
 	    La lectura de archivos secuenciales se realiza utilizando la sentencia ```READ``` en un bucle que continúa hasta el final del archivo.
 	    
 	Subheader: Ejemplo de lectura de registros
 	
-	Text:
+	Content:
 	    
 	Code:
 	    PROCEDURE DIVISION.
@@ -88,7 +88,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -98,13 +98,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    
 	Header: Escritura en archivos secuenciales
 	
-	Text:
+	Content:
 	    
 	    Para escribir en archivos secuenciales, se utiliza la sentencia ```WRITE``` después de abrir el archivo en modo de salida.
 	    
 	Subheader: Ejemplo de escritura de registros
 	
-	Text:
+	Content:
 	    
 	Code:
 	    FILE CONTROL.
@@ -127,7 +127,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -138,13 +138,13 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    
 	Header: Manejo de errores en operaciones con archivos
 	
-	Text:
+	Content:
 	    
 	    Es importante manejar los posibles errores durante las operaciones con archivos. COBOL proporciona el uso de ```FILE STATUS``` para capturar y manejar estos errores.
 	    
 	Subheader: Ejemplo de manejo de errores con FILE STATUS
 	
-	Text:
+	Content:
 	    
 	Code:
 	    FILE CONTROL.
@@ -171,7 +171,7 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -180,6 +180,6 @@ Document (globalcampus.site/namespace.stxt): Trabajo con archivos secuenciales
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    El trabajo con archivos secuenciales en COBOL es fundamental para muchas aplicaciones de negocio. Comprender cómo definir, abrir, cerrar, leer y escribir archivos secuenciales, así como manejar errores, es esencial para desarrollar programas COBOL robustos y eficientes.

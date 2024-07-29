@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Propiedades de los ítems Grid
 	
-	Text: 
+	Content: 
 	    
 	    Las propiedades de los ítems Grid controlan cómo se comportan y se posicionan los elementos hijos dentro de un contenedor de cuadrícula. Estas propiedades permiten ajustar la posición, el tamaño y la alineación de los ítems en la cuadrícula.
 	    
@@ -32,7 +32,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de los ítems Grid
 	    
 	Header: Ejemplo de código CSS para ítems Grid
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -61,7 +61,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de los ítems Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula tiene cuatro columnas y tres filas definidas con ```grid-template-columns``` y ```grid-template-rows```.
@@ -71,7 +71,7 @@ Document (globalcampus.site/namespace.stxt): Propiedades de los ítems Grid
 	    
 	Header: Diagrama de ítems Grid con propiedades aplicadas
 	
-	Text:
+	Content:
 	    
 	    ```startuml```
 	    +----------------------------------------------------+

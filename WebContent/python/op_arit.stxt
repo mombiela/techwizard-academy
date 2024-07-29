@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	
-	Text: 
+	Content: 
 	    Estos operadores se utilizan para realizar operaciones matemáticas comunes.
 	    
 	    | Operador     | Descripción     |Ejemplo    |
@@ -15,7 +15,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    
 	Header:  Ejemplo: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    a = 10
@@ -29,4 +29,4 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    print(a // b) # 3
 	
 	
-	Text:
+	Content:

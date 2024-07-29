@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Tuplas
 	
-	Text: 
+	Content: 
 	Header: Tuplas en Python
 	
-	Text:
+	Content:
 	    
 	    Las tuplas en Python son un tipo de dato contenedor ordenado e inmutable. Esto significa que una vez que se crea una tupla, sus elementos no pueden cambiar. Las tuplas son útiles para almacenar colecciones de elementos heterogéneos y para proteger los datos de modificaciones accidentales.
 	    
 	Header: Creación de Tuplas
 	
-	Text:
+	Content:
 	    
 	    Las tuplas se crean usando paréntesis ```()```, separando los elementos con comas.
 	    
@@ -18,25 +18,25 @@ Document (globalcampus.site/namespace.stxt): Tuplas
 	    mi_tupla = (1, 2, 3, 4)
 	
 	
-	Text:
+	Content:
 	    
 	    También se pueden crear tuplas sin paréntesis, solo usando comas:
 	Code:
 	    mi_tupla = 1, 2, 3, 4
 	
 	
-	Text:
+	Content:
 	    
 	    Para crear una tupla con un solo elemento, se debe incluir una coma al final:
 	Code:
 	    tupla_un_elemento = (1,)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Acceso a Elementos
 	
-	Text:
+	Content:
 	    
 	    Los elementos de una tupla se acceden mediante índices, comenzando desde 0.
 	    
@@ -46,7 +46,7 @@ Document (globalcampus.site/namespace.stxt): Tuplas
 	    segundo_elemento = mi_tupla[1]
 	
 	
-	Text:
+	Content:
 	    
 	    Para acceder a los elementos desde el final, se pueden usar índices negativos.
 	    
@@ -56,11 +56,11 @@ Document (globalcampus.site/namespace.stxt): Tuplas
 	    penultimo_elemento = mi_tupla[-2]
 	
 	
-	Text:
+	Content:
 	    
 	Header: Modificación de Elementos
 	
-	Text:
+	Content:
 	    
 	    Las tuplas son inmutables, por lo que no se pueden modificar directamente después de su creación. Sin embargo, se pueden concatenar y repetir para crear nuevas tuplas.
 	    
@@ -71,32 +71,32 @@ Document (globalcampus.site/namespace.stxt): Tuplas
 	    tupla_concatenada = tupla1 + tupla2 # (1, 2, 3, 4)
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Repetición**: Se pueden repetir los elementos de una tupla usando el operador ``````.
 	Code:
 	    tupla_repetida = tupla1  3 # (1, 2, 1, 2, 1, 2)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Operaciones con Tuplas
 	
-	Text:
+	Content:
 	    
 	    *  **Comprobación de Membresía**: Se puede verificar si un elemento está en una tupla usando ```in```.
 	Code:
 	    existe = 2 in mi_tupla
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Desempaquetado de Tuplas**: Los elementos de una tupla se pueden desempaquetar en variables individuales.
 	Code:
 	    a, b, c, d = mi_tupla
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Iteración**: Se puede iterar sobre los elementos de una tupla usando un bucle ```for```.
 	Code:
@@ -104,11 +104,11 @@ Document (globalcampus.site/namespace.stxt): Tuplas
 	    print(elemento)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Métodos de Tuplas
 	
-	Text:
+	Content:
 	    
 	    Las tuplas tienen dos métodos integrados:
 	    
@@ -118,18 +118,18 @@ Document (globalcampus.site/namespace.stxt): Tuplas
 	    contador = mi_tupla.count(1) # 3
 	
 	
-	Text:
+	Content:
 	    
 	    *  **```index```**: Devuelve el índice de la primera ocurrencia de un valor.
 	Code:
 	    indice = mi_tupla.index(3) # 2
 	
 	
-	Text:
+	Content:
 	    
 	Header: Usos Comunes de las Tuplas
 	
-	Text:
+	Content:
 	    
 	    *  **Regresar Múltiples Valores de una Función**: Las funciones pueden regresar múltiples valores usando una tupla.
 	Code:
@@ -142,7 +142,7 @@ Document (globalcampus.site/namespace.stxt): Tuplas
 	    print(resultado) # (3, 1)
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Usar tuplas como claves en diccionarios**: Las tuplas pueden ser usadas como claves en diccionarios porque son inmutables.
 	Code:
@@ -150,11 +150,11 @@ Document (globalcampus.site/namespace.stxt): Tuplas
 	    valor = diccionario[(1, 2)]
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ventajas de las Tuplas
 	
-	Text:
+	Content:
 	    
 	    *  **Inmutabilidad**: Proporcionan protección contra modificaciones accidentales.
 	    *  **Desempeño**: Son generalmente más rápidas que las listas para ciertas operaciones.

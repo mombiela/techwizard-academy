@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	
-	Text: 
+	Content: 
 	Header: Apertura y cierre de archivos
 	
-	Text:
+	Content:
 	    
 	    Trabajar con archivos en Python implica principalmente abrirlos, leer o escribir datos en ellos y luego cerrarlos. Python proporciona funciones y métodos específicos para estas operaciones, permitiendo un manejo seguro y eficiente de los archivos.
 	    
 	Header: Apertura de Archivos
 	
-	Text:
+	Content:
 	    
 	    Para abrir un archivo en Python, se utiliza la función ```open()```, que devuelve un objeto de archivo. Esta función toma dos argumentos principales: el nombre del archivo y el modo en el que se quiere abrir.
 	    
@@ -24,11 +24,11 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    archivo = open("ejemplo.txt", "r")
 	
 	
-	Text:
+	Content:
 	    
 	Header: Lectura de Archivos
 	
-	Text:
+	Content:
 	    
 	    Existen varias formas de leer datos desde un archivo.
 	    
@@ -37,25 +37,25 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    contenido = archivo.read()
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```readline()```: Lee una sola línea del archivo.
 	Code:
 	    linea = archivo.readline()
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```readlines()```: Lee todas las líneas del archivo y devuelve una lista.
 	Code:
 	    lineas = archivo.readlines()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Escritura en Archivos
 	
-	Text:
+	Content:
 	    
 	    Para escribir datos en un archivo, se puede usar el modo ```'w'``` o ```'a'``` y los métodos de escritura.
 	    
@@ -65,7 +65,7 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    archivo.write("Hola, mundo!")
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```writelines()```: Escribe una lista de cadenas en el archivo.
 	Code:
@@ -73,11 +73,11 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    archivo.writelines(lineas)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Cierre de Archivos
 	
-	Text:
+	Content:
 	    
 	    Es importante cerrar los archivos después de haber terminado de trabajar con ellos para liberar recursos.
 	    
@@ -86,11 +86,11 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    archivo.close()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Gestión de Archivos con @@with@@
 	
-	Text:
+	Content:
 	    
 	    El uso de ```with``` asegura que los archivos se cierren correctamente después de su uso, incluso si ocurre una excepción. Esta es la forma recomendada de manejar archivos.
 	    
@@ -101,11 +101,11 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    # No es necesario cerrar el archivo
 	
 	
-	Text:
+	Content:
 	    
 	Header: Modos Adicionales de Apertura
 	
-	Text:
+	Content:
 	    
 	    *  ```'r+'```: Lectura y escritura. El archivo debe existir.
 	    *  ```'w+'```: Escritura y lectura. Sobrescribe el archivo existente o crea uno nuevo.
@@ -120,11 +120,11 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    archivo.close()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Lectura y Escritura de Archivos Binarios
 	
-	Text:
+	Content:
 	    
 	    Para trabajar con archivos binarios, se utilizan los modos ```'rb'``` y ```'wb'```.
 	    
@@ -134,7 +134,7 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    contenido = archivo.read()
 	
 	
-	Text:
+	Content:
 	    
 	    Ejemplo de escritura binaria:
 	Code:
@@ -142,11 +142,11 @@ Document (globalcampus.site/namespace.stxt): Apertura y cierre de archivos
 	    archivo.write(contenido)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ventajas de la Gestión de Archivos
 	
-	Text:
+	Content:
 	    
 	    *  **Eficiencia y Seguridad**: El uso de ```with``` asegura que los archivos se cierren adecuadamente, evitando pérdidas de datos y liberando recursos.
 	    *  **Flexibilidad**: Diferentes modos de apertura permiten una gran variedad de operaciones de lectura y escritura.

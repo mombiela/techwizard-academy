@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Operadores de Asignación
 	
-	Text: 
+	Content: 
 	    Estos operadores se utilizan para asignar valores a las variables.
 	    
 	    |= Operador    |= Descripción                 |= Ejemplo
@@ -15,7 +15,7 @@ Document (globalcampus.site/namespace.stxt): Operadores de Asignación
 	    
 	Header:  Ejemplo: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    a = 5
@@ -25,7 +25,7 @@ Document (globalcampus.site/namespace.stxt): Operadores de Asignación
 	    print(a)  # 21
 	
 	
-	Text:
+	Content:
 	    
 	    
 	    

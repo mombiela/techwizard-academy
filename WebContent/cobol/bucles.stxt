@@ -1,17 +1,17 @@
 Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetición de tareas en COBOL
 	
-	Text: 
+	Content: 
 	    En COBOL, los bucles y la repetición de tareas son esenciales para ejecutar bloques de código múltiples veces de manera controlada. Las sentencias más utilizadas para implementar bucles son ```PERFORM``` y ```PERFORM VARYING```. A continuación, se describen estas sentencias y su uso.
 	    
 	Header: PERFORM
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```PERFORM``` se utiliza para ejecutar un bloque de código o llamar a un párrafo o sección repetidamente. Hay varias formas de utilizar ```PERFORM``` para controlar la repetición.
 	    
 	Subheader: PERFORM UNTIL
 	
-	Text:
+	Content:
 	    
 	    Esta forma de ```PERFORM``` ejecuta el bloque de código hasta que se cumpla una condición.
 	    
@@ -22,7 +22,7 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -31,7 +31,7 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    
 	Subheader: PERFORM TIMES
 	
-	Text:
+	Content:
 	    
 	    Esta forma de ```PERFORM``` ejecuta el bloque de código un número específico de veces.
 	    
@@ -41,7 +41,7 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -50,13 +50,13 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    
 	Header: PERFORM VARYING
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```PERFORM VARYING``` se utiliza para implementar bucles con un control más fino, permitiendo variar un índice o una variable de control.
 	    
 	Subheader: PERFORM VARYING UNTIL
 	
-	Text:
+	Content:
 	    
 	    Esta forma de ```PERFORM VARYING``` es útil para iterar sobre un rango de valores.
 	    
@@ -66,7 +66,7 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -75,7 +75,7 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    
 	Subheader: PERFORM VARYING WITH NESTED LOOPS
 	
-	Text:
+	Content:
 	    
 	    COBOL permite anidar bucles utilizando ```PERFORM VARYING```, lo que es útil para manejar tablas bidimensionales o realizar operaciones más complejas.
 	    
@@ -87,7 +87,7 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    END-PERFORM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -97,7 +97,7 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    
 	Header: PERFORM THRU
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```PERFORM THRU``` se utiliza para ejecutar una serie de párrafos en secuencia.
 	    
@@ -111,7 +111,7 @@ Document (globalcampus.site/namespace.stxt): Implementación de bucles y repetic
 	    DISPLAY 'Finalizing values...'.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    

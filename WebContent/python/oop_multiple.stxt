@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Herencia múltiple
 	
-	Text: 
+	Content: 
 	    La herencia múltiple es una característica de algunos lenguajes de programación orientada a objetos que permite que una clase herede de más de una clase base. En Python, la herencia múltiple está permitida y se puede utilizar para crear clases que combinan comportamientos de múltiples clases base.
 	    
 	Header:  Sintaxis de Herencia Múltiple 
 	
-	Text:
+	Content:
 	    Para definir una clase que hereda de múltiples clases, se listan todas las clases base entre paréntesis, separadas por comas.
 	    
 	Code:
@@ -19,11 +19,11 @@ Document (globalcampus.site/namespace.stxt): Herencia múltiple
 	    pass
 	
 	
-	Text:
+	Content:
 	    
 	Header:  Ejemplo de Herencia Múltiple 
 	
-	Text:
+	Content:
 	    
 	    Veamos un ejemplo más práctico:
 	    
@@ -44,13 +44,13 @@ Document (globalcampus.site/namespace.stxt): Herencia múltiple
 	    pato.nadar()  # Output: Este objeto puede nadar.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, ```Pato``` hereda de ```Volador``` y ```Nadador```, y por lo tanto puede usar los métodos ```volar``` y ```nadar```.
 	    
 	Header:  Orden de Resolución de Métodos (MRO) 
 	
-	Text:
+	Content:
 	    Cuando una clase hereda de múltiples clases, puede haber conflictos en los métodos y atributos que se heredan. Python utiliza un algoritmo llamado C3 Linearization para determinar el orden en el que se deben buscar los métodos y atributos. Este orden se llama "Method Resolution Order" (MRO).
 	    
 	    Puedes ver el MRO de una clase usando el atributo ```__mro__``` o la función ```mro()```.
@@ -79,13 +79,13 @@ Document (globalcampus.site/namespace.stxt): Herencia múltiple
 	    #          <class '__main__.A'>, <class 'object'>)
 	
 	
-	Text:
+	Content:
 	    
 	    En este caso, ```D``` hereda de ```B``` y ```C```. Cuando llamamos al método ```metodo``` en una instancia de ```D```, Python sigue el MRO y encuentra ```metodo``` primero en ```B``` antes que en ```C```.
 	    
 	Header:  Super() en Herencia Múltiple 
 	
-	Text:
+	Content:
 	    
 	    El uso de ```super()``` en herencia múltiple puede ser un poco más complejo, pero sigue las reglas del MRO. Cuando usas ```super()``` en un método, llama al siguiente método en el MRO.
 	    
@@ -120,13 +120,13 @@ Document (globalcampus.site/namespace.stxt): Herencia múltiple
 	    
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, cuando llamamos a ```d.metodo()```, se sigue el MRO: ```D```, ```B```, ```C```, ```A```.
 	    
 	Header:  Resumen 
 	
-	Text:
+	Content:
 	    
 	    * **Herencia múltiple**: Permite que una clase herede de más de una clase base.
 	    * **MRO (Method Resolution Order)**: Determina el orden en el que se buscan métodos y atributos.

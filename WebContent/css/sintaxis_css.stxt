@@ -1,9 +1,9 @@
 Document (globalcampus.site/namespace.stxt): Estructura básica de una regla CSS
 	
-	Text: 
+	Content: 
 	Header: Estructura básica de una regla CSS
 	
-	Text:
+	Content:
 	    
 	    *  **Introducción**
 	    Una regla CSS está compuesta por varios componentes que definen cómo se deben aplicar los estilos a los elementos HTML seleccionados. La estructura básica de una regla CSS incluye un selector, una declaración y propiedades con sus respectivos valores.
@@ -23,7 +23,7 @@ Document (globalcampus.site/namespace.stxt): Estructura básica de una regla CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Ejemplo de regla CSS**
 	Code:
@@ -33,7 +33,7 @@ Document (globalcampus.site/namespace.stxt): Estructura básica de una regla CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, el selector ```p``` selecciona todos los elementos ```<p>``` del documento HTML. La declaración dentro de las llaves especifica que el color del texto de estos elementos será rojo y el tamaño de la fuente será de 16 píxeles.
 	    
@@ -47,6 +47,6 @@ Document (globalcampus.site/namespace.stxt): Estructura básica de una regla CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    Esta regla CSS aplica tres estilos diferentes al elemento ```<h1>```: color azul, margen de 20 píxeles y alineación del texto al centro.

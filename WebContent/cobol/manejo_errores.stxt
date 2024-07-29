@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y excepciones
 	
-	Text: 
+	Content: 
 	    En COBOL, el manejo de errores y excepciones es crucial para garantizar que los programas funcionen correctamente y puedan recuperarse de situaciones inesperadas. Aunque COBOL no tiene un sistema de excepciones tan robusto como otros lenguajes modernos, proporciona varias técnicas y sentencias para gestionar errores y situaciones excepcionales.
 	    
 	Header: USE FOR DEBUGGING
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```USE FOR DEBUGGING``` se utiliza para capturar errores y mensajes de depuración. Permite redirigir mensajes de error a un procedimiento específico donde se pueden gestionar adecuadamente.
 	    
@@ -15,7 +15,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    END-USE.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -24,7 +24,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    
 	Header: FILE STATUS
 	
-	Text:
+	Content:
 	    
 	    La cláusula ```FILE STATUS``` se utiliza para asignar un campo de estado a un archivo, que se puede verificar después de cada operación de archivo para determinar si se produjo un error.
 	    
@@ -51,7 +51,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    CLOSE INFILE.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -61,7 +61,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    
 	Header: ON SIZE ERROR
 	
-	Text:
+	Content:
 	    
 	    La cláusula ```ON SIZE ERROR``` se utiliza para manejar errores que ocurren durante operaciones aritméticas, como desbordamientos.
 	    
@@ -72,7 +72,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    END-COMPUTE.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -81,7 +81,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    
 	Header: Declaraciones DECLARATIVES
 	
-	Text:
+	Content:
 	    
 	    La sección ```DECLARATIVES``` se utiliza para definir procedimientos que se ejecutan automáticamente en respuesta a ciertas condiciones de error en el archivo.
 	    
@@ -100,7 +100,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    CLOSE INFILE.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -109,7 +109,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    
 	Header: Manejo de errores en transacciones CICS
 	
-	Text:
+	Content:
 	    
 	    En entornos CICS, el manejo de errores se puede realizar utilizando la sentencia ```HANDLE CONDITION``` para capturar condiciones de error específicas.
 	    
@@ -119,7 +119,7 @@ Document (globalcampus.site/namespace.stxt): Técnicas de manejo de errores y ex
 	    END-EXEC.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    

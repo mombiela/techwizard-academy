@@ -1,17 +1,17 @@
 Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo de parámetros
 	
-	Text: 
+	Content: 
 	    En COBOL, la llamada a procedimientos y el manejo de parámetros son fundamentales para la modularización y reutilización del código. A través de subprogramas, se pueden pasar datos entre el programa principal y los subprogramas utilizando diferentes técnicas de manejo de parámetros.
 	    
 	Header: Tipos de parámetros
 	
-	Text:
+	Content:
 	    
 	    Los parámetros en COBOL se pasan por referencia, lo que significa que cualquier cambio en el parámetro dentro del subprograma se reflejará en el programa llamador. Los parámetros se definen en la ```LINKAGE SECTION``` del subprograma y se pasan usando la cláusula ```USING```.
 	    
 	Subheader: Tipos de parámetros comunes
 	
-	Text:
+	Content:
 	    
 	    *  **Parámetros de entrada**: Son utilizados solo para pasar datos al subprograma.
 	    *  **Parámetros de salida**: Son utilizados para devolver datos al programa llamador.
@@ -19,13 +19,13 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    
 	Header: Definición y llamada a un subprograma
 	
-	Text:
+	Content:
 	    
 	    A continuación, se muestra cómo definir un subprograma que acepta y devuelve parámetros, así como cómo llamarlo desde un programa principal.
 	    
 	Subheader: Ejemplo de subprograma
 	
-	Text:
+	Content:
 	    
 	Code:
 	    IDENTIFICATION DIVISION.
@@ -45,7 +45,7 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    EXIT PROGRAM.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -54,7 +54,7 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    
 	Subheader: Ejemplo de llamada a un subprograma desde el programa principal
 	
-	Text:
+	Content:
 	    
 	Code:
 	    IDENTIFICATION DIVISION.
@@ -73,7 +73,7 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -83,13 +83,13 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    
 	Header: Manejo de múltiples parámetros
 	
-	Text:
+	Content:
 	    
 	    COBOL permite pasar múltiples parámetros en una llamada a subprograma. Los parámetros deben ser declarados en el orden correcto tanto en el programa llamador como en el subprograma.
 	    
 	Subheader: Ejemplo con múltiples parámetros
 	
-	Text:
+	Content:
 	    
 	Code:
 	    IDENTIFICATION DIVISION.
@@ -110,7 +110,7 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    EXIT PROGRAM.
 	
 	
-	Text:
+	Content:
 	    
 	    Programa principal llamando al subprograma:
 	    
@@ -132,7 +132,7 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -141,7 +141,7 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    
 	Header: Uso de la sentencia CANCEL
 	
-	Text:
+	Content:
 	    
 	    La sentencia ```CANCEL``` se utiliza para liberar la memoria utilizada por un subprograma después de que haya sido llamado, permitiendo que se cargue de nuevo si es necesario.
 	    
@@ -150,7 +150,7 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    CANCEL Subprograma-Ejemplo.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    
@@ -159,6 +159,6 @@ Document (globalcampus.site/namespace.stxt): Llamada a procedimientos y manejo d
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    La llamada a procedimientos y el manejo de parámetros en COBOL son esenciales para crear programas modulares y reutilizables. A través de la definición de subprogramas y el uso de técnicas como ```CALL``` y ```CANCEL```, los desarrolladores pueden mejorar la estructura y mantenibilidad de sus aplicaciones COBOL.

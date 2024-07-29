@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Lenguajes comunes en el backend
 	
-	Text: 
+	Content: 
 	    En el desarrollo de aplicaciones web, el backend es una parte fundamental que se encarga de la lógica del servidor, la base de datos, la autenticación de usuarios, y más. Vamos a explorar algunos de los lenguajes más comunes utilizados en el backend: **Python**, **PHP**, **Node.js** y **Java**, y cómo se utilizan en la práctica.
 	    
 	Header: Python
 	
-	Text:
+	Content:
 	    
 	    //Python// es un lenguaje de programación interpretado, de alto nivel y con una sintaxis clara y concisa. Es conocido por su facilidad de uso y su amplio ecosistema de bibliotecas y frameworks.
 	    
@@ -25,11 +25,11 @@ Document (globalcampus.site/namespace.stxt): Lenguajes comunes en el backend
 	    app.run(debug=True)
 	
 	
-	Text:
+	Content:
 	    
 	Header: PHP
 	
-	Text:
+	Content:
 	    
 	    //PHP// es un lenguaje de scripting del lado del servidor, diseñado específicamente para el desarrollo web. Es uno de los lenguajes más antiguos y es ampliamente utilizado para crear páginas web dinámicas.
 	    
@@ -47,11 +47,11 @@ Document (globalcampus.site/namespace.stxt): Lenguajes comunes en el backend
 	    });
 	
 	
-	Text:
+	Content:
 	    
 	Header: Node.js
 	
-	Text:
+	Content:
 	    
 	    //Node.js// es un entorno de ejecución para JavaScript construido con el motor V8 de Chrome. Permite ejecutar JavaScript en el servidor, lo que facilita el desarrollo de aplicaciones de red escalables y rápidas.
 	    
@@ -71,11 +71,11 @@ Document (globalcampus.site/namespace.stxt): Lenguajes comunes en el backend
 	    });
 	
 	
-	Text:
+	Content:
 	    
 	Header: Java
 	
-	Text:
+	Content:
 	    
 	    //Java// es un lenguaje de programación robusto y ampliamente utilizado en el desarrollo de aplicaciones empresariales. Es conocido por su portabilidad y rendimiento.
 	    
@@ -106,6 +106,6 @@ Document (globalcampus.site/namespace.stxt): Lenguajes comunes en el backend
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    Estos lenguajes y frameworks proporcionan diversas herramientas y enfoques para el desarrollo de aplicaciones web, permitiendo a los desarrolladores elegir la mejor opción según las necesidades específicas del proyecto.

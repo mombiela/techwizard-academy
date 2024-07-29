@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	
-	Text: 
+	Content: 
 	    HTTP (Hypertext Transfer Protocol) es el protocolo fundamental utilizado en la web para la comunicación entre clientes y servidores. Los métodos HTTP especifican la acción que se desea realizar sobre un recurso. Cada método tiene un propósito específico y se utiliza en diferentes contextos.
 	    
 	Header: Métodos HTTP principales
 	
-	Text:
+	Content:
 	    
 	    A continuación se presentan los métodos HTTP más utilizados:
 	    
@@ -16,7 +16,7 @@ Document (globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	    Host: www.ejemplo.com
 	
 	
-	Text:
+	Content:
 	    
 	    * **POST**: El método ```POST``` se utiliza para enviar datos al servidor, generalmente para crear o actualizar un recurso. A diferencia de ```GET```, las solicitudes ```POST``` pueden tener efectos secundarios y no son idempotentes (pueden causar cambios en el servidor cada vez que se ejecutan).
 	    
@@ -29,7 +29,7 @@ Document (globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	    nombre=Juan&edad=30
 	
 	
-	Text:
+	Content:
 	    
 	    * **PUT**: El método ```PUT``` se utiliza para actualizar un recurso existente o crear uno nuevo si no existe. Las solicitudes ```PUT``` son idempotentes, lo que significa que aplicar la misma solicitud varias veces no debería cambiar el resultado.
 	    
@@ -42,7 +42,7 @@ Document (globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	    {"nombre":"Juan","edad":30,"email":"juan@ejemplo.com"}
 	
 	
-	Text:
+	Content:
 	    
 	    * **DELETE**: El método ```DELETE``` se utiliza para eliminar un recurso específico del servidor. Al igual que ```PUT```, las solicitudes ```DELETE``` son idempotentes.
 	    
@@ -51,7 +51,7 @@ Document (globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	    Host: www.ejemplo.com
 	
 	
-	Text:
+	Content:
 	    
 	    * **HEAD**: El método ```HEAD``` es similar a ```GET```, pero solo solicita los encabezados de la respuesta, sin el cuerpo. Se utiliza principalmente para obtener metadatos sobre un recurso, como su tamaño o tipo, sin transferir el contenido completo.
 	    
@@ -60,7 +60,7 @@ Document (globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	    Host: www.ejemplo.com
 	
 	
-	Text:
+	Content:
 	    
 	    * **OPTIONS**: El método ```OPTIONS``` se utiliza para describir las opciones de comunicación disponibles para el recurso objetivo. Es útil para determinar las capacidades del servidor o las políticas de CORS (Cross-Origin Resource Sharing).
 	    
@@ -69,11 +69,11 @@ Document (globalcampus.site/namespace.stxt): Métodos y uso de peticiones HTTP.
 	    Host: www.ejemplo.com
 	
 	
-	Text:
+	Content:
 	    
 	Header: Códigos de respuesta HTTP más habituales
 	
-	Text:
+	Content:
 	    
 	    Los códigos de respuesta HTTP indican el resultado de la solicitud realizada por el cliente al servidor. Estos códigos se agrupan en cinco categorías principales: informativos, éxitos, redirecciones, errores del cliente y errores del servidor. A continuación, se presentan los códigos de respuesta más habituales en una tabla:
 	    

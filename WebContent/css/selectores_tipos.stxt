@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	
-	Text: 
+	Content: 
 	    *  **Introducción**
 	    Los selectores en CSS permiten a los desarrolladores apuntar a elementos específicos dentro de un documento HTML para aplicarles estilos. Existen varios tipos de selectores, cada uno con sus propias características y usos.
 	    
@@ -13,7 +13,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Selector de clase**: Selecciona todos los elementos que tienen una clase específica.
 	Code:
@@ -23,7 +23,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Selector de ID**: Selecciona un único elemento que tiene un ID específico.
 	Code:
@@ -32,7 +32,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Selector universal**: Selecciona todos los elementos en la página.
 	Code:
@@ -42,7 +42,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Selector de atributo**: Selecciona elementos que tienen un atributo específico.
 	Code:
@@ -51,7 +51,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Selectores de combinadores**
@@ -63,7 +63,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Selector hijo**: Selecciona elementos que son hijos directos de otro elemento.
 	Code:
@@ -72,7 +72,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Selector de adyacente inmediato**: Selecciona el elemento que está inmediatamente después de otro.
 	Code:
@@ -81,7 +81,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Selector de hermanos generales**: Selecciona todos los elementos que son hermanos de un elemento especificado.
 	Code:
@@ -90,7 +90,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Selectores de pseudoclases**
@@ -102,7 +102,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **:first-child**: Selecciona el primer hijo de su elemento padre.
 	Code:
@@ -111,7 +111,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **:nth-child(n)**: Selecciona el enésimo hijo de su elemento padre.
 	Code:
@@ -120,7 +120,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **:not(selector)**: Selecciona todos los elementos que no coinciden con el selector dado.
 	Code:
@@ -129,7 +129,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Selectores de pseudoelementos**
@@ -142,7 +142,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **::after**: Inserta contenido después del contenido de un elemento.
 	Code:
@@ -152,7 +152,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **::first-letter**: Selecciona la primera letra de un elemento.
 	Code:
@@ -162,7 +162,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **::first-line**: Selecciona la primera línea de un elemento.
 	Code:
@@ -171,7 +171,7 @@ Document (globalcampus.site/namespace.stxt): Tipos de selectores en CSS
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Conclusión**

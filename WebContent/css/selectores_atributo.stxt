@@ -1,9 +1,9 @@
 Document (globalcampus.site/namespace.stxt): Selectores basados en atributos
 	
-	Text: 
+	Content: 
 	Header: Selectores basados en atributos
 	
-	Text:
+	Content:
 	    
 	    *  **Introducción**
 	    Los selectores basados en atributos en CSS permiten aplicar estilos a elementos en función de los atributos que poseen. Estos selectores son útiles para apuntar a elementos con características específicas, como aquellos con un determinado valor de atributo.
@@ -26,7 +26,7 @@ Document (globalcampus.site/namespace.stxt): Selectores basados en atributos
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Tipos de selectores basados en atributos**
 	    ```startalert```
@@ -37,7 +37,7 @@ Document (globalcampus.site/namespace.stxt): Selectores basados en atributos
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Atributo con valor específico**: Selecciona elementos cuyo atributo tiene un valor exacto.
 	Code:
@@ -46,7 +46,7 @@ Document (globalcampus.site/namespace.stxt): Selectores basados en atributos
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Atributo que comienza con un valor**: Selecciona elementos cuyo atributo comienza con un valor específico.
 	Code:
@@ -55,7 +55,7 @@ Document (globalcampus.site/namespace.stxt): Selectores basados en atributos
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Atributo que termina con un valor**: Selecciona elementos cuyo atributo termina con un valor específico.
 	Code:
@@ -64,7 +64,7 @@ Document (globalcampus.site/namespace.stxt): Selectores basados en atributos
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Atributo que contiene un valor**: Selecciona elementos cuyo atributo contiene una subcadena específica.
 	Code:
@@ -73,7 +73,7 @@ Document (globalcampus.site/namespace.stxt): Selectores basados en atributos
 	    }
 	
 	
-	Text:
+	Content:
 	    ```endalert```
 	    
 	    *  **Ventajas de usar selectores basados en atributos**
@@ -104,7 +104,7 @@ Document (globalcampus.site/namespace.stxt): Selectores basados en atributos
 	    </html>
 	
 	
-	Text:
+	Content:
 	    
 	    *  **Conclusión**
 	    Los selectores basados en atributos en CSS son una herramienta poderosa para aplicar estilos a elementos específicos basados en sus atributos. Ofrecen una gran flexibilidad y precisión, permitiendo a los desarrolladores apuntar a elementos de manera efectiva y eficiente.

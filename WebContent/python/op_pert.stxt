@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Operadores de Pertenencia
 	
-	Text: 
+	Content: 
 	    Estos operadores se utilizan para verificar si un valor o variable está presente en una secuencia (como una lista, tupla, diccionario, etc.).
 	    
 	    |= Operador    |= Descripción                 |= Ejemplo
@@ -9,7 +9,7 @@ Document (globalcampus.site/namespace.stxt): Operadores de Pertenencia
 	    
 	Header:  Ejemplo: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    a = [1, 2, 3]
@@ -17,7 +17,7 @@ Document (globalcampus.site/namespace.stxt): Operadores de Pertenencia
 	    print(4 not in a) # True
 	
 	
-	Text:
+	Content:
 	    
 	    
 	    

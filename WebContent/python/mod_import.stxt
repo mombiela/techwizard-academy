@@ -1,15 +1,15 @@
 Document (globalcampus.site/namespace.stxt): Importación de módulos
 	
-	Text: 
+	Content: 
 	Header: Módulos y paquetes. Importación de módulos
 	
-	Text:
+	Content:
 	    
 	    Python tiene un sistema muy potente para organizar y reutilizar el código: los módulos y los paquetes. Estos permiten dividir el código en componentes más pequeños y manejables, facilitando la organización y el mantenimiento de proyectos grandes.
 	    
 	Header: Módulos
 	
-	Text:
+	Content:
 	    
 	    Un módulo en Python es simplemente un archivo con extensión ```.py``` que contiene definiciones y declaraciones de Python. Estos archivos pueden contener funciones, clases y variables, y pueden incluir código ejecutable.
 	    
@@ -22,11 +22,11 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    pi = 3.14159
 	
 	
-	Text:
+	Content:
 	    
 	Header: Importación de Módulos
 	
-	Text:
+	Content:
 	    
 	    Para usar el código definido en un módulo, se debe importar dicho módulo en el script o en otro módulo. Esto se hace usando la palabra clave ```import```.
 	    
@@ -38,7 +38,7 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    print(mimodulo.pi)
 	
 	
-	Text:
+	Content:
 	    
 	    También se pueden importar partes específicas de un módulo usando ```from``` ... ```import```.
 	Code:
@@ -48,11 +48,11 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    print(pi)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Paquetes
 	
-	Text:
+	Content:
 	    
 	    Un paquete es una forma de estructurar la jerarquía de los módulos de Python usando directorios. Un paquete es un directorio que contiene un archivo especial llamado ```init.py```, el cual puede estar vacío o puede ejecutar algún código de inicialización para el paquete.
 	    
@@ -75,11 +75,11 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    modulo2.otrafuncion()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Importación de Submódulos
 	
-	Text:
+	Content:
 	    
 	    También se pueden importar submódulos específicos de un paquete.
 	Code:
@@ -88,11 +88,11 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    funcion()
 	
 	
-	Text:
+	Content:
 	    
 	Header: Importación Renombrada
 	
-	Text:
+	Content:
 	    
 	    Para evitar conflictos de nombres o simplemente por conveniencia, se pueden renombrar módulos durante la importación usando ```as```.
 	Code:
@@ -102,11 +102,11 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    print(mm.pi)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Importación de Todos los Nombres de un Módulo
 	
-	Text:
+	Content:
 	    
 	    Se pueden importar todos los nombres de un módulo usando el asterisco (``````). Esto no es recomendado porque puede llevar a un código menos claro.
 	Code:
@@ -116,11 +116,11 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    print(pi)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Funciones Importantes
 	
-	Text:
+	Content:
 	    
 	    *  ```dir()```: Devuelve una lista de nombres definidos en un módulo.
 	Code:
@@ -128,7 +128,7 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    print(dir(mimodulo))
 	
 	
-	Text:
+	Content:
 	    
 	    *  ```help()```: Muestra la documentación del módulo.
 	Code:
@@ -136,11 +136,11 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    help(mimodulo)
 	
 	
-	Text:
+	Content:
 	    
 	Header: Creación y Uso de Paquetes
 	
-	Text:
+	Content:
 	    
 	    Para crear un paquete, simplemente se crea un directorio con un archivo ```init.py``` dentro de él. Luego, se pueden añadir módulos adicionales a este directorio.
 	    
@@ -160,7 +160,7 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    from .saludos import saludar
 	
 	
-	Text:
+	Content:
 	    
 	    Ahora se puede importar y usar el paquete completo:
 	Code:
@@ -170,11 +170,11 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    print(mipaquete.suma(1, 2))
 	
 	
-	Text:
+	Content:
 	    
 	Header: Instalación de Paquetes Externos
 	
-	Text:
+	Content:
 	    
 	    Python tiene un sistema de gestión de paquetes llamado ```pip```, que permite instalar paquetes externos desde el Python Package Index (PyPI).
 	    
@@ -183,18 +183,18 @@ Document (globalcampus.site/namespace.stxt): Importación de módulos
 	    pip install nombre_paquete
 	
 	
-	Text:
+	Content:
 	    
 	    Para usar un paquete instalado:
 	Code:
 	    import nombre_paquete
 	
 	
-	Text:
+	Content:
 	    
 	Header: Ventajas del Uso de Módulos y Paquetes
 	
-	Text:
+	Content:
 	    
 	    *  **Organización**: Permiten estructurar el código en componentes más pequeños y manejables.
 	    *  **Reutilización**: Facilitan la reutilización del código en diferentes proyectos.

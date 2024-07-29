@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Nomenclatura
 	
-	Text: 
+	Content: 
 	    |= Tipo                                         |= Convención                    |= Ejemplo                         |
 	    | Variables                                     | ```{{{minúsculas_con_guiones_bajos}}}```   | ```code:mi_variable```                    |
 	    | Constantes                                    | ```{{{MAYÚSCULAS_CON_GUIONES_BAJOS}}}```   | ```code:MI_CONSTANTE```                   |

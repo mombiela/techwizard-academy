@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	
-	Text: 
+	Content: 
 	    CSS Grid es un sistema de diseño bidimensional que permite a los desarrolladores web crear diseños complejos y responsivos con facilidad. A diferencia de Flexbox, que es un modelo de diseño unidimensional (fila o columna), CSS Grid permite trabajar en ambas dimensiones (filas y columnas) simultáneamente.
 	    
 	    *  **Características principales de CSS Grid**:
@@ -11,7 +11,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    
 	Header: Componentes de CSS Grid
 	
-	Text:
+	Content:
 	    
 	    *  **Grid Container**:
 	    *  El elemento contenedor al que se aplica la propiedad ```display: grid;``` o ```display: inline-grid;```.
@@ -23,7 +23,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    
 	Header: Propiedades del Grid Container
 	
-	Text:
+	Content:
 	    
 	    *  **display**:
 	    *  Define el elemento como un contenedor de cuadrícula.
@@ -53,11 +53,11 @@ Document (globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    "footer footer footer";
 	
 	
-	Text:
+	Content:
 	    
 	Header: Propiedades de los Grid Items
 	
-	Text:
+	Content:
 	    
 	    *  **grid-column**:
 	    *  Define la posición y el tamaño del ítem en las columnas.
@@ -73,7 +73,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    
 	Header: Ejemplo básico de CSS Grid
 	
-	Text:
+	Content:
 	    
 	Code:
 	    .container {
@@ -100,7 +100,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo:
 	    *  El contenedor de cuadrícula tiene tres columnas y tres filas definidas con ```grid-template-columns``` y ```grid-template-rows```.
@@ -109,7 +109,7 @@ Document (globalcampus.site/namespace.stxt): Introducción a CSS Grid
 	    
 	Header: Diagrama de CSS Grid
 	
-	Text:
+	Content:
 	    
 	    ```startuml```
 	    +--------------------------------------------------+

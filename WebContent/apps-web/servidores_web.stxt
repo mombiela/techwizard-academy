@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Papel de los servidores web
 	
-	Text: 
+	Content: 
 	    Los servidores web son componentes fundamentales en la infraestructura de la web. Su papel principal es almacenar, procesar y entregar páginas web a los usuarios. Cuando un usuario solicita un recurso a través de su navegador, el servidor web se encarga de proporcionar ese recurso.
 	    
 	Header: Funciones principales de un servidor web
 	
-	Text:
+	Content:
 	    
 	    * **Almacenamiento de recursos**: Los servidores web almacenan diversos tipos de recursos, incluyendo páginas HTML, imágenes, videos, archivos CSS y JavaScript. Estos recursos están organizados en una estructura de directorios que permite un acceso eficiente y lógico.
 	    
@@ -19,7 +19,7 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores web
 	    
 	Header: Diagrama de interacción entre el cliente y el servidor web
 	
-	Text:
+	Content:
 	    
 	    A continuación, se presenta un diagrama de interacción que muestra cómo un cliente y un servidor web interactúan durante una solicitud y respuesta HTTP.
 	    
@@ -39,7 +39,7 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores web
 	    
 	Header: Tipos de servidores web
 	
-	Text:
+	Content:
 	    
 	    * **Servidores HTTP estáticos**: Entregan contenido fijo e inmutable como archivos HTML y multimedia. No requieren procesamiento dinámico de solicitudes.
 	    
@@ -49,12 +49,12 @@ Document (globalcampus.site/namespace.stxt): Papel de los servidores web
 	    
 	Header: Ejemplo de uso de un servidor web
 	
-	Text:
+	Content:
 	    
 	    Un usuario abre su navegador y escribe una URL, como [[http://www.ejemplo.com]]. El navegador envía una solicitud HTTP al servidor web que aloja el sitio web de "ejemplo.com". El servidor web recibe la solicitud, procesa cualquier lógica necesaria (como consultas a bases de datos), y responde con el contenido solicitado, que puede ser una página HTML. El navegador del usuario renderiza la página y la muestra al usuario.
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    Los servidores web son cruciales para la entrega de contenido en la web. Gestionan y procesan las solicitudes de los clientes, aseguran la autenticación y la seguridad, y registran el tráfico y el rendimiento. Comprender el papel y el funcionamiento de los servidores web es esencial para cualquier desarrollador o administrador de sistemas que trabaje con aplicaciones web. Para más detalles sobre servidores web, puedes visitar [[https://httpd.apache.org/|Apache HTTP Server]] y [[https://nginx.org/|NGINX]].

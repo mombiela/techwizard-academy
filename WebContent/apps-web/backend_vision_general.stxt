@@ -1,11 +1,11 @@
 Document (globalcampus.site/namespace.stxt): Conceptos y tecnologías del backend
 	
-	Text: 
+	Content: 
 	    El desarrollo backend se refiere a la parte del desarrollo web que se enfoca en lo que sucede en el servidor. Incluye la gestión de bases de datos, autenticación de usuarios, lógica de negocio, y la comunicación con el frontend. A continuación, se presentan algunos conceptos y tecnologías clave del backend, incluyendo Java y COBOL.
 	    
 	Header: Conceptos Clave
 	
-	Text:
+	Content:
 	    
 	    *  Servidor: Una máquina o programa que proporciona servicios a otros programas o dispositivos. Ejemplo: un servidor web que entrega páginas HTML a los navegadores.
 	    *  API (Interfaz de Programación de Aplicaciones): Un conjunto de reglas que permiten a diferentes aplicaciones comunicarse entre sí. Ejemplo: RESTful APIs.
@@ -16,7 +16,7 @@ Document (globalcampus.site/namespace.stxt): Conceptos y tecnologías del backen
 	    
 	Header: Java
 	
-	Text:
+	Content:
 	    
 	    Java es un lenguaje de programación ampliamente utilizado en el desarrollo backend debido a su robustez, escalabilidad y seguridad.
 	    
@@ -45,11 +45,11 @@ Document (globalcampus.site/namespace.stxt): Conceptos y tecnologías del backen
 	    }
 	
 	
-	Text:
+	Content:
 	    
 	Header: COBOL
 	
-	Text:
+	Content:
 	    
 	    COBOL (Common Business Oriented Language) es un lenguaje de programación veterano, especialmente utilizado en sistemas de negocios y financieros.
 	    
@@ -68,11 +68,11 @@ Document (globalcampus.site/namespace.stxt): Conceptos y tecnologías del backen
 	    STOP RUN.
 	
 	
-	Text:
+	Content:
 	    
 	Header: Otras Tecnologías del Backend
 	
-	Text:
+	Content:
 	    
 	    #  Node.js: Un entorno de ejecución para JavaScript en el servidor, conocido por su eficiencia en aplicaciones de I/O intensivas.
 	    #  Python: Utilizado ampliamente con frameworks como Django y Flask para el desarrollo web.
@@ -95,10 +95,10 @@ Document (globalcampus.site/namespace.stxt): Conceptos y tecnologías del backen
 	    });
 	
 	
-	Text:
+	Content:
 	    
 	Header: Conclusión
 	
-	Text:
+	Content:
 	    
 	    El desarrollo backend es crucial para crear aplicaciones web robustas y eficientes. Java y COBOL son dos lenguajes que, aunque diferentes en su enfoque y uso, han demostrado ser indispensables en diversos sectores. Junto con otras tecnologías modernas como Node.js, Python, Ruby y PHP, forman la columna vertebral del desarrollo de aplicaciones web y servicios empresariales.

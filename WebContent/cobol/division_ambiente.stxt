@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Descripción y uso de la División de Ambiente
 	
-	Text: 
+	Content: 
 	    La División de Ambiente en un programa COBOL especifica el entorno en el que se ejecuta el programa. Esta división define los archivos y dispositivos de entrada y salida que el programa utilizará. Se divide en dos secciones principales:
 	    
 	    *  **CONFIGURATION SECTION**: Esta sección describe la configuración del hardware y el software del sistema donde se ejecutará el programa. Aunque es rara vez utilizada en la práctica, puede incluirse para especificar detalles del sistema.
@@ -24,7 +24,7 @@ Document (globalcampus.site/namespace.stxt): Descripción y uso de la División 
 	    ORGANIZATION IS LINE SEQUENTIAL.
 	
 	
-	Text:
+	Content:
 	    
 	    En este ejemplo, la sección CONFIGURATION especifica la computadora fuente y la computadora objeto, mientras que la sección INPUT-OUTPUT define un archivo llamado ```EmployeeFile``` que está asignado a un archivo físico llamado ```EMP.DAT``` con una organización secuencial de líneas.
 	    

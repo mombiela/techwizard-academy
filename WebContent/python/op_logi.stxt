@@ -1,6 +1,6 @@
 Document (globalcampus.site/namespace.stxt): Operadores Lógicos
 	
-	Text: 
+	Content: 
 	    Estos operadores se utilizan para combinar sentencias condicionales.
 	    
 	    |= Operador    |= Descripción                 |= Ejemplo
@@ -10,7 +10,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Lógicos
 	    
 	Header:  Ejemplo: 
 	
-	Text:
+	Content:
 	    
 	Code:
 	    a = True
@@ -20,7 +20,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Lógicos
 	    print(not a)    # False
 	
 	
-	Text:
+	Content:
 	    
 	    
 	    

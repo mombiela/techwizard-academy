@@ -1,17 +1,26 @@
-Index(globalcampus.site/namespace.stxt): Tech Wizard Academy
+Document(globalcampus.site/namespace.stxt): Tech Wizard Academy
+	Content:
+		Este es un campus simulado, para ver las posibilidades que tiene este nuevo sistema
+		de implementar cursos y formación. Los contenidos son **generados por IA**, con sólo un
+		mínimo de supervisión. Quizá en el futuro esto se reconvierta en algo más ;-)
 	
-	Section: Aplicaciones Web
-		Link: (apps-web/) Aplicaciones Web
+	Alert: ¡Usar bajo vuestra propia responsabilidad!
+	
+	Header: Aplicaciones Web
+	Content: 
+		* [Aplicaciones Web](apps-web/) 
 		
-	Section: Lenguajes Frontend
-		Link: (html/) HTML
-		Link: (css/) CSS
-		Link: (javascript/) Javascript
+	Header: Lenguajes Frontend
+	Content:
+		* [HTML](html/) 
+		* [CSS](css/)
+		* [Javascript](javascript/)
 		
-	Section: Lenguajes Backend
-		Link: (cobol/) Cobol
-		Link: (java/) Java
-		Link: (python/) Python
+	Header: Lenguajes Backend
+	Content:
+		* [Cobol](cobol/)
+		* [Java](java/) 
+		* [Python](python/)
 		
 		
 

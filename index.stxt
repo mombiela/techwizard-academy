@@ -1,4 +1,5 @@
 Document(globalcampus.site/namespace.stxt): Tech Wizard Academy
+	Title: Tech Wizard Academy
 	Content:
 		Este es un campus simulado, para ver las posibilidades que tiene este nuevo sistema
 		de implementar cursos y formación usando [Semantic Text (STxT)](https://semantictext.info). Los contenidos son **generados por IA**, con sólo un

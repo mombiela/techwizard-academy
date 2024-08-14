@@ -1,5 +1,7 @@
 Index(globalcampus.site/namespace.stxt): CSS
 	Title: Tech Wizard Academy
+	Menu:
+		Link: (#github/mombiela/techwizard-academy/) Inicio 
 		
 	Section: Introducción a CSS
 	

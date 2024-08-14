@@ -1,5 +1,7 @@
 Index(globalcampus.site/namespace.stxt): Python - Nivel II
 	Title: Tech Wizard Academy
+	Menu:
+		Link: (#github/mombiela/techwizard-academy/) Inicio 
 		
 	Section: Sobre este curso
 		Link: (index) Índice de contenidos

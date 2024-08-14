@@ -1,5 +1,7 @@
 Index(globalcampus.site/namespace.stxt): Cobol
 	Title: Tech Wizard Academy
+	Menu:
+		Link: (#github/mombiela/techwizard-academy/) Inicio 
 		
 	Section: Sintaxis y Estructura Básica
 	

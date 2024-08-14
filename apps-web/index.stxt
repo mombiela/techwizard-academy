@@ -1,5 +1,7 @@
 Index(globalcampus.site/namespace.stxt): Aplicaciones Web
 	Title: Tech Wizard Academy
+	Menu:
+		Link: (#github/mombiela/techwizard-academy/) Inicio 
 		
 	Section: Introducción al Funcionamiento de la Web
 	

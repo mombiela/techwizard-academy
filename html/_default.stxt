@@ -1,4 +1,4 @@
-Default(globalcampus.site/namespace.stxt): HTML
+Default (globalcampus.site/namespace.stxt): HTML
 	Title: Tech Wizard Academy
 	Menu Left:
 		Link: (#github/mombiela/techwizard-academy/) Inicio 

@@ -3,54 +3,54 @@ Document (globalcampus.site/namespace.stxt): Cobol
 	Header: Sintaxis y Estructura Básica
 	
 	Content:
-	    * (estructura_programa) Estructura básica de un programa COBOL.
-	    * (division_identificacion) Descripción y uso de la División de Identificación.
-	    * (division_ambiente) Descripción y uso de la División de Ambiente.
-	    * (division_datos) Descripción y uso de la División de Datos.
-	    * (division_procedimiento) Descripción y uso de la División de Procedimiento.
+	    * [Estructura básica de un programa COBOL.](estructura_programa) 
+	    * [Descripción y uso de la División de Identificación.](division_identificacion) 
+	    * [Descripción y uso de la División de Ambiente.](division_ambiente) 
+	    * [Descripción y uso de la División de Datos.](division_datos) 
+	    * [Descripción y uso de la División de Procedimiento.](division_procedimiento) 
 	
 	Header: Tipos de Datos y Variables
 	
 	Content:
-	    * (tipos_datos) Tipos de datos disponibles en COBOL.
-	    * (declaracion_variables) Cómo declarar variables y constantes en COBOL.
-	    * (literales) Uso de literales en COBOL.
-	    * (tablas) Creación y uso de tablas (arrays) en COBOL.
+	    * [Tipos de datos disponibles en COBOL.](tipos_datos) 
+	    * [Cómo declarar variables y constantes en COBOL.](declaracion_variables) 
+	    * [Uso de literales en COBOL.](literales) 
+	    * [Creación y uso de tablas (arrays) en COBOL.](tablas) 
 	
 	Header: Sentencias y Estructuras de Control
 	
 	Content:
-	    * (sentencias_basicas) Sentencias básicas: MOVE, COMPUTE, etc.
-	    * (estructuras_control) Estructuras de control de flujo: IF, PERFORM, etc.
-	    * (bucles) Implementación de bucles y repetición de tareas en COBOL.
-	    * (manejo_errores) Técnicas de manejo de errores y excepciones.
+	    * [Sentencias básicas: MOVE, COMPUTE, etc.](sentencias_basicas) 
+	    * [Estructuras de control de flujo: IF, PERFORM, etc.](estructuras_control) 
+	    * [Implementación de bucles y repetición de tareas en COBOL.](bucles) 
+	    * [Técnicas de manejo de errores y excepciones.](manejo_errores) 
 	
 	Header: Programación Modular
 	
 	Content:
-	    * (subprogramas) Creación y uso de subprogramas.
-	    * (modulos) Modularización de código en COBOL.
-	    * (llamada_procedimientos) Llamada a procedimientos y manejo de parámetros.
+	    * [Creación y uso de subprogramas.](subprogramas) 
+	    * [Modularización de código en COBOL.](modulos) 
+	    * [Llamada a procedimientos y manejo de parámetros.](llamada_procedimientos) 
 	
 	Header: Manejo de Archivos
 	
 	Content:
-	    * (archivos_secuenciales) Trabajo con archivos secuenciales.
-	    * (archivos_indexados) Trabajo con archivos indexados.
-	    * (archivos_relacionales) Trabajo con archivos relacionales.
-	    * (entrada_salida) Técnicas de entrada y salida de datos.
+	    * [Trabajo con archivos secuenciales.](archivos_secuenciales) 
+	    * [Trabajo con archivos indexados.](archivos_indexados) 
+	    * [Trabajo con archivos relacionales.](archivos_relacionales) 
+	    * [Técnicas de entrada y salida de datos.](entrada_salida) 
 	
 	Header: Bases de Datos
 	
 	Content:
-	    * (acceso_bd) Conexión y acceso a bases de datos desde COBOL.
-	    * (sql_cobol) Uso de SQL en programas COBOL.
-	    * (integracion_bd) Integración de bases de datos en aplicaciones COBOL.
+	    * [Conexión y acceso a bases de datos desde COBOL.](acceso_bd) 
+	    * [Uso de SQL en programas COBOL.](sql_cobol) 
+	    * [Integración de bases de datos en aplicaciones COBOL.](integracion_bd) 
 	
 	Header: Buenas Prácticas y Optimización
 	
 	Content:
-	    * (mejores_practicas) Mejores prácticas de programación en COBOL.
-	    * (optimizacion) Técnicas de optimización de código COBOL.
-	    * (documentacion) Importancia de la documentación y comentarios en el código.
+	    * [Mejores prácticas de programación en COBOL.](mejores_practicas) 
+	    * [Técnicas de optimización de código COBOL.](optimizacion) 
+	    * [Importancia de la documentación y comentarios en el código.](documentacion) 
 		

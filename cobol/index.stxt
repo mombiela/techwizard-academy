@@ -1,52 +1,50 @@
-Index(globalcampus.site/namespace.stxt): Cobol
-	Title: Tech Wizard Academy
-	Menu:
-		Link: (#github/mombiela/techwizard-academy/) Inicio 
+Document (globalcampus.site/namespace.stxt): Cobol
+
+	Content:
+		Section: Sintaxis y Estructura Básica
 		
-	Section: Sintaxis y Estructura Básica
-	
-	    Link: (estructura_programa) Estructura básica de un programa COBOL.
-	    Link: (division_identificacion) Descripción y uso de la División de Identificación.
-	    Link: (division_ambiente) Descripción y uso de la División de Ambiente.
-	    Link: (division_datos) Descripción y uso de la División de Datos.
-	    Link: (division_procedimiento) Descripción y uso de la División de Procedimiento.
-	
-	Section: Tipos de Datos y Variables
-	
-	    Link: (tipos_datos) Tipos de datos disponibles en COBOL.
-	    Link: (declaracion_variables) Cómo declarar variables y constantes en COBOL.
-	    Link: (literales) Uso de literales en COBOL.
-	    Link: (tablas) Creación y uso de tablas (arrays) en COBOL.
-	
-	Section: Sentencias y Estructuras de Control
-	
-	    Link: (sentencias_basicas) Sentencias básicas: MOVE, COMPUTE, etc.
-	    Link: (estructuras_control) Estructuras de control de flujo: IF, PERFORM, etc.
-	    Link: (bucles) Implementación de bucles y repetición de tareas en COBOL.
-	    Link: (manejo_errores) Técnicas de manejo de errores y excepciones.
-	
-	Section: Programación Modular
-	
-	    Link: (subprogramas) Creación y uso de subprogramas.
-	    Link: (modulos) Modularización de código en COBOL.
-	    Link: (llamada_procedimientos) Llamada a procedimientos y manejo de parámetros.
-	
-	Section: Manejo de Archivos
-	
-	    Link: (archivos_secuenciales) Trabajo con archivos secuenciales.
-	    Link: (archivos_indexados) Trabajo con archivos indexados.
-	    Link: (archivos_relacionales) Trabajo con archivos relacionales.
-	    Link: (entrada_salida) Técnicas de entrada y salida de datos.
-	
-	Section: Bases de Datos
-	
-	    Link: (acceso_bd) Conexión y acceso a bases de datos desde COBOL.
-	    Link: (sql_cobol) Uso de SQL en programas COBOL.
-	    Link: (integracion_bd) Integración de bases de datos en aplicaciones COBOL.
-	
-	Section: Buenas Prácticas y Optimización
-	
-	    Link: (mejores_practicas) Mejores prácticas de programación en COBOL.
-	    Link: (optimizacion) Técnicas de optimización de código COBOL.
-	    Link: (documentacion) Importancia de la documentación y comentarios en el código.
+		    Link: (estructura_programa) Estructura básica de un programa COBOL.
+		    Link: (division_identificacion) Descripción y uso de la División de Identificación.
+		    Link: (division_ambiente) Descripción y uso de la División de Ambiente.
+		    Link: (division_datos) Descripción y uso de la División de Datos.
+		    Link: (division_procedimiento) Descripción y uso de la División de Procedimiento.
 		
+		Section: Tipos de Datos y Variables
+		
+		    Link: (tipos_datos) Tipos de datos disponibles en COBOL.
+		    Link: (declaracion_variables) Cómo declarar variables y constantes en COBOL.
+		    Link: (literales) Uso de literales en COBOL.
+		    Link: (tablas) Creación y uso de tablas (arrays) en COBOL.
+		
+		Section: Sentencias y Estructuras de Control
+		
+		    Link: (sentencias_basicas) Sentencias básicas: MOVE, COMPUTE, etc.
+		    Link: (estructuras_control) Estructuras de control de flujo: IF, PERFORM, etc.
+		    Link: (bucles) Implementación de bucles y repetición de tareas en COBOL.
+		    Link: (manejo_errores) Técnicas de manejo de errores y excepciones.
+		
+		Section: Programación Modular
+		
+		    Link: (subprogramas) Creación y uso de subprogramas.
+		    Link: (modulos) Modularización de código en COBOL.
+		    Link: (llamada_procedimientos) Llamada a procedimientos y manejo de parámetros.
+		
+		Section: Manejo de Archivos
+		
+		    Link: (archivos_secuenciales) Trabajo con archivos secuenciales.
+		    Link: (archivos_indexados) Trabajo con archivos indexados.
+		    Link: (archivos_relacionales) Trabajo con archivos relacionales.
+		    Link: (entrada_salida) Técnicas de entrada y salida de datos.
+		
+		Section: Bases de Datos
+		
+		    Link: (acceso_bd) Conexión y acceso a bases de datos desde COBOL.
+		    Link: (sql_cobol) Uso de SQL en programas COBOL.
+		    Link: (integracion_bd) Integración de bases de datos en aplicaciones COBOL.
+		
+		Section: Buenas Prácticas y Optimización
+		
+		    Link: (mejores_practicas) Mejores prácticas de programación en COBOL.
+		    Link: (optimizacion) Técnicas de optimización de código COBOL.
+		    Link: (documentacion) Importancia de la documentación y comentarios en el código.
+			

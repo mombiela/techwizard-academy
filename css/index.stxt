@@ -1,85 +1,82 @@
-Index(globalcampus.site/namespace.stxt): CSS
-	Title: Tech Wizard Academy
-	Menu:
-		Link: (#github/mombiela/techwizard-academy/) Inicio 
+Document (globalcampus.site/namespace.stxt): CSS
+	Content:		
+		Section: Introducción a CSS
 		
-	Section: Introducción a CSS
-	
-	    Link: (historia_css) Historia y evolución de CSS.
-	    Link: (que_es_css) Definición y propósito de CSS.
-	    Link: (sintaxis_css) Estructura básica de una regla CSS.
-	    Link: (aplicacion_css) Formas de aplicar CSS a un documento HTML.
-	    Link: (selectores_basicos) Introducción a los selectores básicos en CSS.
-	
-	Section: Selectores CSS
-	
-	    Link: (selectores_tipos) Tipos de selectores en CSS.
-	    Link: (selectores_clases) Uso de selectores de clase.
-	    Link: (selectores_id) Uso de selectores por ID.
-	    Link: (selectores_atributo) Selectores basados en atributos.
-	    Link: (selectores_pseudoclases) Introducción a las pseudoclases.
-	
-	Section: Propiedades Básicas de CSS
-	
-	    Link: (color_fondo) Propiedades de color y fondo.
-	    Link: (texto_fuente) Propiedades de texto y fuentes.
-	    Link: (bordes) Propiedades de bordes y contornos.
-	    Link: (margenes_relleno) Propiedades de márgenes y relleno.
-	    Link: (dimension_posicion) Propiedades de dimensión y posición.
-	
-	Section: Modelo de Caja (Box Model)
-	
-	    Link: (que_es_boxmodel) Concepto del modelo de caja.
-	    Link: (componentes_boxmodel) Componentes del modelo de caja.
-	    Link: (bordes_boxmodel) Manejo de bordes en el modelo de caja.
-	    Link: (margenes_boxmodel) Manejo de márgenes en el modelo de caja.
-	    Link: (relleno_boxmodel) Manejo del relleno en el modelo de caja.
-	
-	Section: Layout y Posicionamiento
-	
-	    Link: (posicionamiento_estatico) Posicionamiento estático.
-	    Link: (posicionamiento_relativo) Posicionamiento relativo.
-	    Link: (posicionamiento_absoluto) Posicionamiento absoluto.
-	    Link: (posicionamiento_fijo) Posicionamiento fijo.
-	    Link: (display_visibility) Propiedades display y visibility.
-	
-	Section: Flexbox
-	
-	    Link: (que_es_flexbox) Introducción a Flexbox.
-	    Link: (contenedor_flexbox) Propiedades del contenedor Flexbox.
-	    Link: (items_flexbox) Propiedades de los ítems Flexbox.
-	    Link: (alineacion_flexbox) Alineación y distribución en Flexbox.
-	    Link: (ejemplos_flexbox) Ejemplos prácticos con Flexbox.
-	
-	Section: CSS Grid
-	
-	    Link: (que_es_grid) Introducción a CSS Grid.
-	    Link: (contenedor_grid) Propiedades del contenedor Grid.
-	    Link: (items_grid) Propiedades de los ítems Grid.
-	    Link: (areas_grid) Definición de áreas en CSS Grid.
-	    Link: (ejemplos_grid) Ejemplos prácticos con CSS Grid.
-	
-	Section: Transiciones y Animaciones
-	
-	    Link: (transiciones_css) Implementación de transiciones CSS.
-	    Link: (keyframes) Uso de keyframes para animaciones.
-	    Link: (animaciones_css) Creación de animaciones con CSS.
-	    Link: (transformaciones) Uso de transformaciones en CSS.
-	    Link: (ejemplos_animaciones) Ejemplos de transiciones y animaciones.
-	
-	Section: Responsive Design
-	
-	    Link: (que_es_responsive) Introducción al diseño responsive.
-	    Link: (media_queries) Uso de media queries en CSS.
-	    Link: (unidades_relativas) Uso de unidades relativas.
-	    Link: (mobile_first) Enfoque mobile-first en CSS.
-	    Link: (ejemplos_responsive) Ejemplos prácticos de diseño responsive.
-	
-	Section: Buenas Prácticas y Optimización
-	
-	    Link: (organizacion_css) Organización y estructura de CSS.
-	    Link: (comentarios_css) Uso de comentarios en CSS.
-	    Link: (performance_css) Optimización de rendimiento en CSS.
-	    Link: (herramientas_css) Herramientas y recursos útiles para CSS.
-	    Link: (accesibilidad_css) Mejores prácticas para accesibilidad en CSS.
+		    Link: (historia_css) Historia y evolución de CSS.
+		    Link: (que_es_css) Definición y propósito de CSS.
+		    Link: (sintaxis_css) Estructura básica de una regla CSS.
+		    Link: (aplicacion_css) Formas de aplicar CSS a un documento HTML.
+		    Link: (selectores_basicos) Introducción a los selectores básicos en CSS.
 		
+		Section: Selectores CSS
+		
+		    Link: (selectores_tipos) Tipos de selectores en CSS.
+		    Link: (selectores_clases) Uso de selectores de clase.
+		    Link: (selectores_id) Uso de selectores por ID.
+		    Link: (selectores_atributo) Selectores basados en atributos.
+		    Link: (selectores_pseudoclases) Introducción a las pseudoclases.
+		
+		Section: Propiedades Básicas de CSS
+		
+		    Link: (color_fondo) Propiedades de color y fondo.
+		    Link: (texto_fuente) Propiedades de texto y fuentes.
+		    Link: (bordes) Propiedades de bordes y contornos.
+		    Link: (margenes_relleno) Propiedades de márgenes y relleno.
+		    Link: (dimension_posicion) Propiedades de dimensión y posición.
+		
+		Section: Modelo de Caja (Box Model)
+		
+		    Link: (que_es_boxmodel) Concepto del modelo de caja.
+		    Link: (componentes_boxmodel) Componentes del modelo de caja.
+		    Link: (bordes_boxmodel) Manejo de bordes en el modelo de caja.
+		    Link: (margenes_boxmodel) Manejo de márgenes en el modelo de caja.
+		    Link: (relleno_boxmodel) Manejo del relleno en el modelo de caja.
+		
+		Section: Layout y Posicionamiento
+		
+		    Link: (posicionamiento_estatico) Posicionamiento estático.
+		    Link: (posicionamiento_relativo) Posicionamiento relativo.
+		    Link: (posicionamiento_absoluto) Posicionamiento absoluto.
+		    Link: (posicionamiento_fijo) Posicionamiento fijo.
+		    Link: (display_visibility) Propiedades display y visibility.
+		
+		Section: Flexbox
+		
+		    Link: (que_es_flexbox) Introducción a Flexbox.
+		    Link: (contenedor_flexbox) Propiedades del contenedor Flexbox.
+		    Link: (items_flexbox) Propiedades de los ítems Flexbox.
+		    Link: (alineacion_flexbox) Alineación y distribución en Flexbox.
+		    Link: (ejemplos_flexbox) Ejemplos prácticos con Flexbox.
+		
+		Section: CSS Grid
+		
+		    Link: (que_es_grid) Introducción a CSS Grid.
+		    Link: (contenedor_grid) Propiedades del contenedor Grid.
+		    Link: (items_grid) Propiedades de los ítems Grid.
+		    Link: (areas_grid) Definición de áreas en CSS Grid.
+		    Link: (ejemplos_grid) Ejemplos prácticos con CSS Grid.
+		
+		Section: Transiciones y Animaciones
+		
+		    Link: (transiciones_css) Implementación de transiciones CSS.
+		    Link: (keyframes) Uso de keyframes para animaciones.
+		    Link: (animaciones_css) Creación de animaciones con CSS.
+		    Link: (transformaciones) Uso de transformaciones en CSS.
+		    Link: (ejemplos_animaciones) Ejemplos de transiciones y animaciones.
+		
+		Section: Responsive Design
+		
+		    Link: (que_es_responsive) Introducción al diseño responsive.
+		    Link: (media_queries) Uso de media queries en CSS.
+		    Link: (unidades_relativas) Uso de unidades relativas.
+		    Link: (mobile_first) Enfoque mobile-first en CSS.
+		    Link: (ejemplos_responsive) Ejemplos prácticos de diseño responsive.
+		
+		Section: Buenas Prácticas y Optimización
+		
+		    Link: (organizacion_css) Organización y estructura de CSS.
+		    Link: (comentarios_css) Uso de comentarios en CSS.
+		    Link: (performance_css) Optimización de rendimiento en CSS.
+		    Link: (herramientas_css) Herramientas y recursos útiles para CSS.
+		    Link: (accesibilidad_css) Mejores prácticas para accesibilidad en CSS.
+			

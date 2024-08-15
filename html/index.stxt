@@ -1,78 +1,75 @@
 Index(globalcampus.site/namespace.stxt): HTML
-	Title: Tech Wizard Academy
-	Menu:
-		Link: (#github/mombiela/techwizard-academy/) Inicio 
+	Content:
+		Section: Introducción a HTML
 		
-	Section: Introducción a HTML
-	
-	    Link: (intro-html) Conceptos básicos y estructura de un documento HTML.
-	    Link: (historia-html) Breve historia y evolución de HTML.
-	    Link: (primer-documento) Creación y visualización de un primer documento HTML.
-	
-	Section: Estructura básica de HTML
-	
-	    Link: (doctype-html) La declaración <!DOCTYPE> y su importancia.
-	    Link: (elementos-basicos) Introducción a los elementos básicos de HTML.
-	    Link: (atributos-html) Uso de atributos en los elementos HTML.
-	
-	Section: Formateo de texto en HTML
-	
-	    Link: (parrafos-titulos) Creación de párrafos y títulos.
-	    Link: (enfasis-texto) Uso de énfasis y otros elementos de formateo.
-	    Link: (listas-html) Creación de listas ordenadas y no ordenadas.
-	
-	Section: Enlaces e Imágenes
-	
-	    Link: (enlaces-html) Creación de enlaces y navegación entre páginas.
-	    Link: (imagenes-html) Inclusión de imágenes y atributos comunes.
-	    Link: (imagenes-enlaces) Uso de imágenes como enlaces.
-	
-	Section: Tablas en HTML
-	
-	    Link: (creacion-tablas) Estructura básica de una tabla HTML.
-	    Link: (atributos-tablas) Atributos y estilo en tablas.
-	    Link: (tablas-avanzadas) Combinar celdas y técnicas avanzadas.
-	
-	Section: Formularios en HTML
-	
-	    Link: (elementos-formulario) Elementos básicos de un formulario.
-	    Link: (inputs-formulario) Tipos de entradas de usuario.
-	    Link: (envio-datos) Métodos de envío de datos de formularios.
-	
-	Section: Introducción a CSS
-	
-	    Link: (intro-css) Conceptos básicos de CSS y su integración con HTML.
-	    Link: (selectores-css) Uso de selectores para aplicar estilos.
-	    Link: (propiedades-css) Propiedades CSS comunes para formatear elementos.
-	
-	Section: Maquetación y Diseño Web
-	
-	    Link: (modelos-caja) El modelo de caja de CSS.
-	    Link: (layout-css) Técnicas de diseño y disposición en CSS.
-	    Link: (responsive-design) Diseño adaptable y técnicas de media queries.
-	
-	Section: Buenas Prácticas y Accesibilidad
-	
-	    Link: (semantica-html) Uso de etiquetas semánticas para mejorar la accesibilidad.
-	    Link: (accesibilidad-web) Prácticas para hacer páginas web accesibles.
-	    Link: (validacion-html) Validación de código HTML para evitar errores.
-	
-	Section: Introducción a JavaScript
-	
-	    Link: (intro-js) Conceptos básicos de JavaScript y su integración con HTML.
-	    Link: (eventos-js) Manejo de eventos en JavaScript.
-	    Link: (dom-js) Manipulación del DOM con JavaScript.
-	
-	Section: Proyecto Final
-	
-	    Link: (planificacion-proyecto) Planificación y estructura de un proyecto web.
-	    Link: (desarrollo-proyecto) Desarrollo paso a paso de un sitio web completo.
-	    Link: (revision-proyecto) Revisión y mejora del proyecto final.
-	
-	Section: Recursos Adicionales
-	
-	    Link: (recursos-online) Recursos y tutoriales online para continuar aprendiendo.
-	    Link: (herramientas-web) Herramientas útiles para desarrolladores web.
-	    Link: (comunidades-aprendizaje) Comunidades y foros para resolver dudas y compartir conocimientos.
-	
+		    Link: (intro-html) Conceptos básicos y estructura de un documento HTML.
+		    Link: (historia-html) Breve historia y evolución de HTML.
+		    Link: (primer-documento) Creación y visualización de un primer documento HTML.
 		
+		Section: Estructura básica de HTML
+		
+		    Link: (doctype-html) La declaración <!DOCTYPE> y su importancia.
+		    Link: (elementos-basicos) Introducción a los elementos básicos de HTML.
+		    Link: (atributos-html) Uso de atributos en los elementos HTML.
+		
+		Section: Formateo de texto en HTML
+		
+		    Link: (parrafos-titulos) Creación de párrafos y títulos.
+		    Link: (enfasis-texto) Uso de énfasis y otros elementos de formateo.
+		    Link: (listas-html) Creación de listas ordenadas y no ordenadas.
+		
+		Section: Enlaces e Imágenes
+		
+		    Link: (enlaces-html) Creación de enlaces y navegación entre páginas.
+		    Link: (imagenes-html) Inclusión de imágenes y atributos comunes.
+		    Link: (imagenes-enlaces) Uso de imágenes como enlaces.
+		
+		Section: Tablas en HTML
+		
+		    Link: (creacion-tablas) Estructura básica de una tabla HTML.
+		    Link: (atributos-tablas) Atributos y estilo en tablas.
+		    Link: (tablas-avanzadas) Combinar celdas y técnicas avanzadas.
+		
+		Section: Formularios en HTML
+		
+		    Link: (elementos-formulario) Elementos básicos de un formulario.
+		    Link: (inputs-formulario) Tipos de entradas de usuario.
+		    Link: (envio-datos) Métodos de envío de datos de formularios.
+		
+		Section: Introducción a CSS
+		
+		    Link: (intro-css) Conceptos básicos de CSS y su integración con HTML.
+		    Link: (selectores-css) Uso de selectores para aplicar estilos.
+		    Link: (propiedades-css) Propiedades CSS comunes para formatear elementos.
+		
+		Section: Maquetación y Diseño Web
+		
+		    Link: (modelos-caja) El modelo de caja de CSS.
+		    Link: (layout-css) Técnicas de diseño y disposición en CSS.
+		    Link: (responsive-design) Diseño adaptable y técnicas de media queries.
+		
+		Section: Buenas Prácticas y Accesibilidad
+		
+		    Link: (semantica-html) Uso de etiquetas semánticas para mejorar la accesibilidad.
+		    Link: (accesibilidad-web) Prácticas para hacer páginas web accesibles.
+		    Link: (validacion-html) Validación de código HTML para evitar errores.
+		
+		Section: Introducción a JavaScript
+		
+		    Link: (intro-js) Conceptos básicos de JavaScript y su integración con HTML.
+		    Link: (eventos-js) Manejo de eventos en JavaScript.
+		    Link: (dom-js) Manipulación del DOM con JavaScript.
+		
+		Section: Proyecto Final
+		
+		    Link: (planificacion-proyecto) Planificación y estructura de un proyecto web.
+		    Link: (desarrollo-proyecto) Desarrollo paso a paso de un sitio web completo.
+		    Link: (revision-proyecto) Revisión y mejora del proyecto final.
+		
+		Section: Recursos Adicionales
+		
+		    Link: (recursos-online) Recursos y tutoriales online para continuar aprendiendo.
+		    Link: (herramientas-web) Herramientas útiles para desarrolladores web.
+		    Link: (comunidades-aprendizaje) Comunidades y foros para resolver dudas y compartir conocimientos.
+		
+			

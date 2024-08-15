@@ -1,38 +1,35 @@
 Index(globalcampus.site/namespace.stxt): Aplicaciones Web
-	Title: Tech Wizard Academy
-	Menu:
-		Link: (#github/mombiela/techwizard-academy/) Inicio 
+	Content:
+		Section: Introducción al Funcionamiento de la Web
 		
-	Section: Introducción al Funcionamiento de la Web
-	
-	    Link: (introduccion_web) Visión general de cómo funciona la web.
-	
-	Section: URLs, Servidores y Clientes
-	
-	    Link: (urls_servidores_clientes) Qué son URLs, servidores y clientes.
-	    Link: (urls) Estructura y uso de URLs.
-	    Link: (servidores_web) Papel de los servidores web.
-	    Link: (clientes_web) Papel de los clientes web.
-	    Link: (peticiones_http) Métodos y uso de peticiones HTTP.
-	
-	Section: Fundamentos del Frontend
-	
-	    Link: (frontend_fundamentos) Lenguajes básicos del frontend: HTML, CSS y JavaScript.
-	
-	    Link: (html_fundamentos) Elementos y estructura del HTML.
-	    Link: (css_fundamentos) Estilizado con CSS.
-	    Link: (javascript_fundamentos) Sintaxis y uso de JavaScript.
-	    Link: (dom) Manipulación del DOM con JavaScript.
-	
-	Section: Visión General del Backend
-	
-	    Link: (backend_vision_general) Conceptos y tecnologías del backend.
-	    Link: (servidores_backend) Papel de los servidores backend.
-	    Link: (lenguajes_backend) Lenguajes comunes en el backend.
-	    Link: (bases_datos) Explicación de BBDD.
-	    Link: (api_rest) APIs RESTful.
-	
-	Section: Conclusión
-	
-	    Link: (conclusion) Resumen y recomendaciones.
+		    Link: (introduccion_web) Visión general de cómo funciona la web.
 		
+		Section: URLs, Servidores y Clientes
+		
+		    Link: (urls_servidores_clientes) Qué son URLs, servidores y clientes.
+		    Link: (urls) Estructura y uso de URLs.
+		    Link: (servidores_web) Papel de los servidores web.
+		    Link: (clientes_web) Papel de los clientes web.
+		    Link: (peticiones_http) Métodos y uso de peticiones HTTP.
+		
+		Section: Fundamentos del Frontend
+		
+		    Link: (frontend_fundamentos) Lenguajes básicos del frontend: HTML, CSS y JavaScript.
+		
+		    Link: (html_fundamentos) Elementos y estructura del HTML.
+		    Link: (css_fundamentos) Estilizado con CSS.
+		    Link: (javascript_fundamentos) Sintaxis y uso de JavaScript.
+		    Link: (dom) Manipulación del DOM con JavaScript.
+		
+		Section: Visión General del Backend
+		
+		    Link: (backend_vision_general) Conceptos y tecnologías del backend.
+		    Link: (servidores_backend) Papel de los servidores backend.
+		    Link: (lenguajes_backend) Lenguajes comunes en el backend.
+		    Link: (bases_datos) Explicación de BBDD.
+		    Link: (api_rest) APIs RESTful.
+		
+		Section: Conclusión
+		
+		    Link: (conclusion) Resumen y recomendaciones.
+			

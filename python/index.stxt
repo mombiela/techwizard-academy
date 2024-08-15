@@ -1,58 +1,55 @@
 Index(globalcampus.site/namespace.stxt): Python - Nivel II
-	Title: Tech Wizard Academy
-	Menu:
-		Link: (#github/mombiela/techwizard-academy/) Inicio 
+	Content:
+		Section: Sobre este curso
+			Link: (index) Índice de contenidos
+			
+		Section: Fundamentos de Programación en Python
+			Link: (base_sintaxis) Sintaxis básica y comentarios
+			Link: (base_palabras_reservadas) Palabras reservadas
+			Link: (base_tipos_datos) Variables y tipos de datos
+			Link: (base_nomenclatura) Nomenclatura
 		
-	Section: Sobre este curso
-		Link: (index) Índice de contenidos
+		Section: Operadores
+			Link: (op_arit) Operadores Aritméticos
+			Link: (op_asig) Operadores de Asignación
+			Link: (op_comp) Operadores de Comparación
+			Link: (op_logi) Operadores Lógicos
+			Link: (op_iden) Operadores de Identidad
+			Link: (op_pert) Operadores de Pertenencia
+			Link: (op_bitb) Operadores Bit a Bit
 		
-	Section: Fundamentos de Programación en Python
-		Link: (base_sintaxis) Sintaxis básica y comentarios
-		Link: (base_palabras_reservadas) Palabras reservadas
-		Link: (base_tipos_datos) Variables y tipos de datos
-		Link: (base_nomenclatura) Nomenclatura
-	
-	Section: Operadores
-		Link: (op_arit) Operadores Aritméticos
-		Link: (op_asig) Operadores de Asignación
-		Link: (op_comp) Operadores de Comparación
-		Link: (op_logi) Operadores Lógicos
-		Link: (op_iden) Operadores de Identidad
-		Link: (op_pert) Operadores de Pertenencia
-		Link: (op_bitb) Operadores Bit a Bit
-	
-	Section: Estructuras de Control
-		Link: (control_cond) Condicionales
-		Link: (control_bucle) Bucles
-		Link: (control_list_comprenh) Comprensiones de listas
-		Link: (file_excep) Manejo de excepciones
-	
-	Section: Funciones
-		Link: (func_def) Definición y uso de funciones
-		Link: (func_params) Parámetros y argumentos
-		Link: (func_scope) Alcance de las variables
-		Link: (func_lambda) Funciones lambda
-	
-	Section: Tipos contenedores
-		Link: (cont_comunes) Operaciones comunes
-		Link: (cont_listas) Listas
-		Link: (cont_tuplas) Tuplas
-		Link: (cont_sets) Sets
-		Link: (cont_dic) Diccionarios
-		Link: (cont_strings) Strings
-	
-	Section: Programación Orientada a Objetos (POO)
-		Link: (oop_base) Clases y objetos
-		Link: (oop_multiple) Herencia múltiple
-		Link: (oop_polimorfismo) Polimorfismo
-		Link: (oop_encapsulacion) Encapsulación
-		Link: (oop_avanzados) Conceptos avanzados OOP
-	
-	Section: Manejo de Archivos
-		Link: (file_open) Apertura y cierre de archivos
-		Link: (file_write) Lectura y escritura de archivos
-	
-	Section: Módulos y Paquetes
-		Link: (mod_import) Importación de módulos
-		Link: (mod_create) Creación de módulos propios
-		Link: (mod_std) Uso de paquetes estándar de Python
+		Section: Estructuras de Control
+			Link: (control_cond) Condicionales
+			Link: (control_bucle) Bucles
+			Link: (control_list_comprenh) Comprensiones de listas
+			Link: (file_excep) Manejo de excepciones
+		
+		Section: Funciones
+			Link: (func_def) Definición y uso de funciones
+			Link: (func_params) Parámetros y argumentos
+			Link: (func_scope) Alcance de las variables
+			Link: (func_lambda) Funciones lambda
+		
+		Section: Tipos contenedores
+			Link: (cont_comunes) Operaciones comunes
+			Link: (cont_listas) Listas
+			Link: (cont_tuplas) Tuplas
+			Link: (cont_sets) Sets
+			Link: (cont_dic) Diccionarios
+			Link: (cont_strings) Strings
+		
+		Section: Programación Orientada a Objetos (POO)
+			Link: (oop_base) Clases y objetos
+			Link: (oop_multiple) Herencia múltiple
+			Link: (oop_polimorfismo) Polimorfismo
+			Link: (oop_encapsulacion) Encapsulación
+			Link: (oop_avanzados) Conceptos avanzados OOP
+		
+		Section: Manejo de Archivos
+			Link: (file_open) Apertura y cierre de archivos
+			Link: (file_write) Lectura y escritura de archivos
+		
+		Section: Módulos y Paquetes
+			Link: (mod_import) Importación de módulos
+			Link: (mod_create) Creación de módulos propios
+			Link: (mod_std) Uso de paquetes estándar de Python

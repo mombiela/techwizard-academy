@@ -2,85 +2,85 @@ Document (globalcampus.site/namespace.stxt): HTML
 	Header: Introducción a HTML
 	
 	Content:
-	    * (intro-html) Conceptos básicos y estructura de un documento HTML.
-	    * (historia-html) Breve historia y evolución de HTML.
-	    * (primer-documento) Creación y visualización de un primer documento HTML.
+	    * [Introducción al HTML](intro-html) 
+	    * [Breve historia y evolución de HTML.](historia-html) 
+	    * [Creación y visualización de un primer documento HTML.](primer-documento) 
 	
 	Header: Estructura básica de HTML
 	
 	Content:
-	    * (doctype-html) La declaración <!DOCTYPE> y su importancia.
-	    * (elementos-basicos) Introducción a los elementos básicos de HTML.
-	    * (atributos-html) Uso de atributos en los elementos HTML.
+	    * [La declaración <!DOCTYPE> y su importancia.](doctype-html)
+	    * [Introducción a los elementos básicos de HTML.](elementos-basicos)
+	    * [Uso de atributos en los elementos HTML.](atributos-html) 
 	
 	Header: Formateo de texto en HTML
 	
 	Content:
-	    * (parrafos-titulos) Creación de párrafos y títulos.
-	    * (enfasis-texto) Uso de énfasis y otros elementos de formateo.
-	    * (listas-html) Creación de listas ordenadas y no ordenadas.
+	    * [Creación de párrafos y títulos.](parrafos-titulos) 
+	    * [Uso de énfasis y otros elementos de formateo.](enfasis-texto) 
+	    * [Creación de listas ordenadas y no ordenadas.](listas-html) 
 	
 	Header: Enlaces e Imágenes
 	
 	Content:
-	    * (enlaces-html) Creación de enlaces y navegación entre páginas.
-	    * (imagenes-html) Inclusión de imágenes y atributos comunes.
-	    * (imagenes-enlaces) Uso de imágenes como enlaces.
+	    * [Creación de enlaces y navegación entre páginas.](enlaces-html) 
+	    * [Inclusión de imágenes y atributos comunes.](imagenes-html)
+	    * [Uso de imágenes como enlaces.](imagenes-enlaces) 
 	
 	Header: Tablas en HTML
 	
 	Content:
-	    * (creacion-tablas) Estructura básica de una tabla HTML.
-	    * (atributos-tablas) Atributos y estilo en tablas.
-	    * (tablas-avanzadas) Combinar celdas y técnicas avanzadas.
+	    * [Estructura básica de una tabla HTML.](creacion-tablas) 
+	    * [Atributos y estilo en tablas.](atributos-tablas) 
+	    * [Combinar celdas y técnicas avanzadas.](tablas-avanzadas)
 	
 	Header: Formularios en HTML
 	
 	Content:
-	    * (elementos-formulario) Elementos básicos de un formulario.
-	    * (inputs-formulario) Tipos de entradas de usuario.
-	    * (envio-datos) Métodos de envío de datos de formularios.
+	    * [Elementos básicos de un formulario.](elementos-formulario)
+	    * [Tipos de entradas de usuario.](inputs-formulario)
+	    * [Métodos de envío de datos de formularios.](envio-datos) 
 	
 	Header: Introducción a CSS
 	
 	Content:
-	    * (intro-css) Conceptos básicos de CSS y su integración con HTML.
-	    * (selectores-css) Uso de selectores para aplicar estilos.
-	    * (propiedades-css) Propiedades CSS comunes para formatear elementos.
+	    * [Conceptos básicos de CSS y su integración con HTML.](intro-css)
+	    * [Uso de selectores para aplicar estilos.](selectores-css) 
+	    * [Propiedades CSS comunes para formatear elementos.](propiedades-css) 
 	
 	Header: Maquetación y Diseño Web
 	
 	Content:
-	    * (modelos-caja) El modelo de caja de CSS.
-	    * (layout-css) Técnicas de diseño y disposición en CSS.
-	    * (responsive-design) Diseño adaptable y técnicas de media queries.
+	    * [El modelo de caja de CSS.](modelos-caja)
+	    * [Técnicas de diseño y disposición en CSS.](layout-css) 
+	    * [Diseño adaptable y técnicas de media queries.](responsive-design) 
 	
 	Header: Buenas Prácticas y Accesibilidad
 	
 	Content:
-	    * (semantica-html) Uso de etiquetas semánticas para mejorar la accesibilidad.
-	    * (accesibilidad-web) Prácticas para hacer páginas web accesibles.
-	    * (validacion-html) Validación de código HTML para evitar errores.
+	    * [Uso de etiquetas semánticas para mejorar la accesibilidad.](semantica-html) 
+	    * Prácticas para hacer páginas web accesibles.(accesibilidad-web) 
+	    * Validación de código HTML para evitar errores.(validacion-html)
 	
 	Header: Introducción a JavaScript
 	
 	Content:
-	    * (intro-js) Conceptos básicos de JavaScript y su integración con HTML.
-	    * (eventos-js) Manejo de eventos en JavaScript.
-	    * (dom-js) Manipulación del DOM con JavaScript.
+	    * Conceptos básicos de JavaScript y su integración con HTML.(intro-js) 
+	    * Manejo de eventos en JavaScript.(eventos-js)
+	    * Manipulación del DOM con JavaScript.(dom-js) 
 	
 	Header: Proyecto Final
 	
 	Content:
-	    * (planificacion-proyecto) Planificación y estructura de un proyecto web.
-	    * (desarrollo-proyecto) Desarrollo paso a paso de un sitio web completo.
-	    * (revision-proyecto) Revisión y mejora del proyecto final.
+	    * [Planificación y estructura de un proyecto web.](planificacion-proyecto)
+	    * [Desarrollo paso a paso de un sitio web completo.](desarrollo-proyecto) 
+	    * [Revisión y mejora del proyecto final.](revision-proyecto) 
 	
 	Header: Recursos Adicionales
 	
 	Content:
-	    * (recursos-online) Recursos y tutoriales online para continuar aprendiendo.
-	    * (herramientas-web) Herramientas útiles para desarrolladores web.
-	    * (comunidades-aprendizaje) Comunidades y foros para resolver dudas y compartir conocimientos.
+	    * [Recursos y tutoriales online para continuar aprendiendo.](recursos-online)
+	    * [Herramientas útiles para desarrolladores web.](herramientas-web) 
+	    * [Comunidades y foros para resolver dudas y compartir conocimientos.](comunidades-aprendizaje) 
 	
 		

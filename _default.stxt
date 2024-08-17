@@ -1,4 +1,6 @@
 Default (globalcampus.site/namespace.stxt):
 
 	Title: Tech Wizard Academy
+	Display src: false
+	Display edit: false
 

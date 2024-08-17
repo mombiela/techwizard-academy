@@ -3,4 +3,5 @@ Default (globalcampus.site/namespace.stxt):
 	Title: Tech Wizard Academy
 	Display src: false
 	Display edit: false
+	Footer: &copy; 2014 - Esta obra está bajo una [Licencia MIT](https://raw.githubusercontent.com/mombiela/semantic-web-builder/master/LICENSE)
 

@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt): Configuración del entorno de desarrollo
+	Navigation:
+		Previous: Anterior (tema-01)
+		Next: Siguiente (tema-03)
+		
 	Header: Introducción
 	Content:
 		Antes de comenzar a desarrollar con React, es fundamental configurar el entorno de desarrollo. En este tema, cubriremos los pasos necesarios para instalar Node.js, crear un nuevo proyecto React usando Create React App, y preparar tu editor de código para una mejor experiencia de desarrollo.

@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt):
+	Navigation:
+		Previous: Anterior (../index)
+		Next: Siguiente (tema-01)
+		
 	Header: Introducción a React
 	Content:
 		* [Tema 1: ¿Qué es React?](tema-01)

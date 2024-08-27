@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt): ¿Qué es React?
+	Navigation:
+		Previous: Anterior (index)
+		Next: Siguiente (tema-02)
+		
 	Header: Introducción
 	Content:
 		React es una biblioteca de JavaScript para construir interfaces de usuario. Fue desarrollada por Facebook y es ampliamente utilizada en el desarrollo de aplicaciones web modernas. 

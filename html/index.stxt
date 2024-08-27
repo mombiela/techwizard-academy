@@ -1,86 +1,35 @@
-Document (globalcampus.site/namespace.stxt): HTML
-	Header: Introducción a HTML
-	
+Document (globalcampus.site/namespace.stxt): Índice del curso HTML para principiantes
+	Header: Introducción
 	Content:
-	    * [Introducción al HTML](intro-html) 
-	    * [Breve historia y evolución de HTML.](historia-html) 
-	    * [Creación y visualización de un primer documento HTML.](primer-documento) 
-	
-	Header: Estructura básica de HTML
-	
+		* [Tema 1: ¿Qué es HTML?](tema-1)
+		* [Tema 2: Estructura básica de un documento HTML](tema-2)
+
+	Header: Bloque I: Elementos básicos de HTML
 	Content:
-	    * [La declaración <!DOCTYPE> y su importancia.](doctype-html)
-	    * [Introducción a los elementos básicos de HTML.](elementos-basicos)
-	    * [Uso de atributos en los elementos HTML.](atributos-html) 
-	
-	Header: Formateo de texto en HTML
-	
+		* [Tema 3: Etiquetas y elementos](tema-3)
+		* [Tema 4: Texto y párrafos](tema-4)
+		* [Tema 5: Enlaces y navegación](tema-5)
+
+	Header: Bloque II: Introducción a CSS
 	Content:
-	    * [Creación de párrafos y títulos.](parrafos-titulos) 
-	    * [Uso de énfasis y otros elementos de formateo.](enfasis-texto) 
-	    * [Creación de listas ordenadas y no ordenadas.](listas-html) 
-	
-	Header: Enlaces e Imágenes
-	
+		* [Tema 6: ¿Qué es CSS?](tema-6)
+		* [Tema 7: Selectores y propiedades básicas](tema-7)
+		* [Tema 8: Estilizar texto y elementos](tema-8)
+		* [Tema 9: Layouts y posicionamiento básico](tema-9)
+
+	Header: Bloque III: Introducción a JavaScript
 	Content:
-	    * [Creación de enlaces y navegación entre páginas.](enlaces-html) 
-	    * [Inclusión de imágenes y atributos comunes.](imagenes-html)
-	    * [Uso de imágenes como enlaces.](imagenes-enlaces) 
-	
-	Header: Tablas en HTML
-	
+		* [Tema 10: ¿Qué es JavaScript?](tema-10)
+		* [Tema 11: Variables y tipos de datos](tema-11)
+		* [Tema 12: Funciones y eventos](tema-12)
+		* [Tema 13: Manipulación del DOM](tema-13)
+
+	Header: Bloque IV: HTML avanzado y buenas prácticas
 	Content:
-	    * [Estructura básica de una tabla HTML.](creacion-tablas) 
-	    * [Atributos y estilo en tablas.](atributos-tablas) 
-	    * [Combinar celdas y técnicas avanzadas.](tablas-avanzadas)
-	
-	Header: Formularios en HTML
-	
+		* [Tema 14: HTML5: Nuevas etiquetas y características](tema-14)
+		* [Tema 15: Accesibilidad en HTML](tema-15)
+		* [Tema 16: Buenas prácticas y optimización](tema-16)
+
+	Header: Conclusión
 	Content:
-	    * [Elementos básicos de un formulario.](elementos-formulario)
-	    * [Tipos de entradas de usuario.](inputs-formulario)
-	    * [Métodos de envío de datos de formularios.](envio-datos) 
-	
-	Header: Introducción a CSS
-	
-	Content:
-	    * [Conceptos básicos de CSS y su integración con HTML.](intro-css)
-	    * [Uso de selectores para aplicar estilos.](selectores-css) 
-	    * [Propiedades CSS comunes para formatear elementos.](propiedades-css) 
-	
-	Header: Maquetación y Diseño Web
-	
-	Content:
-	    * [El modelo de caja de CSS.](modelos-caja)
-	    * [Técnicas de diseño y disposición en CSS.](layout-css) 
-	    * [Diseño adaptable y técnicas de media queries.](responsive-design) 
-	
-	Header: Buenas Prácticas y Accesibilidad
-	
-	Content:
-	    * [Uso de etiquetas semánticas para mejorar la accesibilidad.](semantica-html) 
-	    * Prácticas para hacer páginas web accesibles.(accesibilidad-web) 
-	    * Validación de código HTML para evitar errores.(validacion-html)
-	
-	Header: Introducción a JavaScript
-	
-	Content:
-	    * Conceptos básicos de JavaScript y su integración con HTML.(intro-js) 
-	    * Manejo de eventos en JavaScript.(eventos-js)
-	    * Manipulación del DOM con JavaScript.(dom-js) 
-	
-	Header: Proyecto Final
-	
-	Content:
-	    * [Planificación y estructura de un proyecto web.](planificacion-proyecto)
-	    * [Desarrollo paso a paso de un sitio web completo.](desarrollo-proyecto) 
-	    * [Revisión y mejora del proyecto final.](revision-proyecto) 
-	
-	Header: Recursos Adicionales
-	
-	Content:
-	    * [Recursos y tutoriales online para continuar aprendiendo.](recursos-online)
-	    * [Herramientas útiles para desarrolladores web.](herramientas-web) 
-	    * [Comunidades y foros para resolver dudas y compartir conocimientos.](comunidades-aprendizaje) 
-	
-		
+		* [Tema 17: Resumen y siguientes pasos](tema-17)

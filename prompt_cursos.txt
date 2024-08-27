@@ -91,10 +91,12 @@ Document (globalcampus.site/namespace.stxt): Manejo de Eventos
 		Content:
 			Otro contenido
 
+Más cosas: `Content` tiene formato markdown, y `Code` es directamente el código fuente de lo que estamos mostrando.
+
 ¿Lo has entendido todo?
 
 		
-Vale, me gustaría hacer un curso de "XXXX con nivel principiantes" y me gustaría que todos los contenidos y capítulos fueran hechos mediante STXT.
+Vale, me gustaría hacer un curso de "HTML para principiantes" y me gustaría que todos los contenidos y capítulos fueran hechos mediante STXT.
 Me puedes hacer una tabla de contenido con el índice de los contenidos para el curso? 
 Debes seguir el namespace del ejemplo Document (globalcampus.site/namespace.stxt).
 Un ejemplo de documento sería de índíce seria:

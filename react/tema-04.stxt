@@ -81,7 +81,7 @@ Document (globalcampus.site/namespace.stxt): Componentes y Props
 	Content:
 		En este caso, si no se pasa un prop `name`, el componente usará "Invitado" como valor predeterminado.
 
-	**Validando Props con PropTypes:**
+		**Validando Props con PropTypes:**
 
 	Code:
 		import PropTypes from 'prop-types';

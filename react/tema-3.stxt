@@ -11,14 +11,14 @@ Document (globalcampus.site/namespace.stxt): Primer componente en React
 
 		**Ejemplo de un componente funcional básico:**
 
-		Code:
-			// Definiendo un componente funcional
-			function Bienvenida(props) {
-				return <h1>Hola, {props.name}!</h1>;
-			}
+	Code:
+		// Definiendo un componente funcional
+		function Bienvenida(props) {
+			return <h1>Hola, {props.name}!</h1>;
+		}
 
-		Content:
-			En este ejemplo, `Bienvenida` es un componente funcional que recibe `props` como argumento y devuelve un elemento JSX que muestra un saludo personalizado.
+	Content:
+		En este ejemplo, `Bienvenida` es un componente funcional que recibe `props` como argumento y devuelve un elemento JSX que muestra un saludo personalizado.
 
 	Subheader: Renderizando un componente en el DOM
 	Content:
@@ -26,21 +26,21 @@ Document (globalcampus.site/namespace.stxt): Primer componente en React
 
 		**Ejemplo de renderizado de un componente:**
 
-		Code:
-			// Importar React y ReactDOM
-			import React from 'react';
-			import ReactDOM from 'react-dom';
+	Code:
+		// Importar React y ReactDOM
+		import React from 'react';
+		import ReactDOM from 'react-dom';
 
-			// Definiendo el componente
-			function Bienvenida(props) {
-				return <h1>Hola, {props.name}!</h1>;
-			}
+		// Definiendo el componente
+		function Bienvenida(props) {
+			return <h1>Hola, {props.name}!</h1>;
+		}
 
-			// Renderizando el componente en el DOM
-			ReactDOM.render(<Bienvenida name="Mundo" />, document.getElementById('root'));
+		// Renderizando el componente en el DOM
+		ReactDOM.render(<Bienvenida name="Mundo" />, document.getElementById('root'));
 
-		Content:
-			En este ejemplo, el componente `Bienvenida` se renderiza dentro de un elemento HTML con el ID `root`. El contenido mostrado será "Hola, Mundo!".
+	Content:
+		En este ejemplo, el componente `Bienvenida` se renderiza dentro de un elemento HTML con el ID `root`. El contenido mostrado será "Hola, Mundo!".
 
 	Subheader: Anidamiento de componentes
 	Content:
@@ -48,22 +48,22 @@ Document (globalcampus.site/namespace.stxt): Primer componente en React
 
 		**Ejemplo de anidamiento de componentes:**
 
-		Code:
-			// Componente principal
-			function App() {
-				return (
-					<div>
-						<Bienvenida name="Mundo" />
-						<Bienvenida name="React" />
-					</div>
-				);
-			}
+	Code:
+		// Componente principal
+		function App() {
+			return (
+				<div>
+					<Bienvenida name="Mundo" />
+					<Bienvenida name="React" />
+				</div>
+			);
+		}
 
-			// Renderizando el componente principal en el DOM
-			ReactDOM.render(<App />, document.getElementById('root'));
+		// Renderizando el componente principal en el DOM
+		ReactDOM.render(<App />, document.getElementById('root'));
 
-		Content:
-			En este ejemplo, el componente `App` contiene dos instancias del componente `Bienvenida`, mostrando dos saludos diferentes.
+	Content:
+		En este ejemplo, el componente `App` contiene dos instancias del componente `Bienvenida`, mostrando dos saludos diferentes.
 
 	Subheader: Uso de props para hacer componentes dinámicos
 	Content:
@@ -71,27 +71,27 @@ Document (globalcampus.site/namespace.stxt): Primer componente en React
 
 		**Ejemplo de uso de props:**
 
-		Code:
-			// Componente funcional que usa props
-			function Usuario(props) {
-				return <p>Usuario: {props.username}</p>;
-			}
+	Code:
+		// Componente funcional que usa props
+		function Usuario(props) {
+			return <p>Usuario: {props.username}</p>;
+		}
 
-			// Componente principal que pasa props a Usuario
-			function App() {
-				return (
-					<div>
-						<Usuario username="Juan" />
-						<Usuario username="Ana" />
-					</div>
-				);
-			}
+		// Componente principal que pasa props a Usuario
+		function App() {
+			return (
+				<div>
+					<Usuario username="Juan" />
+					<Usuario username="Ana" />
+				</div>
+			);
+		}
 
-			// Renderizando el componente principal en el DOM
-			ReactDOM.render(<App />, document.getElementById('root'));
+		// Renderizando el componente principal en el DOM
+		ReactDOM.render(<App />, document.getElementById('root'));
 
-		Content:
-			En este ejemplo, el componente `Usuario` recibe un `username` como prop y lo muestra en pantalla. El componente `App` pasa diferentes valores para `username`, lo que resulta en la visualización de diferentes usuarios.
+	Content:
+		En este ejemplo, el componente `Usuario` recibe un `username` como prop y lo muestra en pantalla. El componente `App` pasa diferentes valores para `username`, lo que resulta en la visualización de diferentes usuarios.
 
 	Subheader: Conclusión
 	Content:

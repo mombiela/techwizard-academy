@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt): Manejo de Eventos
+	Navigation:
+		Previous: Anterior (tema-05)
+		Next: Siguiente (tema-07)
+		
 	Header: Introducción
 	Subheader: ¿Qué son los eventos en React?
 	Content:

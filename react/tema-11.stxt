@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt): Introducción a Redux
+	Navigation:
+		Previous: Anterior (tema-10)
+		Next: Siguiente (tema-12)
+		
 	Header: Introducción
 	Subheader: ¿Qué es Redux?
 	Content:

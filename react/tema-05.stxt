@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt): Estado y Ciclo de Vida
+	Navigation:
+		Previous: Anterior (tema-04)
+		Next: Siguiente (tema-06)
+		
 	Header: Introducción
 	Content:
 		En React, el **estado** es una estructura que almacena datos que pueden cambiar con el tiempo y afectan la forma en que se renderiza un componente. A diferencia de las props, que son inmutables y se pasan desde componentes padres, el estado es gestionado internamente por el propio componente.

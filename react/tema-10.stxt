@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt): Refs y el DOM
+	Navigation:
+		Previous: Anterior (tema-09)
+		Next: Siguiente (tema-11)
+		
 	Header: Introducción
 	Subheader: ¿Qué son las Refs en React?
 	Content:

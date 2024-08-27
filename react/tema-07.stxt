@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt): Listas y Keys
+	Navigation:
+		Previous: Anterior (tema-06)
+		Next: Siguiente (tema-08)
+		
 	Header: Introducción
 	Subheader: ¿Qué son las listas en React?
 	Content:

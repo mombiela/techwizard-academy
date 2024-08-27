@@ -1,4 +1,8 @@
 Document (globalcampus.site/namespace.stxt): Navegación entre Componentes
+	Navigation:
+		Previous: Anterior (tema-15)
+		Next: Siguiente (tema-17)
+		
 	Header: Introducción
 	Subheader: Importancia de la Navegación en Aplicaciones React
 	Content:

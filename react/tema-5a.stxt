@@ -88,7 +88,7 @@ Document (globalcampus.site/namespace.stxt): Estado y Ciclo de Vida
 	Content:
 		Con la introducción de los **hooks** en React, es posible manejar el estado y el ciclo de vida en componentes funcionales de manera sencilla y concisa. Los hooks más utilizados para estos propósitos son `useState` y `useEffect`.
 
-	Subsubheader: useState Hook
+	Subheader: useState Hook
 	Content:
 		El hook `useState` permite agregar estado a un componente funcional. Retorna un par de valores: el estado actual y una función para actualizarlo.
 

@@ -104,19 +104,19 @@ Un ejemplo de documento sería de índíce seria:
 Document (globalcampus.site/namespace.stxt):
 	Header: Bloque I
 	Content:
-		* [Tema 1: bla, bla](tema-1)
-		* [Tema 2: bla, bla](tema-2)
-		* [Tema 3: bla, bla](tema-3)
+		* [Tema 1: bla, bla](01-intro)
+		* [Tema 2: bla, bla](02-xxxx)
+		* [Tema 3: bla, bla](03-xxxx)
 	Header: Bloque II
 	Content:
-		* [Tema 4: bla, bla](tema-4)
-		* [Tema 5: bla, bla](tema-5)
-		* [Tema 6: bla, bla](tema-6)	
+		* [Tema 4: bla, bla](04-xxxx)
+		* [Tema 5: bla, bla](05-xxxx)
+		* [Tema 6: bla, bla](06-xxxx)	
 	Header: Bloque III
 	Content:
-		* [Tema 7: bla, bla](tema-7)
-		* [Tema 8: bla, bla](tema-8)
-		* [Tema 9: bla, bla](tema-9)
+		* [Tema 7: bla, bla](07-xxxx)
+		* [Tema 8: bla, bla](08-xxxx)
+		* [Tema 9: bla, bla](09-xxxx)
 		
 		
 		
@@ -126,8 +126,8 @@ En ejemplo de estructura de documento de tema sería:
 
 Document (globalcampus.site/namespace.stxt): Título del tema 2
 	Navigation:
-		Previous: Anterior (tema-1)
-		Next: Siguiente (tema-3)
+		Previous: Anterior (01-intro)
+		Next: Siguiente (03-xxxx)
 	Header:	Cabecera de primer nivel
 	Subheader: Cabecera de segundo nivel
 	

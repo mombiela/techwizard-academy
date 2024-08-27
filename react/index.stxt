@@ -7,7 +7,8 @@ Document (globalcampus.site/namespace.stxt):
 	Header: Fundamentos de React
 	Content:
 		* [Tema 4: Componentes y Props](tema-4)
-		* [Tema 5: Estado y Ciclo de Vida](tema-5)
+		* [Tema 5: Estado y Ciclo de Vida](tema-5a)
+		* [Tema 5: Estado y Ciclo de Vida](tema-5b)
 		* [Tema 6: Manejo de Eventos](tema-6)
 		* [Tema 7: Renderizado Condicional](tema-7)
 		* [Tema 8: Listas y Keys](tema-8)

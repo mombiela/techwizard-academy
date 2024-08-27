@@ -13,10 +13,15 @@ Document(globalcampus.site/namespace.stxt): Tech Wizard Academy
 		* [Aplicaciones Web](apps-web/) 
 		
 	Header: Lenguajes Frontend
+	Subheader: Lenguajes base
 	Content:
 		* [HTML](html/) 
 		* [CSS](css/)
 		* [Javascript](javascript/)
+		
+	Subheader: Frameworks
+	Content:
+		* [React](react/)
 		
 	Header: Lenguajes Backend
 	Content:

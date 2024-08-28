@@ -1,8 +1,4 @@
-Document(globalcampus.site/namespace.stxt): Python - Nivel II
-	Header: Sobre este curso
-	Content:
-		* [Índice de contenidos](index) 
-		
+Document(globalcampus.site/namespace.stxt): Python - Nivel I
 	Header: Fundamentos de Programación en Python
 	Content:
 		* [Sintaxis básica y comentarios](base_sintaxis) 

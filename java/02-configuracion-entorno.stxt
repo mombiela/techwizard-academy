@@ -96,6 +96,6 @@ Document (globalcampus.site/namespace.stxt): Configuración del Entorno de Desar
 		
 		Si encuentras algún error, revisa que el JDK esté correctamente configurado y que la ruta esté incluida en las variables de entorno.
 
-	**Recursos adicionales:**
-	* [Guía de configuración de IntelliJ IDEA](https://www.jetbrains.com/help/idea/quick-start-guide.html)
-	* [Tutorial de configuración de Eclipse](https://www.eclipse.org/downloads/packages/installer)
+		**Recursos adicionales:**
+		* [Guía de configuración de IntelliJ IDEA](https://www.jetbrains.com/help/idea/quick-start-guide.html)
+		* [Tutorial de configuración de Eclipse](https://www.eclipse.org/downloads/packages/installer)

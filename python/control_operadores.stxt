@@ -7,13 +7,13 @@ Document (globalcampus.site/namespace.stxt): Operadores en Python
 	    
 	    | Operador     | Descripción     |Ejemplo    |
 	    | -------------|-----------------|-----------|
-	    | ```code:+```   | Suma            | ```code:a + b``` |
-	    | ```code:-```   | Resta           | ```code:a - b``` |
-	    | ```code:*```   | Multiplicación  | ```code:a * b``` |
-	    | ```code:/```   | División        | ```code:a / b``` |
-	    | ```code:%```   | Módulo          | ```code:a % b``` |
-	    | ```code:**```  | Exponenciación  | ```code:a ** b``` |
-	    | ```code://```  | División entera | ```code:a // b``` |
+	    | ```+```   | Suma            | ```a + b``` |
+	    | ```-```   | Resta           | ```a - b``` |
+	    | ```*```   | Multiplicación  | ```a * b``` |
+	    | ```/```   | División        | ```a / b``` |
+	    | ```%```   | Módulo          | ```a % b``` |
+	    | ```**```  | Exponenciación  | ```a ** b``` |
+	    | ```//```  | División entera | ```a // b``` |
 	    
 	Subheader: Ejemplo: 
 	
@@ -36,14 +36,14 @@ Document (globalcampus.site/namespace.stxt): Operadores en Python
 	    
 	    | Operador    | Descripción                 | Ejemplo |
 	    | -------------|-----------------|-----------|
-	    | ```code:=```   | Asignación                   | ```code:a = 5``` |
-	    | ```code:+=```  | Suma y asignación            | ```code:a += 3``` |
-	    | ```code:-=```  | Resta y asignación           | ```code:a -= 3``` |
-	    | ```code:*=```  | Multiplicación y asignación  | ```code:a *= 3``` |
-	    | ```code:/=```  | División y asignación        | ```code:a /= 3``` |
-	    | ```code:%=```  | Módulo y asignación          | ```code:a %= 3``` |
-	    | ```code://=``` | División entera y asignación | ```code:a //= 3``` |
-	    | ```code:**=``` | Exponenciación y asignación  | ```code:a **= 3``` |
+	    | ```=```   | Asignación                   | ```a = 5``` |
+	    | ```+=```  | Suma y asignación            | ```a += 3``` |
+	    | ```-=```  | Resta y asignación           | ```a -= 3``` |
+	    | ```*=```  | Multiplicación y asignación  | ```a *= 3``` |
+	    | ```/=```  | División y asignación        | ```a /= 3``` |
+	    | ```%=```  | Módulo y asignación          | ```a %= 3``` |
+	    | ```//=``` | División entera y asignación | ```a //= 3``` |
+	    | ```**=``` | Exponenciación y asignación  | ```a **= 3``` |
 	    
 	Subheader: Ejemplo: 
 	
@@ -61,12 +61,12 @@ Document (globalcampus.site/namespace.stxt): Operadores en Python
 	    
 	    | Operador    | Descripción     | Ejemplo |
 	    | -------------|-----------------|-----------|
-	    | ```code:==``` | Igual a           | ```code:a == b``` |
-	    | ```code:!=``` | No igual a        | ```code:a != b``` |
-	    | ```code:>```  | Mayor que         | ```code:a > b``` |
-	    | ```code:<```  | Menor que         | ```code:a < b``` |
-	    | ```code:>=``` | Mayor o igual que | ```code:a >= b``` |
-	    | ```code:<=``` | Menor o igual que | ```code:a <= b``` |
+	    | ```==``` | Igual a           | ```a == b``` |
+	    | ```!=``` | No igual a        | ```a != b``` |
+	    | ```>```  | Mayor que         | ```a > b``` |
+	    | ```<```  | Menor que         | ```a < b``` |
+	    | ```>=``` | Mayor o igual que | ```a >= b``` |
+	    | ```<=``` | Menor o igual que | ```a <= b``` |
 	    
 	Subheader: Ejemplo: 
 	
@@ -85,9 +85,9 @@ Document (globalcampus.site/namespace.stxt): Operadores en Python
 	    
 	    | Operador    | Descripción                 | Ejemplo |
 	    | -------------|-----------------|-----------|
-	    | ```code:and``` | Y lógico        | ```code:a and b``` |
-	    | ```code:or```  | O lógico        | ```code:a or b``` |
-	    | ```code:not``` | Negación lógica | ```code:not a``` |
+	    | ```and``` | Y lógico        | ```a and b``` |
+	    | ```or```  | O lógico        | ```a or b``` |
+	    | ```not``` | Negación lógica | ```not a``` |
 	    
 	Subheader: Ejemplo: 
 	
@@ -106,8 +106,8 @@ Document (globalcampus.site/namespace.stxt): Operadores en Python
 	    
 	    | Operador    | Descripción                 | Ejemplo |
 	    | -------------|-----------------|-----------|
-	    | ```code:is```     | Es el mismo objeto    | ```code:a is b``` |
-	    | ```code:is not``` | No es el mismo objeto | ```code:a is not b``` |
+	    | ```is```     | Es el mismo objeto    | ```a is b``` |
+	    | ```is not``` | No es el mismo objeto | ```a is not b``` |
 	    
 	Subheader: Ejemplo: 
 	
@@ -126,8 +126,8 @@ Document (globalcampus.site/namespace.stxt): Operadores en Python
 	    
 	    | Operador    | Descripción                 | Ejemplo |
 	    | -------------|-----------------|-----------|
-	    | ```code:in```     | Está presente en    | ```code:a in b``` |
-	    | ```code:not``` in | No está presente en | ```code:a not in b``` |
+	    | ```in```     | Está presente en    | ```a in b``` |
+	    | ```not``` in | No está presente en | ```a not in b``` |
 	    
 	Subheader: Ejemplo: 
 	
@@ -143,12 +143,12 @@ Document (globalcampus.site/namespace.stxt): Operadores en Python
 	    
 	    | Operador    | Descripción       | Ejemplo |
 	    | -------------|-----------------|-----------|
-	    | ```code:&```   | AND bit a bit      | ```code:a & b``` |
-	    | ```code:|```   | OR bit a bit       | ```code:a | b``` |
-	    | ```code:^```   | XOR bit a bit      | ```code:a ^ b``` |
-	    | ```code: ~ ``` | NOT bit a bit      | ```code: ~a ``` |
-	    | ```code:<<```  | Desplazamiento izq | ```code:a << b``` |
-	    | ```code:>>```  | Desplazamiento der | ```code:a >> b``` |
+	    | ```&```   | AND bit a bit      | ```a & b``` |
+	    | ```|```   | OR bit a bit       | ```a | b``` |
+	    | ```^```   | XOR bit a bit      | ```a ^ b``` |
+	    | ``` ~ ``` | NOT bit a bit      | ``` ~a ``` |
+	    | ```<<```  | Desplazamiento izq | ```a << b``` |
+	    | ```>>```  | Desplazamiento der | ```a >> b``` |
 	    
 	Subheader: Ejemplo: 
 	

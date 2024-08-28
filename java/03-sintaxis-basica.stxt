@@ -198,5 +198,5 @@ Document (globalcampus.site/namespace.stxt): Sintaxis Básica de Java
 	Content:
 		Con esta estructura básica de sintaxis, estás listo para comenzar a escribir programas sencillos en Java. Los siguientes temas cubrirán operadores y estructuras de control más detalladamente.
 		
-	**Recursos adicionales:**
-	* [Documentación oficial de Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
+		**Recursos adicionales:**
+		* [Documentación oficial de Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)

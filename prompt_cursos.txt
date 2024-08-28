@@ -64,6 +64,21 @@ Document (globalcampus.site/namespace.stxt): Título del tema
 	Content: 
 		Otro texto en formato markdown.
 
+Ten en cuenta que puedes hacer sin problema varias cabeceras principales con subheaders, pero como máximo sólo niveles Header y Subheader:
+
+Document (globalcampus.site/namespace.stxt): Nombre del tema
+	Header: Cabecera 1
+	Subheader: Cabecera 1.1
+	...
+	Subheader: Cabecera 1.2
+	...
+
+	Header: Cabecera 2
+	Subheader: Cabecera 2.1
+	...
+	Subheader: Cabecera 2.2
+	...
+
 Más cosas: `Content` tiene formato markdown, y `Code` es directamente el código fuente de lo que estamos mostrando.
 
 ¿Lo has entendido todo?
@@ -137,7 +152,7 @@ Document (globalcampus.site/namespace.stxt): Título del tema 2
 		Otro texto en formato markdown.
 
 
-No uses estructuras del tipo  ```lang con codigo fuente de varias líneas``` en Content, es mejor que uses un nodo `Code:`
+No uses estructuras del tipo  ```language xxxxxxx``` con varias lineas seguidas en Content, es mejor que uses un nodo `Code:`
 
 Pon todos los esfuerzos en el fichero resultante, no hace falta que me expliques el desglose de lo que has hecho. 
 ¿Empezamos por el tema 1? Gracias!

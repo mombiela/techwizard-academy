@@ -2,8 +2,8 @@ Hola, te voy a hablar del lenguaje STXT (SemanticText).
 Es un lenguaje escribir documentos estructurados. Los documentos tienen etiquetas 
 separadas por el caracter ":", y están anidadas mediante tabuladores.
 Con el mismo lenguaje se puede definir un namespace, que definirá 
-un tipo de documento y las etiquetas permitidas y las que no.
-Además, es una práctica habitual que los elementos tipo TEXT acepten formato markdown.
+un tipo de documento y las etiquetas permitidas y las que no. 
+El namespace también especifica la estructura de los nodos y qué hijos son permitidos.  
 
 Te pongo un ejemplo de namespace, ya que lo vamos a usar:
 
@@ -14,8 +14,8 @@ Namespace: globalcampus.site/namespace.stxt
 			Next: (?)
 		Header: (*)
 		Subheader: (*)
-		Content: (*) TEXT
-		Code: (*) TEXT
+		Content: (*) MARKDOWN
+		Code: (*) TEXT PLAIN
             
 Te pongo un ejemplo de documento de ese namespace para ver las posibilidades que tiene, concretamente de un tema de un curso:
 

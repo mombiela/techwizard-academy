@@ -35,7 +35,16 @@ Document (globalcampus.site/namespace.stxt): Título del tema
 		Enlaces: [Texto del enlace](https://example.com)
 		
 		Se puede formatear texto: **Esto es negrita**, _Esto es con cursiva_
-		Se puede insertar código: Esto es código
+		Se puede insertar código: `Esto es código inline`
+		
+		Se puede insertar una tabla:
+		
+		| Cabecera 1 | Cabecera 2 | Cabecera 3 |
+		| ---------- | ---------- | ---------- |
+		| Celda 1.1  | Celda 1.2  | Celda 1.3  |
+		| Celda 2.1  | Celda 2.2  | Celda 2.3  |
+		| Celda 3.1  | Celda 3.2  | Celda 3.3  |
+		
 		
 	Code:
 		<h1>Esto es una cabecera HTML</h1>

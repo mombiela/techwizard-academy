@@ -16,21 +16,20 @@ Document(globalcampus.site/namespace.stxt): Torre de la Programación
 		* [Aplicaciones Web](apps-web/) 
 		
 	Header: Lenguajes Frontend
-	Subheader: Lenguajes base
 	Content:
 		* [HTML](html/) 
 		* [CSS](css/)
 		* [Javascript](javascript/)
-		
-	Subheader: Frameworks
-	Content:
-		* [React](react/)
 		
 	Header: Lenguajes Backend
 	Content:
 		* [Cobol](cobol/)
 		* [Java](java/) 
 		* [Python](python/)
+		
+	Header: Frameworks y Tecnologías
+	Content:
+		* [React](react/)
 		
 		
 

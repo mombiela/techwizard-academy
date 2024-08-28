@@ -122,7 +122,7 @@ Document (globalcampus.site/namespace.stxt): Título del tema 2
 		Enlaces: [Texto del enlace](https://example.com)
 		
 		Se puede formatear texto: **Esto es negrita**, _Esto es con cursiva_
-		Se puede insertar código: Esto es código
+		Se puede insertar código: `Esto es código inline`
 		
 	Code:
 		<h1>Esto es una cabecera HTML</h1>
@@ -142,6 +142,8 @@ Document (globalcampus.site/namespace.stxt): Título del tema 2
 	Content: 
 		Otro texto en formato markdown.
 
+
+No uses estructuras del tipo  ```lang codigo fuente de varias líneas``` en Content, es mejor que uses un nodo `Code:`
 
 Pon todos los esfuerzos en el fichero resultante, no hace falta que me expliques el desglose de lo que has hecho. 
 ¿Empezamos por el tema 1? Gracias!

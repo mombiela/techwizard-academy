@@ -12,7 +12,7 @@ Document(globalcampus.site/namespace.stxt): Python - Nivel II
 	
 	Header: Estructuras de Control
 	Content:
-		* [Condicionales](control_operadores)
+		* [Operadores](control_operadores)
 		* [Condicionales](control_cond) 
 		* [Bucles](control_bucle) 
 		* [Comprensiones de listas](control_list_comprenh) 

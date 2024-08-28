@@ -2,7 +2,7 @@ Hola, te voy a hablar del lenguaje STXT (SemanticText).
 Es un lenguaje escribir documentos estructurados. Los documentos tienen etiquetas 
 separadas por el caracter ":", y están anidadas mediante tabuladores.
 Con el mismo lenguaje se puede definir un namespace, que definirá 
-un tipo de documento y las etiquetas permitidas y las que no. 
+un tipo de documento y las etiquetas permitidas y las que no. Si no salen en el namespace no están permitidas.
 El namespace también especifica la estructura de los nodos y qué hijos son permitidos.  
 
 Te pongo un ejemplo de namespace, ya que lo vamos a usar:
@@ -64,27 +64,12 @@ Document (globalcampus.site/namespace.stxt): Título del tema
 	Content: 
 		Otro texto en formato markdown.
 
-Ten en cuenta que puedes hacer sin problema varias cabeceras principales con subheaders, pero como máximo sólo niveles Header y Subheader:
-
-Document (globalcampus.site/namespace.stxt): Nombre del tema
-	Header: Cabecera 1
-	Subheader: Cabecera 1.1
-	...
-	Subheader: Cabecera 1.2
-	...
-
-	Header: Cabecera 2
-	Subheader: Cabecera 2.1
-	...
-	Subheader: Cabecera 2.2
-	...
-
 Más cosas: `Content` tiene formato markdown, y `Code` es directamente el código fuente de lo que estamos mostrando.
 
 ¿Lo has entendido todo?
 
 		
-Vale, me gustaría hacer un curso de "Java para principiantes" y me gustaría que todos los contenidos y capítulos fueran hechos mediante STXT.
+Vale, me gustaría hacer un curso de "Javascript para principiantes" y me gustaría que todos los contenidos y capítulos fueran hechos mediante STXT.
 Me puedes hacer una tabla de contenido con el índice de los contenidos para el curso? 
 Debes seguir el namespace del ejemplo Document (globalcampus.site/namespace.stxt).
 Un ejemplo de documento sería de índíce seria:
@@ -131,7 +116,7 @@ Document (globalcampus.site/namespace.stxt): Título del tema 2
 		Enlaces: [Texto del enlace](https://example.com)
 		
 		Se puede formatear texto: **Esto es negrita**, _Esto es con cursiva_
-		Se puede insertar código: `Esto es código inline`
+		Se puede insertar código inline: `Esto es código inline`
 		
 	Code:
 		<h1>Esto es una cabecera HTML</h1>
@@ -152,7 +137,7 @@ Document (globalcampus.site/namespace.stxt): Título del tema 2
 		Otro texto en formato markdown.
 
 
-No uses estructuras del tipo  ```lang codigo fuente de varias líneas``` en Content, es mejor que uses un nodo `Code:`
+No uses estructuras del tipo  ```lang con codigo fuente de varias líneas``` en Content, es mejor que uses un nodo `Code:`
 
 Pon todos los esfuerzos en el fichero resultante, no hace falta que me expliques el desglose de lo que has hecho. 
 ¿Empezamos por el tema 1? Gracias!

@@ -1,7 +1,7 @@
 Default (globalcampus.site/namespace.stxt):
 
-	Title: TecnoMagos
-	Subtitle: Aquí encontrarás... algún curso :-D
+	Title: Magos de la Programación
+	Subtitle: Descifrando el código, tejiendo hechizos digitales.
 	Left Menu: [Inicio](../index)  
 	Display src: false
 	Display edit: false

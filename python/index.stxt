@@ -10,18 +10,9 @@ Document(globalcampus.site/namespace.stxt): Python - Nivel II
 		* [Variables y tipos de datos](base_tipos_datos) 
 		* [Nomenclatura](base_nomenclatura) 
 	
-	Header: Operadores
-	Content:
-		* [Operadores Aritméticos](op_arit) 
-		* [Operadores de Asignación](op_asig) 
-		* [Operadores de Comparación](op_comp) 
-		* [Operadores Lógicos](op_logi) 
-		* [Operadores de Identidad](op_iden) 
-		* [Operadores de Pertenencia](op_pert) 
-		* [Operadores Bit a Bit](op_bitb) 
-	
 	Header: Estructuras de Control
 	Content:
+		* [Condicionales](control_operadores)
 		* [Condicionales](control_cond) 
 		* [Bucles](control_bucle) 
 		* [Comprensiones de listas](control_list_comprenh) 

@@ -1,8 +1,8 @@
 Document(globalcampus.site/namespace.stxt): Torre de la Programación
-	Assert: ¡Bienvenido a la torre de la programación!
+	Assert: ¡Bienvenido a la **Torre de la Programación**!
 	
 	Content:
-		Este es un campus simulado, para ver las posibilidades que tiene este nuevo sistema
+		Este es un campus simulado (de momento), para ver las posibilidades que tiene este nuevo sistema
 		de implementar cursos y formación usando [Semantic Text (STxT)](https://semantictext.info) junto
 		a [GlobalCampus.site](https://globalcampus.site). 
 		Los contenidos son **generados por IA**, con sólo un mínimo de supervisión 

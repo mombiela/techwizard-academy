@@ -70,33 +70,12 @@ Document (globalcampus.site/namespace.stxt): Nombre del tema
 	Subheader: Cabecera 2.2
 	...
 
-Además, los nodos `Content`, `Code`, `Header`, Subheader siempre van al mismo nivel, no se anidan entre ellos.
-Ejemplo correcto:
-Document (globalcampus.site/namespace.stxt): Manejo de Eventos
-	Header: Introducción
-	Subheader: ¿Qué son los eventos en React?
-	Content:
-		Esto es contenido
-	Code:
-		Esto es código fuente
-
-Ejemplo INCORRECTO:
-Document (globalcampus.site/namespace.stxt): Manejo de Eventos
-	Header: Introducción
-	Subheader: ¿Qué son los eventos en React?
-	Content:
-		Esto es contenido
-		Code:
-			Esto es código fuente
-		Content:
-			Otro contenido
-
 Más cosas: `Content` tiene formato markdown, y `Code` es directamente el código fuente de lo que estamos mostrando.
 
 ¿Lo has entendido todo?
 
 		
-Vale, me gustaría hacer un curso de "HTML para principiantes" y me gustaría que todos los contenidos y capítulos fueran hechos mediante STXT.
+Vale, me gustaría hacer un curso de "Java para principiantes" y me gustaría que todos los contenidos y capítulos fueran hechos mediante STXT.
 Me puedes hacer una tabla de contenido con el índice de los contenidos para el curso? 
 Debes seguir el namespace del ejemplo Document (globalcampus.site/namespace.stxt).
 Un ejemplo de documento sería de índíce seria:
@@ -165,4 +144,4 @@ Document (globalcampus.site/namespace.stxt): Título del tema 2
 
 
 Pon todos los esfuerzos en el fichero resultante, no hace falta que me expliques el desglose de lo que has hecho. 
-¿Empezamos por tema-1? Gracias!
+¿Empezamos por el tema 1? Gracias!

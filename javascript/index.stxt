@@ -1,4 +1,7 @@
 Document (globalcampus.site/namespace.stxt):
+	Navigation:
+		Previous: Cursos (../index)
+		Next: Introducción a JavaScript (01-introduccion)
 	Header: Bloque I - Fundamentos de JavaScript
 	Content:
 		* [Tema 1: Introducción a JavaScript](01-introduccion)

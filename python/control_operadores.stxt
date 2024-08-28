@@ -13,7 +13,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    | ```code:**```  | Exponenciación  | ```code:a ** b``` |
 	    | ```code://```  | División entera | ```code:a // b``` |
 	    
-	Header:  Ejemplo: 
+	Subheader: Ejemplo: 
 	
 	Code:
 	    a = 10
@@ -33,6 +33,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    Estos operadores se utilizan para asignar valores a las variables.
 	    
 	    | Operador    | Descripción                 | Ejemplo |
+	    | -------------|-----------------|-----------|
 	    | ```code:=```   | Asignación                   | ```code:a = 5``` |
 	    | ```code:+=```  | Suma y asignación            | ```code:a += 3``` |
 	    | ```code:-=```  | Resta y asignación           | ```code:a -= 3``` |
@@ -42,7 +43,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    | ```code://=``` | División entera y asignación | ```code:a //= 3``` |
 	    | ```code:**=``` | Exponenciación y asignación  | ```code:a **= 3``` |
 	    
-	Header:  Ejemplo: 
+	Subheader: Ejemplo: 
 	
 	Code:
 	    a = 5
@@ -57,6 +58,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    Estos operadores se utilizan para comparar dos valores.
 	    
 	    | Operador    | Descripción     | Ejemplo |
+	    | -------------|-----------------|-----------|
 	    | ```code:==``` | Igual a           | ```code:a == b``` |
 	    | ```code:!=``` | No igual a        | ```code:a != b``` |
 	    | ```code:>```  | Mayor que         | ```code:a > b``` |
@@ -64,7 +66,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    | ```code:>=``` | Mayor o igual que | ```code:a >= b``` |
 	    | ```code:<=``` | Menor o igual que | ```code:a <= b``` |
 	    
-	Header:  Ejemplo: 
+	Subheader: Ejemplo: 
 	
 	Code:
 	    a = 5
@@ -80,11 +82,12 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    Estos operadores se utilizan para combinar sentencias condicionales.
 	    
 	    | Operador    | Descripción                 | Ejemplo |
+	    | -------------|-----------------|-----------|
 	    | ```code:and``` | Y lógico        | ```code:a and b``` |
 	    | ```code:or```  | O lógico        | ```code:a or b``` |
 	    | ```code:not``` | Negación lógica | ```code:not a``` |
 	    
-	Header:  Ejemplo: 
+	Subheader: Ejemplo: 
 	
 	Code:
 	    a = True
@@ -100,10 +103,11 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    Estos operadores se utilizan para comparar objetos.
 	    
 	    | Operador    | Descripción                 | Ejemplo |
+	    | -------------|-----------------|-----------|
 	    | ```code:is```     | Es el mismo objeto    | ```code:a is b``` |
 	    | ```code:is not``` | No es el mismo objeto | ```code:a is not b``` |
 	    
-	Header:  Ejemplo: 
+	Subheader: Ejemplo: 
 	
 	Code:
 	    a = [1, 2, 3]
@@ -119,10 +123,11 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    Estos operadores se utilizan para verificar si un valor o variable está presente en una secuencia (como una lista, tupla, diccionario, etc.).
 	    
 	    | Operador    | Descripción                 | Ejemplo |
+	    | -------------|-----------------|-----------|
 	    | ```code:in```     | Está presente en    | ```code:a in b``` |
 	    | ```code:not``` in | No está presente en | ```code:a not in b``` |
 	    
-	Header:  Ejemplo: 
+	Subheader: Ejemplo: 
 	
 	Code:
 	    a = [1, 2, 3]
@@ -135,6 +140,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    Estos operadores se utilizan para comparar (operar) los números a nivel de bits.
 	    
 	    | Operador    | Descripción       | Ejemplo |
+	    | -------------|-----------------|-----------|
 	    | ```code:&```   | AND bit a bit      | ```code:a & b``` |
 	    | ```code:|```   | OR bit a bit       | ```code:a | b``` |
 	    | ```code:^```   | XOR bit a bit      | ```code:a ^ b``` |
@@ -142,7 +148,7 @@ Document (globalcampus.site/namespace.stxt): Operadores Aritméticos
 	    | ```code:<<```  | Desplazamiento izq | ```code:a << b``` |
 	    | ```code:>>```  | Desplazamiento der | ```code:a >> b``` |
 	    
-	Header:  Ejemplo: 
+	Subheader: Ejemplo: 
 	
 	Code:
 	    a = 60    # 60 = 0011 1100

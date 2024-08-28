@@ -1,4 +1,7 @@
 Document (globalcampus.site/namespace.stxt):
+	Navigation:
+		Previous: Cursos (../index)
+		Next: Configuración del Entorno de Desarrollo (02-configuracion-entorno)
 	Header: Bloque I - Fundamentos de Java
 	Content:
 		* [Tema 1: Introducción a Java](01-introduccion)
